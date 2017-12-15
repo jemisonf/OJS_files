@@ -1,0 +1,1019 @@
+Horizontal Cooperation in Network Expansion: 
+An Empirical Evaluation of Gas Transportation 
+Networks
+by Rafay Ishfaq, Mark Clark, and Uzma Raja
+
+This research presents a coordination approach for the expansion of gas transportation networks to 
+serve an increasing customer base. An empirical study of natural gas markets in the southeastern 
+United  States  shows  that  horizontal  cooperation  among  transportation  service  providers  (i.e., 
+pipeline	companies)	allows	for	expanding	the	gas	transportation	networks	efficiently	to	serve	new	
+customers.	 The	 benefits	 of	 coordination	 are	 identified	 through	 key	 structural	 elements	 such	 as	
+number and location of additional pipeline links, lower infrastructure expansion costs, and demand 
+segmentation for the gas transportation service providers.
+
+INTRODUCTION
+
+The  significant  increase  in  demand  for  natural  gas  in  the  U.S.  industrial  sector  has  renewed  a 
+strategic interest in gas transportation networks. The scope of gas supply chains and scale of logistics 
+activities are expanding to ensure an efficient supply of gas to an increasing number of customers. 
+There are a number of factors that contribute to the increase in demand, such as moderate prices 
+of natural gas relative to coal, discovery of abundant sources of domestic (shale) natural gas, and 
+higher operational efficiency of gas-based technologies. The increase in demand has encouraged 
+major investments in developing gas production capacity in the United States. In 2011, 95% of the 
+total natural gas consumed in the country was produced domestically (Barteau and Kota 2014).
+
+One of the largest consumers of natural gas in the United States is the electric power industry. 
+Not only because a majority of the new electric power generation units being installed in the United 
+States are based on gas-fired technology, but many old coal-fired power plants are being converted to 
+use natural gas (Lapides et al. 2011). The addition of new and retrofitted power plants has increased 
+the demand for natural gas, which exceeded 9.1 trillion ft3 in 2012 (EIA 2013). The projected increase 
+in the demand for natural gas has raised concerns about logistics and transportation capabilities of 
+the existing gas distribution networks. Unlike other surface (road and rail) transportation modes, 
+capacity in a distribution pipeline is already in use by existing customers. In this case, expanding 
+transportation networks to connect additional customers to gas supply requires careful consideration 
+and planning.
+
+This  study  contributes  to  the  academic  literature  by  proposing  an  arrangement  for  network 
+expansion  based  on  the  concept  of  horizontal  cooperation  among  competitors.  In  this  setting, 
+gas pipeline companies, which otherwise compete with each other, cooperate to serve respective 
+segments of the market through mutual agreement. In a situation where a sizeable new demand 
+for natural gas would result in an aggressive competition among pipeline companies, a strategy 
+based on cooperation may provide a better alternative that is beneficial for partnering firms as well 
+as customers. The benefits of coordinated expansion of gas transportation networks are analyzed 
+and discussed in relation to extant theory. To develop this understanding, the logic of industrial 
+organization theory and concept of horizontal cooperation among competitors is used.
+
+The paper shows that horizontal cooperation can yield lower expansion costs while providing 
+equal business opportunity for participating firms. The dynamics of gas transportation are represented 
+by  a  network  model,  which  also  incorporates  the  requirements  for  expanding  transportation 
+
+59
+
+JTRF Volume 54 No. 1, Spring 2015infrastructure. This model includes relevant supply-demand requirements, network expansion costs, 
+gas transmission capacity, and elements of gas pipeline infrastructure. Real-world data from gas 
+pipelines in the southeastern United States are used in an empirical evaluation of the existing gas 
+transportation networks to identify key strategic issues concerning collaborative network expansion. 
+The scenario where different pipeline companies compete for gas supply business in a new market 
+is  compared  with  another  scenario  driven  by  the  horizontal  cooperation  approach.  The  results 
+provide empirical evidence that cooperation not only results in an efficient expansion of the pipeline 
+network to support the needs of new customers (power plants) but also provides equal opportunities 
+for partners firms (gas transportation service providers) in the new market.
+
+BACKGROUND
+
+In the past, a major concern about adequate sources of gas supply existed due to the limited domestic 
+natural gas reserves. As late as 2007, the United States was expected to be increasingly dependent 
+on  imports  due  to  the  constrained  domestic  supply. As  new  technologies  of  horizontal  drilling 
+and  hydraulic  fracturing  have  increased  domestic  gas  production,  reliance  on  gas  imports  is  no 
+longer a major issue (Mouawad 2009; Yergin and Ineson 2009). According to the 2012 Annual 
+Energy Outlook Report of the U.S. Department of Energy (EIA 2012), domestic shale gas supply 
+is expected to increase from 10% of total gas production in 2010 to 49% by 2035, thus making 
+domestic  production  of  natural  gas  greater  than  the  expected  national  demand.  The  domestic 
+production capacity is estimated to satisfy demand for gas from large industrial users in the electric 
+power generation industry (Paltsev et al. 2011).
+
+The other key issue, which is relevant in this context, is the impact of federal environmental 
+regulations. The electric power plants built in the U.S. had primarily used coal as a fuel in the 
+combustion process to produce high pressure steam. Burning coal in this process releases greenhouse 
+gases, which are harmful to the environment. To control the emission of greenhouse gases, the U.S. 
+Congress passed new amendments to the 1963 Clean Air Act, which became effective January 1, 
+2012. These regulations limit the hazardous air pollutants emitted by coal-fired electric power plants 
+(EIA 2012). The electric power companies are required to bring these coal-fired power plants into 
+regulatory compliance or face significant monetary penalties. One of the options available to power 
+companies is installing scrubbers, which capture sulphur oxides from coal combustion and filter 
+them into disposable matter. However, this additional step in power generation adds a significant 
+capital and operating expense for power companies, affecting the cost per unit ($/kilowatt-hour) of 
+generated electricity. The lower efficiency and higher maintenance costs of old coal-fired power 
+plants  do  not  offer  an  economical  case  for  recovering  capital  investments  in  the  environmental 
+retrofits (Shahidehpour et al. 2005). For these operational and financial reasons, power companies 
+opted to replace coal-fired power plants with gas-fired technology, instead of installing environmental 
+controls on the old coal-fired power plants (Lapides et al. 2011). The new power plants are typically 
+built on the same sites as old coal-fired plants. The current sites are already connected to the national 
+electric grid; they already have necessary approvals and permits for locating a power plant and the 
+necessary human and infrastructure resources are in place.
+
+The legislation enacted by the U.S. Congress, such as the Natural Gas Policy Act (1978) and 
+Natural Gas Wellhead Decontrol Act (1989), deregulated the natural gas industry. Issued in 1992, 
+U.S. Federal Energy Regulatory Commission (FERC) Order No. 636 states that “pipelines must 
+separate  their  transportation  and  sales  services,  so  that  all  pipeline  customers  have  a  choice  in 
+selecting their gas sales, transportation, and storage services from any natural gas provider, in any 
+quantity.” These legislative actions resulted in a competitive marketplace in which different players 
+engage in the sales and purchase of transportation, storage, and distribution of natural gas.
+
+The  transportation  of  natural  gas  from  a  gas  wellhead  to  the  customer  involves  multiple 
+organizations. The  natural  gas  supply  chain  starts  at  its  upstream  end  with  gas  production. The 
+
+60
+
+Gas Transportation Networksuniqueness of the natural gas supply chain is that it consists of a single product. All production 
+sources are required to process the gas extracted from underground sources to meet the quality 
+standards of natural gas. The output of natural gas wells is collected through a network of gathering 
+pipes  which  deliver  natural  gas  (with  its  impurities)  to  processing  plants. These  gas  processing 
+plants bring natural gas to the required national quality standards.
+
+The other key player in the gas supply chain is gas storage companies. These companies operate 
+underground storage facilities (such as aquifers, caverns, and old gas wells) where natural gas can 
+be stored. The gas is injected under pressure into these storage areas and later extracted, as needed. 
+Storage facilities help absorb demand fluctuations during the year. A significant aspect of the storage 
+facilities is these are natural underground areas that are very expensive to duplicate above the ground. 
+Thus, from a supply chain design perspective, storage locations and capacity are usually fixed.
+
+The gas supplied by producers is purchased by gas distributors and marketing companies. The 
+distributors are typically gas utilities which service customers in large cities and municipalities. 
+Natural gas is delivered to city gates by pipeline companies from where a distribution company 
+takes  over  and  transports  the  gas  to  residential  and  commercial  customers.  Large  industrial 
+customers such as electric power plants typically buy gas directly from the gas pipeline companies 
+and gas marketers due to higher end-of-line pressure requirements. The available supply of natural 
+gas  is  also  bought  and  sold  through  the  marketing  companies.  Marketers  provide  coordination 
+services such as purchase, storage, transportation, and all intermediate steps required to facilitate 
+the sale and delivery of natural gas. A key service offered by marketing companies is managing the 
+transportation arrangements between different pipelines. When natural gas in one pipeline is to be 
+delivered to a customer located on another pipeline, gas transportation hub operators are instructed 
+by the marketing companies to make pressure adjustments to transfer gas through these pipelines.
+
+To study the effects of an increase in gas demand from new power plants, a strategic review 
+of the natural gas transportation networks is required at the national level. Such a review would 
+make recommendations for installing new capacity on existing lines and/or building new interstate 
+pipelines. However, an evaluation at such a level involves many players and stake holders, increasing 
+the scope of work, which is beyond the focus of this study. This paper is focused on a regional 
+context  and  transportation/supply  considerations  for  distribution  pipeline  firms.  The  empirical 
+evaluation  presented  in  this  paper  is  focused  on  issues  related  to  connecting  new  users  (power 
+plants) of natural gas to existing pipelines (under current capacity restrictions) and identifies the 
+benefits of coordination in expanding gas transportation networks.
+
+HORIZONTAL COOPERATION IN GAS TRANSPORTATION NETWORKS
+
+The gas transportation network in the U.S. comprises more than 210 natural gas pipeline systems 
+(EIA 2013). The 30 largest interstate pipelines transport about 80% of the total gas supply (EIA 
+2013). In the gas transportation industry, new capacity is added only when there are new customers 
+in the market, such as the electric power industry where many power plants are undergoing a change 
+in fuel from coal to natural gas. These developments in the electric power industry have presented a 
+significant business opportunity for pipeline companies to expand their revenue base.
+
+Industrial organization theory in the field of strategic management describes the dependency that 
+exists among competitor firms that leads to the formation of strategic groups (Harrigan 1985). The 
+concept of strategic groups serves as a foundation for the idea proposed by Sollner and Rese (2001) 
+in which firms that would otherwise compete with each other mutually agree to each serve a different 
+segment of the market. In this context, firms may elect to serve narrowly defined customers (based 
+on some criterion, such as cost-to-serve) and thereby not compete head-on with their competitors 
+in the same market. A strategic group may include many firms or just one member (single pipeline 
+company), with each firm following its individual strategy (Audy et al. 2012; Sollner and Rese 
+
+61
+
+JTRF Volume 54 No. 1, Spring 20152001). Formation of such groups protects its members from invasion by other competitors due to 
+their relative cost position, among other factors (Caves and Porter 1977).
+
+The concept of strategic groups can also be examined through a network of relationships among 
+competitors (Zaheer et al. 2000). Bengtsson and Kock (1999) classified the nature of relationships 
+among  competitors  into  four  different  types,  based  on  the  continuum  between  cooperation  and 
+competition: coexistence (social and information exchange among partners, no economic exchange), 
+cooperation  (business,  information,  and  social  exchange),  co-opetition  (partners  cooperate  in 
+some ways and compete in others) and competition (a zero sum arrangement). According to this 
+classification, competitors can coexist in a market by keeping their distance and avoiding interaction. 
+When competing firms do interact, they try to reduce conflicts through cooperation. This situation 
+arises when competitors have common goals (e.g., when pipeline companies decide to cooperate 
+in  facilitating  gas  connectivity  to  power  plants  to  promote  use  of  natural  gas  in  electric  power 
+generation). The cooperation among competitors does not necessarily mean they do not compete 
+with  each  other.  Under  co-opetition,  competitors  can  cooperate  in  one  market,  such  as  power 
+generation market, and compete in others, such as industrial and residential markets (Bengtsson and 
+Kock 2000). In this paper, our focus is on cooperation among firms (pipeline companies), which 
+operate at the same level in the gas supply chain, referred to as horizontal cooperation (Cruijssen et 
+al. 2007b). Through close cooperation and joint planning, partner pipeline companies can increase 
+the competitiveness of their gas transportation networks (Vanovermeire et al. 2013).
+
+The existing literature in the area of horizontal cooperation in logistics has focused on issues 
+related  to  pooling  of  transportation  resources,  leveraging  specific  strengths  and  capabilities  of 
+the other participating firms, trading of complementary resources to achieve mutual gains, and to 
+eliminate the high cost of duplication (Schmoltzi and Wallenburg 2011; Vanovermeire et al. 2013). 
+Empirical research has indicated that horizontal cooperation can result in decreased cost, improved 
+service, and protection of market position (Cruijssen et al. 2007c). According to Vos et al. (2002) 
+synergies  from  cooperation  among  competitors  can  be  achieved  by  restructuring  transportation 
+networks collectively by all partners. This approach was shown to yield benefits for all participant 
+firms in the German consumer goods industry (Bahrami 2002). Cruijssen et al. (2007a) provided 
+empirical evidence that horizontal cooperation provides cost savings for logistics service providers 
+through joint planning of transportation routes. 
+
+Horizontal  cooperation  uses  market  segmentation  based  on  two  characteristics:  how  well 
+market needs align with the capabilities of individual partner firms, and that each market segment 
+offers  an  equal  business  opportunity  to  partner  firms  (Krajewska  et  al.  2007; Audy  et  al.  2010; 
+Vanovermeire et al. 2013). The gains resulting from horizontal cooperation are measured in the form 
+of cost savings (through increased efficiency, economies-of scale, and joint purchase power) and 
+revenue opportunities. In the context of this research, pipeline companies may jointly coordinate 
+market segmentation to identify a group of customers to be served by each partner firm, based on 
+network expansion costs. Such a cooperative arrangement should provide equal opportunity to all 
+participants  for  generating  revenue. The  feasibility  of  such  an  arrangement  is  supported  by  the 
+limited transportation capacity of gas pipelines, which does not allow pipeline firms to compete in 
+all markets and serve all customers.
+
+In the next section, a model is presented that represents the gas transportation networks through 
+various structural elements such as footprint of existing pipelines, routing options for expanding the 
+network, demand and supply requirements, and optimal routes for installing new pipes.
+
+NETWORK MODEL OF GAS TRANSPORTATION
+
+A gas transportation network can be represented by a model using a graph composed of a collection of 
+nodes and links. The footprint of a pipeline is identified by links which pass through different nodes. 
+The nodes represent geographical locations and facilities (demand points and branching stations). 
+
+62
+
+Gas Transportation NetworksAdditional  requirements,  such  as  transportation  capacity,  demand  and  supply  requirements,  and 
+routing restrictions, can be added to the network model. The output of the model identifies optimal 
+routing for installing new pipes and pressure stations, so that new demand nodes can be connected 
+to supply nodes through the existing pipelines.
+
+Earlier research has shown that optimal network configuration of gas pipelines has a tree-like 
+structure (Rothfarb et al. 1970; Bhaskaran and Salzborn 1979). Thus, the minimum spanning tree 
+approach provides a good basis for a mathematical model of gas transportation networks (Kawatra 
+and  Bricker  2000).  The  network  model  used  in  this  paper  follows  this  approach  with  updates 
+to  implement  the  network  expansion  requirements  specific  to  the  case  studied  here. The  model 
+is  used  to  study  different  strategic  issues  related  to  pipeline  expansion,  i.e.,  which  existing  gas 
+pipeline is most suitable to supply natural gas to the electric power plants, routing of pipes for the 
+new pipelines, consideration for available gas capacity, and the location/size of new gas pressure 
+regulation stations.
+
+Unlike freight transportation and telecommunication networks, a design of gas pipeline networks 
+has to consider additional issues such as gas pressures, flow rates, and pressure regulation (Martin 
+et al. 2006). The literature on pipeline networks is generally focused on optimizing the routing of 
+pipeline networks, selecting diameter of the pipes (related to transmission capacity), and location 
+of pressure regulation stations (Zheng et al. 2010; Kabirian and Hemmati 2007). For expanding an 
+existing gas pipeline network, a major area of interest is in selecting the segments of pipeline where 
+reinforcements are added to satisfy increasing demand (Babonneau et al. 2012; Andre et al. 2009).
+Due to long distances between the gas-wells and demand points, pressure regulation stations 
+are widely used in transporting natural gas. The gas regulation stations provide pressure differential 
+across a pipe to control the flow of gas. The pressure regulation is modeled in the form of inlet and 
+outlet pressures on each arc in a network graph (Rios-Mercado et al. 2002). The inlet and outlet 
+pressures across an arc determine the direction of gas flow. 
+
+Modeling Framework
+
+The network model used in this paper is based on a grid-based graph that represents a geographical 
+region,  in  terms  of  nodes  and  links.  The  grid  is  useful  in  identifying  population  centers, 
+environmentally protected land, and other right-of-way areas through which pipelines cannot pass. 
+Such no-go areas are identified by disconnecting the corresponding nodes from the other nodes in 
+the graph. The nodes in the graph are represented by N, which consists of nodes through which 
+existing pipelines pass (represented by set P), nodes to represent the locations of power plants (set 
+K), and nodes through which new pipes can be routed (set R). The node set P is further partitioned 
+into  subsets,  represented  by  Pg,  where  each  subset  of  nodes  corresponds  to  different  pipelines 
+(indexed by g). The connectivity within Pg is implemented by setting cij=0, for nodes i and j that are 
+inter-connected. Otherwise, cij represents the unit cost of installing a new link between nodes i and j.
+Each pipeline node (indexed by l) in subset Pg is characterized by its gas pressure (pounds per 
+square inch), denoted by πl. The gas flow supply (ft3/day) available in a pipeline g is represented by 
+кg. This parameter can be used to include additional gas supply in the future, as more shale gas fields 
+are added to the supply network. The supply of natural gas to a power plant is needed at a specific 
+pressure πk under the condition πk < πl. In order to meet these gas pressure requirements, pressure 
+regulation may be needed. A pressure regulation station can be installed at a unit cost of γ per psi 
+of gas pressure.
+
+The supply of natural gas to a power plant requires laying new pipes. The model finds the 
+lowest cost path by routing new pipes through available nodes to one of the existing gas pipelines. 
+The demand-supply matrix D provides the details about the sources (gas pipelines) and demand 
+(power plants) of gas supply. An element dik of matrixD of the supply-demand matrix represents a 
+demand node (power plant) by -1, supply node (gas pipeline) by +1, and connector node by 0. Note 
+
+63
+
+JTRF Volume 54 No. 1, Spring 2015that for each power plant, there may be multiple sources of supply (pipelines). Hence each column 
+of the demand-supply matrix will have a single -1 entry and multiple +1 entries.
+
+ and 
+
+There are three types of decision variables in the model. The decision variables 
+
+ represent 
+the binary choice of using link (i,j) for routing the new pipeline to supply natural gas to power plant 
+k. Note that for two different power plants k and m, 
+ variables may use the same link 
+(i,j), especially if k and m are to be connected on the same branch of the new pipeline. To properly 
+identify all the links on which new pipes will be installed, binary decision variables Yij are used. 
+These variables properly identify the links on which new pipelines will be constructed, based on 
+ variables. The decision variables Pl  represent the difference in gas pressure between what is 
+the 
+currently available at a gas pipeline node l and the pressure that is needed at the end-of-line power 
+plant(s). If there is a pressure differential, additional pressure regulation capacity may need to be 
+installed on the pipeline.
+
+Sets:
+
+G   = Existing gas pipelines; {1, 2 ... g}
+Pg   = Nodes associated with gas pipeline g
+K   = Nodes where new gas-fired electric power plants k are located
+R   = Available nodes for new pipelines,
+N   = Set of nodes
+E   = Set of links  
+
+Parameters:
+
+cij   = Cost of installing new gas pipeline on link (i,j)
+γ    = Cost to add unit pressure regulation (psi) at a gas pipeline node 
+dik  = Natural gas supply-demand matrix 
+кg    = Flow capacity of pipeline g 
+αk   = Gas requirement at power plant  
+πl  = Available gas pressure at pipeline node l
+πk   = Gas pressure requirements at power plant k
+M  = Large number
+
+Decision Variables:
+
+   = 1, if link (i,j) is needed to supply gas to plant k; 0 otherwise
+Yij  = 1, if gas pipeline is constructed over link (i,j); 0 otherwise
+Pl  = Pressure differential (psi) required at pipeline node l 
+
+Model Formulation:
+
+(1) 
+
+Subject to:
+
+(2)
+
+(3)
+
+(4)
+
+64
+
+Gas Transportation Networks(5)
+
+(6) 
+
+The objective function (1) represents the total expansion cost of the transportation network. The 
+first term of the objective function deals with the total cost of installing new gas pipelines. The total 
+cost of adding new or updating existing pressure regulation stations at pipeline node l is given by 
+the second term, using decision variables Pl. The objective function is minimized over a number of 
+constraints. Constraint (2) is used to find the lowest cost path from each power plant to one of the 
+available pipelines for gas supply. For a given index i in constraint 2, index j in the two summations, 
+is from two different instances of set E. Hence, node j marks the end of one link as well as the start 
+of another link. These constraints consider multiple root-nodes where demand for plant k can be 
+serviced. These root-nodes correspond to different supply pipelines. The links (pipes) are installed 
+to service a power plant based on the smallest branch length to a root-node. If needed, multiple 
+power plants can be connected together through tree-like paths. Constraint (3) is used to identify 
+the links where new pipeline(s) will be constructed. A new pipeline cannot be installed to bridge 
+(connect) two or more existing pipelines, as represented by constraint (4). Constraint (5) ensures that 
+demand of natural gas from the newly constructed/retrofitted power plants to an existing pipeline 
+does not exceed its available supply. In order to meet the gas pressure requirements of the power 
+plants connected to the new pipelines, pressure in the supply pipelines may have to be adjusted. 
+Constraint (6) determines the difference between available gas pressure (at different supply pipeline 
+nodes) and gas pressure requirements at all the power plants connected to supply pipeline node l. 
+The requirements of pressure regulation are determined by the largest pressure differential among 
+all supply and demand points on a branch. Note that there may be some adjustments of gas pressure 
+needed at delivery points for specific customers. However, in a model focused on network-level 
+considerations, local operational details are not included.
+
+The output of the model provides optimal routing of new pipes, which connect the demand 
+points (power plants) to the most suitable supply point (gas pipeline) such that expansion costs 
+of the new pipes and pressure stations are reduced while considering demand requirements and 
+supply restrictions. This model is used to evaluate the differences between the uncoordinated and 
+coordinated approaches for expanding the gas transportation networks. The differences are measured 
+in terms of the expansion costs, which are based on routings of new pipes, supply and demand 
+points in the network, and installation of pipes and pressure stations. The benefits of horizontal 
+cooperation in network expansion are explored through a study of gas pipelines and power plants in 
+the southeastern U.S. region.
+
+SOUTHEASTERN U.S. GAS PIPELINE ENTWORK
+
+This section presents a study to analyze key issues related to pipeline expansion in order to serve the 
+demand from the new gas-fired power plants in the southeastern United States. The study considers 
+three major interstate pipelines in the region; Southern Natural Gas, Transco, and Kinder Morgan. 
+Kinder Morgan pipeline originates from three locations in southern Louisiana and southern Texas, 
+converging around Nashville, TN. From there the pipelines travel through Kentucky and then on 
+through Ohio to Boston and New York. Southern Natural consists of two main lines through the 
+southeast region, one of which originates in southern Louisiana and the other originating in northern 
+Louisiana.  Both lines pass through Mississippi and Alabama, and terminate in Georgia. Transco is 
+the third major pipeline that runs through the southeast region.  It originates in southern Texas and 
+
+65
+
+JTRF Volume 54 No. 1, Spring 2015terminates in the State of New York, passing through Georgia, South Carolina, and North Carolina, 
+before reaching New York. These pipelines are identified in Figure 1 as Pipeline 1 (Kinder Morgan), 
+Pipeline 2 (Southern Natural), and Pipeline 3 (Transco).
+
+The geographical area of this study is represented by a graph (Figure 1), which comprises 400 
+nodes on a 20x20 grid where vertical (horizontal) distance between two nodes represents 50 miles 
+(diagonal distance is 70 miles), covering a total area of one million square miles. The study includes 
+30 nodes, which represent new gas-fired power plants, and 103 nodes, which represent the existing 
+gas  pipelines.  The  power  plant  and 
+Figure 1: Gas Pipelines and Power Plants
+pipeline  nodes  are  inter-connected 
+through  a  set  of  1,484  horizontal, 
+vertical,  and  diagonal  arcs.  These 
+arcs are used to route new pipes from 
+existing  gas  pipelines  to  new  gas-
+fired power plants.
+
+this  study  operate 
+
+coal-fired  power  plants 
+The 
+included 
+in 
+in 
+Alabama, Georgia, Tennessee, Kentucky, 
+South  Carolina,  and  North  Carolina, 
+each with a power generation capacity 
+larger  than  600MW.  There  are  30 
+such  plants  in  these  six  states  with 
+an average size of 1,581 MW.  The 
+smallest is 601 MW and the largest 
+plant is 3,564 MW.  The data on each 
+power  plant  (location,  year  built, 
+power  generation  capacity,  current 
+financial 
+liabilities,  and  carbon 
+costs)  were  extracted  from  the  U.S. 
+Energy  Information  Administration 
+(EIA) and industry databases related to the energy industry (Table 1). In Figure 1, power plants are 
+identified by their ID in Table 1.
+
+The cost of installing a new gas pipeline link is set at $1 million per mile (INGA 2009). The 
+demand for natural gas at the electric power plant is calculated using the estimates provided by EIA, 
+i.e., 0.00789 MCF of gas is used per KWh of generated electrical energy (EIA 2013). The supply 
+nodes (gas pipelines) can provide gas pressures that range between 900 psi and 1100 psi, while 
+the pressure requirements at the power plants range between 400 psi and 600 psi (Kabirian and 
+Hemmati 2007). The data about gas supply capacity in the three pipelines were obtained from the 
+respective gas companies: P1 – 106 MMCF/day, P2 – 25,000 MMCF/day, and P3 – 25,000 MMCF/
+day.
+
+66
+
+Gas Transportation NetworksTable 1: Power Plants
+
+     
+
+Plant
+ID
+32
+94
+95
+117
+152
+173
+195
+255
+275
+46
+103
+104
+141
+181
+184
+242
+288
+326
+327
+328
+365
+313
+353
+394
+29
+48
+108
+168
+188
+227
+
+           
+
+Location
+(State)
+
+AL
+AL
+AL
+AL
+GA
+GA
+GA
+GA
+GA
+KY
+KY
+KY
+KY
+KY
+KY
+KY
+NC
+NC
+NC
+NC
+NC
+SC
+SC
+SC
+TN
+TN
+TN
+TN
+TN
+TN
+
+Plant Name
+
+Colbert
+Gorgas
+Miller
+Gaston
+Hammond
+Bowen
+Yates
+Scherer
+Harllee Branch
+Paradise
+Cane Run
+Mill Creek
+Ghent
+H L Spurlock
+E.W.Brown
+Big Sandy
+Cliffside
+Marshall
+Riverbend
+GG Allen
+Belews Creek
+Urquhart
+Wateree
+Williams
+Johnsonville
+Cumberland
+Gallatin
+Kingston
+Bull Run
+John Sevier
+
+Generation
+Capacity
+(MW)
+1250
+1417
+2822
+2013
+953
+3499
+1487
+3564
+1746
+2558
+654
+1717
+2226
+1279
+739
+1233
+780
+1996
+601
+1155
+2160
+650
+685
+633
+1485
+2600
+1255
+1700
+950
+800
+
+Natural Gas
+
+Demand
+(MMCF)
+
+342
+387
+771
+550
+260
+956
+406
+974
+477
+699
+179
+469
+608
+350
+202
+337
+213
+546
+164
+316
+590
+178
+187
+173
+406
+711
+343
+465
+260
+219
+
+Natural Gas
+
+Pressure
+
+(psi)
+579
+558
+644
+652
+520
+662
+553
+523
+647
+571
+571
+604
+592
+503
+623
+669
+477
+630
+566
+621
+625
+469
+505
+588
+580
+502
+652
+669
+472
+494
+
+RESULTS AND ANALYSIS
+
+To study the effect of coordination in expanding gas transportation networks, model (P) was used 
+with data in two main scenarios. In the first scenario, a coordinated expansion of gas transportation 
+networks was undertaken to identify a pipeline (among all candidate pipelines) which will serve a 
+specific power plant. Since expansion of a pipeline network represents a significant portion of the 
+cost of developing the capability to serve customers, it follows that a successful firm would be the 
+
+67
+
+JTRF Volume 54 No. 1, Spring 2015one that can serve customers with lowest network expansion costs. We use this setting to select 
+which pipeline will service a specific power plant based on the lowest total transportation network 
+expansion costs. The second scenario is based on connecting power plants to the network of each 
+pipeline company, separately. This setting corresponds to the uncoordinated expansion of the gas 
+transportation network. Note: A pipeline firm may choose to serve all or a part of the market. Our 
+intent in using the two alternative scenarios is for the purpose of comparison. 
+
+The model and corresponding data was coded into AMPL, which integrates a modeling language 
+for describing optimization data, variables, objectives, and constraints (Fourer, Gay and Kernighan 
+2002).  The  model  was  solved  to  optimality  using  CPLEX  12.4  solver  for  linear  mathematical 
+programming  models. The  outputs  of  the  model  from  both  scenarios  were  compiled  to  provide 
+information about: (i) which pipeline is most suitable for supplying natural gas to power plants based 
+on the pipe installation costs and available gas supply, (ii) number and location of new branches 
+added to the existing pipelines, (iii) new pipe links installed, and (iv) power plants allocated to 
+each supply pipeline for service. The outputs of these scenarios were compared using key structural 
+elements such as number and location of new links, expansion costs, and the allocation of power 
+plants to gas pipelines for service. The best option is characterized as one that adds the least number 
+of new branches with fewest pipes added to the network, and one that will need the smallest pressure 
+differential between supply pipelines and power plants. These choices lead to a least cost expansion 
+of the gas transportation network. 
+
+The solution of the model in AMPL identifies the links that are used for installing gas pipes to 
+service each power plant. These links were identified by the start and end nodes (indexed by i and 
+j in the model). This information was recorded for each pipeline and power plant in the case study. 
+For each pipeline, the number and location of pressure regulation stations were also recorded. The 
+scale used in the grid to represent the network graph was used to calculate the length of new pipe 
+links. These detailed outputs were compiled into summary tables, which are discussed below.
+
+The  summary  output  of  the  first  scenario  is  presented  in Tables  2  and  3. The  results  show 
+that in a coordinated expansion of the gas transportation network, each pipeline serviced a similar 
+proportion of natural gas demand in the case study, e.g., pipelines P1 and P3 serviced 31% and 
+26% of the total gas demand, respectively (see last column in Table 2). Thirty-three percent of 
+the power plants were connected through pipeline P1, 40% were connected through P2, and 27% 
+were connected through pipeline P3. The significance of this result is related to the concern that by 
+participating in collaborative planning, pipeline companies lose the opportunity to capture market 
+share and that some participants will be at a disadvantage in this arrangement. As the results show 
+that for the southeastern region, the footprint of pipeline networks and the geographical dispersion 
+of customers (power plants) allow participant pipeline companies to share a similar proportion of 
+business opportunities in the new market.
+
+68
+
+Gas Transportation NetworksTable 2: Pipeline - Power Plant Allocations
+
+Plant Name (ID) 
+Colbert (32)    
+
+Paradise (46)
+
+Cane Run (103)
+Mill Creek (104)
+Ghent (141)
+H L Spurlock (181)
+E.W.Brown (184)
+Big Sandy (242)
+Johnsonville (29)
+Cumberland (48)
+
+Location    
+
+Plant Name 
+
+(ID)
+
+Location      
+
+AL
+
+KY
+
+KY
+KY
+KY
+KY
+KY
+KY
+TN
+TN
+
+Gorgas
+
+Miller
+
+Gaston
+Hammond
+Bowen
+Scherer
+Marshall
+Riverbend
+Gallatin
+Kingston
+Bull Run
+John Sevier
+
+AL
+
+AL
+
+AL
+GA
+GA
+GA
+NC
+NC
+TN
+TN
+TN
+TN
+
+Plant Name 
+
+(ID)
+
+Yates
+Harllee 
+Branch
+Cliffside
+GG Allen
+Belews Creek
+Urquhart
+Wateree
+Williams
+
+ Location
+
+GA
+
+GA
+
+NC
+NC
+NC
+SC
+SC
+SC
+
+Additional  outputs  of  this  scenario  are  shown  in Table  3. The  analysis  shows  that  network 
+expansion (and related costs) for each pipeline depends on its existing footprint. While pipelines 
+P1 and P3 served new customers with about the same total natural gas demand (i.e., 31% and 26%, 
+respectively), each pipeline’s costs for installing new pipes was different. Pipeline P1 added 16 new 
+links with a total length of 920 miles. Whereas, for a similar number of customers and gas demand, 
+pipeline P3 needed 28 new links (75% more links that P1) for a total length of 1,520 miles. For 
+pipeline P1, this level of expansion accounts for a significant increase (about double the length) 
+compared with 630 miles of existing pipeline in the area (Kinder Morgan 2014).
+
+Table 3: Summary Statistics of Expanded Pipeline Network
+
+         
+
+Pipelines
+
+P1
+P2
+P3
+
+Plants
+Served
+33%
+40%
+27%
+
+New Pressure
+
+Stations
+
+New
+Links
+
+Length of
+New Pipes
+
+Gas Demand
+
+Serviced (MMCF)
+
+8
+8
+2
+
+16
+18
+28
+
+920 mi
+980 mi
+1520 mi
+
+31%
+43%
+26%
+
+These  results  identify  a  potential  shortfall  for  pipeline  companies  which  view  the  network 
+expansion decision myopically. The potential to capture a large share of the market is tempting until 
+the reality of cost-to-serve is considered in the analysis. These results show that for some pipeline 
+companies, the cost of expanding their current pipeline network may come at a prohibitively high 
+cost. Conversely, a pipeline may have a footprint in a region that allows it to efficiently expand its 
+services to new customers. Such is the case with the pipeline network of Southern Natural (Pipeline 
+P2), which has an existing network footprint in the region that is well-suited for providing access 
+to the power plants within the region. The pipeline P2 is allocated 40% of all the new customers in 
+the study (most among all the pipelines), which account for 43% of all the demand from the new 
+gas-fired power plants. These power plants are connected through 18 new pipe links (29% of all new 
+links installed) with eight pressure regulation stations (same as pipeline P1). The total length of new 
+pipes added to pipeline P2 (980 miles, see Table 3) accounts for a 29.8% increase to the existing 
+
+69
+
+JTRF Volume 54 No. 1, Spring 20153,300 miles length of pipeline P2 in the region. This is the smallest percentage increase for a pipeline 
+in the case study, and yet it covers the largest proportion (43%) of new demand.
+
+Next, network model (P) is used in the uncoordinated case. Recall that in this setting, each 
+pipeline company is considered individually to satisfy the demand from all power plants. The network 
+model in this scenario identifies the optimal expansion of each pipeline’s network, exclusively. The 
+output of the model identifies the layout and routing of the new pipes in the expanded network 
+of  each  pipeline. The  output  of  the  model  for  each  pipeline  is  shown  in Table  4.  Note  that  for 
+comparison, output of the previous scenario (coordinated expansion) is listed as base case.
+
+Table 4: Comparison of Pipeline Networks
+
+ Base Case 
+
+ Case: P1 
+
+ Case: P2 
+
+ Case: P3 
+
+Network Expansion Costs ($M)  
+Pipe Installation 
+Pressure Regulation   
+Total
+
+Number of new branches 
+Plants serviced per branch (Avg.)
+Number of new links          
+Length of new pipes (miles)  
+
+2,060
+549
+2,609
+15
+1.75
+41
+3,420
+
+3,960
+363
+4,323
+8
+4.14
+66
+3,960
+
+3,710
+419
+4,129
+13
+2.15
+59
+3,310
+
+4,910
+237
+5,147
+4
+7.5
+81
+4,610
+
+In the case of pipeline P1, all customers were connected by adding 66 new links (61% more 
+links  than  base  case).  The  new  branches  added  to  the  original  pipelines  connect  through  eight 
+locations, where half of these locations were different from the base case. The number of power 
+plants serviced on each branch averaged 4.14, which is almost 2.5 times higher than the base case. 
+This shows that pipeline P1’s network requires a lot more dense expansion than the base case. The 
+costs of installing new pipes on pipeline P1 were very high (92.2% compared with base case). In the 
+case of pipeline P2, only two of the branch locations were common with the base case. Compared 
+with pipeline P1, P2 used a higher number of branches (62% more) and a smaller number of power 
+plants serviced by each branch. While the average number of plants on a branch (Avg. = 2.15) was 
+still higher than the base case, pipeline P2 needed (44%) more pipe links to provide access to its 
+customers. This caused the expansion costs of pipeline P2 to be much higher than the base case.
+
+These results show that in expanding a pipeline network with an extensive footprint (such as 
+pipeline P2), power plants were connected separately on a branch from the supply pipeline. When 
+the pipeline network is not as extensive (as in the case of Pipeline P1), multiple power plants were 
+connected together for service within a single branch. This observation was verified in the case of 
+pipeline P3 (see Table 4). The data provided by the pipeline companies for this case study show that 
+pipeline P3 has the sparsest network in the southeastern region. The result of the scenario identified 
+that 81 new pipe links will be needed to connect all customers (power plants), which would add 
+4,610 miles to the existing network. The total expansion cost in the case of pipeline P3 was the 
+highest among all the pipelines. However, there were only four new branches used by P3 to service 
+power plants, with an average of 7.5 power plants served per branch. This is the highest number of 
+power plants per branch among all the pipelines, increasing the utilization of the newly installed 
+pipes. 
+
+The analysis presented above is based on the evaluation of gas pipeline networks to provide 
+connectivity  and  service  demand  of  all  power  plants.  In  this  context,  the  results  of  the  study 
+has  identified  collaborative  planning  as  the  best  approach  toward  expanding  gas  transportation 
+networks. However, the power plants in question may have their own dynamics in terms of when a 
+
+70
+
+Gas Transportation Networkspower plant may decide to switch fuel and its demand of natural gas becomes active. This situation 
+introduces a time-based dimension to the pipeline expansion decisions. In this situation, the benefits 
+of coordinated network expansion may be affected. For the purpose of this study, the timed-demand 
+of natural gas for the coal-fired power plants in the region was evaluated based on the operational, 
+financial, and environmental credentials of each power plant. This evaluation is made to identify the 
+time when demand for natural gas at each power plant will be active. Note that this is an experimental 
+evaluation, as the timing information about when demand of gas for a power plant will be active is 
+not publicly available.
+
+Figure 2: Timing of Natural Gas Demand
+
+For this part of the study, three time periods were considered (each period was set equal to 
+four years, which is similar to the time frame involved in replacing an existing power plant and 
+building a gas pipeline). The timed-demand of each power plant is determined by considering the 
+fixed  (capital)  and  variable  (operational) 
+costs.  The  fixed  costs  included  in  the 
+evaluation  are  replacement  cost  of  a  new 
+gas-fired plant and a power plant’s current 
+financial liabilities. The replacement costs 
+are  assumed  to  increases  in  each  future 
+time period at the rate of 10% annually, and 
+the financial liabilities decrease at the same 
+rate in the future time periods. The variable 
+costs considered in the evaluation are fuel 
+costs  (coal  and  natural  gas)  and  carbon 
+emission  costs.  The  data  and  information 
+related  to  this  evaluation  were  obtained 
+from  power  company  websites,  energy 
+council  reports,  and  government  agencies 
+such as EIA and Environmental Protection 
+Agency (EPA). To identify the time when 
+gas  demand  of  each  power  plant  may 
+become active, total costs were computed 
+for  the  following  four  options:  (a)  coal-
+fired plant is replaced in t=1, (b) replaced in t=2, (c) replaced in t=3, and (d) fuel in the plant is not 
+replaced. For each of these options, fixed and variable costs were used to calculate the total costs 
+of each option. Based on these calculations, a time period is identified when switching fuel will 
+result in the lowest total cost over the entire planning horizon. The result of this evaluation is shown 
+in Figure 2. Each power plant is color coded (white, grey, and black) to identify the time period 
+when its time-demand is activated. Note that while this evaluation is experimental and actual timed-
+demand may have a different pattern, this setting allows us to investigate the effect of timed-demand 
+on the benefits of using the coordinated network expansion approach.
+
+The network model was used to obtain optimal (expanded) network structure in each planning 
+period separately. In each case (time period), pipelines that provide the lowest cost connection to the 
+demand-active power plants were selected. This selection was made while evaluating all candidate 
+pipelines, similar to the approach used in the previously considered coordinated expansion scenario. 
+The  output  from  the  timed-demand  case  is  compared  with  the  case  of  coordinated  expansion 
+(referred to as the base case) in Table 5. This comparison showed that demand timing adversely 
+affected the total expansion costs. The results show that by spreading demand across different time 
+periods, more branches were installed to provide access to power plants. This setting did not offer 
+the same economies of scale as were realized in the case of pooled demand. A branch installed 
+for servicing customers in a specific time period had no capacity left over for customers that may 
+need supply beyond the time frame when a pipeline was extended. This limitation resulted in using 
+
+71
+
+JTRF Volume 54 No. 1, Spring 2015

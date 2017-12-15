@@ -1,0 +1,1172 @@
+Road Supply in Central London: 
+Addition of an Ignored Social Cost
+by Omid M. Rouhani, Christopher R. Knittel, and Debbie Niemeier
+
+Studies	examining	the	social	cost	of	driving	usually	ignore	the	opportunity	cost	of	having	roads	in	
+place:	the	associated	land	rents.	Especially	for	geographic	regions	where	land	is	valuable,	including	
+the	rent	costs	may	even	lead	governments	to	close	some	roads.	By	using	the	London	congestion	
+charging	zone	case,	a	more	general	long-run	social	cost	curve	is	calculated	with	the	addition	of	the	
+rents.	Based	on	the	optimal	road	usage	concept,	this	study	found	that	including	the	rents	in	the	cost/
+benefit	analysis	significantly	affects	the	results	and	can	increase	the	social	cost	by	up	to	200%	and	
+decrease	the	optimal	road	usage	by	40%.
+
+INTRODUCTION
+
+Providing a partially charged service, as is the case with public roads, leads to more travel demand, 
+which can result in wasteful consumption: the free-rider problem (Cornes 1986). The associated 
+cost burden is enormous; Nash et al. (2008) estimated the costs of traffic congestion in the UK to be 
+₤15 billion per year, about 1.5% of GDP. Congestion pricing has been developed based on the notion 
+that the users of roads, as public goods, should pay for the negative externalities they produce. 
+Each additional user imposes a time cost burden on other users. The main idea involves charging 
+users for this social cost (the difference between marginal social cost and marginal private cost) to 
+reach a more efficient road usage (Pigou 1920; Vickrey 1963; Walters 1961; Yang and Huang 1998; 
+Rouhani and Niemeier 2011).     
+
+Several  cases  of  congestion  pricing  exist  in  Singapore  (Olszewski  and  Xie  2005),  London 
+(Leape 2006), and Stockholm (Eliasson 2008). Various studies have analyzed different aspects of 
+congestion pricing. Olszewski and Xie (2005) modeled the effects of the pricing on traffic flows 
+in Singapore and found that time-variable road pricing or “shoulder pricing” method, increasing 
+the charges before the peak and lowering them after, tends to transfer congestion to other periods 
+and other routes and is an effective method of controlling congestion. Xie and Olszewski (2011) 
+proposed a methodology for using the traffic data from the Singapore’s Electronic Road Pricing 
+(ERP)  system  to  forecast  the  short-term  impacts  of  trip  rate  adjustments  on  peak  period  traffic 
+volumes.
+
+Eliasson and Mattsson (2006) developed a method for quantitative assessment of equity effects 
+of the Stockholm congestion pricing system. In another study, Eliasson (2009) set up a cost -benefit 
+analysis for the case of the Stockholm congestion pricing and estimated that the Stockholm system 
+yields a large social surplus, well enough to cover both investment and operating costs. Santos and 
+Bhaka (2006) revised the standard approach to value travel time savings for the London congestion 
+pricing system and showed that by switching to the bus, low-income users can gain from the system, 
+when users account for the generalized costs of trips. Safirova et al. (2004) studied the welfare 
+effects of various road pricing schemes for the Washington, D.C., metropolitan area. The study 
+found that the aggregate social welfare gain from comprehensive pricing could reach $220 million, 
+and most of this gain could also be achieved by using only HOT lanes (77%) and limited freeway 
+pricing (82%). 
+
+In a controversial study, Prud’homme and Bocarejo (2005) constructed the demand and supply 
+functions for the London congestion pricing scheme and determined the optimal road usage and 
+
+49
+
+JTRF Volume 53 No. 1, Spring 2014optimal  congestion  toll  for  the  system.  They  showed  that  the  London  congestion  pricing  is  an 
+economic failure despite its political success. Hamilton (2011) also indicated the unpredicted and 
+excessive costs of congestion pricing in the case of Stockholm, Sweden.  Nevertheless, Hamilton 
+(2011) showed that by modifying insurance cost, recognizing the election’s role, and informing the 
+public it would be possible to establish a system, such as the Stockholm congestion charging system, 
+for a considerably lower cost. For a review on methods and technologies available for congestion 
+pricing, refer to de Palma and Lindsey (2011).
+
+Studies  on  optimal  road  usage  usually  ignore  some  of  the  social  costs  that  are  associated 
+with public roads (Rouhani et al. 2013a). Construction and maintenance costs are good examples 
+(Verhoef and Mohring 2009). Although one can argue that users are paying for these costs through 
+fuel taxes, the payments are not directly related to the usage. The users’ cost burden should be 
+based on the true total road costs and how much they use the road system. Users should not pay 
+comparable amounts for a very expensive superhighway and a low-cost collector. And the payments 
+should not be the same for roads with comparable construction and maintenance costs, but different 
+levels of demand. One limitation in applying this concept is that part of the funding for roads comes 
+from sources other than fuel taxes (revenue sources that are not related to road usage), for example, 
+sales tax (Schweitzer and Taylor 2008).    
+
+Because it is difficult to find a defensible means of including construction and maintenance 
+costs in optimal road usage analysis since they are partially paid by fuel taxes, one can replace these 
+costs with the opportunity cost of having roads in place, which are the forgone rents of the land used 
+for roads. If officials could close the roads, they could immediately lease the available land. But 
+unlike other markets where supply and demand dynamics can drive products out of market, closing 
+roads very rarely happens because not all the costs are considered (Rouhani 2009; Rouhani 2013; 
+Rouhani et al. 2013b). As a result, once a road is constructed, the present calculation suggests that 
+decision makers should use the land for roads, no matter if the future usage (benefits) is (are) really 
+low. Nevertheless, studies show that decreasing capacity through blocking roads can even improve 
+transportation network performance (Youn et al. 2008). 
+
+In old and well-developed cities, few new roads are being financed using current fuel taxes1. 
+Most of the fuel taxes are used for road maintenance, alternative modes to cars, and purposes other 
+than directly financing or paying for the rents. Even though existing old roads were financed through 
+previously paid fuel taxes, one can argue that the forgone rents, at least partially, are not considered 
+in individual users’ current cost calculations, and so do not affect their current road usage. There 
+exists a social (opportunity) cost associated with these rents. For geographic regions where land is 
+valuable, like London (Cheshire and Hilber 2008), these ignored social costs may have significant 
+impacts on the externalities associated with driving. 
+
+Previous research studies have examined the consideration of the opportunity cost of land in 
+the context of curbside pricing (Shoup 2004 and 2005). For the road pricing concept, Roth (1967, 
+page 67) makes the distinction between the cost of providing roads and the cost of using roads and 
+concludes that the fixed costs of providing roads should not enter directly into congestion charges. 
+Based on this distinction, one can argue that the fixed opportunity cost is not part of the marginal 
+social cost of driving. However, the counter-argument is that 1) in the case of London, the rent costs 
+are not paid by the individual costs of travel; the rent costs are even higher than all other social costs 
+at some road usage levels, and 2) the rent costs are not fixed, but they depend on the amount of usage 
+and vary from one time period to another (the change in the value of land). The total rent cost should 
+be divided by the road usage. Therefore, a thorough calculation should consider (a portion of) the 
+rents in addition to individual cost and congestion cost. Otherwise, these costs would be ignored.
+
+In  this  study,  these  costs  are  added  to  the  social  costs  typically  considered  and  calculate  a 
+modified  social  cost  curve.  The  model  developed  in  this  study  is  an  extension  of  a  previously 
+calibrated model (Prud’homme and Bocarejo 2005) on the London congestion pricing zone. 
+
+50
+
+Road Supply in Central LondonThe next section begins by describing the basic model for the optimal road usage analysis. An 
+extension to the model will be introduced by adding forgone rents to the social cost. The case study, 
+the London congestion charge zone, will be described. A model developed in a previous study will 
+be presented and then be modified taking the rents into account. Finally, the paper concludes with 
+the results of modifying the social cost for the case study.
+
+BACKGROUND
+
+Figure 1 represents a simple model of road usage where D(q) is the demand for road usage as a 
+function of the unit cost of using roads (costs per km); I(q) represents the unit individual cost (or 
+marginal private cost), which is the per km cost borne by a motorist. As road usage (q) increases, 
+the travel time as a part of the general cost of travel increases, and the cost born by motorists, I(q), 
+increases. An equilibrium is reached at point A, where I(q) and D(q) intersect, in which the cost of 
+driving is equal to the benefit of driving, and the original road usage is Y. 
+
+But the unit social cost, S(q), is different than  I(q). The social cost equals the individual cost 
+plus the cost of additional time spent by all other vehicles because one extra vehicle is on the road 
+(congestion externality). So the social optimal point (the optimal road usage) is at B, where D(q) and 
+S(q) intersect, and the social optimal road usage will be X. To reach the optimal road usage, decision 
+makers should impose a tax or congestion charge of BE	as the optimal congestion charge. Without 
+any charges, the deadweight loss (DWL) or congestion cost of the triangle BCA will be imposed on 
+society. 
+
+Figure 1: The Optimal Road Usage and Congestion Concept
+
+s
+t
+s
+o
+c
+ 
+t
+i
+n
+U
+
+Social Cost: S(q)
+
+C
+
+A
+
+Individual Cost: I(q)
+
+Demand: D(q)
+
+Y
+
+Road usage (q)
+
+B
+
+X
+
+E
+
+The original equilibrium, A, is sub-optimal because of the difference between the unit individual 
+cost and the unit social cost. The original equilibrium of road usage is always greater than the social 
+optimal  usage  because  the  social  cost  is  greater  than  the  individual  cost.  However,  the  optimal 
+level of congestion is not zero. Therefore, policies should be aimed at ensuring the optimal level of 
+congestion, not the elimination of congestion. 
+
+The  optimal  level  of  congestion  charge  (BE)  is  the  congestion  externality  (the  difference 
+between the social and private costs) at the social optimal equilibrium, not the original equilibrium. 
+In fact, charging the congestion externality at the original equilibrium is suboptimal and higher than 
+the social optimal charge. Finally, a thorough cost/benefit analysis of a congestion pricing scheme 
+should compare the benefits of a congestion charge (BCA or a lower amount of social welfare gain 
+
+51
+
+JTRF Volume 53 No. 1, Spring 2014from a charge) to its transaction costs or the collection costs of the charging scheme (McDonald et 
+al. 1999; Prud’homme and Bocarejo 2005).          
+
+AN EXTENSION OF THE MODEL
+
+An important part is missing in the social cost calculation of the simple model: the opportunity cost 
+of having roads in place or the rent that can be gained by leasing the lands occupied by roads. 
+
+The social cost associated with rent depends on road usage. So the higher the road usage, the 
+lower the social cost of the rents. In fact, the associated social cost is equal to the total fixed rent 
+that can be gained from leasing the lands divided by the quantity of road usage. One could add this 
+cost to the common social cost curve. Figure 2 shows the results of adding the rents to the common 
+social cost. Instead of an increasing curve, the modified social cost curve will have a U shape. For 
+the modified social cost, the social optimum will be X' instead of X, and a higher congestion cost 
+of B'C'A will result if the modified social and demand curves intersect (Figure 2-a). In the cases of 
+very high levels of rents, the modified social cost may no longer intersect with the demand curve 
+(Figure 2-b). For this case, because of over-supply, some low-demand roads or some lanes of the 
+roads should be closed so that the social benefits of driving (associated with travel demand) match 
+social costs. It should be noted that the alternative decision to adding the rent costs to the analysis 
+is leasing the land for purposes other than driving and decrease capacity. In this case, the individual 
+cost curve (supply curve) would be different. However, the assumption of this study is that charging 
+for the rent is preferred.
+
+Figure 2:  Modifying the Social Cost by Adding the Rents (a) With an Intersection 
+ 
+
+(b) No Intersection
+
+s
+t
+s
+o
+c
+ 
+t
+i
+n
+U
+
+s
+t
+s
+o
+c
+ 
+t
+i
+n
+U
+
+(a)
+
+Modified Social Cost: S'(q)
+
+Social Cost: S(q)
+
+C'
+
+B'
+
+Individual Cost: I(q)
+
+A
+
+Demand: D(q)
+
+X '
+
+X
+
+Y
+
+Road usage (q)
+
+(b)
+
+Modified Social Cost: S'(q)
+
+Social Cost: S(q)
+
+C
+
+A
+A
+
+Y
+
+Individual Cost: I(q)
+
+Demand: D(q)
+
+Road usage (q)
+
+The addition of the rents and/or decreasing capacity are long-run decisions by nature. In the 
+standard analysis of road pricing (Small and Verhoef 2007), short-run calculations are based on 
+short-run marginal social costs for which capacity, and consequently rent, should be held constant. 
+The rents enter long-run marginal social cost along with congestion, where every factor (capacity, 
+rent, and congestion) can vary. 
+
+In fact, the analysis in this study is focused on a long process where the higher value of road 
+space is realized by land owners or tax payers. The public funding, used long ago to build roads, may 
+now have much more value than before, especially for a city like London with its very high present 
+value for land. When the land owned by the citizens of the relevant jurisdiction has drastically 
+increased in value (going from short-run to long-run), the citizens as the rightful owners might 
+decide to use the land for purposes other than roads or charge the rents from users. The goal of this 
+study is the appropriate inclusion of the rents in the long-run optimal road usage analysis.  
+
+In summary, adding the rents to the unit social cost leads to lower optimal road usage, a higher 
+optimal charge, and a higher social cost. And in some cases, this addition may imply closing roads 
+
+52
+
+Road Supply in Central Londonbecause the costs of providing roads are higher than the benefits of driving (based on the area under 
+a demand function above the equilibrium price). The new social cost includes the unit opportunity 
+cost associated with the rent (not paid by users) as well as private costs (time, fuel costs including 
+taxes, insurance, etc.) and congestion costs, both of which have been typically considered in the 
+previous optimal road usage studies.    
+
+BACKGROUND ON THE LONDON CONGESTION PRICING
+
+The application of the London congestion pricing scheme2 results from a long history of studies over 
+the congestion costs of driving, and an interesting political process. In 1995, the London Congestion 
+Charging Research Program (MVA Consultancy 1995) proposed a £4.00 toll on vehicles entering 
+the central London area. The proposal led to another report in 2000: Review of Charging Options 
+for London (ROCOL 2000). The latter report focused on the central London area and recommended 
+two alternatives for charging: an area licensing scheme based on video camera enforcement and 
+a workplace parking levy. With the election of Ken Livingstone as the Mayor of London in 2000 
+and after an 18-month period of extensive public consultation (as the main factor for the public 
+acceptance  of  the  scheme),  an  area  licensing  congestion  pricing  scheme  was  chosen  for  central 
+London (Leape 2006).
+
+As a result of the decision, since 2003, a daily charge has been imposed for driving or parking 
+a vehicle on roads within central London. A constant charge of £5 (later increased to £8 and then to 
+£10) must be paid for driving or parking within the congestion charging zone between 7:00 am and 
+6:30 pm on weekdays, with some exemptions for motorcycles, licensed taxis, and some alternative 
+fuel vehicles (Litman 2006). Also, a 90% discount to residents and a 12.5% discount to fleets, and 
+various discounts for monthly and annual payments are offered (de Palma and Lindsey 2011). Users 
+can pay the charges at selected retail outlets or payment machines located in the area, by Internet and 
+cellular telephone messaging, any time during the day of usage. Automatic number plate recognition 
+is used to ensure the charges are applied, assigning penalties for the offenders.
+
+The congestion charge zone covers an area of about 22 km2 (8 square miles) in downtown 
+London (more than 1% of the total area of Greater London). The zone includes the financial centre, 
+Parliament and the principal government offices, and the major tourist and entertainment centers 
+(Leape 2006). Although the area is small compared with Greater London, it includes the main areas 
+for the worst congestion. Figure 3 illustrates the London congestion zone.  
+
+Transport for London (TFL Sixth annual report 2008) cites four contributions of the pricing 
+scheme as follows: 1) to reduce congestion; 2) to improve the bus system; 3) to reduce travel time 
+for car users; and 4) to increase the efficiency of goods and services’ distribution. 
+
+The early estimations showed that the charging scheme reduces vehicle miles traveled in the 
+zone by around 15% and increase average speeds by around 20% (Banister 2003). Litman (2006) 
+reported a higher increase of traffic speed (30% higher than prior to charging). Also, he reported that 
+after imposing charges, peak period congestion delays declined about 30%, bus congestion delays 
+declined 50%, bus ridership increased 14%, subway ridership increased about 1%, and taxi travel 
+costs declined significantly (by 20%–40 %) due to reduced delays. 
+
+The effects on externalities other than congestion are also significant. By introducing congestion 
+charging in London, total NOx emissions and PM10 emissions have been reduced by about 12% in 
+the charging zone. In addition to the travel pattern impacts, the charging scheme has important 
+effects on the generalized cost of various users of the London transportation system, which is not 
+limited to car users (Santos and Bhakar 2006). 
+
+53
+
+JTRF Volume 53 No. 1, Spring 2014Figure 3:  A Map of the London Congestion Zone with Extended Areas
+
+Source: Transport for London, 2004.
+
+Transport for London (TFL Fifth annual report 2007) has estimated a gross benefit of ￡200 
+million and a total cost of ￡88 million, resulting in a net annual benefit of ￡112 million. Opposite 
+to what was found by Transport for London, and in a controversial study, Prud’homme and Bocarejo 
+(2005) estimated a negative net benefit for the London congestion pricing scheme   (-€393 thousand 
+per day or -￡75 million per year). There are various factors that led to the different results from the 
+two studies. In the benchmark model section, some of the critiques of the Prud’homme and Bocarejo 
+(2005) study will be discussed.
+
+MODEL FRAMEWORK
+
+Benchmark Model
+
+Prud’homme and Bocarejo (2005) have studied the conventional model of optimal road usage for 
+the London congestion zone. They estimated the unit individual cost, the demand, and the unit social 
+cost functions. Their estimated unit individual cost (I(q)) and unit social cost (S(q)), both in terms 
+of euros per vehicle-km, are functions of road usage q, in terms of thousand vehicle-km per day, as 
+follows:3
+
+(1) 
+
+(2)    
+
+54
+
+Road Supply in Central LondonThe  estimated  individual  cost  function  consists  of  two  parts;  a  fixed  part  representing 
+amortization and fuel cost (0.15 euros/veh-km), and a variable part representing the value of time 
+spent driving one km for each vehicle (20.9/(31.6-0.0124.q)). To estimate the second part, they used 
+20.9 euros/veh-hour for the value of time, and estimated travel time function (speed function) using 
+the free flow speed, and a point based on average speed and road usage in 2002. There are several 
+important questionable assumptions made: 1) the value of time of 20.9, which has been reported 
+low by some studies (Raux 2005; Mackie 2005); 2) the linear speed (travel time) function, which is 
+estimated by using only two points; and 3) fixed fuel costs and some other costs, which should be 
+affected by road usage. 
+
+To determine the demand equation (D(q)), they used two points on the curve based on the data 
+before (2002) and after imposition of the charges (2003). Their estimated demand function is as 
+follows:
+
+(3)  D(q) = 3.54 – 0.00139.q
+
+Figure 4 shows their estimated demand, individual cost, and social cost. The original equilibrium 
+(without imposing any charge), where D(q) and I(q) intersect, is at 1,390 thousand vehicle-km per 
+day, with the unit individual cost of 1.61 euros per vehicle-km. The social optimal point, where 
+S(q) and D(q) intersect, is at 1,055 thousand vehicle-km per day, with an optimal congestion charge 
+of 0.81 euros per vehicle-km (equivalent to a charge of £7.2 per day [Prud’homme and Bocarejo 
+2005]) required to move from the original equilibrium to the social optimal point. Based on the 
+estimation, the charges initially imposed on the congestion zone (£5) capture 90% of the potential 
+benefit of a charge.
+
+Figure 4:  The Optimal Road Usage and Congestion Charge from the 
+ 
+
+Prud’homme and Bocarejo Study
+
+/
+
+m
+k
+-
+h
+e
+v
+s
+o
+r
+u
+e
+s
+t
+s
+o
+c
+ 
+t
+i
+n
+U
+
+ 
+
+4
+
+3
+
+2
+
+1
+
+0
+
+Y: (1390, 1.61)
+X*: (1055,2.09)
+τ =0.81 Euros/km
+DWL=293,000 €/d
+
+D(q)
+I(q)
+S(q)
+
+X*
+τ
+
+Y
+
+0
+
+500
+
+1000
+
+1500
+
+2000
+
+Road usage (q) thousand veh-km/day
+
+Using  this  framework,  Prud’homme  and  Bocarejo  (2005)  showed  that  the  economic  costs 
+associated with the London charging system are larger than the economic gains. The main assumed 
+benefit of the charging system is the reduction in congestion costs while the costs are calculated 
+using  the  operating  and  investment  costs  of  the  system.  Their  conclusion  was  that  the  London 
+congestion charge, although politically and technically successful, seems to be an economic failure. 
+
+55
+
+JTRF Volume 53 No. 1, Spring 2014However, other studies (Raux 2005 and 2006; Mackie 2005) argued that with different parameters 
+(higher value of time, more environmental benefits, more detailed public transportation system), the 
+results could dramatically change. Taking these factors into account, the Prud’homme and Bocarejo 
+model is used in this study as the benchmark model.4
+
+Modified Model
+
+The calculations show that around 10% of the total area of the existing London congestion zone 
+consists of road proper (an area of 2.16 km2), excluding sidewalk space, which allows continued 
+access to the area. The annual rent of the lands in the area is assumed to be 300 euros/m2  (£21.6/ft2).  
+This figure is calculated by converting the present value of different properties to the annual rent, 
+considering the area of each property, and averaging the rents over different properties. Note that 
+the assumed annual rent is relatively low. But, as can be observed in Figure 5, the cost associated 
+with this rent is high relative to the demand curve, and assuming higher levels of rent will result in 
+no intersection of demand and supply curves.  
+
+The annual rent of 300 euros/m2 results in a total rent of 648 million euros per year or 2,541 
+thousand  euros  per  working  day.5  But  one  could  reasonably  argue  that  not  all  roads  should  be 
+considered  in  the  calculation.  Some  roads  are  critical,  for  example,  offering  lifeline  routes  for 
+emergencies;  eliminating  these  roads  may  interfere  with  vital  activities  in  the  area. Although  a 
+counter argument is that people can travel using public transit or even by walking, especially in 
+a city like London with a ubiquitous and largely efficient public transportation system, it is still 
+reasonable that some roads would be necessary. In addition to the private costs, the social costs of 
+closing the critical roads could be much more than other roads. However, calculating these costs is 
+beyond the scope of this study.
+
+Using  a  proxy,  this  study  considers  a  new  concept  called  “substitutable  roads.”  In  order  to 
+disregard the social costs of closing critical roads, the assumption is that only the roads which can 
+be substituted by other roads are considered. It is difficult to estimate the percentage of roads that 
+are practically substitutable. Therefore, different values for this parameter are assumed and applied 
+to the model.
+
+The modified model incorporates the percentage of substitutable roads as a new parameter. 
+Another argument in favor of including a proportion of, not all, the rents in the analysis is that the 
+current fuel taxes cover part of the rents. In addition, the figures for fuel taxes paid are small relative 
+to the rents in central London, given the value of land. So considering a proportion of the rents 
+seems reasonable. 
+ 
+Note that the unit individual cost remains the same as before because the rent is not paid by the 
+users. However, the rent costs are present, and should the rent costs be paid, it would be shared by all 
+users. So the total rent cost should be divided by the road usage (q), and multiplied by the percentage 
+of substitutable roads. The new unit social cost function is as follows:     
+
+(4)  
+
+where Psr is the percentage of substitutable roads.
+
+An  important  consideration  is  that  the  relationship  between  land  rents  and  road  supply  is 
+reciprocal; the land rents also depend on accessibility and, consequently, road usage. In fact, the 
+last term in equation (4) should include another term for road usage (q) in its numerator, reflecting 
+accessibility. This reciprocal relationship should be considered in the optimal road usage analysis. 
+Reducing road supply can reduce land values (rents) because of less accessibility (Clonts 1970; 
+Paulsen  2013),  which  in  turn  reduces  the  optimal  charge  and  increases  the  optimal  road  usage. 
+On the other hand, reducing road supply can increase land values by pedestrianization and traffic 
+calming, which further increases the optimal charge and reduce the optimal road usage. However, 
+56
+
+Road Supply in Central Londonthe relationship can be very complex to determine. Therefore, this more detailed complex analysis 
+has not been considered in this study. 
+
+RESULTS
+
+Assume first that the annual rent is 300 euros/m2, (£21.6/ft2) and 33% of the roads (or road areas) 
+are substitutes, or Psr  = 0.33 (Figure 5-a). This level is equivalent to the rent of 100 euros/m2 for 
+the whole road area. Before going over the results, it should be noted that the assumed values for 
+Psr are based on round equivalent rents per squared meters; for example, 33% is equivalent to 100 
+euros/m2 for all the roadway area. However, the selected values are used to run a sensitivity analysis, 
+represent the limits of the parameter for the analysis, and lack a theoretical background. 
+For this level of Psr , the modified social cost translates into a 40% decrease in the optimal road 
+ 
+usage (see background section), and an 88% increase in the optimal charge, compared with the raw 
+model (developed by Prud’homme and Bocarejo 2005). Now, the formerly applied charge (£5/day) 
+only captures 69% of the social costs (DWL) vs. 90% from the raw model, and the existing charge 
+(£10/day) captures about 97% of the social costs (DWL) even though the optimal charge (£13.5/day) 
+is significantly more than the existing charge. 
+
+Figure 5:  Optimal Congestion Using the Modified Social Cost for Rent of 
+(a) 100 euros/m2-33% Substitute (b) 50 euros/m2-16% Substitute 
+ 
+ 
+(c) 200 euros/m2- 67% Substitute
+
+m
+k
+-
+h
+e
+v
+/
+o
+r
+u
+e
+ 
+ 
+s
+t
+s
+o
+c
+ 
+t
+i
+n
+U
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+(a)
+
+X*=635 (%40   .)
+τ*=1.52 (%88   )
+DWL=890t €/d (%204   )
+
+τ*
+
+D(q)
+I(q)
+S(q)
+S'(q)
+
+0
+
+X*
+
+500
+
+1000
+
+1500
+
+2000
+
+Road usage (q) thousand veh-km/day
+
+(b)
+
+τ*
+
+X*=930 (%12   )
+τ*=1.06 (%31   )
+DWL=472t €/d (%62  )
+
+D(q)
+I(q)
+S(q)
+S'(q)
+
+0
+
+500
+
+X*
+1000
+
+1500
+
+2000
+
+Road usage (q) thousand veh-km/day
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+m
+k
+-
+h
+e
+v
+/
+o
+r
+u
+e
+ 
+ 
+s
+t
+s
+o
+c
+ 
+t
+i
+n
+U
+
+(c)
+
+m
+k
+-
+h
+e
+v
+o
+r
+u
+e
+
+/
+
+ 
+ 
+
+s
+t
+s
+o
+c
+
+ 
+t
+i
+n
+U
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+D(q)
+I(q)
+S(q)
+S'(q)
+
+0
+
+500
+
+1000
+
+1500
+
+2000
+
+Road usage (q) thousand veh-km/day
+
+An important observation is that the rent cost, the difference between Sʹ(q) and S(q), comprises 
+ 
+a substantial part of the total social cost and is even higher than the congestion cost, the difference 
+between S(q) and I(q) for this case, at the optimal road usage point. This fact can further support 
+the hypothesis that the rent cost should be involved in the calculation of social optimal road usage 
+
+57
+
+JTRF Volume 53 No. 1, Spring 2014because of its significant impacts. Another important reason for involving the rent cost is that the 
+rent cost is definitely more than the fuel tax paid by each driver (in Figure 5-a, I(q) is lower than 
+Sʹ(q)-	S(q); fuel tax is only part of the I(q)). This evidence shows that drivers are not fully paying 
+for the rent cost through taxes. Even a large proportion of fuel taxes are used for purposes other than 
+renting or buying the land for driving such as maintenance, and alternative modes. 
+ 
+Assuming only 16% of the roads are substitutable (equivalent to 50 euros/m2 for all area), a 
+significant impact can still be seen: a 12% decrease in the optimal road usage and a 30% increase in 
+the optimal charge, compared with the original model. The initially existing charge captures 80% 
+of the potential benefits of a charge, and the existing charge (£10/day) is higher than the optimal 
+level of charges (Figure 5-b).With the assumption that 35% or more of the roads are substitutes 
+(equivalent to 105 euros/m2 for all the road area), the modified social cost curve no longer intersects 
+with the demand curve (Figure 5-c). With this assumption, low demand roads in the zone should be 
+closed and for which land rents could be made available for other purposes.
+ 
+Table1 reports a number of significant observations for various scenarios. First, the optimal 
+road usage decreases dramatically as a result of the added land rents (down from 1,055 to as much 
+as 635 thousand veh-km) while the change in the individual cost at the optimal point is relatively 
+smaller (from 1.28 to 1.03 euros/veh-km). In fact, the decrease in the optimal road usage has only 
+a small effect on the congestion costs, but significantly affects the social costs associated with the 
+rents. This means that for the optimal level of road usage, most of the social costs are from the rent 
+costs rather than congestion costs; the rent costs can be more significant than congestion costs in an 
+expensive city like London, especially if road usage is being set at its optimal level, not at its actual 
+level.
+
+Table 1: Results of Various Scenarios
+
+Non-modified 
+Social cost
+
+Modified                                 
+16% substitute        
+
+(50 €/m2)
+
+Modified                 
+33% substitute            
+
+(100 €/m2)
+
+930
+
+1.19
+
+2.25
+
+1.28
+
+2.09
+
+1055
+
+ 
+Optimal road usage                  
+(1000 veh km)
+Individual cost at optimal 
+(€/veh-km)
+Social cost at optimal
+(€/veh-km)
+Pre-charge social cost                       
+(€/veh-km)
+Optimal Charge                                  
+(€/veh-km)
+Optimal benefits             
+(1000 €/day)
+Collection costs
+(1000 €/day)
+Net benefits
+(1000 €/day)
+Note: Pre-charge road usage and individual cost are 1390 and 1.16, respectively.
+
+-393
+
+-215
+
+296
+
+689
+
+474
+
+689
+
+3.38
+
+0.81
+
+3.67
+
+1.06
+
+635
+
+1.03
+
+2.65
+
+3.98
+
+1.52
+
+895
+
+689
+
+206
+
+58
+
+Road Supply in Central London 
+Second, modifying the social cost curve increases the optimal charges, as expected. The optimal 
+charge increases from 0.81  to 1.52  euros/veh-km (equivalent to  £7.2/day to £13.5/day). So,  the 
+inclusion of the rents in the analysis results in higher optimal charges. Prud’homme and Bocarejo 
+model’s optimal charges are lower than what was found by TFL (2008). So the existing charge (£10/
+day) should be further increased if the rent is taken into account.   
+
+Third, the increase in optimal charge is substantial, but the increase in optimal benefits from 
+charging (DWL) is even more (from 296 to 895 thousand €/day or from 57 to 172 million £/year).6 
+One of the main findings of the Prud’homme and Bocarejo (2005) study was that the net benefits of 
+any charges to alleviate congestion are negative, which means that, even for the optimal benefits, 
+the economic costs of collecting charges is higher than the benefits. But if the land rents are added 
+to the social cost, this finding can be reversed. 
+
+Table1 shows that for a high share of substitutable roads (33% or 100 euros/m2 for the whole 
+area),  the  net  benefits  become  positive.  So,  instead  of  being  an  economic  failure,  as  found  by 
+Prud’homme  and  Bocarejo  (2005),  the  London  congestion  charge  system  would  be  considered 
+an  economic  success,  especially  if  higher  charges  are  imposed. This  outcome  demonstrates  the 
+importance of taking the rents into account. The net benefits can range from -393 to +206 thousand 
+€/day (-75 to 39 million £/year) based on the levels of Psr. Also, this shows the importance of the 
+share of substitutable roads in the analysis. One important note in Table 1 is that toll collection costs 
+are assumed to be fixed while these costs could be affected by the number of trips (Rouhani et al. 
+2014a). Since the main London scheme’s toll collection costs are sunk capital costs, we ignore the 
+change in toll collection costs. 
+
+CONCLUSION
+
+The opportunity cost of having roads in place is the rents that may be acquired by leasing the road 
+space  itself.  Society  may  gain  more  from  leasing  the  lands  for  other  purposes  than  from  using 
+it for roads, assuming that the charges for rents will be returned to the users or will be used for 
+public finance. For geographic regions where land is valuable, these ignored social costs may have 
+significant consequences on the externalities associated with driving.  
+
+Based on the results of the London congestion zone case study, modifying the social cost by 
+adding  the  rent  of  the  lands  dedicated  to  roads  can  have  significant  impacts  on  the  analysis  of 
+optimal road usage. To summarize the results, the addition of the rent can increase the total social 
+costs by as much as 204%, decrease the optimal road usage by as much as 40%, and increase the 
+optimal charge by as much as 88%. And with the assumption of high values for rent or a high share 
+of substitutable roads, the results suggest that some roads could be closed. 
+
+Also, the inclusion of the rents can substantially increase the benefits from charging. The net 
+benefits from charges in the London congestion zone can change from -393 (found by Prud’homme 
+and Bocarejo (2005)) to +206 thousand euros per day (-75 to 39 million £/year) using a relatively 
+moderate value for the rents. The impact on the cost/benefit analysis demonstrates the importance of 
+taking the rents into account. For high rent values, the rent costs can be even more significant than 
+congestion costs, especially in an expensive city like London. 
+
+The applied model in this study suffers from several limitations. The share of substitutable 
+roads could be extremely important in the optimal road usage analysis. This study employs only a 
+sensitivity analysis for the related parameter, and the selected values lack a theoretical background. 
+Some interesting further research would be developing a method to estimate this parameter. 
+
+The other limitation is that the details about who will get the benefits of selling or leasing the 
+roads are missing in the analysis. A public fund, the residents of the relevant jurisdiction, or the 
+federal government could potentially receive the benefits. The choice of the potential beneficiary 
+could have important ramifications for social welfare analysis (Levinson 2005; Geddes and Nentchev 
+2012; Rouhani et al. 2014b). 
+
+59
+
+JTRF Volume 53 No. 1, Spring 2014 
+Finally, the applied model in this study cannot estimate the costs (and benefits) to the property 
+owners and is unable to capture the benefits (and costs) of the congestion pricing scheme beyond the 
+congestion charge zone. Another interesting future study would estimate the effects of the changes 
+in road capacity and road supply, which can affect the access to different land use functions, on the 
+value of the neighboring land, using a method like Hedonic pricing (Earnhart 2006). The rental 
+value of roads is a function of road supply; the value of land and consequently the rents could fall 
+once the roads are removed. In fact, the relationship between road supply and land rent is reciprocal, 
+and this fact should also be considered in the analysis.
+
+Acknowledgements
+The authors express their special gratitude to anonymous reviewers and the editor of the journal for 
+reviewing the paper, sharing thoughts, and insightful comments on the paper.
+
+Endnotes
+
+1. 
+
+In some European countries, new roads can be completely financed through high fuel taxes 
+paid. So, one can argue that roads are completely financed because fuel taxes are high enough. 
+However, very few new roads are built in old cities with already developed urban environments. 
+As a result, the fuel taxes are not used for developing these cities’ road networks.  
+
+2.  The London’s congestion charging scheme is different from conceptual congestion charging 
+systems in its structure. The London scheme is a zonal scheme that is unable to price the social 
+costs  of  congestion  efficiently.  In  fact,  the  scheme  can  incentivize  more  traveling  once  the 
+charge is paid (opposite to what a congestion pricing system should follow). In spite of the 
+difference, the scheme is called the London congestion pricing.
+
+3.  Considering I(q) as the generalized cost of a trip, the total cost is TC=I(q).q, the marginal social 
+cost of a trip is MSC=dTC/dq=I(q)+ Iʹ(q).q, and the external social cost is MSC-I(q)= Iʹ(q).q. 
+Therefore, the Pigouvian tax is τ = Iʹ(q).q.  
+
+4.  The Prud’homme and Bocarejo model (our model) is a partial equilibrium model. A general 
+equilibrium  model  is  valuable  for  a  comprehensive  analysis  of  the  benefits  and  costs  of 
+congestion pricing schemes, which should include changes outside the limited scope of the 
+partial equilibrium model (such as employment, land values, activities). The changes in these 
+parameters are not considered in this analysis.
+
+5.  To calculate the total annual rent, the annual rate (300 euros/m2 ) is multiplied by the area of 
+the congestion zone (2.16 km2 ). The result will be 648 million euros per year. And dividing the 
+result by 255 working days, the total rent per working day will become 2,541 thousand euros 
+(648 million/255).     
+
+6.  To estimate the optimal benefits, we used the (approximately) triangle BʹCʹA, as shown in Figure 
+2. For example, Psr = 0.16, CʹA = 3.67 (pre-charge social cost) – 1.61 (pre-charge individual 
+cost) = 2.06; and XʹY = 1,390 (pre-charge road usage) – 930 (optimal road usage) = 460. So, the 
+optimal benefits equal 0.5* CʹA* XʹY = 473.8.
+
+60
+
+Road Supply in Central LondonReferences
+
+Banister, David. “Critical Pragmatism and Congestion Charging in London.” International	Social	
+Science	Journal 55, (2003): 249–264.
+
+Cheshire, Paul C. and Christian A.L. Hilber. “Office Space Supply Restrictions in Britain: The Po-
+litical Economy of Market Revenge.” Economic	Journal 118, (2008): F185–F221.
+
+Clonts,  Howard A.  “Influence  of  Urbanization  on  Land  Values  at  the  Urban  Periphery.”  Land	
+Economics 46, (1970): 489-497.
+
+Cornes, Richard. The Theory	of	Externalities,	Public	Goods	and	Club	Goods. Cambridge University 
+Press, New York, 1986.
+
+de Palma, André and Robin Lindsey. “Traffic Congestion Pricing Methodologies and Technologies.” 
+Transportation	Research	Part	C 19, (2011): 1377–1399.
+
+Earnhart, Dietrich. “Using Contingent-Pricing Analysis to Value Open Space and Its Duration at 
+Residential Locations.” Land	Economics 82, (2006):17-35.
+
+Eliasson,  Jonas  and  Lars-Göran  Mattsson.  “Equity  Effects  of  Congestion  Pricing:  Quantitative 
+Methodology and A Case Study for Stockholm.”	Transportation	Research	Part	A 40, (2006): 602–
+620.
+
+Eliasson, Jonas. “Lessons from the Stockholm Congestion Charging Trial.” Transport	Policy 15, 
+(2008): 395–404. 
+
+Eliasson,  Jonas.  “A  Cost–Benefit  Analysis  of  the  Stockholm  Congestion  Charging  System.” 
+Transportation	Research	Part	A 43, (2009): 468–480.
+
+Geddes, Richard and Dimitar Nentchev. “Private Investment and Road Pricing: The Investment 
+Public-Private Partnership.” PERC	Research	Paper 12-16, 2012.
+
+Hamilton, Carl J. “Revisiting the Cost of the Stockholm Congestion Charging System.” Transport	
+Policy 18, (2011): 836–847. 
+
+Leape, Jonathan. “The London Congestion Charge.” The	Journal	of	Economic	Perspectives 20, 
+(2006): 157–176.
+
+Levinson,  David.  “The  Political  Economy  of  Private  Roads.”  Gabriel  Roth,  ed.  Street	 Smart:	
+Competition,	Entrepreneurship,	and	the	Future	of	Roads.	Transaction Publishers (2006): 79-96.
+
+Litman, Todd. London	Congestion	Pricing	Implications	for	Other	Cities. Victoria Transport Policy 
+Institute, 2006.
+
+Mackie, Peter. “The London Congestion Charge: A Tentative Economic Appraisal: A Comment on 
+the Paper by Prud’homme and Bocajero.” Transport	Policy 12, (2005): 288–290.
+
+McDonald, John F., Edmond L. d’Ouville, and Nan Liu Louie Nan Liu. (ed.). Economics	of	Urban	
+Highway	Congestion	and	Pricing. Boston: Springer Vol. 9, Kluwer, (1999).
+
+MVA  Consultancy.  “The  London  Congestion  Charging  Research  Programme:  Final  Report.” 
+London, HMSO, ISBN: 0115517553, 1995.
+
+61
+
+JTRF Volume 53 No. 1, Spring 2014Nash,  Chris,  Batool  Menaz,  and  Bryan  Matthews.  “Inter-urban  Road  Goods  Vehicle  Pricing  in 
+Europe.” Richardson, H. and C. Bae (eds.), Road	Congestion	Pricing	in	Europe:	Implications	for	
+the	United	States. Northampton, MA: Edward Elgar, Cheltenham, UK (2008): 233–251.
+
+Olszewski, Piotr and Litian Xie. “Modelling the Effects of Road Pricing on Traffic in Singapore.” 
+Transportation	Research	Part	A 39 (7), (2005): 755–772.
+
+Paulsen, Kurt. “The Effects of Growth Management on the Spatial Extent of Urban Development, 
+Revisited.” Land	Economics 89, (2013): 193–210.
+
+Pigou, Arthur Cecil. (ed.). The	Economics	of	Welfare. Macmillan and Co., London, 1920.
+
+Prud’homme,  Rémy  and  Juan  Pablo  Bocarejo.  “The  London  Congestion  Charge:  A  Tentative 
+Economic Appraisal.” Transport	Policy 12, (2005): 279–287.
+
+Raux, Charles. “Comments on ‘The London Congestion Charge: A Tentative Economic Appraisal.’ 
+(Prud’homme and Bocajero, 2005).” Transport	Policy 12, (2005): 368–371.
+
+Raux, Charles. “Comments on ‘The London Congestion Charge: A Tentative Economic Appraisal.’ 
+(Prud’homme and Bocajero, 2005).” 2006 report, Available on-line at http://ideas.repec.org/p/hal/
+journl/halshs-00067920.html, accessed March 2011. 
+
+ROCOL [Review of Charging Options for London] Working Group. “Road Charging Options for 
+London: A Technical Assessment.” London, HMSO, 2000. 
+
+Roth, Gabriel Joseph. Paying	for	Roads:	The	Economics	of	Traffic	Congestion.	Penguin Books Ltd., 
+Harmondsworth, 1967.
+
+Rouhani, Omid M. “Road Privatization and Sustainability.” MIT	Journal	of	Planning 9, (2009): 
+82–105.
+
+Rouhani, Omid M. and Debbie Niemeier. “Urban Network Privatization.” Transportation	Research	
+Record:	Journal	of	the	Transportation	Research	Board	2221, (2011): 46–56.
+
+Rouhani, Omid M. Frameworks	for	Public-Private	Partnerships. PhD dissertation, University of 
+California, Davis, 2013.
+
+Rouhani, Omid M., H. Oliver Gao, and Arash Beheshtian. “Social and Private Costs of Driving.” 
+Presentation  at  the  2013  Annual  Conference  of  the  International  Transportation  Economics 
+Association, Northwestern University, Evanston, Illinois, 2013a.
+
+Rouhani,  Omid  M.,  Debbie  Niemeier,  Christopher  R.  Knittel,  and  Kaveh  Madani.  “Integrated 
+Modeling Framework for Leasing Urban Roads: A Case Study of Fresno, California.” Transportation	
+Research	Part	B 48, (2013b): 17–30.
+
+Rouhani,  Omid  M.,  H.  Oliver  Gao,  Richard  Geddes,  and  Hossein  Zarei.  “Policy  Lessons  for 
+Regulating Public-Private Partnership Tolling Schemes in Urban Environments.” Poster presentation 
+in the	2014	Transportation	Research	Board, Washington, D.C., USA, 2014a.
+
+Rouhani, Omid M., H. Oliver Gao, Richard Geddes, Germa Bel, and Hossein Zarei. “Social Welfare 
+Analysis for Alternative Investment Public-Private Partnership Approaches.” Lecture presentation 
+in the	2014	Transportation	Research	Board, Washington, D.C., USA, 2014b.
+
+62
+
+Road Supply in Central LondonSafirova,  Elena,  Kenneth  Gillingham,  Ian  Parry,  Peter  Nelson,  Winston  Harrington,  and  David 
+Mason. “Welfare and Distributional Effects of Road Pricing Schemes for Metropolitan Washington, 
+DC.” Research	in	Transportation	Economics 9, (2004): 179–206.
+
+Santos, Georgina and Jasvinder Bhakar. “The Impact of the London Congestion Charging Scheme 
+on the Generalised Cost of Car Commuters to the City of London from a Value of Travel Time 
+Savings Perspective.” Transport	Policy 13 (1), (2006): 22–33.
+
+Schweitzer, Lisa and Brian D. Taylor. “Just Pricing: The Distributional Effects of Congestion 
+Pricing and Sales Taxes.” Transportation 35, (2008): 797–812.
+
+Shoup, Donald C. The	High	Cost	of	Free	Parking.	Planners Press revised 2011, Chicago, 2005.
+Shoup,  Donald  C.  “The  Ideal  Source  of  Local  Public  Revenue.”	 Regional	 Science	 and	 Urban	
+Economics	34, (2004): 753–784.
+
+Small,  Kenneth  A.  and  Erik  T.  Verhoef.  The	 Economics	 of	 Urban	 Transportation.	 Routledge, 
+London, 2007.
+
+Transport for London. “Central London Congestion Charging: Impacts Monitoring.” Fifth	Annual	
+Report, 2007, July 2007, Available on-line at
+
+http://www.tfl.gov.uk/assets/downloads/fifth-annual-impacts-monitoring-report-2007-07-07.pdf , 
+accessed September 2011.
+
+Transport for London. “Central London Congestion Charging - Impacts Monitoring.” Second	Annual	
+Report,  2004,  April  2004,  Available  on-line  at  http://www.tfl.gov.uk/cdn/static/cms/documents/
+impacts-monitoring-report-2.pdf, accessed April 2014.
+
+Transport for London. “Central London Congestion Charging - Impacts Monitoring.”	Sixth	Annual	
+Report, 2008, July 2008, Available on-line at http://www.tfl.gov.uk/assets/downloads/sixth-annual-
+impacts-monitoring-report-2008-07.pdf, accessed September 2011.
+
+Transport for London (TFL) website.  Available on-line at www.tfl.gov.uk/ accessed June 2012.
+
+Verhoef, Erik T. and Herbert Mohring. “Self-Financing Roads.” International	Journal	of	Sustainable 
+Transportation 3, (2009): 293–311.
+
+Vickrey, William S. “Pricing in Urban and Suburban Transport.” American	Economic	Review 52, 
+(1963): 452-465.
+
+Walters, Alan A. “The Theory and Measurement of Private and Social Cost of Highway Congestion.” 
+Econometrica 29, (1961): 676–699.
+
+Xie,  Litian  and  Piotr  Olszewski.  “Modelling  the  Effects  of  Road  Pricing  on Traffic  Using  ERP 
+Traffic Data.” Transportation	Research	Part	A 45, (2011): 512-522.
+
+Yang, Hai and Hai-Jun Huang. “Principle of Marginal-Cost Pricing: How Does It Work in a General 
+Road Network?” Transportation	Research	Part	A 32, (1998): 45-54.
+
+Youn,  Hyejin,  Michael  T.  Gastner,  and  Hawoong  Jeong.  “Price  of  Anarchy  in  Transportation 
+Networks: Efficiency and Optimality Control.” Physical	Review	Letters 101 (12), (2008) 128701. 
+Available on-line at http://link.aps.org/doi/10.1103/PhysRevLett.101.128701, accessed September 
+2011.
+
+63
+
+JTRF Volume 53 No. 1, Spring 2014Omid M. Rouhani	is	a	postdoctoral	research	associate	at	Cornell	University,	where	he	works	on	
+policy	options	to	improve	New	York	City’s	transportation	system.	Omid’s	research	focuses	on	the	
+application	 of	 systems	 analysis,	 economics,	 optimization,	 simulation,	 and	 modeling	 methods	 to	
+transportation	problems	at	different	scales.	His	academic	articles	have	appeared	in	the Journal of 
+Transportation Research Part B, Environmental Modeling and Software, Energies, the European 
+Journal of Operational Research, Transportation Research Record,	and	many	other	journals.	
+
+Christopher  Knittel	 is	 the	 William	 Barton	 Rogers	 Professor	 of	 Energy	 Economics	 in	 the	 Sloan	
+School	of	Management	and	the	director	of	the	Center	for	Energy	and	Environmental	Policy	Research	
+at	the	Massachusetts	Institute	of	Technology.	He	joined	the	faculty	at	MIT	in	2011,	having	taught	
+previously	at	UC	Davis	and	Boston	University.	His	research	focuses	on	environmental	economics,	
+industrial	organization,	and	applied	econometrics.	He	is	a	research	associate	at	the	National	Bureau	
+of	Economic	Research	in	the	Productivity,	Industrial	Organization,	and	Energy	and	Environmental	
+Economics	groups.	Professor	Knittel	is	an	associate	editor	of	The Journal of Industrial Economics, 
+Journal  of  Transportation  Economics  and  Policy,  and  Journal  of  Energy  Markets.	 His	 research	
+has	appeared	in	The American Economic Review, The American Economic Journal, The Review 
+of Economics and Statistics, The Journal of Industrial Economics, The Energy Journal	and	other	
+academic	journals.
+
+Deb  Niemeier	 is	 a	 professor	 in	 the	 Department	 of	 Civil	 and	 Environmental	 Engineering	 at	 the	
+University	of	California,	Davis.	Her	research	interests	focus	on	sustainability,	climate	change,	the	
+complex	interactions	between	policy,	energy	use	and	land	use,	and	productivity	and	innovation	in	
+public	agencies. 
+
+64
+
+Road Supply in Central London

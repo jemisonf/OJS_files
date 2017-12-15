@@ -1,0 +1,104 @@
+Contributing Circumstances Impact on Missouri 
+Teenage Driver Crash Fatalities
+
+by Jill M. Bernard and Donald C. Sweeney II
+
+Missouri  data  from  2002-2011  are  used  to  analyze  the  major  circumstances  that  increase  the 
+risk  of  fatality  in  crashes  involving  teenage  drivers,  given  a  motor  vehicle  crash  occurs.    The 
+frequencies of contributing circumstances among teenage and older drivers are compared and a 
+multinomial  logistic  regression  model  is  used  to  predict  the  probability  of  crash  severity  under 
+different circumstances.  For crashes involving teenage drivers, it is found that driving too fast for 
+conditions, speeding, inattention, and driving on the wrong side are the most frequent circumstances 
+cited in fatal crashes, and are major factors that increase the likelihood of a fatality occurring.
+
+INTRODUCTION 
+
+Motor vehicle traffic crashes are the leading cause of death for United States teenagers (Miniño 
+2010),  accounting  for  the  loss  of  over  2,800  teen  lives  in  2012  alone  (Insurance  Institute  for 
+Highway Safety 2014).  It has been found that teenagers often lack adequate driving skills and 
+exhibit poor driving judgment (University of Michigan Transportation Research Institute 2002), 
+and teenage drivers are more likely than older drivers to exhibit reckless and risky behavior: i.e., 
+drive at excessive speeds, violate traffic signals, follow too closely, overtake other vehicles in a risky 
+manner, allow too little time to merge, and fail to yield to pedestrians (Williams 2003).  Accordingly, 
+much research has examined the effect of specific factors on teenage driver fatalities and focused 
+upon preventive measures to enhance teenage driver safety.
+
+Graduated  Drivers  Licensing  (GDL)  programs  have  been  shown  to  enhance  teenage  driver 
+safety and significantly reduce the rate of teenage driver fatalities.  Yet, it has been claimed that 
+“reductions  in  fatal  crashes  were  greatest  in  states  that  had  enacted  other  restrictions  on  young 
+drivers”  (U.S.  Department  of  Health  and  Human  Services,  National  Institute  of  Health  2011).  
+As a result, the purpose of this study is to analyze circumstances that may contribute to Missouri 
+teenage  driver  fatalities  and  to  produce  information  relevant  for  the  enhancement  of  Missouri’s 
+GDL program.  The analysis compares the frequency of contributing circumstances occurrences 
+leading to fatal crashes of drivers 16 to 19 years old and older drivers, determines the probability of 
+a fatal crash for teenage drivers given a contributing circumstance or combination of contributing 
+circumstances, as well as explores the impact of contributing circumstances in combination with 
+varying speed limits and environmental factors, (road surface, road alignment, road profile, road 
+conditions, weather condition, light conditions) while controlling for the crash location (on or off 
+the roadway) and number of occupants.  The paper concludes with findings that will be useful for 
+legislation and education to aid in diminishing crash injury severity for teenage drivers.  
+
+LITERATURE REVIEW  
+
+In order to protect U.S. teenage and other drivers, all 50 states and the District of Columbia have 
+imposed GDL restrictions on drivers under the age of 21.  GDL programs are designed to delay full 
+licensure and phase in driving privileges (National Highway Traffic Safety Administration n.d.) 
+with the intent to “encourage new drivers to acquire critical driving skills and experience in low-
+risk and monitored settings” (Dee et al. 2005).  In a three-staged GDL program, new drivers begin 
+
+5
+
+JTRF Volume 54 No. 1, Spring 2015in  an  instructional,  supervised  practice  phase,  proceed  to  a  provisional  license  that  temporarily 
+restricts unsupervised driving, and then graduate to an under 21 full driver’s license (Williams 2003, 
+Mayhew et al. 1998).  Requirements for progressing through GDL’s three stages (learner’s permit, 
+provisional licensure, and full licensure) vary across jurisdictions (Insurance Institute for Highway 
+Safety, Highway Loss Data Institute 2011), but typically include adult supervision, restriction on 
+nighttime driving, and limitations on transportation of young passengers (University of Michigan 
+Transportation Research Institute 2002).
+
+Many studies have been conducted to determine if these GDL policies are effective in reducing 
+teenage crashes.  Foss et al. (2001) assessed crash rates before and after North Carolina’s GDL 
+program  implementation,  and  discovered  that  crash  rates  declined  sharply  among  16-year-old 
+drivers. Likewise, Shope and Molnar (2004) evaluated the effectiveness of Michigan’s GDL program 
+by assessing the difference between motor-vehicle crash data for 16-year-old drivers pre-GDL and 
+post-GDL. Results indicated that risk reduction for crash injury severity for all fatal and non-fatal 
+injuries were substantial and impressive, and it was claimed that the “GDL remains promising.”  
+Fohr  et  al.  (2005)  considered  the  implementation  of Wisconsin’s  GDL,  and  discovered  that  for 
+16- and 17-year-olds both general and injury crash rates declined. The authors claimed that the 
+decline was the result not of safer driving of teens, but rather due to reduced exposure to the risk of 
+collision. Rios et al. (2006) developed a generalized linear model to assess the impact of Georgia’s 
+Teenage and Adult Drivers Responsibility Act (TADRA) on the reduction of teenage driver fatalities. 
+Findings indicated that speed-related teenage fatal crashes and alcohol-related teenage fatal crashes 
+significantly decreased after the TADRA was enacted.  Additionally, Hyde et al. (2005) assessed 
+if crash rates of 16-year-old drivers decreased after implementation of Utah’s GDL by examining 
+overall crash rates, crash severity indicators, nighttime crashes, licensure status, seat belt usage, 
+and citations. Using an interventional time series analysis, findings implied that the GDL program 
+may have contributed to minimal reduction in teenage driver crashes, compared with other GDL 
+evaluations. Ehsani et al. (2013) also used a time-series analysis to assess the impact of GDL on 
+crash injury severity of 16-, 17- and 18-year-old drivers in Maryland, Florida, and Michigan.  Results 
+suggested  that crash  rates  for  drivers  16  and  17  years  old  declined in  all  three states  following 
+GDL implementation or revision, while crash rates for possible injury/property damage only for 
+18-year-old drivers decreased in Maryland, increased in Michigan, and did not significantly change 
+in Florida following GDL implementation or revision. Other recent studies have focused on the 
+impact of contributing circumstances on crash injury severity for young people. Amarasingha and 
+Dissanayake (2013) developed a multinomial model to examine the impact of contributory factors 
+on crash severity for young drivers involved in crashes in Kansas. Findings suggested that failure 
+to give time/attention, failure to yield, driving too fast for conditions, falling asleep, following too 
+closely, and distraction/inattention increased the crash risk for young drivers, and such findings 
+can be useful in teen driving safety efforts.  Similar to Amarasingha and Dissanayake (2013) and 
+Ehsani et al. (2013), this study estimates the impact of contributing circumstances on crash injury 
+severity for young drivers and considers the impact of these factors on the GDL policy. Yet, unlike 
+the reviewed literature, this study concentrates specifically on the state of Missouri and explores 
+possible scenarios to aid in enhancing Missouri teenage licensing policy.   
+
+Missouri Graduated Drivers Licensing Program 
+
+The Missouri GDL program was enacted as part of Senate Bill (SB) 19 passed in the 1999 legislative 
+session,  and  put  into  effect  January  1,  2001.  The  legislation  requires  that  all  first-time  drivers 
+between the ages of 15 and 18 years old complete a period of driving with a licensed driver followed 
+by a period of restricted driving before graduating to an under 21 full driver’s license (Missouri 
+Department of Revenue 2014).
+
+6
+
+Missouri Teenage Driver Crash Fatalities

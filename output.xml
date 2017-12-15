@@ -1,1 +1,48 @@
-<section><title locale="en_US">Rail Competition Changes Since the Staggers Act</title><abstract locale="en_US" /><author><firstname>Marvin</firstname><lastname>Prater</lastname><middlename>E.</middlename><email /></author><author><firstname>Ken</firstname><lastname>Casavant</lastname><middlename /><email /></author><author><firstname>Eric</firstname><lastname>Jessup</lastname><middlename /><email /></author><author><firstname>Bruce</firstname><lastname>Blanton</lastname><middlename /><email /></author><author><firstname>Pierre</firstname><lastname>Bahizi</lastname><middlename /><email /></author><author><firstname>Daniel</firstname><lastname>Nibarger</lastname><middlename /><email /></author><author><firstname>Isaac</firstname><lastname>Weingram</lastname><middlename /><email /></author><date_published /><galley locale="en_US" /></section>
+<section>
+  <title locale="en_US">Rail Competition Changes Since the Staggers Act</title>
+  <abstract locale="en_US"></abstract>
+  <author>
+    <firstname>Marvin</firstname>
+    <lastname>Prater</lastname>
+    <middlename>E.</middlename>
+    <email></email>
+  </author>
+  <author>
+    <firstname>Ken</firstname>
+    <lastname>Casavant</lastname>
+    <middlename></middlename>
+    <email></email>
+  </author>
+  <author>
+    <firstname>Eric</firstname>
+    <lastname>Jessup</lastname>
+    <middlename></middlename>
+    <email></email>
+  </author>
+  <author>
+    <firstname>Bruce</firstname>
+    <lastname>Blanton</lastname>
+    <middlename></middlename>
+    <email></email>
+  </author>
+  <author>
+    <firstname>Pierre</firstname>
+    <lastname>Bahizi</lastname>
+    <middlename></middlename>
+    <email></email>
+  </author>
+  <author>
+    <firstname>Daniel</firstname>
+    <lastname>Nibarger</lastname>
+    <middlename></middlename>
+    <email></email>
+  </author>
+  <author>
+    <firstname>Isaac</firstname>
+    <lastname>Weingram</lastname>
+    <middlename></middlename>
+    <email></email>
+  </author>
+  <date_published></date_published>
+  <galley locale="en_US"/>
+</section>

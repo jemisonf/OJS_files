@@ -1,0 +1,1057 @@
+Specifying and Estimating a Regional Agricultural 
+Railroad Demand Model
+by Michael W. Babcock and Philip G. Gayle
+
+In	recent	years	there	have	been	few	railroad	demand	studies.	Also,	no	study	has	investigated	the	
+possibility	of	regional	differences	in	railroad	demand.	The	objective	of	the	paper	is	to	estimate	
+railroad	demand	functions	for	wheat,	corn,	sorghum,	and	soybeans	for	the	United	States	as	well	as	
+the	east	and	west	regions.	A	two-region	spatial	equilibrium	model	is	employed	to	specify	the	empirical	
+model	 in	 which	 railroad	 tons	 originated	 is	 the	 dependent	 variable.	 The	 explanatory	 variables	
+include	railroad	price	per	ton,	crop	production,	and	barge	price	per	ton.	The	theoretically	expected	
+sign	is	negative	for	rail	price.	Alternatively,	the	expected	sign	is	positive	for	crop	production	and	
+barge	rate.	Results	include	estimates	of	railroad	own-price	elasticities	and	cross	price	elasticities	
+relative	to	barge	transport.	The	estimates	also	reveal	regional	differences	in	railroad	grain	demand.
+
+INTRODUCTION
+
+The  last  three  decades  have  witnessed  tremendous  change  in  the  U.S.  rail  freight  industry. The 
+Staggers Rail Act of 1980 led to major restructuring of the industry. The act gave railroads the ability 
+to set any rate between variable cost and 80% above variable cost, without regulatory review.  The 
+act prohibited railroads from discussing local rates in rate bureaus establishing the conditions for 
+intrarailroad price competition. Railroads were given the ability to enter into rail/shipper contracts 
+that contributed to increases in rail market shares. The Staggers Act accelerated the decision process 
+for abandonment and merger decisions to promote railroad cost reductions.
+ 
+In 1980 there were 40 Class I railroads, which has declined to seven in 2011. Thus there have 
+been numerous consolidations and mergers that have restructured the industry. Both shippers and 
+railroads  benefit  from  end-to-end  mergers  (mergers  of  railroads  that  previously  served  different 
+territories).  Shippers  experience  reduced  inventory  and  stockout  costs  due  to  reduced  transit 
+times as the merged railroad is able to ship commodities over longer distances without having to 
+interchange freight with other railroads.  Shippers also benefit from direct access to more markets 
+and fewer record-keeping costs. Railroads benefit from end-to-end mergers by gaining access to a 
+larger territory, fostering more differential pricing opportunities. Railroads also reduce costs as a 
+result of the economies of scale resulting from a merger.
+  Miles of track owned by Class I railroads fell from 270,623 miles in 1980 to 161,926 miles in 
+2010, a 40.2% decline (AAR 2011).  Some of the 108,697 miles of track were abandoned, but a 
+large share of these lines were sold to Class II (regional railroads) and Class III (local railroads). The 
+Association of American Railroads (2011) defines regional railroads as line-haul railroads below 
+the Class I revenue threshold ($398.7 million in 2011) operating at least 350 miles of road and/or 
+earning annual revenue between $40 million and the Class I revenue threshold.  Local railroads are 
+line-haul railroads below the regional criteria, and switching and terminal railroads. The number of 
+regional railroads fell from 27 in 1987 to 21 in 2010 (a 22% decrease) while the number of local 
+railroads rose from 457 (1987) to 537 (2010), a 17.5% increase (ASLRRA 2012). Thus the total 
+number of Class II and III railroads increased from 484 (1987) to 558 (2010) a gain of 15.3%. In 
+2010, regional and local railroads accounted for 31% of U.S. track miles and 10.3% of U.S. rail 
+industry employment (AAR 2011).
+ 
+The  U.S.  freight  railroad  industry  has  achieved  tremendous  advances  in  labor  productivity.  
+Freight revenue ton miles per employee rose from 2.1 million in 1980 to 11.2 million in 2010, a 
+
+35
+
+JTRF Volume 53 No. 1, Spring 2014433% gain (AAR 2011).  Freight revenue ton-miles per employee hour increased from 863 in 1980 
+to 4505 in 2010, a 422% increase (AAR 2011).1
+ 
+The productivity gains have contributed to improved financial condition of the Class I railroad 
+industry. Net railway operating income rose from $1,338.6 million in 1980 to $9,959.2 million in 
+2010, a 644% increase (AAR 2011).  The rate of return on net investment rose from 4.22% in 1980 
+to 10.36% in 2010, while the rate of return on shareholders’ equity increased from 6.01% (1980) to 
+11.23% (2010) (AAR 2011).
+ 
+The objective of the paper is to examine the demand for railroad grain transportation over this 
+period of change to obtain own price and cross price elasticities, and to determine if rail demand 
+differs between east and west regions, which has rarely been investigated.  Major grain crops (wheat, 
+corn, sorghum, and soybeans) are a good case study commodity for railroad demand because of the 
+large  gains  in  railroad  tonnage.  Collectively,  farm  products  accounted  for  8.6%  of  total  Class  I 
+railroad tons originated in 2010, which was only exceeded by chemicals and coal (AAR 2011).2  
+Between 1970 and 2011, total railroad tons originated of the four above named crops collectively 
+increased by 48.3%, with most of the gains occurring in corn and soybeans (AAR 2012).
+ 
+The  measurement  of  railroad  grain  transportation  demand  is  important  to  railroads,  grain 
+exporters, grain marketing companies, and barge operators. Railroads need grain demand model 
+forecasts as an input to equipment planning and staffing decisions. Price elasticities obtained from 
+the demand models can indicate which markets offer the best opportunities for increased revenue 
+as a result of specific price changes. Cross price elasticities with respect to barge prices reveal the 
+impact on railroad demand of competitive price changes instituted by water carriers. Grain exporters 
+and grain marketing companies could use information from railroad grain demand models as an 
+input to their logistics system planning. Barge operators need to know railroad grain demand to 
+formulate competitive strategy.
+
+LITERATURE REVIEW
+
+Miklius,  Casavant,  and  Garrod  (1976)  apply  a  logit  model  to  estimate  the  price  elasticities  and 
+cross  elasticities  for  freight  transport  service.  The  model  is  applied  to  a  sample  of  cherry  and 
+apple shipments. The cherry shipments are from Washington, Oregon, and Montana, and the apple 
+shipments originated in Washington. The authors selected cherries because of their high perishability.  
+Thus,  quality  of  service  would  be  expected  to  be  a  major  factor  in  mode  selection. Apples  are 
+storable for longer time periods; thus, modal selection would be expected to be responsive to modal 
+rate differences.
+
+The authors specify a binary choice model where the shipper choice is a function of rail and 
+truck rates, transit times, and transit time dependabilities. Elasticities for own-price and cross price 
+elasticities are calculated for both rail and truck. Most of the coefficients of both the cherry and 
+apple models have the theoretically expected sign and are statistically significant.
+
+The authors found that in the cherry model the demand for both rail and truck service was 
+relatively elastic, not only for its own price and transit time but also with respect to those of the 
+competing mode. For cherries, the choice of transport mode was much more sensitive to transit time 
+than rates.
+
+The authors concluded the results for the apple model were less satisfactory than the cherry 
+model. The apple model had an unexpected sign for rail transit time, and the coefficient for truck 
+transit time was statistically insignificant.
+
+Oum (1979) formulated a demand model for intercity freight transport as an intermediate input 
+to the production and distribution sectors of the economy, and to estimate the price elasticities and 
+the elasticities of substitution between the major freight modes (rail, truck, and water).
+
+36
+
+Railroad Demand ModelThe  author  used  a  twice  continuously  differentiable  production  function  relating  the  gross 
+output to capital, labor, and freight transport. The data are from the Canadian economy 1945-1974 
+and were transformed using a price index for each mode to calculate the revenue per ton mile.
+
+The author found that the demand for railway freight services is only slightly responsive to 
+the change in railway freight rates; but the own-price elasticity has been increasing in absolute 
+value  over  time. Also,  railway  and  motor  carriers  exhibited  a  complementary  relationship  until 
+1955 when they started competing heavily with one another. There is also a highly competitive 
+relationship between rail and water carriers that can be seen throughout all years of data, but it has 
+been decreasing slightly over time.
+
+Friedlaender  and  Spady  (1980)  analyzed  the  demand  for  freight  transportation  with  freight 
+being a productive input in the firm that should be treated like any other input, and the full costs of 
+transportation should include inventory costs as well as shipping and storage. The authors derive 
+an explicit freight demand equation from a general cost function recognizing the interrelationship 
+between  rates  and  inventory  cost  through  shipment  characteristics.  The  demand  equation  was 
+generated from a cost function that uses labor, capital, materials and energy, rail transportation, and 
+truck transportation to produce an aggregate output.
+
+The authors find that commodities such as iron and steel products, electrical machinery, and 
+food  appear  to  have  an  elastic  demand.  By  region,  the  demand  for  rail  service  in  the  southern 
+region appeared to be elastic. The cross price elasticities between rail and truck service were low in 
+absolute value across all goods in all areas, suggesting a large amount of independence between the 
+two modes.  The authors note that this was reasonable since most of the data for trucks they used 
+were for LTL shipments, which are not a strong competitor for rail service.
+
+Winston (1981) noted that previous work in freight transportation has focused on the aggregate 
+approach  without  considering  the  underlying  behavior  of  the  firms  responsible  for  actually 
+making the mode-choice decision.  The author examined these choices as they apply to intermodal 
+competition. This was done by developing a random expected utility model that was suitable for 
+econometric analysis comparing both regulated and unregulated motor freight and rail.
+
+The  author  made  expected  utility  a  function  of  modal  attributes,  and  commodity  and  firm 
+characteristics that were divided into two different elements: observed and unobserved parts. This 
+was further disaggregated into the observed part and a stochastic term representative of a random 
+parameter, modal attributes, and an independent identically distributed disturbance.
+
+It  was  found  that  the  commodity  groups  most  sensitive  to  service  quality  are  perishable 
+products or inputs to perishable products.  Conversely, the commodity groups that are least sensitive 
+to service quality are neither perishable nor likely to have storage problems such as high storage 
+costs or unstable demand. Generally, freight charges and location had the most explanatory power, 
+with tangible shipping costs tending to play a dominant role in mode choice decisions.
+
+Babcock and German (1982) forecast national and regional rail demand for selected agricultural 
+commodities  including  wheat,  corn,  sorghum,  and  soybeans.  The  forecasting  models  are  single 
+equation regression employing annual data from the 1958-1980 period. Each model is estimated for 
+the United States and for the east, south, and west regions.
+
+The dependent variable for each of the crop models was rail tons originated of the commodity.  
+Independent variables for each model included crop production, crop exports, and a time trend. The 
+corn model also had cattle on feed in addition to the above mentioned variables. The soybean model 
+also contained the barge share of combined rail and barge tonnage.
+
+The  empirical  results  of  the  model  were  good  with  high  R2s  and  no  autocorrelation.  The 
+exception was the soybean equations, which had significant autocorrelation and was corrected using 
+the Cochrane-Orcult method. The explanatory variables generally had the theoretically expected 
+sign and are highly significant.
+
+The authors obtained 1985 forecast values for each of the explanatory variables to forecast 1985 
+
+railroad crop demand.
+
+37
+
+JTRF Volume 53 No. 1, Spring 2014Babcock  and  German  (1983)  forecasted  1985  railroad  market  shares  for  12  intercity 
+manufactured goods freight markets. The authors noted that the railroad share of these markets 
+declined in the 1955-1980 period while the truck share rose. One of the principal objectives of the 
+Staggers Rail Act of 1980 was to arrest the decline of rail market shares. Whether this would occur 
+was the primary question addressed by this paper.
+
+The authors employed a model in which railroad market share (measured by ratio of a rail 
+tonnage index to an index of industrial production) is made a function of the ratio of the rail rate 
+to the truck rate, the prime interest rate, and the ratio of truck service to rail service.  Truck service 
+was measured by interstate highway miles as a percent of total highway miles.  Rail service was 
+measured by an index of average daily freight car miles. The authors found the potential forecast 
+performance of the estimated rail share equations to be excellent.
+
+The authors also found that rail market shares would continue to decline in about half of the 12 
+markets if truck service improved relative to rail service.  If the decline in rail service relative to truck 
+service was arrested, railroad market shares increased in all 12 markets. The principal conclusion 
+of the paper was that the secular decline of railroads was ending in most transport markets by the 
+middle 1980s.
+
+The purpose of the Wilson, Wilson, and Koo (1988) paper is to analyze the market for transport 
+services and the behavior of modal rates, and to identify critical parameters affecting rail market 
+power they estimate modal demand and supply functions from time series data.
+
+The theoretical model is a dominant firm (the railroad) price leadership model with differentiated 
+services. Price-taking motor carriers form the competitive fringe.  Thus, the transport market consists 
+of two highly interdependent submarkets, one for rail and the other for trucks. They form demand 
+functions in which truck and rail demand are functions of truck and rail price. The rail decision 
+process includes some conjecture on the market response of trucks. Thus, the rail demand includes 
+the rail price and the competitive price response of trucks.
+
+In the empirical model, a recursive system is specified with two blocks. One describes rail 
+pricing and the other a system of structural equations and equilibrium conditions.  The second block 
+includes structural equations for intermodal competition and simultaneously determines equilibrium 
+values of modal outputs and truck rates. The rail demand function is QRDt = f(PRt, PTt, Ct, Ut) where 
+QRD is rail shipments, PT is truck rates, PR is rail rates, C is an index of railcar availability (reflects 
+service quality), and U is a dummy variable equal to 1.0 after multi-car shipments were introduced.  
+Truck demand is a function of the same variables.
+
+The equation was estimated for wheat from North Dakota to Minneapolis and Duluth from 
+1973 to 1983 in monthly frequency. All the explanatory variables had the theoretically expected 
+sign and were statistically significant.  The equation had a good fit and there was no autocorrelation.
+The  authors  found  that  in  the  pre-Staggers  period,  the  rail  own-price  elasticity  of  demand 
+was -1.18 and the cross price elasticity was 2.30.  In the post-Staggers period, the corresponding 
+elasticities  were  -1.46  and  2.54.  Own-price  elasticities  for  truck  were  -0.73  in  the  pre-Staggers 
+period and the cross price elasticity was 0.70. In the post-Staggers period, the corresponding figures 
+were -13.4 and 8.29.
+
+Yu  and  Fuller  (2005)  estimated  the  structural  demand  for  grain  barge  transportation  on  the 
+upper Mississippi River. They specified a model in which the dependent variable is the quantity of 
+barge grain service. The independent variables included grain barge rate, grain exports, the domestic 
+grain demand and supply, a rate proxy for the price of other modes, weather and seasonal dummy 
+variables, and the quantity of barge grain service, lagged one period.
+
+The authors estimated the equation in OLS and 2SLS. In the OLS estimates, the barge rate 
+had the expected negative sign and was statistically significant. Grain exports had the expected 
+positive sign and were significant. Neither the domestic grain demand nor supply was significant.  
+The same was true for rail rates to the PNW from Minnesota and ocean freight rates. However, the 
+rail rate from Minnesota to upper Mississippi River elevators had the expected negative sign and 
+
+38
+
+Railroad Demand Modelwas statistically significant. The weather and seasonal dummies had the expected sign and were 
+significant.
+
+The 2SLS estimates of the coefficients were worse than OLS. The barge rate elasticity increased 
+but was more non-significant. Grain exports continued to be significant, but the regional grain stock 
+variable as well as total domestic corn consumption were not significant. The rates for other transport 
+modes were also non-significant. Thus grain exports, winter season, and the flood dummy are the 
+only unlagged statistically significant variables influencing barge demand.
+
+The  authors  concluded  that  the  short-run  own-price  elasticity  is  -0.479  while  the  long-run 
+elasticity is -1.015. In summary, the authors found that barge demand on the upper Mississippi is 
+influenced by barge rates, grain exports, the rail rate for Minnesota-originated grain shipped on the 
+Mississippi River, winter season, and floods.
+
+Train and Wilson (2007) focus on the access that shippers have to transportation markets.  They 
+estimate  a  discrete  choice  model  framed  around  the  access  shippers  have  to  transport  markets, 
+and they use the model to aggregate shipment decisions to provide spatially generated transport 
+demands. The choice model results are combined with models of access cost (truck rates) over 
+distance and aggregated to form demand functions.
+
+In applying the model, two alternatives (barge or rail) for each shipper are used.  The connection 
+to barge and/or rail facilities is treated as an access cost. The shipper selects the alternative that 
+maximizes profits, which are a function of barge and rail rates, access costs (measured by truck 
+costs), and railcar loading capacity (number of railcars that can be placed on the shippers’ siding).  
+The model is estimated with a logit specification and the method of maximum likelihood.
+
+The estimated model has a good fit, and the variables have the theoretically expected sign and 
+are statistically significant. The results are that as the rate for barge or rail rises, profits of using the 
+higher cost mode decline. Also, as the cost of trucking to a barge or rail terminal rise, profits fall, and 
+the probability of using barge or rail falls. Profits for shippers that have greater car loading capacities 
+have higher profits from rail relative to barge.
+
+For an excellent discussion of the types of freight demand models as well as empirical findings 
+
+and public policy applications see Small and Winston (1999).
+
+THEORETICAL MODEL
+
+As indicated by Train and Wilson (2007), the demand for freight transportation has historically taken 
+two alternative approaches. Early studies modeled aggregate demands using aggregate data across 
+locations and commodities. More recently, emphasis has shifted to modeling transport demands at a 
+disaggregate level where transport demands are modeled at a shipment level using choice methods.  
+We use an alternative approach developed by Yu and Fuller (2005).
+
+Theory of Transport Demand
+
+The demand for agricultural grain rail service is a derived demand. Therefore, factors that shift 
+grain  supply  and  demand  in  production  regions  and  export  demand  will  shift  the  demand  for 
+rail transportation (Boyer 1997). A two-region spatial equilibrium model is used to illustrate the 
+theoretical foundation of grain railroad demand.
+
+Panel A depicts the supply (Sx ) and demand (Dx ) of grain in production regions, while Panel 
+C represents the rest of the world’s (ROW) demand (Dm ) and supply (Sm ) for grain as reflected 
+at U.S. export ports.  Panel B is the trade panel, which includes the excess grain supply of grain 
+production regions (ESx = Sx - Dx ) and the excess demand of the ROW that buy grain at U.S. 
+export  ports  (EDm  =  Dm  -  Sm ).    The  intersection  of  excess  supply  (ESx)  and  excess  demand 
+(EDm ) determines the equilibrium price and quantity of grain traded between production regions 
+and export ports if no transportation costs were required to link the production regions to the ports. 
+
+39
+
+JTRF Volume 53 No. 1, Spring 2014Of course, transportation costs are very important in the marketing of grain. The derived demand 
+for grain transportation and the supply of grain transportation service are depicted in Panel D.  The 
+derived transportation demand is equal to the vertical distance between the excess supply (ESx ) and 
+the excess demand (EDm ) in Panel B.  Also in Panel D is the supply of transportation service linking 
+grain production regions with export ports. In 2010, railroads transported 68% of the combined 
+railroad and barge tonnage of corn, wheat, and soybeans (AAR 2010). Thus, it is reasonable to 
+assume that the supply is an approximation of the railcar fleet operating on the U.S. railroad system 
+and the barge fleet operating on the inland waterways.  The intersection of derived transport demand 
+and supply determines the transportation rate (Pt ) linking grain production regions to export ports.  
+The corresponding grain prices are Px in Panel A for the grain production regions, and Pm in Panel 
+B for ports, where grain prices in the two regions (Px and Pm ) differ by the transport rate (Pt ) that 
+links the two areas.
+
+Figure 1: Two-Region Spatial Equilibrium Model and Derived Transportation Market
+
+Any variable that shifts the regional supply (Sx ) and demand (Dx ) of grain in the production 
+regions will also shift the excess supply (ESx) and the derived transport demand. Similarly, any 
+variable that shifts the ROW excess grain demand and supply will alter the derived demand for rail 
+transport. We use actual grain production, which embodies the demand (both domestic and foreign) 
+and supply shifting factors in grain markets as a regressor in the grain rail demand specification to 
+capture the derived demand nature of rail transport. 
+
+In  addition  to  the  economic  factors  identified  in  the  partial  equilibrium  case  in  Figure  1, 
+other  transport  modes  may  compete  with,  as  well  as  complement,  grain  railroad  transportation.  
+For example, much of the grain is delivered by truck to rail transloading locations, resulting in a 
+complementary relationship. Railroads compete with barge transport in the coal, grain, ores and 
+chemical markets.
+
+40
+
+Railroad Demand ModelModel Specification
+
+Grain	Tonnage	Transported	by	Railijt	=	f	(Rail	Priceijt ,	Grain	Productionijt ,	Barge	Ratest	,	ηi ,	λj ,	τt )
+
+i – commodity which includes wheat, corn, sorghum, and soybeans
+j – region which includes East and West
+t – year
+ηi – commodity fixed effect
+λj – region fixed effect
+τt – time trend
+Railroad prices (rates) should be included as an explanatory variable. According to the law of 
+demand, an inverse relationship exists between rail demand and rate. That is, an increase in grain 
+rail rate will reduce grain rail demand.  
+
+As mentioned previously, Grain	Production, which embodies the demand (both domestic and 
+foreign) and supply shifting factors in grain markets, is used as a regressor in the grain rail demand 
+specification to capture the derived demand nature of rail transport.  Grain production is expected to 
+affect the derived rail transport demand in a positive manner.
+
+The prices of alternative modes would also impact rail grain demand. The principal substitute 
+mode for railroads in the grain markets is barge transport. An increase in barge rates would increase 
+rail grain demand as shippers switch to relatively lower priced rail service.  
+
+Last, ηi controls for determinants of rail demand that are commodity-specific and unobserved to 
+the researchers; λj controls for determinants of rail demand that are region-specific and unobserved 
+to  the  researchers;  and  τt  controls  for  determinants  of  rail  demand  that  are  time-specific  and 
+unobserved to the researchers.
+
+DATA
+
+Data for railroad tonnage of corn, wheat, sorghum, and soybeans for east and west regions, as well as 
+data to compute rail price (revenue per originated ton), were obtained from various issues of Freight	
+Commodity	Statistics published by the Association of American Railroads. Data for grain production 
+of corn, wheat, sorghum, and soybeans were obtained from various issues of Agricultural	Statistics 
+published by the U.S. Department of Agriculture. Barge rates were obtained from personnel at the 
+Agriculture Marketing Service (AMS) of the U.S. Department of Agriculture.  Data for the variables 
+in the equation were collected for the 1965-2011 period. The AMS surveys barge companies on a 
+weekly basis to obtain grain barge rates.
+
+The barge industry uses percent of tariff as rate units for buying and selling barge services.  
+These rate units are from the Bulk Grain and Grain Products Freight Tariff No. 7, which was used 
+by the Waterways Freight Bureau of the Interstate Commerce Commission (ICC).  In 1976, the U.S. 
+Department of Justice entered into an agreement with the ICC that made Tariff No. 7 no longer 
+applicable, but the barge industry continues to use it as a benchmark. For example, Tariff No. 7 
+(1976) has a grain barge rate of $4.04 per ton for the lower Ohio River.  If the current rate is 200% 
+of tariff, then the rate is $8.08 per ton (2.0 x $4.04 = $8.08).
+
+Figure 2 plots the volumes (measured in thousands of tons) of agriculture grains transported 
+by rail over the time span of the data set. The figure shows that for much of the time period, corn 
+is transported by rail in greater volumes compared with the other three commodities. In contrast, 
+for almost all the time period, sorghum is transported by rail in smaller volumes compared with 
+the other three commodities.  In addition, 28,446.20 thousand tons of corn, 9,782.20 thousand tons 
+of soybeans, and 39,686 thousand tons of wheat were transported by rail in 1965, compared with 
+73,322.70 thousand tons of corn, 22,243.10 thousand tons of soybeans, and 44,460.50 thousand tons 
+of wheat in 2011, respectively.  Therefore, over the sample period, the volumes of corn, soybeans, 
+
+41
+
+JTRF Volume 53 No. 1, Spring 2014and wheat that are transported by rail grew by 157.75%, 127.38%, and 12.03%, respectively. In 
+contrast, 9,498.80 thousand tons of sorghum was transported by rail in 1965, compared with only 
+1,918.70 thousand tons in 2011, resulting in a 79.80% decline. In summary, over the sample period, 
+corn was transported by rail in greater volumes and showed the largest growth compared with the 
+other three commodities, while sorghum was transported by rail in the smallest volumes and these 
+volumes actually declined.
+Figure 2: Grain Tonnage Transported by Rail from 1965 to 2011
+
+ 
+
+ 
+
+l
+i
+a
+R
+y
+b
+d
+e
+t
+r
+o
+p
+s
+n
+a
+r
+T
+ 
+s
+n
+o
+T
+
+90,000
+
+80,000
+
+70,000
+
+60,000
+
+50,000
+
+40,000
+
+30,000
+
+20,000
+
+10,000
+
+0
+
+1965
+
+1966
+
+1967
+
+1968
+
+1969
+
+1970
+
+1971
+
+1972
+
+1973
+
+1974
+
+1975
+
+1976
+
+1977
+
+1978
+
+1979
+
+1980
+
+1981
+
+1982
+
+1983
+
+1984
+
+1985
+
+1986
+
+1989
+
+1990
+
+1991
+
+1992
+
+1993
+
+1994
+
+1995
+
+1996
+
+1997
+
+1998
+
+1999
+
+2000
+
+2001
+
+2002
+
+2003
+
+2004
+
+1987
+1988
+year
+
+2005
+
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+Wheat
+
+Corn
+
+Sorghum
+
+Soybean
+
+Table 1 reports descriptive statistics for the dependent, independent, and instrument variables 
+used in estimating the agricultural grain railroad demand model. The table reports each variable’s 
+mean, standard error, number of observations, minimum value, and maximum value. The sample 
+means for all variables are statistically different from zero at the 1% level of statistical significance.  
+In terms of mean tons of each commodity transported by rail over the sample period, we see that 
+corn has the largest mean tonnage of rail transport followed by wheat, soybeans, and sorghum, 
+respectively. 
+
+Rail revenue per ton is the measure we use for rail price. The mean rail price to transport wheat 
+is  highest  ($17.14  per  ton)  followed  by  the  mean  rail  price  for  corn  ($14.87  per  ton),  sorghum 
+($14.66 per ton), and soybeans ($13.29 per ton), respectively.  As previously discussed, the demand 
+for rail transport coming from producers of grain is derived from the volume of grain produced that 
+needs to be transported.  Mean grain production is largest for corn (7,970,880 thousand bushels) 
+followed by mean production of soybeans (2,079,755 thousand bushels), wheat (2,076,975 thousand 
+bushels), and sorghum (636,632.40 thousand bushels), respectively.
+
+Grain is also transported by barge.  As such, changes in the relative price to transport by barge, 
+measured by the Barge Rates variable, should influence the demand for rail transport.  Barge rates 
+are measured by the grain spot barge price as a percent of tariff.  Mean barge rate is 214.38%, and it 
+ranges from a low of 117% to a high of 494%.  
+
+42
+
+Railroad Demand ModelThree variables that were used as instruments for rail price when estimating demand: Railroad 
+Labor Cost, Railroad Diesel Fuel Price, and Number of Covered Hopper Railcars. These variables 
+are all expected to influence the unit cost of providing rail transport and therefore capture rail supply-
+shifting shocks to rail price.  Railroad labor cost is measured by earnings per employee per year in 
+dollars.  Mean annual earnings per employee is $37,734.20.  Railroad diesel fuel price has a mean 
+73.79 cents per gallon, and the mean number of covered hopper railcars is 293,824.2.
+
+Table 1: Descriptive Statistics for Variables Used in the Agricultural Grain Railroad 
+ 
+
+Demand Model 
+
+Wheat
+Mean
+
+[Min]
+{Max}
+
+Corn
+Mean
+
+[Min]
+{Max}
+
+Sorghum
+
+Soybean
+
+Mean
+
+[Min]
+{Max}
+
+Mean
+
+[Min]
+{Max}
+
+(Std. error;  N)
+
+(Std. error;  N)
+
+(Std. error;  N)
+
+(Std. error;  N)
+
+14,480.03***
+(593.79;  47)
+[9,189.60]
+{25,543.70}
+13.29***
+(1.25;  47)
+
+[3.50]
+{34.00}
+
+2,079,755***
+
+(102,983.40;  47)
+
+[845,608]
+{3,359,011}
+
+43,062.16***
+(952.84;  47)
+[33,200.30]
+{59,048.10}
+17.14***
+(1.18;  47)
+
+[5.88]
+{37.15}
+
+2,076,975***
+(56,965.03;  47)
+
+[1,304,889]
+{2,785,357}
+
+54,914.40***
+(2,257.38;  47)
+[26,199.70]
+{80,974.30}
+14.87***
+(1.09;  47)
+
+[4.27]
+{32.08}
+
+7,970,880***
+
+(378,999.30;  47)
+
+[4,102,867]
+{13,091,862}
+
+6,897.84***
+(387.77;  47)
+[1,918.70]
+{14,784.80}
+14.66***
+(0.84;  47)
+
+[5.35]
+{27.31}
+
+636,632.40***
+(28,103.79;  47)
+
+[214,443]
+{1,120,271}
+
+214.38***
+(19.20;  32)
+
+[117]
+{494}
+
+37,734.2***
+(3,129.28;  46)
+
+[7,490]
+{73,843}
+73.79***
+(9.38;  46)
+
+[9.16]
+{312.05}
+
+Variables
+
+Grain Tonnage Transported 
+by Rail (measured in 
+thousands of tons)
+
+Rail Price (measured by 
+Rail Revenue Per Ton in 
+dollars)
+
+Grain Production (measured 
+in thousands of bushels)
+
+Barge Rates a (measured as 
+grain spot barge price as a 
+percent of tariff)
+
+Railroad Labor Cost 
+(measured by earnings 
+per employee per year in 
+dollars)
+Railroad Diesel Fuel Prices 
+(measured by average cost 
+per gallon in cents) 
+
+Number of Covered Hopper 
+Railcars
+
+293,824.30***
+(12,760.86;  46)
+
+[100,608]
+{414,418}
+1965 to 2011
+
+Years  (total of 47)
+Notes: *** indicates statistical significance at the 1% level. a We only have data on Barge Rates from 1980 to 
+2011. Whenever the number of observations for a variable, denoted by N in the table, is 46 or 45, it means that 
+observations for the variable were missing in year 2011 or years 2010 and 2011 respectively.  
+ 
+
+43
+
+JTRF Volume 53 No. 1, Spring 2014RESULTS
+
+The demand model estimates are reported in Table 2. We begin by estimating the demand model 
+without using instruments for railroad price, i.e., we first use ordinary least squares (OLS) to estimate 
+the demand equation parameters.3  These model estimates are reported in the columns labeled OLS.  
+We then re-estimate the demand equation parameters using instruments for price via Generalized 
+Methods of Moments (GMM) estimation. The substantial difference in the size of the OLS and 
+GMM coefficient estimates on rail price suggests that rail price is endogenous.  The endogeneity of 
+rail price is confirmed using a formal statistical test of endogeneity, which is reported in the third-to-
+last row of Table 2. The statistical test is distributed Chi-square under the null hypothesis (Ho) that 
+rail price is exogenous. Given that the probability value for the Chi-square statistic is 0.0035, which 
+is less than 0.05, then we reject that rail price is exogenous at the 5% level of statistical significance.  
+An overidentification test, reported in the second-to-last row of Table 2, is used to help evaluate 
+the validity of instruments used in the GMM estimation. A criterion for validity of instruments is 
+that they are uncorrelated with the residuals of the model. The overidentification test is distributed 
+Chi-square under the null hypothesis that instruments are uncorrelated with residuals of the model.  
+Given that the probability value of the Chi-square statistic is 0.837, which is greater than 0.05, then 
+we cannot reject the null hypothesis that the instruments are uncorrelated with the residuals at the 
+5% level of statistical significance. In other words, the instruments are orthogonal to the residuals 
+of the demand model.  
+
+Another criterion for validity of instruments is that they are correlated with the endogenous 
+regressor, i.e., valid instruments should be correlated with rail price. The weak instruments test, 
+reported in the last column of Table 2, is used to evaluate the validity of instruments based on this 
+criterion.  The weak instrument test is distributed F under the null hypothesis that instruments jointly 
+cannot explain variations in rail price. Given that the probability value for the F-statistic is 0.000, 
+which is less than 0.05, we then reject this null hypothesis at the 5% level of statistical significance.  
+Therefore, the instruments pass the weak instruments test, revealing that the instruments have a joint 
+statistically significant effect on rail price.
+
+In summary, both standard demand-supply equilibrium theory and diagnostic statistical tests 
+suggest that rail price is endogenous in the regression model. Furthermore, the diagnostic statistical 
+tests discussed above suggest that the instruments we use to deal with the endogeneity problem are 
+valid and effective. Therefore, the remainder of the discussion focuses on the GMM estimates.
+
+Since both dependent and independent variables are in their logarithm form when estimating 
+the model, coefficient estimates are interpreted as elasticities. The own-price elasticity estimate of 
+grain demand for rail transport has the theoretically correct sign and is estimated to be -1.228.  This 
+own-price elasticity estimate is statistically significant at the 1% level of statistical significance.
+
+The coefficient on Grain Production is 0.956, suggesting that a 1% increase in grain production 
+increases rail demand by 0.956%. This rail derived demand effect is statistically significant at the 
+1%  level  of  statistical  significance. The  positive  relationship  between  grain  production  and  rail 
+demand agrees with theoretical expectations.
+
+The  coefficient  estimate  on  Barge  Rates  is  positive  and  statistically  significant,  suggesting 
+that barge transport of grain is predominantly a substitute for rail transport. The 0.484 coefficient 
+estimate suggests that a 1% increase in barge rates will increase railroad grain demand by 0.484%.
+
+44
+
+Railroad Demand ModelTable 2: Agricultural Grain Railroad Demand Model Estimates
+
+Dependent Variable:  Grain Tonnage Transported by Rail 
+
+Ordinary Least Squares 
+
+(OLS)
+
+Generalizes Methods of Moments 
+
+(GMM)
+
+Variables
+
+Coefficients
+
+-0.333***
+1.022***
+0.197**
+0.030
+-0.098
+0.944***
+0.420***
+
+0.005
+
+-15.293*
+
+Rail Price 
+Grain Production
+Barge Rates
+Sorghum
+Soybean
+Wheat
+Western Region
+Time Trend (year)
+Constant
+R-squared
+Sample Size
+Test of Endogeneity
+ Ho:  Rail Price is 
+exogenous
+Test of overidentifying 
+restrictions
+
+Weak instruments test
+
+Standard 
+Errors
+0.118
+0.035
+0.095
+0.141
+0.083
+0.082
+0.072
+0.004
+7.984
+
+Coefficients
+
+-1.228***
+0.956***
+0.484***
+-0.254
+
+-0.319***
+1.039***
+0.676***
+0.019***
+-41.945***
+
+Robust Standard 
+
+Errors
+0.282
+0.055
+0.111
+0.208
+0.112
+0.100
+0.104
+0.007
+13.454
+
+0.964
+248
+
+0.955
+248
+
+χ2 (1) = 8.523
+
+Probability Value = 0.0035 
+
+Hansen’s		J χ2 (8)=4.216
+Probability Value = 0.837
+
+F(9, 231) = 7.27
+
+Probability Value for F = 0.000
+
+First Stage Regression R-squared = 0.809
+
+Notes:  ***  indicates  statistical  significance  at  the  1%  level,  **  indicates  statistical  significance  at  the  5% 
+level, while * indicates statistical significance at the 10% level. Regressions are estimated using the logarithm 
+of  dependent  and  all  continuous  right-hand-side  variables.    Therefore,  reported  coefficient  estimates  are 
+interpreted as elasticities.
+
+We include commodity fixed effects (captured by commodity zero-one dummy variables) to 
+control for unobserved differences in the level of rail demand across different commodities.  The 
+excluded  commodity  dummy  variable  is  corn.  Therefore,  the  coefficients  on  dummy  variables 
+sorghum,  soybeans,  and  wheat  measure  these  commodities’  rail  demand  relative  to  corn  rail 
+demand. The coefficient on the sorghum dummy is not statistically significant at conventional levels 
+of statistical significance; suggesting that level of rail demand from sorghum producers that is not 
+captured by the other control variables in the demand model is not statistically different from the 
+level of rail demand from corn producers, ceteris	paribus. At first glance this result might seem 
+surprising given the line plots of grain volumes transported by rail in Figure 2. Figure 2 revealed 
+that substantially smaller tonnage of sorghum is transported by rail compared with tonnage of corn 
+transported by rail. However, the regression results in Table 2 are simply suggesting that much of 
+the rail transport volume difference across these two commodities displayed in Figure 2 can be 
+explained by the control variables included in the demand model.
+
+The  coefficient  estimate  on  the  soybean  dummy  is  -0.319  and  statistically  significant, 
+suggesting that soybeans have a lower rail demand compared with corn, ceteris	paribus. In contrast, 
+
+45
+
+JTRF Volume 53 No. 1, Spring 2014the coefficient estimate on the wheat dummy is 1.039 and statistically significant, suggesting that 
+wheat has a higher rail demand compared with corn, ceteris	paribus. So the coefficient estimates 
+on the commodity dummies suggest that wheat has the highest rail demand that is not explained by 
+regressors included in the demand model followed by corn, sorghum and soybeans, respectively.
+
+The 0.676 coefficient estimate on the western region dummy variable suggests that grain rail 
+demand  is  higher  in  the  western  region  of  the  United  States  compared  with  the  eastern  region.  
+This regional rail demand difference is statistically significant at conventional levels of statistical 
+significance.
+
+Last, the coefficient estimate of 0.019 on the time trend variable suggests that grain rail demand, 
+on average, grew annually by 1.9%, ceteris	paribus.   This annual growth in grain rail demand is 
+statistically significant at 1% level of statistical significance.
+
+CONCLUSION
+
+The Staggers Rail Act of 1980 promoted a major restructuring of the U.S. Class I railroad industry.  
+The number of Class I railroads fell from 40 in 1980 to seven today due to numerous mergers and 
+consolidations. The Class I railroads reduced their costs as they abandoned branch lines or sold 
+these lines to regional or local railroads. The Class I industry achieved tremendous increases in labor 
+productivity, which contributed to improved financial condition. Despite the enormous changes in 
+the Class I railroad industry, recent studies of railroad demand have been relatively few. This paper 
+partially addressed this research gap by estimating the railroad demand for wheat, corn, sorghum, 
+and soybeans for the United States as well as the east and west region. Railroads, grain exporters, 
+grain marketing companies, and barge operators need estimates of railroad demand as an aid to 
+strategic planning.
+
+As opposed to utilizing an aggregate or disaggregate approach, this study used a two region 
+spatial equilibrium model developed by Yu and Fuller (2005). The empirical model made grain 
+tonnage transported by rail a function of rail price, grain production, barge rates, commodity and 
+region fixed effects, and a time trend. The model was initially estimated with OLS. However, rail 
+price  was  found  to  be  endogenous.  The  demand  equation  was  re-estimated  using  instrumental 
+variables for price via the Generalized Method of Moments (GMM) estimation.
+
+All the variables had the theoretically expected signs and were statistically significant at the 1% 
+level (except sorghum).  The equation had a good fit with an R2 of 0.96.  The own-price elasticity of 
+grain demand for rail transport was -1.23.  The barge rate elasticity was 0.48, confirming that barge 
+transport of grain is a substitute for rail transport.
+
+The coefficient of the soybean dummy was negative, suggesting that soybeans have a lower 
+rail demand compared with corn. In contrast, the coefficient of the wheat dummy was positive, 
+suggesting that wheat had a higher rail demand compared with corn. In summary, the coefficients 
+of the commodity dummies suggest that wheat has the highest rail demand not explained by other 
+variables in the model, followed by corn, sorghum, and soybeans, respectively.  Another contribution 
+of the paper was the result that region has a differential effect on railroad grain demand, which is 
+higher in the west region compared with the east.
+
+Endnotes
+
+1.  For a comprehensive discussion of Class I railroad productivity trends between 1980 and 2010 
+
+see Martland (2012).
+
+2. 
+
+In 2010, field crops accounted for 98% of total railroad originated tonnage of farm products.
+
+46
+
+Railroad Demand Model3.  Recall that rail price instruments include: (1) Railroad Labor Cost, (2) Railroad Diesel Fuel 
+Price, and (3) Number of Covered Hopper Railcars.  We also include as instruments, interactions 
+and the square of these three instrumental variables.
+
+References
+
+American  Short  Line  and  Regional  Railroad Association  (ASLRRA).  Short	 Line	 and	 Regional	
+Railroad	Facts	and	Figures, 2012 edition. Washington, D.C., 2012.
+
+Association of American Railroads. Railroad	Facts, 2011 edition. Washington, D.C., 2011.
+
+Association of American Railroads. Freight	Commodity	Statistics	2010. Washington, D.C., 2010.
+
+Babcock,  Michael  W.  and  H.  Wade  German.  “Forecast  of Agricultural  Rail  Demand  to  1985.”  
+Proceedings	of	the	23rd	Annual	Meeting	of	the	Transportation	Research	Forum 23 (1), (1982): 
+589-598.
+
+Babcock, Michael W. and H. Wade German.  “1985 Forecast: Rail Share of Intercity Manufactures 
+Freight Markets.”  Transportation	Research	Forum 24 (1), (1983): 614-620.
+
+Boyer, K.D.  Principles	of	Transportation	Economics.  Addison-Wesley, Reading, MA, 1997.
+
+Friedlaender,  Ann  F.  and  Richard  H.  Spady.  “A  Derived  Demand  Function  for  Freight 
+Transportation.”  Review	of	Economics	and	Statistics 62 (3), (1980): 432-441.
+
+Martland,  Carl  D.  “Productivity  Improvements  in  the  U.S.  Rail  Freight  Industry,  1980-2010.”  
+Journal	of	the	Transportation	Research	Forum 51 (3), (2012): 83-107.
+
+Miklius, Walter, K.L. Casavant, and P.V. Garrod.  “Estimation of Demand for Transportation of 
+Agricultural Commodities.” American	Journal	of	Agricultural	Economics (1976): 217-223.
+
+Oum, T.H.  “A Cross Sectional Study of Freight Transport Demand and Rail-Truck Competition in 
+Canada.” Bell	Journal	of	Economics 10, (1979): 463-482.
+
+Small, Kenneth A. and Clifford Winston. “Demand for Transportation: Models and Applications.”  
+Jose-Gomez Ibanez, William B. Tye, and Clifford Winston eds.  Essays	in	Transportation	Economics	
+and	Policy. Washington, D.C.: The Brookings Institution (1999): 11-56.
+
+Train, Kenneth and Wesley W. Wilson. “Spatially Generated Transportation Demands.”  Scott M. 
+Dennis and Wayne K. Talley eds.  Railroad	Economics. London: Elsevier (2007): 97-118.
+
+U.S. Department of Agriculture. Agricultural	Statistics. Washington, D.C., various issues.
+
+Wilson,  W.W.,  Wesley  W.  Wilson,  and  W.W.  Koo.  “Modal  Competition  and  Pricing  in  Grain 
+Transport.”  Journal	of	Transport	Economics	and	Policy 22 (3), (1988): 319-337.
+
+Winston, Clifford. “A Disaggregate Model of the Demand for Intercity Freight Transportation.”  
+Econometrica 49 (4), (1981): 981-1006.
+
+Yu, Tun-Hsiang (Edward) and Stephen W. Fuller. “The Measurement of Grain Barge Demand on 
+Inland Waterways: A Study of the Upper Mississippi River.”  Journal	of	the	Transportation	Research	
+Forum 44 (1), (2005): 27-40.
+
+47
+
+JTRF Volume 53 No. 1, Spring 2014Philip G. Gayle	is	a	professor	of	economics	at	Kansas	 State	University.	 He	received	his	Ph.D.	
+in	economics	from	the	University	of	Colorado,	Boulder,	in	2002.	Gayle	earned	his	bachelor	and	
+master	of	science	degrees	in	economics	from	the	University	of	the	West	Indies,	Mona.	His	main	area	
+of	research	is	empirical	industrial	organization.		He	has	published	several	research	articles	on	the	
+airline	industry.		His	research	has	appeared	in	such	journals	as	Journal of Law and Economics, 
+International  Journal  of  Industrial  Organization,  Journal  of  Regulatory  Economics,  Southern 
+Economic Journal, Economic Letters,	among	others.
+
+Michael W. Babcock	is	a	professor	of	economics	at	Kansas	State	University	(KSU).	In	his	40-year	
+career	at	KSU,	he	has	published	75	articles	in	professional	journals,	along	with	numerous	monographs	
+and	technical	reports,	and	his	research	has	been	cited	in	more	than	70	books,	the	transportation	
+press,	and	professional	journals.	He	has	presented	70	papers	at	professional	meetings,	and	he	was	
+principal	investigator	or	co-investigator	on	33	federal	and	state	government	research	grants	worth	
+more	than	$2.3	million.	Babcock	is	recognized	as	a	leading	national	and	international	authority	in	
+three	research	areas,	including	short	line	railroad	transportation,	agricultural	transportation,	and	
+impact	of	public	policy	on	transportation	market	shares.
+
+He	 has	 received	 numerous	 national	 awards	 for	 his	 transportation	 research.	 He	 has	 been	
+recognized	 five	 times	 by	 the	 Transportation	 Research	 Forum	 for	 outstanding	 research	 in	
+transportation	economics.		In	addition,	Babcock	has	received	the	Edgar	S.	Bagley	Award	four	times	
+from	the	KSU	Department	of	Economics	for	outstanding	achievements	in	transportation	economics	
+research.		In	1999	he	was	awarded	the	ISBR	Senior	Faculty	Award	for	Research	Excellence	in	the	
+Social	and	Behavioral	Sciences	from	KSU.	Babcock	has	served	as	an	advisor	to	former	Governor	
+Bill	 Graves	 on	 transportation	 policy,	 and	 contributed	 testimony	 to	 congressional	 hearings	 on	
+transportation	issues.
+
+48
+
+Railroad Demand Model

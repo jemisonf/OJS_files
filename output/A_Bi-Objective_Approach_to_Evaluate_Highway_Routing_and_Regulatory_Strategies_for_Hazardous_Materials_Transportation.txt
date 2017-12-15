@@ -1,0 +1,543 @@
+A Bi-Objective Approach to Evaluate Highway 
+Routing and Regulatory Strategies for Hazardous 
+Materials Transportation
+by Ashrafur Rahman, Lance Fiondella, and Nicholas E. Lownes
+
+Hazardous	materials	(hazmat)	transportation	is	of	concern	to	policymakers	because	of	the	serious	
+safety,	health,	and	environmental	risks	associated	with	the	release	of	hazmat.	One	effective	approach	
+to	minimize	risks	associated	with	hazmat	transport	is	the	prohibition	of	hazmat	transportation	on	
+higher	risk	links	that	either	pose	safety	hazards	or	increased	exposure	by	traversing	densely	populated	
+areas.	 Because	 of	 high	 risk,	 there	 are	 multiple	 stakeholders	 involved	 in	 hazmat	 transportation.	
+While	shippers	and	carriers	are	directly	involved	in	making	routing	decisions,	regulatory	agencies	
+influence	this	decision	by	imposing	routing	restrictions.	In	this	paper,	we	apply	a	bi-objective	shortest	
+path	problem	to	evaluate	routing	and	regulation	plans	for	hazmat	transportation.	We	characterize	
+the	cost	objective	as	the	shortest	path	between	an	origin	and	a	destination.	The	risk	objective	is	
+to	minimize	the	risk	of	exposure	by	restricting	the	link	with	the	highest	risk	on	the	best	available	
+path	from	an	origin	to	a	destination.	We	formulate	the	bi-objective	model	and	apply	it	to	a	test	
+network.	Solutions	consider	multiple	origin-destination	pairs	and	present	a	non-dominated	frontier	
+to	establish	routing	and	regulatory	strategies	for	hazmat	transportation.	
+
+INTRODUCTION
+
+Transportation of hazardous materials (hazmat) poses risks because of the danger associated with 
+the accidental release of hazardous materials. An incident involving a vehicle carrying hazardous 
+materials  can  produce  undesirable  short-  and  lon-term  consequences  to  human  health  and  the 
+environment, including severe illness, death, and irreversible pollution, and in the worst case may 
+require evacuation. A recent United States Department of Transportation commodity survey reports 
+that hazmat transportation on highways has increased by approximately 4% from 2002 to 2007 
+(U.S. Department of Transportation July 2010). Due to this increase in hazmat transportation and 
+the negative consequences associated with these incidents, various risk mitigation strategies have 
+been proposed to lower the probability and consequence of hazmat release into the environment. 
+Effective methods in hazmat transport risk minimization identify minimum risk paths and eliminate 
+hazmat transport on links where the risk of population or environmental exposure is unacceptably 
+high.
+
+Hazardous materials transportation is different from the conventional vehicle routing because 
+of the risk associated with hazmat transportation. Hazmat routing is usually controlled by multiple 
+criteria, making the routing suitable for multi-objective optimization (Chang et al. 2005). These 
+criteria may be pursued by a single or a group of stakeholders. For example, shippers and carriers 
+may want to find a route that minimizes transportation costs but at the same time minimizes risk to 
+reduce liability. Regulatory agencies may restrict links where risk is excessively high, which may 
+affect shippers’ and carriers’ route choice. Regulators may also want to make sure that the restriction 
+is not imposing an overly burdensome transportation cost.  Hence, there are two aspects in both 
+routing and link restriction decisions: risk and cost. Bi-objective optimization can be effective for 
+problems with two dissimilar objectives and in cases when the competing objectives have different 
+units (e.g., risk and cost).
+
+7
+
+JTRF Volume 53 No. 1, Spring 2014This paper proposes a bi-objective optimization model satisfying both risk and cost aspects of 
+hazmat routing. In this model, one objective is to enhance network security by identifying critical 
+links that shippers and carriers are likely to choose, in which risk exposure is unacceptably high. 
+Risk is defined as the product of hazmat vehicle incident probability and the consequence of an 
+incident. Consequence is defined as a link’s neighboring population exposure. Routing risk is usually 
+minimized  by  identifying  minimum  risk  paths;  however,  because  of  the  serious  consequences 
+associated with hazmat release, an incident on a single link can produce severe impacts even though 
+that link is on the minimum risk path. Thus, avoiding the link with the highest risk may constitute a 
+better risk aversion strategy than approaches that minimize aggregate path risk. The second objective 
+is to determine a least cost path for hazmat transport. The combination of these two objectives 
+requires a tradeoff between maximum link risk and minimum transportation cost. We employ a test 
+network with synthetic data to illustrate the model. Multiple origin-destination pairs are considered. 
+The effect of link restriction or avoidance of a particular link on the path choice is examined. The 
+model output can be used to support decisions involving roadway and route restrictions in hazmat 
+transport. 
+
+LITERATURE REVIEW
+
+A widely accepted definition of hazmat transportation risk is the product of the probability of an 
+incident and the consequence of this incident (Erkut and Ingolfsson 2000). Consequences of an 
+incident can range from fatalities to infrastructure and environmental damage. Due to the complexity 
+of enumerating all possible forms of loss and the fact that consequences are proportional to the 
+population in the neighborhood of the incident, population exposure is often taken as the surrogate 
+measure of risk. In the Federal Highway Administration guidelines for hazardous materials (Shaver 
+and Kaiser 1998), population exposure has been viewed as the most important criterion in routing. 
+Numerous  hazmate  routing  problems  have  studied  risk  aversion  using  this  definition.  We  also 
+consider this definition in this paper.
+
+List et al. (1991) provided a broad overview of hazmat transportation models, including risk 
+analysis, routing and scheduling, and facility location prior to 1991 and observed a shift from single- 
+to multi-objective optimization. Erkut and Verter (1998) discussed several risk models, all of which 
+involve minimization of aggregate link risk at their core. They showed that optimal paths under 
+one  model  could  perform  poorly  under  another  model.  Erkut  and  Ingolfsson  (2000)  introduced 
+three somewhat different risk aversion objectives in a hazmat transportation model: minimizing the 
+maximum population exposure, minimizing the variance of losses along a route, and minimizing 
+the expected disutility of the losses. All three of these models can be characterized as shortest path 
+problems. The authors concluded that the first of these three models may be the most intuitive and 
+tractable.
+
+Bi-level  models  have  also  gained  popularity  because  they  accommodate  the  two  decision 
+makers  (government  regulators  and  hazmat  shippers/carriers)  most  directly  involved  in  route 
+planning. For example, Kara and Verter (2004) and Erkut and Gzara (2008) formulated bi-level 
+models where the government selects a subset of available roads to minimize total risk and then 
+allows carriers to choose routes that offer the shortest distance within the reduced network. The 
+bi-level program of Bianco, Caramia, and Giordani (2009) considers multiple layers of government 
+authority, responsible at different geographical levels, including regional and local authorities. In 
+this approach, regional authorities seek to minimize the total risk in the area under their jurisdiction, 
+while local authorities prefer to minimize the risk to the local population.
+
+There exists a substantial literature related to transportation security and terrorism, and many 
+of  these  studies  apply  game  theory.  A  comprehensive  review  of  game  theoretic  techniques  in 
+transportation can be found in Hollander and Prashker (2006). Network vulnerability assessment 
+has also received significant attention. Bell (2006; 2007) formulated a two-person, non-cooperative, 
+
+8
+
+Hazardous Materials Transportationzero-sum game in which the hazmat router seeks a shortest path assignment and the tester seeks to 
+maximize network disruption. In this game, a shipper wishes to minimize the average population 
+affected;  while  the  demon  desires  to  maximize  the  average  population  affected  by  creating  an 
+incident on one edge. This study demonstrated that a shipment possessing multiple routes between 
+a single origin-destination pair reduces the risk of exposure more than shipments with only one 
+available  route.  Nune  and  Murray-Tuite  (2007)  identify  the  possible  routes  taken  by  a  demon 
+hijacking a hazmat truck to maximize the consequences. They found that travel time rather than 
+travel distance is a more appropriate criterion to identify the paths in urban areas during peak hours. 
+Dadkar, Nozick, and Jones (2010) used a non-zero sum game structure between a shipper and a 
+terrorist and maximize carrier utilities to optimize link use restrictions. The terrorist’s link attack 
+preference is influenced by the routes chosen by the carrier and the regulations implemented by 
+the government. Given the carriers’ choice of path and the terrorist attack strategy, the government 
+then decides which links to prohibit. An extension of this study by Reilly et al. (2012) included a 
+Stackelberg game in which the government acts as a leader to maximize the carrier’s payoff and 
+limit the terrorist’s payoff. Rahman et al. (2012) showed that reducing the size of hazmat network 
+may increase the attacker’s expected payoff.
+
+Similar to the bi-level modeling approach, the multi-objective path finding approach has gained 
+attention as a method to model scenarios where there are several stakeholders. List and Mirchandani 
+(1991) presented a multi-objective model for routing and facility location of hazardous materials 
+considering travel time as a link attribute and risk as a zonal attribute. Nozick, List, and Turnquist 
+(1997) introduced time varying patterns of accident rates and exposure into multi-objective routing 
+and scheduling of hazmat transportation based on three minimization criteria: the accident rate, 
+link population exposure, and route length. The authors examined the tradeoff between two criteria 
+considering time varying and static patterns of accident and exposure. A time varying pattern was 
+also explored by Miller-Hooks and Mahmassani (1998) and Chang, Nozick, and Turnquist (2005). 
+In this paper, we use a bi-objective model addressing both the cost and risk aspects of hazmat 
+routing.  A  shortest  path  from  origin  to  destination  captures  the  minimum  transportation  cost 
+objective. This objective is consistent with the Department of Transportation’s routing guideline 
+(U.S. Department of Transportation 1994) that endeavors to avoid imposing an excessive burden on 
+commerce. The risk objective is to restrict or avoid links exhibiting high risk to exposure. That is, 
+we seek to minimize the maximum risk within a path. This is different from the prevailing literature 
+where routing is usually obtained by minimizing the total path cost. This paper proposes a method 
+that can be used by regulators to obtain link regulation strategies and also by shippers and carriers to 
+determine what routes should be avoided to reduce risk, yet strike a balance between cost and risk.
+
+FORMULATION
+
+Consider a directed transportation network, G = (N, A), where N is a set of nodes and A is a set of m 
+links. Each link is indexed by (i, j)  A : i, j  N. Hazardous materials are transported through  from 
+origins,  to their destinations. The following notations and data are used in the model:
+
+Data
+
+Pij = Population on a link (i, j) within a threshold distance
+ρij	 = Incident probability on a link (i, j)
+cij  = Hazmat transportation cost on a link (i, j)
+Ωij  = ρij	Pij		= Hazmat risk of link (i, j)
+
+zij  =
+
+0,
+1,
+
+link (i, j) is restricted to hazmat transport
+link (i, j) is open
+
+9
+
+JTRF Volume 53 No. 1, Spring 2014The at-risk population Pij is the population living within a specified threshold distance from 
+the link. The impact radius varies for different types of hazmat ranging from 0.5 to 5.0 miles (US 
+Department of Transportation 1994). Therefore, Pij is defined as the population within 0.5 to 5.0 miles 
+of a link (i, j) in all directions depending on the type of hazmat. It is assumed that on-link population 
+is negligible. The restricted links where risk is excessively high are represented by zij. Some links 
+may  be  closed  a	 priori	 to  prevent  exposure  to  particularly  sensitive  populations  (e.g.,  schools, 
+government offices, hospitals). These links may require a well-coordinated evacuation plan in the 
+event of an accident. Therefore, the regulator may decide to close them in advance to minimize 
+the possibility of such scenarios. Also, even though the impact area is not circular, the analyst can 
+consider the population within the impact area obtained from any diffusion pattern and use this 
+model.
+
+Decision Variable
+0,
+1,
+
+xij  =
+
+link (i, j) is not used for hazmat transport
+link (i, j) is used
+
+The decision variable	xij identifies the links included in the hazmat routes.
+
+Bi-Objective Shortest Path Model
+
+(1)
+
+(2)
+
+P1 min  max  Ωij		xij
+
+              (i,	j)A
+
+P2 min   ∑   cij		xij
+
+            (i,	j)A
+
+Subject to
+
+   ∑   	xij		–			 ∑   	xij		=	
+j: (i,	j)A												j: (i,	j)A
+
+(3)
+
+(4) xij ≤ zij
+(5) xij	, zij	 {0,1}
+
+      1,		i	is	origin
+    –1,		i	is	destination
+    0,	otherwise
+
+Here, the two dissimilar objectives, referred to as P1 and P2, are given by equation (1) and 
+equation (2). The first objective is a minimum maximum (minmax) formulation, whereas the second 
+one  is  a  minimum  sum  (minsum)  formulation. The  bi-objective  formulation  creates  a  minmax-
+minsum shortest path problem (Berman, Einav, and Handler 1990; de Lima Pinto, Bornstein, and 
+Maculan 2009). Equation (3) is the flow balance constraint employed to find the shortest path between 
+an origin and a destination. Equation (4) ensures that only links available to hazmat transport are 
+selected by the carriers. Equation (5) is the binary requirements of the decision variable  and initial 
+link closure.
+
+To  illustrate  the  suitability  of  the  model,  consider  a  carrier  wishing  to  transport  a  hazmat 
+shipment from the origin to the destination in the network shown in Figure 1. The network consists 
+of four links:  a, b, c, and d, with two paths (a, c) and (b, d).  All links possess equal travel time. The 
+risk of an incident on each link is shown in parentheses and the incident probability is independent 
+of the carrier’s path choice. Although path risk is lower on path (b, d), the minmax-minsum model 
+prefers path (a, c) because it avoids the maximum risk link d on the two paths available. Hazmat 
+transportation is defined as a “low probability high consequence” event, where even a single incident 
+in one million shipments can produce severe consequences. Thus, avoiding the link with the highest 
+
+10
+
+Hazardous Materials Transportationrisk may constitute a better risk aversion strategy than approaches that sum the risk of each link in 
+a path.
+
+Figure 1: Example Illustrating the Minmax-Minsum Model
+
+SOLUTION PROCEDURE
+
+In this paper, the algorithm proposed by Berman et al. (1990)  is adapted to solve the program given 
+by Eqs. (1) to (5). They considered network problems that are characterized by two performance 
+measures. One performance measure is a cost function and the other is a maximum cost. In this 
+algorithm, one or more links with cost above a certain value in the first problem are deleted from 
+the network to obtain a reduced network. The second problem is solved on the reduced network. 
+The algorithm continues until the origin and destination become disconnected from each other. The 
+algorithm produces all solutions that satisfy both objectives and identifies all non-dominated (Pareto 
+optimal) solutions. A solution is called a non-dominated solution when there is no alternative solution 
+that is better than that solution with respect to any of the objectives.  More detailed explanation of 
+non-dominated solutions can be found in de Lima Pinto et al. (2009), Huang et al. (2005), and Erkut 
+and Gzara (2008). The algorithm from Berman et al. (1990) is described below: 
+Step	0.	 Initialize the network by setting initial restrictions, zij if any. Set F = Ø.  Here F is a set of 
+all Pareto solutions (α0, β0).  α0  and β0 correspond to the Pareto or non-dominated solutions 
+of P1 and P2 respectively. Set β0 =  .
+Step	1.   Rank all available links in the network in non-decreasing order of the link risk, Ωij. To do 
+this, define a link with rank r, lr, r = 1, ..., m, so that Ωij	(l1) ≤ Ωij	(l2) ≤ ... ≤ Ωij	(lm). Here 
+lr represents ranked link and m is the number of links in the network. Set r = m.
+
+Step	2.  Set αr	 = Ωij	(lr).  If there are other links lk, k < r, with the same risk as Ωij	(lr) update r to be 
+equal to the smallest such k. Delete from the network all links where Ωij	 ≥ αr	.  Solve P2  
+on the reduced network.  Let the solution be βr	. If  βr		> β0  then F = F	{(α0, β0)}. If no 
+solution exists, stop.  
+
+Step	3.  Set, β0 = βr	, α0 = αr and r = r –1, if r = 0, then set  F = F	{(α0, β0)} and stop, otherwise go 
+
+to step 2.
+
+solutions (α0, β0).
+
+The  algorithm  produces  all  feasible  solutions  (αr	,  βr)  and  identifies  all  the  non-dominated 
+
+APPLICATION
+
+We apply the MinMax-MinSum shortest path model to the Sioux Falls network (available at http://
+www.bgu.ac.il/~bargera/tntp/),  a  widely  used  case  study  employed  in  recent  research,  including 
+Ukkusuri  and  Yushimito  (2009)  and  Lownes  et  al.  (2011)  for  network  vulnerability  analysis. 
+Figure 2 shows the network, which consists of 24 nodes and 76 links. The analysis considers two 
+origin nodes (nodes 2 and 3) and two destination nodes (nodes 18 and 22), resulting in four origin-
+destination pairs. The randomly generated synthetic link data used in this analysis are reported in 
+Table 1. While generating the data, relatively higher populations were placed in the middle of the 
+network, imitating a dense core with a lower density fringe.
+
+11
+
+JTRF Volume 53 No. 1, Spring 2014Figure 2: Sioux Falls Network (Dashed Squares = Origins, Dashed Diamonds = Destinations)
+
+12
+
+Hazardous Materials TransportationTable 1: Sioux Falls Network Data
+
+13
+
+JTRF Volume 53 No. 1, Spring 2014Fortunately, hazmat transportation possesses a very low accident probability. Kokkinos et al. 
+(2012) reported that the hazmat accident rate is about 10-6 ~ 10-8 per km traveled (6.21  10-7 ~ 6.21 
+ 10-9 per mile).  A small incident probability between 1  10-8 to  9  10-8 per mile was generated 
+for  all  links  assuming  a  uniform  distribution  within  that  range. The  unit  of  risk,  the  product  of 
+population and accident rate, is person exposure per mile traveled.
+
+The  shortest  paths  for  each  origin-destination  pair  are  calculated  at  the  beginning  of  the 
+algorithm without imposing any link restrictions on the network (zij	=	0). These paths represent the 
+second objective, without considering the first objective. The path cost in these paths are the lower 
+bound of the cost in this bi-objective problem. These paths are the desirable hazmat routes when no 
+restrictions are imposed to any link for safety purpose. The paths are reported as A1, B1, C1, and D1 
+for O-D pairs (2, 18), (2, 22), (3, 18), and (3, 22), respectively, in Table 2.  Link 39 (node 13–node 
+24) possesses the greatest risk and is restricted at the first iteration. The risk value of link 39 is the 
+upper bound of the risk in the bi-objective problem. The restriction on link 39 does not impact the 
+travel decision for O-D pairs (2, 18) and (3, 18) because A1 and C1 do not utilize link 39. However, 
+the desirable paths for O-D pairs (2, 22) and (3, 22) change because of this restriction. The new paths 
+are shown as B2 and D2 with path costs 222 minutes and 240 minutes in Table 2. After closing 32 
+links, O-D pairs (3, 18) and (3, 22) become inaccessible, while O-D pairs (2, 18) and (2, 22) become 
+inaccessible after closing 35 links, as shown in Table 2. We stop the algorithm after this since there 
+are no routes available for any O-D pair. Figure 3 illustrates the reduction in link risk until no paths 
+are available. The corresponding path costs due to closure of links are shown in Figure 4.
+
+Figure 5 shows link risk vs. path cost for each O-D pair for all iterations. The figure shows 
+the influence of the link closure on the desirable routing (shortest path) strategy. Each point in the 
+plot represents a link risk that has been restricted and the shortest path due to this restriction. These 
+points correspond to the solution (αr	, βr) described in the algorithm. Paths on the same vertical line 
+on the plots are not non-dominant, because the route selection strategy did not change even though 
+the riskier links are being closed. For example, with O-D pair (2, 18), restricting the first eight links 
+on the network does not change the shortest path. The path costs are therefore not dependent on 
+the link restriction; furthermore, the risk and path cost combination during these iterations are not 
+non-dominant.
+
+The non-dominant solutions (α0, β0) can be identified from Figure 5 in addition to the algorithm. 
+To identify a non-dominant (Pareto optimal) frontier, it is necessary to identify the risk level where 
+the route selection strategy changes. If a new path is found for a particular link closure, the associated 
+link risk and the cost of the previous path constitute a point of the Pareto frontier. There are only 
+three paths (A1, B1, and C1) that are generated for O-D pair (2, 18). Newer (A1 to A2, A2 to A3) 
+or inaccessible paths (infinite cost) are generated when closing links with risk 9.84, 8.01, and 6.37, 
+respectively. The non-dominant points for O-D pair (2, 18) are the risk and cost combination of (link 
+20, path A1), (link 25, path A2), and (link 30, path A3). Figure 6 shows the Pareto solutions for the 
+four O-D pairs. The paths represented by each point are shown in Table 2.
+
+The  non-dominant  solutions  have  important  implications  for  decision  making,  both  from 
+regulators’  and  shipper/carriers’  perspectives.  Figure  6  summarizes  the  travel  cost  imposed  on 
+shipper/carriers when a particular hazmat link prohibition strategy is implemented.  Furthermore, 
+for a particular risk value, the paths below that risk value are those available for hazmat transport. 
+For example, if the regulator’s target is to restrict all links with risk greater than or equal to 10, all 
+paths are available to shipper/carriers for O-D pair (2, 18) because the risk on all relevant paths 
+lies below this threshold. The shipper/carriers will most likely choose path A1 because it gives the 
+lowest cost among all paths. If they are more concerned about risk, they may choose either A2 or 
+A3 if cost is not a major issue. For all other O-D pairs, they lose their first choices B1, C1, and D1 
+and may choose second lowest cost paths B2, C2, and D2. Observing the non-dominated front for 
+O-D pair (2, 22) explains that some cases may occur when risk may be reduced even without visibly 
+increasing cost. If the first routing strategy (route B1) is eliminated and the second option (route 
+
+14
+
+Hazardous Materials TransportationTable 2: Path Selections at Each Link Closure
+
+Figure 3: Link Risk at Each Link Closure
+
+15
+
+JTRF Volume 53 No. 1, Spring 2014Figure 4: Cost vs. Link Closure for Each O-D Pair
+
+B2) is taken, we can reduce risk 40% (16.56 to 9.84) with only about a 3% (216 min to 222 min) 
+increase in travel cost. It is seen that a substantial increase is observed for O-D pair (3, 18) and (3, 
+22) if first routing options are eliminated. The costs for O-D pair (3, 18), and (3, 22) increase to 
+48.39% (186 min, path C1 to 276 min, route C2), and 73.91% (138 min, path D1 to 240 min, route 
+D2), respectively. The risk reduction for O-D pair (3, 18) is only 2.5%, however, for O-D pair (3, 
+22), it is about 42%.
+
+In addition to a Pareto optimal front for each of the O-D pairs, a system level Pareto frontier 
+can serve regulators in evaluating the trade-off between link closure and system level cost. The 
+
+16
+
+Hazardous Materials TransportationFigure 5: Link Risk vs. Path Cost
+
+system-level Pareto points are constructed by summing the path costs of all shortest paths at a given 
+restricted network and the associated maximum link risk as shown in Figure 7. It is seen that if the 
+allowable maximum risk is set to 10, the system cost increases from 684 min, when there is no 
+restriction, to 882 min.  Also, the allowable maximum risk cannot be lowered below 7.2 because no 
+paths will be available for any shipments.
+
+The bi-objective model discussed in this paper can offer insights to identify a risk threshold 
+value for regulators and to determine how route choice may be affected by such restrictions. For 
+shippers and carriers, this will provide a strategy to verify the suitability of routing, how to decrease 
+transportation costs, and if risk is being shifted from one subpopulation to another. Although the 
+analysis was demonstrated with a hypothetical network, the model can be used for any network with 
+real data.
+
+17
+
+JTRF Volume 53 No. 1, Spring 2014Figure 6: Pareto Optimal Frontiers for Each O-D Pair
+
+CONCLUDING REMARKS
+
+A bi-objective shortest path problem was formulated for hazardous materials routing. Although the 
+method was applied to a test network, the methods can be applied to any network as a decision-
+support tool for hazmat link prohibition policies. The method described in this paper constructs 
+non-dominated frontiers for each origin-destination pair and the complete hazmat transportation 
+network, which can aid a regulatory agency to establish and evaluate a tolerable threshold risk; 
+the  links  exceeding  the  risk  tolerance  may  then  be  restricted,  and  routing  plans  minimizing  the 
+impact  on  the  carriers  can  be  identified.  Shippers  and  carriers  can  also  establish  their  routing 
+strategies by eliminating paths that utilize high risk links to determine an appropriate cost estimate 
+of transportation. The method described in this paper can therefore be used to compare alternative 
+regulation and routing strategies to achieve a desired balance between risk and routing convenience. 
+18
+
+Hazardous Materials TransportationFigure 7: System Level Pareto Optimal Frontier
+
+In future research, these metrics will be illustrated on medium- and large-scale real transportation 
+networks considering multi-commodity hazmat flow.
+
+The model is static, not dynamic, so it doesn’t include travel time variability by day of the week 
+or by season of the year. The model also doesn’t identify the effect that weather has on dispersal 
+areas of hazardous materials. These matters are outside the scope of the paper, which is focused on 
+hazmat routing. Thus, the paper doesn’t consider accident risk during loading and unloading.
+
+Acknowledgements
+
+This material is based upon work supported by the U.S. Department of Homeland Security under 
+Grant Award Number 2008-ST-061-TS002. 
+
+Disclaimer
+
+The views and conclusions contained in this document are those of the authors and should not be 
+interpreted as necessarily representing the official policies, either expressed or implied, of the U.S. 
+Department of Homeland Security.
+
+19
+
+JTRF Volume 53 No. 1, Spring 2014References
+
+Bell,  M.G.H.  “Mixed  Route  Strategies  for  the  Risk-Averse  Shipment  of  Hazardous  Materials.” 
+Networks	and	Spatial	Economics 6 (3), (2006): 253-265.
+
+Bell,  M.G.H.  “Mixed  Routing  Strategies  for  Hazardous  Materials:  Decision-Making  Under 
+Complete Uncertainty.” International	Journal	of	Sustainable	Transportation 1 (2), (2007): 133-142.
+
+Berman,  O.,  D.  Einav,  and  G.  Handler.  “The  Constrained  Bottleneck  Problem  in  Networks.” 
+Operations	Research	38 (1), (1990): 178-181.
+
+Bianco,  L.,  M.  Caramia,  and  S.  Giordani.  “A  Bilevel  Flow  Model  for  Hazmat  Transportation 
+Network Design.” Transportation	Research	Part	C:	Emerging	Technologies 17 (2), (2009): 175-
+196.
+
+Chang, T.S., L.K. Nozick, and M.A. Turnquist. “Multiobjective Path Finding in Stochastic Dynamic 
+Networks, with Application to Routing Hazardous Materials Shipments.” Transportation	Science 
+39 (3), (2005): 383-399.
+
+Dadkar, Y., L. Nozick, and D. Jones. “Optimizing Facility Use Restrictions for the Movement of 
+Hazardous Materials.” Transportation	Research	Part	B:	Methodological 44 (2), (2010): 267-281.
+
+de Lima Pinto, L., C.T. Bornstein, and N. Maculan. “The Tricriterion Shortest Path Problem with 
+at Least Two Bottleneck Objective Functions.” European	Journal	of	Operational	Research 198 (2), 
+(2009): 387-391.
+
+Erkut, E. and F. Gzara. “Solving the Hazmat Transport Network Design Problem.” Computers	&	
+Operations	Research 35 (7), (2008): 2234-2247.
+
+Erkut,  E.  and  A.  Ingolfsson.  “Catastrophe  Avoidance  Models  for  Hazardous  Materials  Route 
+Planning.” Transportation	Science 34 (2), (2000): 165-179.
+
+Erkut, E. and V. Verter. “Modeling of Transport Risk for Hazardous Materials.” Operations	Research 
+46 (5), (1998): 625-642.
+
+Hollander, Y. and J.N. Prashker. “The Applicability of Non-Cooperative Game Theory in Transport 
+Analysis.” Transportation 33 (5), (2006): 481-496.
+
+Huang,  B.,  P.  Fery,  and  L.  Zhang.  “Multiobjective  Optimization  for  Hazardous  Materials 
+Transportation.” Transportation	Research	Record:	Journal	of	the	Transportation	Research	Board 
+1906 (1), (2005): 64-73.
+
+Kara, B.Y. and V. Verter. “Designing a Road Network for Hazardous Materials Transportation.” 
+Transportation	Science 38 (2), (2004): 188-196.
+
+Kokkinos,  K.,  E.  Papadopoulos,  N.  Samaras,  and  K.  Chaikalis.  “An  Integrated  Modeling 
+Framework for Routing of Hazardous Materials.” In IEEE	21st	International	Workshop	on Enabling	
+Technologies:	Infrastructure	for	Collaborative	Enterprises	(WETICE),	(2012): 226-231.
+
+List, G. and P. Mirchandani. “An Integrated Network/Planar Multiobjective Model for Routing and 
+Siting for Hazardous Materials and Wastes.” Transportation	Science 25 (2), (1991): 146-156.
+
+20
+
+Hazardous Materials TransportationList,  G.F.,  P.B.  Mirchandani,  M.A.  Turnquist,  and  K.G.  Zografos.  “Modeling  and Analysis  for 
+Hazardous  Materials Transportation:  Risk Analysis,  Routing/Scheduling  and  Facility  Location.” 
+Transportation	Science 25 (2), (1991): 100-114.
+
+Lownes,  N.E.,  Q.  Wang,  S.  Ibrahim,  R.A. Ammar,  S.  Rajasekaran,  and  D.  Sharma.  “Many-to-
+Many Game-Theoretic Approach for the Measurement of Transportation Network Vulnerability.” 
+Transportation	Research	Record:	Journal	of	the	Transportation	Research	Board 2263 (1), (2011): 
+1-8.
+
+Miller-Hooks, E. and H.S. Mahmassani. “Optimal Routing of Hazardous Materials in Stochastic, 
+Time-Varying  Transportation  Networks.”  Transportation	 Research	 Record:	 Journal	 of	 the	
+Transportation	Research	Board 1645 (1), (1998): 143-151.
+
+Nozick, L.K., G.F. List, and M.A. Turnquist. “Integrated Routing and Scheduling in Hazardous 
+Materials Transportation.” Transportation	Science 31 (3), (1997): 200-215.
+
+Nune,  R.  and  P.  Murray-Tuite.  “Comparision  of  Potential  Paths  Selected  by  a  Malicious  Entity 
+with Hazardous Materials: Minimization of Time vs. Minimization of Distance.” In IEEE	Winter	
+Simulation	Conference, (2007): 1161-1167.
+
+Rahman, A., N.E. Lownes, J.N. Ivan, L. Fiondella, S. Rajasekaran, and R. Ammar. “A Game Theory 
+Approach  to  Identify Alternative  Regulatory  Frameworks  for  Hazardous  Materials  Routing.”  In 
+IEEE	Homeland	Security	Conference	(HST), (2012): 489-494.
+
+Reilly, A., L. Nozick, N. Xu, and D. Jones. “Game Theory-Based Identification of Facility Use 
+Restrictions  for  the  Movement  of  Hazardous  Materials  Under  Terrorist  Threat.”  Transportation	
+Research	Part	E:	Logistics	and	Transportation	Review 48 (1), (2012): 115-131.
+
+Shaver, D.K. and M. Kaiser.	Criteria	for	Highway	Routing	of	Hazardous	Materials. Washington, 
+D.C.: Transportation Research Board, 1998.
+
+U.S. Department of Transportation.	2007	Economic	Cencus:	2007	Commodity	Flow	Survey, July 
+2010.
+
+Ukkusuri,  S.V.  and  W.F.  Yushimito.  “A  Methodology  to  Assess  the  Criticality  of  Highway 
+Transportation Networks.” Journal	of	Transportation	Security 2 (1), (2009): 29-46.
+
+U.S.  Department  of  Transportation.	 Guidelines	 for	 Applying	 Criteria	 to	 Designate	 Routes	 for	
+Transporting	Hazardous	Materials. Washington D.C.: Federal Highway Administration, 1994.
+
+Ashrafur Rahman	is	a	Ph.D.	student	in	the	department	of	civil	and	environmental	engineering	
+at	 the	 University	 of	 Connecticut.	 His	 primary	 research	 interests	 include	 transportation	 network	
+modeling,	 transportation	 security,	 public	 transportation,	 and	 traffic	 flow.	 Ashrafur	 is	 currently	
+working	on	hazardous	materials	routing	for	his	doctoral	research.
+
+Lance Fiondella	is	an	assistant	professor	in	the	department	of	electrical	and	computer	engineering	at	
+the	University	of	Massachusetts,	Dartmouth.	His	research	interests	include	reliability,	performance,	
+and	transportation	engineering.	He	received	his	Ph.D.	in	computer	science	and	engineering	from	
+the	University	of	Connecticut.
+
+Nicholas  Lownes,	 P.E.,	 is	 an	 associate	 professor	 in	 the	 department	 of	 civil	 and	 environmental	
+engineering	 at	 the	 University	 of	 Connecticut.	 His	 primary	 research	 interests	 include	 public	
+
+21
+
+JTRF Volume 53 No. 1, Spring 2014transportation	systems,	transportation	network	modeling	and	transportation	security.	His	current	
+research	 focuses	 on	 a	 collaborative	 database	 initiative	 building	 analytical	 tools	 for	 evaluating	
+equity	in	public	transportation	systems	and	optimizing	public	transportation	service	configuration	
+and	operation.	He	earned	his	Ph.D.	from	The	University	of	Texas	at	Austin.
+
+22
+
+Hazardous Materials Transportation

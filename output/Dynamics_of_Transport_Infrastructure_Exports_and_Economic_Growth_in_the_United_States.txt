@@ -1,0 +1,2174 @@
+Dynamics of Transport Infrastructure, Exports and 
+Economic Growth in the United States
+
+by Tingting Tong, T. Edward Yu, and Roland K. Roberts
+
+This	 paper	 focuses	 on	 the	 dynamic	 relationships	 among	 transport	 infrastructure,	 exports	 and	
+economic	growth	in	the	United	States	using	a	multivariate	time-series	analysis.	Results	suggest	that	
+the	formation	of	highways	and	streets	affects	economic	growth	indirectly	through	enhancing	the	
+capital	stock	of	non-transport	infrastructure	and	crowding	in	private	capital.	The	reverse	causality	
+from	economic	output	to	highway	and	street	infrastructure	is	observed.	Aggregate	capital	stock	
+of	 non-transport	 infrastructure,	 excluding	 national	 defense,	 has	 sustainable	 positive	 effects	 on	
+economic	output	and	exports	over	a	number	of	years.	Empirical	evidence	also	shows	that	highway	
+and	street	infrastructure	and	non-transport	infrastructure	Granger	cause	exports.
+
+INTRODUCTION
+
+Government  spending  on  transport  infrastructure  has  long  been  considered  a  means  to  enhance 
+economic development in both developed and developing countries. The significance of transport 
+infrastructure investment has been clearly revealed in the U.S. government’s proposals and policies 
+over  decades.  For  example,  in  President  Clinton’s  1992  presidential  campaign  document,  he 
+proposed a “Rebuild America Fund” to allocate $20 billion annually for four years in four critical 
+areas,  including  transportation,  information  network,  environmental  technology,  and  defense 
+conversion (Clinton 1992). President G. W. Bush signed the Safe, Accountable, Flexible, Efficient 
+Transportation Equity Act: A Legacy for Users (SAFETEA-LU) in 2005, allocating more than $286 
+billion over five years to maintain and improve the surface transport infrastructure of the nation. To 
+address the economic recession in the late 2000s, President Obama signed the American Recovery 
+and Reinvestment Act (ARRA) in 2009 that included $48 billion for transport infrastructure. In 
+2011, Mr. Obama proposed investing an additional $50 billion to modernize national highways, 
+transit, rail, and aviation infrastructure systems in the American Jobs Act. In June 2012, a new 
+surface transportation bill of $105 billion over two years, Moving Ahead for Progress in the 21st 
+Century (MAP-21), was signed into law to reauthorize the federal-aid highway program.
+
+Interestingly, regardless of the aforementioned policy focus, a consensus remains elusive about 
+the effects of transport infrastructure on economic growth at the aggregate level (Pereira and Andraz 
+2012).  The  potential  connection  between  economic  development  and  transport  infrastructure 
+investment  in  the  United  States  has  been  at  the  forefront  of  academic  debates  over  decades. 
+A  number  of  empirical  studies  suggest  that  government  expenditures  on  public  infrastructure, 
+including  transportation,  can  potentially  increase  productivity  or  reduce  cost  of  production  and, 
+hence,  increase  economic  growth  (e.g.,  Aschauer  1989,  Munnell  1990,  Fernald  1999,  Glass 
+2008, Pereira and Andraz 2012). Alternatively, others find no significant effect or even a negative 
+impact on  national  productivity (e.g.,  Holtz-Eakin 1994,  Garcia-Mila et  al. 1996,  Ewing  2008). 
+Notwithstanding the diverse perspectives regarding transport infrastructure investment, the recent 
+global economic recession has encouraged some policy makers to utilize this fiscal policy tool to 
+promote economic recovery, reinforcing the debate about the economic impact of infrastructure 
+investment.
+
+The  role  of  trade  in  the  relationship  between  transport  infrastructure  and  economic  growth 
+typically has been ignored in previous literature. Trade could contribute to both economic growth 
+
+65
+
+JTRF Volume 53 No. 1, Spring 2014Figure 1:   Dynamic Relationships Among Transport Infrastructure, Trade and Economic 
+ 
+
+Output
+
+Infrastructure
+
+Trade
+
+GDP
+
+and transport infrastructure (see Figure 1). The export-led growth hypothesis suggests that exports 
+can be an engine for economic growth to increase employment and income in the exporting country, 
+increase the efficiency of resource allocation, and achieve economies of scale (Marin 1992, Giles 
+and Williams 2000). Similarly, trade expansion potentially stimulates the need for and development 
+of  transport  infrastructure  (Borrone  2005,  Lee  and  Rodrigue  2006,  Beningo  2008).  Conversely, 
+economic growth and infrastructure development in a country can affect trade. Domestic economic 
+conditions,  including  strong  product  demand  and/or  agglomeration  economies,  can  promote 
+the  growth  of  exports  (e.g.,  Leichenko  2000,  Zestos  and  Tao  2002).    In  addition,  researchers 
+have  confirmed  a  positive  relationship  between  transport  infrastructure  and  trade  through  lower 
+transportation cost or better infrastructure quality (Limao and Venables 2001, Nordas and Piermartini 
+2004). 
+
+The aim of this research is to revisit the long-term impact of transport infrastructure on U.S. 
+economic growth by incorporating trade as an element of the analysis. Including trade in the model 
+can  mitigate  the  omitted-variable  problem,  thus  improving  the  three-way  impact  estimates.  Our 
+hypothesis is that enhancing transport infrastructure can increase economic output in the United 
+States.  The  hypothesis  is  empirically  tested  using  a  multivariate  time-series  framework,  which 
+can  address  the  issue  of  nonstationary  data  and  provide  a  clearer  understanding  of  the  long-
+run  relationships  among  these  variables.  Most  importantly,  the  analysis  provides  policy  makers 
+updated and more accurate information for more efficient allocation of scarce budget resources to 
+infrastructure investments. 
+
+The  remainder  of  this  article  is  organized  as  follows:  a  brief  literature  review  about  the 
+relationships  among  economic  growth,  trade  and  infrastructure  is  provided  in  the  next  session, 
+followed  by  an  explanation  of  the  analytical  methods. A  description  of  the  data  and  empirical 
+analysis are then presented. Policy implications and conclusions are offered in the final section. 
+
+LITERATURE REVIEW
+
+The economic impact of transport infrastructure investment (either in terms of government spending 
+on  transport  infrastructure  per  year  or  the  accumulated  stock  of  transport  infrastructure  capital) 
+has  been  scrutinized  since  the  work  of Aschauer  (1989). Thorough  and  updated  surveys  of  the 
+
+66
+
+Transport Infrastructurerelevant literature are available in Baird (2005) and Goetz (2011). Goetz included the summary 
+of the literature prior to 2000 by Bhatta and Dremman (2003) and analyzed 55 additional papers 
+published on ISI Web of Science from 1999 to 2009. Among more than 100 reviewed studies, most 
+find that investment in transport infrastructure supports one or more indicators of economic growth. 
+Specifically, 43 of the 55 more recent studies confirm the positive role of transport infrastructure 
+investment.  A  brief  summary  of  various  perspectives  on  the  role  of  transport  infrastructure  is 
+presented below. 
+
+Aschauer (1989) estimated the impact of “core” infrastructure (streets, highways, airports, and 
+water systems) on economic growth and productivity in the United States during 1949−1985, and 
+reported elasticities of government capital ranging from 0.38 to 0.56, and Munnell (1990)  estimated 
+an elasticity of output with respect to infrastructure near 0.34 in a national study. However, these 
+estimates have been criticized because of the issues of spurious relationships, simplified structural 
+form and the aggregated data used for analysis (Gramlich 1994). Using the data from 48 contiguous 
+states, Munnell and Cook (1990) reported a lower output elasticity of public capital of 0.15. The use 
+of less aggregated state or county data by others also yielded smaller positive effects of transport 
+infrastructure  on  economic  growth  (e.g.,  Berechman  et  al.  2006,  Pereira  and Andraz  2012).  In 
+addition, a number of case studies for particular states or counties suggested positive impacts of 
+highway and street infrastructure development on local or regional economic activity (e.g., Babcock 
+and Leatherman 2011, Wang et al. 2013). Other researchers measured the “broader” economic effects 
+of transport infrastructure by considering the spillover (indirect) effects on neighboring geographic 
+areas, attempting to enhance the precision of the effects of infrastructure (Cohen 2010, Tong et al. 
+2013). Besides, others confirmed the positive effects of transport infrastructure on activities in the 
+private sector (e.g., Hodge et al. 2003, Horst and Moore 2003).
+
+Conversely,  a  few  studies  found  no  effect  (or  mixed  effects)  of  infrastructure  capital  on 
+economic growth.  For instance, Tatom (1993) found no effect of public capital on productivity 
+growth after making adjustments for a spurious regression problem. Similarly, Garcia-Mila et al. 
+(1996) generated a state-level production function with three forms of public capital—highways, 
+water  and  sewage  systems,  and  all  other  public  capital—as  inputs,  and  found  no  evidence  of 
+their effect on productivity. Another group of studies considered the spillover effects of transport 
+infrastructure  and  reported  that  the  development  of  transport  infrastructure  in  one  location  may 
+simply relocate economic activity from that location to others, yielding no (or negative) impact 
+on  regional  economic  output  (Holtz-Eakin  and  Schwartz  1995,  Chandra  and  Thompson  2000, 
+Chalermpong 2004). Moreover, some argued that, because the modern transport system already 
+exist in the nation, additional infrastructure investment has little impact on economic output, and the 
+impact, if any, varies across regions (Ewing 2008, Peterson and Jessup 2008).
+
+In addition to the mixed effects of transport infrastructure on economic growth found in previous 
+empirical studies, the direction of the causal relationship remains unclear. Kessides (1996) suggests 
+that  simultaneity  makes  research  concerning  the  impact  of  transport  infrastructure  on  economic 
+growth  tenuous,  because  economic  growth  can  lead  to  development  of  the  transport  system. 
+Extending  the  related  literature,  Fisher  (1997)  discussed  the  potential  importance  of  accounting 
+for the possible reverse impact of economic growth on public capital development. The ambiguity 
+about the causal relationship between transport infrastructure and economic growth suggests the 
+need for further research on the economic benefits of investment in transport infrastructure (Nguyen 
+and Tongzon 2010).
+
+Another group of studies has focused on the relationship between transport infrastructure and 
+trade. Many studies have concluded that infrastructure development has a positive effect on trade 
+through lower transport costs. Using a panel of bilateral trade-flow data for 1988-2002, Francois 
+and Manchin (2013) concluded that transport infrastructure not only increases trade volumes, but 
+also increases the probability of trade occurring. Park and Koo (2005) suggested that the impact of 
+telecommunication investment on agricultural trade in importing OECD countries is more important 
+
+67
+
+JTRF Volume 53 No. 1, Spring 2014than in exporting countries. In addition, Nordas and Piermartini (2004) suggested that quality of 
+transport infrastructure is an important determinant of trade expansion, and port efficiency is the 
+most crucial among all infrastructure indicators. 
+
+Some  studies  suggested  that  growth  in  international  trade  stimulates  public  infrastructure 
+development.  Since  trade  is  a  demand  determinant  for  transport  and  logistics,  growth  in 
+international trade will affect their growth (Lee and Rodrigue 2006). Growth in trade between the 
+United States and China has placed greater demands on the U.S. transportation system over the 
+last two decades (Beningo 2008). Wilson et al. (2005) measured the relationship between trade 
+facilitation  and  trade  flows  in  manufactured  goods  across  75  countries  during  2000-2001. They 
+concluded that differences in the quality of logistics and trade facilitation were related to trade in 
+all regions.                                                                                                                                              
+Another  strand  of  literature  involves  the  interaction  between  foreign  exports  and  economic 
+growth. Most studies concluded that trade benefits economic development by increasing income and 
+employment. For example, countries that trade a higher proportion of their GDP have higher incomes 
+(Frankel and Romer 1999, Irwin and Tervio 2002); exports contribute to economic development via 
+job creation at the state level in the United States (Coughlin and Cartwright 1987, Nishiyama 1997); 
+and Marin (1992) failed to reject the export-led growth hypothesis for the United States, Japan, 
+United  Kingdom,  and  Germany.  Conversely,  many  researchers  have  found  evidence  of  reverse 
+causality between exports and economic growth. For instance, Leichenko (2000) investigated the 
+causal relationships among exports, employment, and production in U.S. states and regions during 
+1980-1991 and found bidirectional causality between exports and state economic growth.
+
+Although  substantial  literature  has  investigated  the  causal  relationships  between  public 
+infrastructure and economic growth, trade and economic growth, or public infrastructure and trade, 
+little research has evaluated the interactions among these three closely related factors, except recent 
+studies of developing countries by Khadaroo and Seetanah (2008) and Sahoo and Dash (2012). 
+Khadaroo and Seetanah (2008) applied a vector error correction model to evaluate the impact of 
+public infrastructure (divided into transport and non-transport), trade openness, private capital, and 
+education level of labor on Maruritius’ GDP. Their results suggest that all factors had positive impacts 
+on output over 1950–2000, while GDP did not affect public infrastructure capital. Sahoo and Dash 
+(2012) included trade, infrastructure, and labor and capital inputs in the production functions for 
+South Asian countries to evaluate the effects of public infrastructure on output. They concluded that 
+infrastructure development and exports positively affected output and observed a feedback impact 
+from output to infrastructure development. 
+
+METHODOLOGY
+
+This study adopts vector autoregression (VAR) models to evaluate the dynamic relationships among 
+economic  output,  trade,  and  transport  infrastructure. The VAR  model  has  been  commonly  used 
+when dynamic feedback among evaluated variables is hypothesized (e.g., Cullison 1993, Kamps 
+2005). An additional advantage is that a priori causality directions are not needed between variables 
+(Sturm 1998), which fits the purpose of this study well. In a VAR model, each variable is explained 
+by its own lagged values and the lagged values of the other endogenous variables (Sims 1980). 
+
+Before applying the typical VAR model, integration/non-stationarity of the time-series variables 
+is examined through unit root tests, because conventional asymptotic theory is not applicable to 
+hypothesis testing of non-stationary series (Sims et al. 1990). Hence, the Augmented Dickey-Fuller 
+test (ADF, Dickey and Fuller 1979) was employed to test whether each variable is stationary. The 
+ADF test can be presented as:
+(1)   
+
+68
+
+Transport Infrastructurewhere At is the given time series,  is the first difference operator, and  μt represents an i.i.d. residual 
+term. The optimal lag length, n, is determined by the Schwarz Bayesian criterion (SBC, Schwarz 
+1978). The null hypothesis of the ADF unit root test is the coefficient of the lagged variable equals 
+zero (ρ	= 0). Failing to reject the null indicates a unit root exists in the data series. The Phillips-
+Perron unit root test (PP, Phillips and Perron 1988) was also conducted. This test has a similar 
+null hypothesis, but uses a nonparametric adjustment to the ADF test allowing for dependence and 
+heterogeneity in the residuals.
+
+If ADF and PP unit tests suggest that more than one of the evaluated variables are integrated, 
+a cointegration test must be conducted to determine if the linear combination of those variables is 
+stationary. If cointegration is found among the variables, a vector error correction model (VECM) 
+is appropriate. However, the commonly used cointegration tests developed by Engle and Granger 
+(1987) and Johansen (1988) have size distortion if the variables have roots close to unity but not 
+exact unit roots (Elliott 1998). Moreover, the estimation of the VECM is sensitive to the results of 
+the cointegration test, which likely results in severe over rejections of the null hypothesis (Clarke 
+and Mirza 2006).
+
+The  statistical  inference  issue  of  unit  roots  and  cointegration  tests  is  addressed  in  the  lag-
+augmented VAR (LA-VAR) model suggested by Toda and Yamamoto (1995). The LA-VAR model 
+can  be  estimated  without  taking  differences  of  the  data  and  applying  a  Wald  test  for  causality 
+between variables. Most importantly, it is applicable to variables that are stationary and integrated 
+or cointegrated (Kawakami and Doi 2004); hence, avoiding the statistical-inference uncertainty of 
+the cointegration test in the VECM model. A comparison of common methods for detecting Granger 
+non-causality found that the LA-VAR method exhibits consistent performance over a wide range 
+of data-generating processes and performs better in controlling Type I error probability (Clarke and 
+Mirza 2006). 
+
+A conventional VAR model of n-vector time series variables, with k lags is written as:
+
+(2)    
+
+where Vt is an n × 1 vector of series at time t, γ0 is an n × 1 vector of constants, γ1  is an n × 1 vector 
+of coefficients, T is a time trend,  βi are n × n matrices of coefficients, and εt is an n × 1 vector of 
+i.i.d. innovations (residuals) with n × n covariance matrix ∑. Similar to Khadaroo and Seetanah 
+(2008), six variables were considered in the present study (i.e., n=6), including aggregated economic 
+output (Y), aggregated exports (X), transport infrastructure (H), non-transport public capital (G), 
+private capital (K), and labor (L), to capture the completeness of their interactions in an extended 
+classical economic growth model. The LA-VAR model is generated by adding additional lags up to 
+dmax , which is determined by the maximum order of integration in the system. For example, if the 
+maximum order of integration of evaluated variables were one (i.e., taking first differences of the 
+variables to make them stationary over time), dmax , and the LA-VAR model would be:
+
+(3) 
+
+A modified Wald test can be conducted on the first k order of a LA-VAR (k + dmax	) system 
+to test if any given variable is Granger caused by other variables (Granger 1969). The Granger 
+causality test examines whether a variable is predicted by its own past information and the past 
+information of other evaluated variables. Therefore, the null hypothesis imposes the following re-
+striction on equation (3):
+(4)  H0 = β1 = β2 = ... = βk	= 0
+
+69
+
+JTRF Volume 53 No. 1, Spring 2014Rejecting the null hypothesis implies that the past information of other variables Granger causes the 
+variable at time t.
+
+Although the Granger causality test identifies causal relationships among variables, it cannot 
+show other endogenous variables’ responses to a one-time shock to an endogenous variable. Also, 
+as the coefficients of a VAR model are difficult to interpret, an innovation accounting based on 
+a  moving  average  representation  (MAR)  may  be  an  alternative  means  to  illustrate  the  dynamic 
+structure of evaluated variables (Sims 1980, Swanson and Granger 1997). An impulse response 
+function generated from the MAR of equation (3) is used to explain how long and to what extent one 
+variable reacts to an exogenous shock to another variable over time. These responses are revealed 
+by the generalized impulse response functions (GIRF) proposed by Koop et al. (1996) and Pesaran 
+and Shin (1998). Unlike the orthogonalized impulse responses that use a Cholesky decomposition 
+to define the contemporary relationships of the variables (Sims 1980), the main advantage of this 
+generalized approach is that the responses are invariant to the ordering of variables (Hurley 2010). 
+The statistical significance of each GIRF is evaluated by 95% confidence intervals using standard 
+error  generated  by  the  Monte  Carlo  method  (Lütkepohl  2000).  The  method  generates  the  non-
+standard asymptotic distribution of the standard error using 6,000 randomly sampled replications.
+
+DATA
+
+Aggregate  economic  output  (Y)  is  measured  by  gross  domestic  product  (GDP),  while  the  trade 
+variable (X) is measured by the value of exports. The value of exports is selected as a proxy for trade 
+in the analysis since exports are more relevant in the trade and growth literature. Also, Zestos and 
+Tao (2002) suggested the value of exports Granger causes GDP in the United States, but found no 
+evidence of causality from imports to GDP. The transport infrastructure variable (H) is measured 
+by the value in current dollars of the net stock of government fixed assets in highways and streets 
+after accounting for depreciation. This study uses highway and street infrastructure to represent 
+transport infrastructure because highway and street infrastructure is the largest single category of 
+public infrastructure capital (Bhatta and Drennan 2003) and is commonly used in the literature when 
+evaluating the economic impact of transportation infrastructure (Baird 2005). The U.S. Bureau of 
+Economic Analysis shows that highway and street infrastructure accounted for 32% of the estimated 
+$9.2 trillion in government fixed assets in 2010, excluding national defense (USBEA 2011). 
+
+Non-transport  capital  (G)  is  measured  by  the  value  in  current  dollars  of  the  net  stock  of 
+government  fixed  assets,  excluding  national  defense  and  highways  and  streets.  Private  capital 
+(K) is measured by the value in current dollars of private nonresidential fixed assets, consisting 
+of equipment, software, and structures; and labor (L) is hours worked by full-time and part-time 
+employees in domestic industry. Annual data for all six variables were obtained for 1950 through 
+2006 from the U.S. Bureau of Economic Analysis (USBEA 2011). All variables are measured in 
+billions of dollars (except L) and converted to logarithms (Figure 2). The observed upward trends 
+suggest the existence of unit roots. 
+
+EMPIRICAL RESULTS
+
+The ADF and PP unit root tests are summarized in Table 1. For most data series in levels, both tests fail 
+to reject the null of a unit root with or without trend. Both tests find variables are generally stationary 
+after taking first differences, suggesting the maximum order of integration, dmax, is one. The optimal 
+lag length, k, suggested by the SBC criterion is also one. Based on	dmax and the optimal k, equation 
+(3) becomes a two-lag LA-VAR. Residuals from the U.S. LA-VAR model are well behaved. The 
+test for normality of the residuals is not rejected (p-value of 0.97). Lagrangian multiplier (LM) tests 
+for third and fourth order autocorrelation fail to reject the null of white noise residuals (p-values 
+
+70
+
+Transport InfrastructureFigure 2: Plots of the Variables in Nature Logs
+
+Y
+billion $
+10
+
+X
+billion $
+8
+
+8
+
+6
+
+4
+
+2
+
+0
+
+1950
+
+1958
+
+1966
+
+1974
+
+1982
+
+1990
+
+1998
+
+2006
+
+H
+billion $
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+1950
+
+1958
+
+1966
+
+1974
+
+1982
+
+1990
+
+1998
+
+2006
+
+6
+
+4
+
+2
+
+0
+
+1950
+
+1958
+
+1966
+
+1974
+
+1982
+
+1990
+
+1998
+
+2006
+
+G
+billion $
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+1950
+
+1958
+
+1966
+
+1974
+
+1982
+
+1990
+
+1998
+
+2006
+
+K
+billion $
+12
+
+L
+hours
+13
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+1950
+
+1958
+
+1966
+
+1974
+
+1982
+
+1990
+
+1998
+
+2006
+
+ 
+
+12
+
+11
+
+10
+
+9
+
+8
+
+1950
+
+1958
+
+1966
+
+1974
+
+1982
+
+1990
+
+1998
+
+2006
+
+Note: Y = aggregate economic output, X = aggregate exports, H = transport infrastructure,
+G = non-transport public capital, K = private capital, and L = labor.
+
+of 0.30 and 0.18). In addition, the multivariate LM tests for first order autoregressive conditional 
+heteroskedasticity (ARCH) residuals (p-value of 0.15) suggest a constant residual variance.   
+
+Table 2 presents the results for the Granger causality tests from the LA-VAR procedure. Highway 
+and street infrastructure capital (H) does not Granger cause economic output (Y). However, evidence 
+suggests a strong causal effect (1% significance level) of economic output on highway and street 
+infrastructure. Non-transport public capital (G) and private capital (K) Granger cause aggregated 
+economic output at 5% and 10% levels, respectively, with no significant causal effects from the other 
+direction. Results suggest both highway and street capital and non-transport infrastructure capital 
+Granger cause exports (X) at the 5% and 10% levels, respectively. This finding is consistent with 
+previous literature that found a positive effect of transport infrastructure on trade (e.g., Limao and 
+Venables 2001, Nordas and Piermartini 2004, Francois and Manchin 2013). However, the reverse 
+causal impacts from exports to highway and street capital or non-transport public infrastructure 
+capital are not observed. 
+
+71
+
+JTRF Volume 53 No. 1, Spring 2014Table 1: Unit Root Test Results
+Variable
+
+Intercept
+-0.65(1)
+0.04(1)
+-0.35(2)
+-0.36(1)
+-0.43(1)
+-0.49(2)
+
+ADF 
+Intercept and Trend
+
+-0.46
+-2.35 (1)*
+-1.95(1)
+-1.42(1)
+-1.70(1)
+-3.53(1)**
+
+Levels 
+
+ 
+
+PP
+
+Intercept
+
+Intercept and Trend
+
+-1.05
+-0.62
+-0.32
+-0.78
+-0.57
+-1.41
+
+-0.53
+-1.68
+-1.50
+-1.11
+-1.23
+-3.02
+
+ 
+Y
+X
+H
+G
+K
+L
+ 
+
+First difference
+
+PP
+
+Intercept and Trend
+
+ADF
+Intercept and Trend
+-5.57(0)***
+-6.04(1)***
+-5.5(1)***
+-3.56(0)**
+-3.12(0)
+-6.24(1)***
+
+Intercept
+-5.58(0)***
+-6.08(1)***
+-5.55(1)***
+-3.61(0)***
+-3.14(0)**
+-6.29(1)***
+
+Y
+X
+H
+G
+K
+L
+Note: ***, **, and * denote significant at 1%, 5%, and 10%, respectively. Lag lengths included in parentheses are 
+determined based on SBC. Y = aggregate economic output, X = aggregate exports, H = transport infrastructure, 
+G = non-transport public capital, K = private capital, and L = labor.
+
+-5.99***
+-6.07***
+-4.95***
+-3.57**
+-3.07
+-7.20***
+
+Intercept
+-5.97***
+-6.16***
+-4.99***
+-3.62***
+-3.09**
+-7.33***
+
+Y
+
+H
+
+G	
+
+K
+
+L
+
+Modified Asymptotic Wald Statistics k(1)
+
+Table 2: Granger Causality Test Results Based on the Toda-Yamamoto Procedure (1995)
+ 
+Dependent Variable
+Y
+X
+H
+G	
+K
+L
+Note: ***, **, and * denote that the null hypothesis of Granger non-causality is rejected at the 1%, 5% and 
+10% significance levels, respectively. Y = aggregate economic output, X = aggregate exports, H = transport 
+infrastructure, G = non-transport public capital, K = private capital, and L = labor.
+
+-
+0.58
+7.36***
+1.4
+0.26
+0.44
+
+0.57
+5.01**
+-
+5.53**
+4.71**
+0.08
+
+4.58**
+3.26*
+0.01
+-
+1.94
+0.88
+
+X
+
+0.01
+-
+0.16
+0.17
+0.27
+0.62
+
+2.90*
+0.10
+0.35
+0.21
+-
+2.09
+
+0.04
+0.07
+2.89*
+1.43
+0.18
+-
+
+72
+
+Transport InfrastructureA  causal  relationship  is  also  found  between  the  public  infrastructure  capital  variables—
+highway and street capital Granger causes non-transport infrastructure at the 5% level. This causal 
+relationship implies that other public infrastructure capital increases when accessibility improves. 
+After the road systems are put in place, development of the non-transport infrastructure (e.g., office 
+buildings,  schools,  and  power  lines)  follows. A  similar  causal  relationship  is  observed  between 
+highway and street infrastructure and private capital—highway and street infrastructure Granger 
+causes private capital stock at the 5% level. This result suggests that improved accessibility attracts 
+private capital investment, i.e., the crowd-in effect. In addition, a weak causal effect of labor (L) on 
+highway and street infrastructure is observed at the 10% level. 
+
+The GIRF relating GDP (Y), exports (X), highway and street capital (H), non-transport public 
+capital (G), private capital (K), and labor (L) to each other based on the estimated LA-VAR are 
+depicted in Figure 3. Each panel in the figure presents a variable’s response (the bold line) and the 
+corresponding 95% confidence interval (the dash lines) to a one-time shock in another variable 
+over 20 years. The number on the vertical axis represents the change in the evaluated variable (a 
+scale of 0.01 refers to a 1% change), while the number on the horizontal axis is the number of years 
+following one positive shock in another variable. 
+
+In  panel  (a1),  the  effect  of  increased  exports  on  economic  output  is  positive  in  the 
+contemporaneous year (only effects that are significant at the 5% level are discussed onwards unless 
+otherwise indicated). A one-time positive shock in transport infrastructure capital does not create a 
+significant effect on national GDP (a2), while an increase in non-transport public capital positively 
+affects economic output for six years (a3). Panels (a4) and (a5) show that a one-time increase in 
+private capital and labor can also contribute to economic output over three to four years. 
+
+Panel (b1) shows that an increase in aggregated output enhances exports instantaneously and 
+into the following year. An increase in non-transport public capital stimulates national exports over 
+a three-year horizon (b3). Exports also expand instantly when private capital and labor increase (b4 
+and b5). The GIRF in panel (c1) suggests that a one-time positive shock in aggregated output has a 
+positive lagged effect on government spending on highways and streets, while a one-time expansion 
+in non-transport infrastructure capital creates a positive impact on highway and street infrastructure 
+capital over six years (c3). Similar to the impact of output, a one-time increase in private capital 
+posts a lagged impact on highway and street infrastructure (c4).
+
+The GIRFs for non-transport public infrastructure in panels (d1) through (d5) show that one-
+time  shocks  in  aggregated  output,  exports,  highways  and  streets,  private  capital,  and  labor  all 
+positively affect the formation of non-transport public infrastructure capital. The GIRFs for private 
+capital show that an increase in highway and street capital affects private capital formation in the 
+contemporaneous  period  in  panel  (e3),  while  investment  in  non-transport  public  infrastructure 
+capital positively produces a longer impact on private capital in panel (e4). These results provide 
+evidence that public infrastructure investments attract (or crowd-in) private capital development. 
+Also, a one-time expansion in GDP, exports, non-transport infrastructure capital, and private capital 
+elicit positive impacts on labor use (f1, f2, f4, and f5, respectively).  
+
+CONCLUSIONS AND POLITICAL IMPLICATIONS
+
+This paper analyzes the dynamic relationships among transport infrastructure, economic output, 
+and exports in the United States using the LA-VAR approach developed by Toda and Yamamoto 
+(1995).  The  results  can  be  summarized  as  follows.  First,  in  contrast  to  some  previous  studies 
+supporting a direct economic impact of transport infrastructure, results from both Granger causality 
+tests  and  generalized  impulse  response  functions  in  our  study  do  not  suggest  a  direct  effect  of 
+transport  infrastructure  on  aggregated  economic  output,  while  causality  from  economic  output 
+to  transport  infrastructure  formation  is  observed.  Second,  aggregate  non-transport  infrastructure 
+capital (e.g., educational structures, power, sewer and water systems, and residential, office and 
+
+73
+
+JTRF Volume 53 No. 1, Spring 2014 
+e
+t
+a
+g
+e
+r
+g
+g
+a
+ 
+=
+X
+
+ 
+
+ 
+s
+i
+x
+a
+ 
+l
+a
+t
+n
+o
+z
+i
+r
+o
+h
+
+ 
+e
+h
+t
+ 
+
+n
+o
+
+ 
+r
+e
+b
+m
+u
+n
+
+ 
+e
+h
+t
+ 
+e
+l
+i
+h
+w
+
+ 
+,
+)
+e
+g
+n
+a
+h
+c
+ 
+%
+1
+
+ 
+a
+ 
+
+o
+t
+ 
+s
+r
+e
+f
+e
+r
+ 
+
+1
+0
+
+.
+
+0
+
+ 
+f
+o
+
+ 
+e
+l
+a
+c
+s
+ 
+a
+(
+ 
+e
+l
+b
+a
+i
+r
+a
+v
+
+ 
+
+n
+e
+v
+i
+g
+
+ 
+a
+ 
+f
+o
+
+ 
+e
+g
+n
+a
+h
+c
+ 
+e
+h
+t
+ 
+s
+t
+n
+e
+s
+e
+r
+p
+e
+r
+ 
+s
+i
+x
+a
+ 
+l
+a
+c
+i
+t
+r
+e
+v
+
+ 
+e
+h
+t
+ 
+
+n
+o
+
+ 
+r
+e
+b
+m
+u
+n
+
+ 
+e
+h
+T
+
+ 
+:
+e
+t
+o
+N
+
+ 
+,
+t
+u
+p
+t
+u
+o
+ 
+c
+i
+m
+o
+n
+o
+c
+e
+ 
+e
+t
+a
+g
+e
+r
+g
+g
+a
+ 
+=
+Y
+
+ 
+
+ 
+.
+e
+s
+n
+o
+p
+s
+e
+r
+ 
+e
+h
+t
+ 
+f
+o
+ 
+l
+a
+v
+r
+e
+t
+n
+i
+ 
+e
+c
+n
+e
+d
+fi
+n
+o
+c
+ 
+%
+5
+9
+ 
+t
+n
+e
+s
+e
+r
+p
+e
+r
+ 
+s
+e
+n
+i
+l
+ 
+h
+s
+a
+D
+
+ 
+.
+
+k
+c
+o
+h
+s
+ 
+e
+m
+
+i
+t
+-
+e
+n
+o
+ 
+e
+h
+t
+ 
+r
+e
+t
+f
+a
+ 
+s
+r
+a
+e
+y
+ 
+f
+o
+ 
+r
+e
+b
+m
+u
+n
+ 
+e
+h
+t
+ 
+o
+t
+ 
+s
+d
+n
+o
+p
+s
+e
+r
+r
+o
+c
+
+.
+r
+o
+b
+a
+l
+ 
+
+ 
+
+ 
+
+=
+L
+d
+n
+a
+ 
+,
+l
+a
+t
+i
+p
+a
+c
+ 
+e
+t
+a
+v
+i
+r
+p
+=
+K
+
+ 
+
+ 
+
+ 
+,
+l
+a
+t
+i
+p
+a
+c
+ 
+c
+i
+l
+b
+u
+p
+
+ 
+t
+r
+o
+p
+s
+n
+a
+r
+t
+-
+n
+o
+n
+=
+G
+
+ 
+
+ 
+
+ 
+,
+e
+r
+u
+t
+c
+u
+r
+t
+s
+a
+r
+f
+n
+i
+ 
+t
+r
+o
+p
+s
+n
+a
+r
+t
+=
+H
+
+ 
+
+ 
+,
+s
+t
+r
+o
+p
+x
+e
+
+e
+l
+
+b
+a
+i
+r
+a
+V
+ 
+r
+e
+h
+t
+o
+n
+A
+n
+
+ 
+
+i
+ 
+
+ 
+
+ 
+
+k
+c
+o
+h
+S
+n
+o
+i
+t
+a
+i
+v
+e
+D
+d
+r
+a
+d
+n
+a
+t
+S
+ 
+e
+n
+O
+o
+t
+ 
+e
+l
+b
+a
+i
+r
+a
+V
+h
+c
+a
+E
+
+ 
+
+ 
+
+ 
+f
+o
+
+ 
+s
+e
+s
+n
+o
+p
+s
+e
+R
+ 
+e
+s
+l
+
+u
+p
+m
+
+I
+ 
+d
+e
+z
+i
+l
+a
+r
+e
+n
+e
+G
+
+ 
+:
+3
+
+ 
+e
+r
+u
+g
+i
+F
+
+74
+
+Transport Infrastructure 
+e
+t
+a
+g
+e
+r
+g
+g
+a
+ 
+=
+X
+
+ 
+
+ 
+s
+i
+x
+a
+ 
+l
+a
+t
+n
+o
+z
+i
+r
+o
+h
+
+ 
+e
+h
+t
+ 
+
+n
+o
+
+ 
+r
+e
+b
+m
+u
+n
+
+ 
+e
+h
+t
+ 
+e
+l
+i
+h
+w
+
+ 
+,
+)
+e
+g
+n
+a
+h
+c
+ 
+%
+1
+
+ 
+a
+ 
+
+o
+t
+ 
+s
+r
+e
+f
+e
+r
+ 
+
+1
+0
+
+.
+
+0
+
+ 
+f
+o
+
+ 
+e
+l
+a
+c
+s
+ 
+a
+(
+ 
+e
+l
+b
+a
+i
+r
+a
+v
+
+ 
+
+n
+e
+v
+i
+g
+
+ 
+a
+ 
+f
+o
+
+ 
+e
+g
+n
+a
+h
+c
+ 
+e
+h
+t
+ 
+s
+t
+n
+e
+s
+e
+r
+p
+e
+r
+ 
+s
+i
+x
+a
+ 
+l
+a
+c
+i
+t
+r
+e
+v
+
+ 
+e
+h
+t
+ 
+
+n
+o
+
+ 
+r
+e
+b
+m
+u
+n
+
+ 
+e
+h
+T
+
+ 
+:
+e
+t
+o
+N
+
+ 
+,
+t
+u
+p
+t
+u
+o
+ 
+c
+i
+m
+o
+n
+o
+c
+e
+ 
+e
+t
+a
+g
+e
+r
+g
+g
+a
+ 
+=
+Y
+
+ 
+
+ 
+.
+e
+s
+n
+o
+p
+s
+e
+r
+ 
+e
+h
+t
+ 
+f
+o
+ 
+l
+a
+v
+r
+e
+t
+n
+i
+ 
+e
+c
+n
+e
+d
+fi
+n
+o
+c
+ 
+%
+5
+9
+ 
+t
+n
+e
+s
+e
+r
+p
+e
+r
+ 
+s
+e
+n
+i
+l
+ 
+h
+s
+a
+D
+
+ 
+.
+
+k
+c
+o
+h
+s
+ 
+e
+m
+
+i
+t
+-
+e
+n
+o
+ 
+e
+h
+t
+ 
+r
+e
+t
+f
+a
+ 
+s
+r
+a
+e
+y
+ 
+f
+o
+ 
+r
+e
+b
+m
+u
+n
+ 
+e
+h
+t
+ 
+o
+t
+ 
+s
+d
+n
+o
+p
+s
+e
+r
+r
+o
+c
+
+.
+r
+o
+b
+a
+l
+ 
+
+ 
+
+ 
+
+=
+L
+d
+n
+a
+ 
+,
+l
+a
+t
+i
+p
+a
+c
+ 
+e
+t
+a
+v
+i
+r
+p
+=
+K
+
+ 
+
+ 
+
+ 
+,
+l
+a
+t
+i
+p
+a
+c
+ 
+c
+i
+l
+b
+u
+p
+
+ 
+t
+r
+o
+p
+s
+n
+a
+r
+t
+-
+n
+o
+n
+=
+G
+
+ 
+
+ 
+
+ 
+,
+e
+r
+u
+t
+c
+u
+r
+t
+s
+a
+r
+f
+n
+i
+ 
+t
+r
+o
+p
+s
+n
+a
+r
+t
+=
+H
+
+ 
+
+ 
+,
+s
+t
+r
+o
+p
+x
+e
+
+75
+
+d
+e
+u
+n
+
+i
+t
+n
+o
+c
+ 
+:
+3
+
+ 
+e
+r
+u
+g
+i
+F
+
+JTRF Volume 53 No. 1, Spring 2014commercial structures), excluding national defense, has sustainable positive effects on economic 
+output and exports over several years. Third, evidence shows that both transport and non-transport 
+public infrastructure Granger cause aggregated exports. Fourth, impulse response functions suggest 
+that economic output and exports react to each other immediately. Finally, results suggest that the 
+development of non-transport infrastructure capital creates multiple-year positive impacts on private 
+capital formation and employment.
+
+Similar to Cullison (1993), our findings suggest that expanding transport infrastructure capital, 
+represented by highways and streets, provides relatively short and indirect impacts on aggregated 
+economic output compared to expanding non-transport public infrastructure. The relatively vague 
+economic impact of transport infrastructure capital found in this study is of little surprise, since 
+a  developed  economy,  where  substantial  highway  and  street  infrastructure  already  exists,  may 
+experience a weaker influence of transport infrastructure investment than observed in developing 
+economies (Talley 1996). Also, public transport infrastructure, such as interstate highways, may only 
+affect the spatial allocation of economic activity, leaving the total net economic impact unaffected 
+(Chandra  and  Thompson  2000).  This  finding  does  not  suggest  overlooking  the  contribution  of 
+transport infrastructure capital, since both causality tests and impulse response functions imply that 
+improving road systems and enhancing accessibility will affect the formation of both non-transport 
+public infrastructure capital and private capital, which have positive impacts on economic output.
+
+Several policy implications are suggested from the findings of our research. First, as concerns 
+have arisen about the deteriorating 1950s Interstate Highway System and its effects on private sector 
+productivity and the nation’s economy, enhancing the nation’s transport infrastructure may be crucial 
+to stimulating the stagnant economy. Based on the findings of this study, investment in transport 
+infrastructure will encourage private capital formation and assist in the formation of other public 
+infrastructure,  both  of  which  in  turn  support  economic  growth. The  resulting  economic  growth 
+will then encourage an increased allocation of resources toward public transport capital formation, 
+perpetuating a cycle of public investment, private investment and economic growth. The recently 
+reauthorized  surface  transportation  bill,  MAP-21,  is  an  example  of  the  Obama Administration’s 
+intention to stimulate the economy through enhanced public transport infrastructure investment.
+
+Second, the insignificant direct impact of transport infrastructure capital on economic output 
+may imply that the nation’s highways and streets are not well managed (e.g., issues of congestion and 
+traffic safety) or maintained, hence, lowering the economic impact of investment in the nation’s road 
+systems. Talley (1996) indicated that spatial accessibility and transportation quality-of-service are 
+important when evaluating the economic impact of transport infrastructure investment. Moreover, 
+the road system may not be efficiently utilized, limiting its contribution to the national economy. 
+Thus, along with increasing the transport infrastructure capital stock, greater economic impact may 
+result from policies that better manage and utilize the nation’s road system. 
+
+Third,  given  current  global  economic  stagnation  and  the  domestic  budget  crisis,  the  results 
+suggest that the U.S. government efficiently allocate scarce budget resources toward crucial public 
+infrastructure formation. Allocating resources to highway and street infrastructure can encourage 
+the cycle of public investment, private investment, and economic growth, while investing in non-
+transport  public  infrastructure  can  provide  positive  sustainable  effects  on  economic  output  and 
+exports. As suggested by Garrison and Souleyrette (1996) nearly two decades ago, policy makers 
+should encourage innovations integrating transportation services with improvement in other sectors 
+to enhance and sustain the value of transport infrastructure. 
+
+The current study aggregated all highway and street infrastructure into one category. Future 
+research  is  needed  to  explore  the  economic  impacts  of  highway  and  street  infrastructure  by 
+disaggregating it into several categories since not all categories would have the same impact on 
+GDP (e.g., interstate highways versus county roads). The economic gains from spending on highway 
+networks linking shipping ports or investment in the state highways with the highest likelihood 
+for increasing local private capital investment can be analyzed, compared, and used to prioritize 
+
+76
+
+Transport Infrastructurebudget  allocations.  Also,  additional  measures  of  highway  infrastructure  management,  such  as 
+government spending on Intelligent Transportation Systems and their operation, or on reducing the 
+hours of congestion on highways, can be included to further evaluate the impact of transportation 
+infrastructure on the national economy. 
+
+References
+
+Aschauer, D.A. “Is Public Expenditure Productive?” Journal	of	Monetary	Economics 23 (2), (1989): 
+177-200.
+
+Babcock,  M.W.  and  J.C.  Leatherman.  “Methodology  for  Measuring  Output,  Value Added,  and 
+Employment Impacts of State Highway and Bridge Construction Projects.” Journal	of	Transportation	
+Research	Forum 50 (1), (2011): 37-53.
+
+Baird, B.A. “Public Infrastructure and Economic Productivity: A Transportation-Focused Review.” 
+Transportation	Research	Record	No. 1932, (2005): 54-60.
+
+Beningo,  S.  U.S.-China	 Trade	 Growth	 and	 America’s	 Transportation	 System.  Bureau  of 
+Transportation Statistics Special Report, SR-007, U.S. Department of Transportation, 2008.
+
+Berechman, J., D. Ozmen, and K. Ozbay. “Empirical Analysis of Transportation Investment and 
+Economic Development at State, County and Municipality Levels.” Transportation 33, (2006): 537-
+551.
+
+Bhatta, S.D. and M.P. Drennan. “The Economic Benefits of Public Investment in Transportation - A 
+Review of Recent Literature.” Journal	of	Planning	Education	and	Research 22 (3), (2003): 288-
+296.
+
+Borrone, L.C. “Sparking the Globalized Trade and Transportation Connection: Supplying Freight 
+System Responses to Global Trade Demands.” Transportation	Research	Record No.1906, (2005): 
+5-16.
+
+Chalermpong, S. “Empirical Study of Economic Spillovers of Interstate 105 in Los Angeles County.” 
+Transportation	Research	Record No. 1864, (2004): 94-102.
+
+Chandra, A. and E. Thompson. “Does Public Infrastructure Affect Economic Activity? Evidence 
+from the Rural Interstate Highway System.” Regional	Science	and	Urban	Economics	30 (4), (2000): 
+457-490.
+
+Clarke,  J. A.  and  S.  Mirza.  “A  Comparison  of  Some  Common  Methods  for  Detecting  Granger 
+Noncausality.” Journal	of	Statistical	Computation	and	Simulation 76 (3), (2006): 207-231.
+
+Clinton, B. Putting	People	First:	How	We	Can	All	Change	America. Three Rivers Press, New York, 
+1992. 
+
+Cohen,  J.  “The  Broader  Effects  of  Transportation  Infrastructure:  Spatial  Econometrics  and 
+Productivity Approaches.” Transportation	Research	Part	E 46 (3), (2010): 317–326.
+
+Coughlin,  C.C.  and  P.A.  Cartwright.  “An  Examination  of  State  Foreign  Export  Promotion  and 
+Manufacturing Exports.” Journal	of	Regional	Science 27 (3), (1987): 439-449.
+
+Cullison,  W.  “Public  Investment  and  Economic  Growth.”  Federal	 Reserve	 Bank	 of	 Richmond	
+Economic	Quarterly 79 (4), (1993): 19-33.
+
+77
+
+JTRF Volume 53 No. 1, Spring 2014Dickey, D.A. and W.A. Fuller. “Distribution of the Estimators for Autoregressive Time Series with a 
+Unit Root.” Journal	of	the	American	Statistical	Association 74 (366), (1979): 427-431.
+
+Elliott,  G.  “On  the  Robustness  of  Cointegration  Methods  When  Regressors Almost  Have  Unit 
+Roots.” Econometrica 66 (1), (1998): 149-158.  
+
+Engle, R.F. and C.W.J. Granger. “Co-integration and Error Correction: Representation, Estimation, 
+and Testing.” Econometrica 55 (2), (1987): 251-276.
+
+Ewing,  R.  “Highway-induced  Development  Research  Results  for  Metropolitan  Areas.” 
+Transportation	Research	Board No. 2067, (2008):101-109.
+
+Fernald,  J.  “Assessing  the  Link  between  Pubic  Capital  and  Productivity.”  American	 Economic	
+Review 89 (3), (1999): 619-638.
+
+Fisher, R.C. ‘The Effects of State and Local Public Services on Economic Development.” New	
+England	Economic	Review, March, (1997): 53–82. 
+
+Francois, J.F. and M. Manchin. “Institutions, Infrastructure, and Trade.” World	Development 46, 
+(2013): 165-175.
+
+Frankel, J.A. and D. Romer. “Does Trade Cause Growth?” The	American	Economic	Review 89 (3), 
+(1999): 379-399.
+
+Garrison,  W.L.  and  R.R.  Souleyrette  II.  “Transportation,  Innovation,  and  Development:  The 
+Comparison Innovation Hypothesis.” Logistics	and	Transportation	Review 32 (1), (1996):5-38.
+
+Giles, J.A. and C.L. Williams. “Export-led Growth: A Survey of the Empirical Literature and Some 
+Noncausality Results. Part 1.” The	Journal	of	International	Trade	&	Economic	Development 9 (3), 
+(2000):261-337.
+
+Glass, A. “Public Expenditure on Transport and Macroeconomic Performance: Empirical Evidence 
+from the United States.” International	Journal	of	Transport	Economics XXXV (1), (2008): 121-
+143.
+
+Gramlich, E.M. “Infrastructure Investment: A Review Essay.” Journal	of	Economic	Literature 32, 
+(1994): 1176-1196.
+
+Garcia-Mila,  T.,  T.J.  McGuire,  and  R.H.  Porter.  “The  Effect  of  Public  Capital  in  State-level 
+Production Functions Reconsidered.” Review	of	Economics	and	Statistics 78 (1), (1996): 177-180.
+
+Goetz, A.R. “The Global Economic Crisis, Investment in Transport Infrastructure, and Economic 
+Development.”  K.  Button  and  A.  Reggiani  eds.  Transportation	 and	 Economic	 Development	
+Challenges. Cheltenham, UK: Edward Elgar Publishers, (2011): 41-71. 
+
+Granger,  C.W.J.  “Investigating  Causal  Relations  by  Econometric  Models  and  Cross-spectral 
+Methods.” Econometrica	37 (3), (1969): 424-438.
+
+Holtz-Eakin,  D.  “Public-sector  Capital  and  the  Productivity  Puzzle.”  Review	 of	 Economics	 and	
+Statistics 76 (1), (1994): 12-21.
+
+Holtz-Eakin, D. and A.E. Schwartz. “Infrastructure in a Structural Model of Economic-Growth.” 
+Regional	Science	and	Urban	Economics 25 (2), (1995): 131-151.
+
+78
+
+Transport InfrastructureHodge, D.J., G. Weisbrod, and A. Hart. “Do New Highways Attract Businesses? Case Study for 
+North County, New York.” Transportation	Research	Record	No. 1839, (2003):150-158.
+
+Horst, T. and A. Moore. “Industrial Diversity, Economic Development, and Highway Investment in 
+Louisiana.” Transportation	Research	Record	No. 1839, (2003): 136-141.
+
+Hurley, D.T. “A Generalized Impulse Response Investigation of U.S. Long and Short-term Interest 
+Yields  and Asian  Holdings  of  U.S.  Treasuries.”  Journal	 of	 International	 and	 Global	 Economic	
+Studies 3 (1), (2010): 68-86.
+
+Irwin, D. and M. Tervio. “Does Trade Raise Income: Evidence from the 20th Century.” Journal	of	
+International	Economics 58 (1), (2002): 1-18.
+
+Johansen, S. “Statistical Analysis of Cointegrating Vectors.” Journal	of	Economic	Dynamics	and	
+Control 12 (2-3), (1988): 231-54.
+
+Kamps,  C.  “The  Dynamic  Effects  of  Public  Capital:  VAR  Evidence  for  22  OECD  Countries.” 
+International	Tax	and	Public	Finance 12 (4), (2005): 533-558.
+
+Kawakami, T. and M. Doi. “Port Capital Formation and Economic Development in Japan: A Vector 
+Autoregression Approach.” Papers	in	Regional	Science 83 (4), (2004): 723-732.
+
+Kessides, C. “A Review of Infrastructure’s Impact on Economic Development.” D. Batten and C. 
+Karlsson eds. Infrastructure	and	the	Complexity	of	Economic	Development. Springer (1996): 213-
+230.
+
+Khadaroo, J. and B. Seetanah. “Transport and Economic Performance: The Case of Mauritius.” 
+Journal	of	Transport	Economics	and	Policy 42 (2), (2008): 255-267.
+
+Koop, G., M.H. Pesaran, and S.M. Potter. “Impulse Response Analysis in Nonlinear Multivariate 
+Models.” Journal	of	Econometrics 74 (1), (1996): 119-147.
+
+Lee, J.Y. and J.P. Rodrigue. “Trade Reorientation and Its Effects on Regional Port Systems: The 
+Korea China Link along the Yellow Sea Rim.” Growth	and	Change 37 (4), (2006): 597-619.
+
+Leichenko, R.M. “Exports, Employment, and Production: A Causal Assessment of US States and 
+Regions.” Economic	Geography 76 (4), (2000): 303-325.
+
+Limao,  N.  and A.J. Venables.  “Infrastructure,  Geographical  Disadvantage, Transport  Costs,  and 
+Trade.” The	World	Bank	Economic	Review 15 (3), (2001): 451-479.
+
+Lütkepohl, H. “Bootstrapping Impulse Responses in VAR Analyses.” J.G. Bethlehem and P.G.M. 
+van der Heijden eds. COMPSTAT	2000:	Proceedings	in	Computational	Statistics, Physica Verlag 
+(2000): 109-119.
+
+Marin, D. “Is the Export-Led Growth Hypothesis Valid for Industrialized Countries?” Review	of	
+Economics	and	Statistics 74 (4), (1992): 678-688.
+
+Munnell,  A.  and  L.M.  Cook.  “How  Does  Public  Infrastructure  Affect  Regional  Economic 
+Performance?” New	England	Economic	Review Sep/Oct, (1990): 11-33.
+
+Munnell, A.H. “Why Has Productivity Growth Declined? Productivity and Public Investment.” New	
+England	Economic	Review Jan/Feb, (1990): 3-22.
+
+79
+
+JTRF Volume 53 No. 1, Spring 2014Nguyen,  H.O.  and  J. Tongzon.  “Causal  Nexus  Between  the Transport  and  Logistics  Sector  and 
+Trade: The Case of Australia.” Transport	Policy 17 (3), (2010): 135-146.
+
+Nishiyama, Y.  “Exports’  Contribution  to  Economic  Growth:  Empirical  Evidence  for  California, 
+Massachusetts, and Texas, Using Employment Data.” Journal	of	Regional	Science 37 (1), (1997): 
+99-125.
+
+Nordas, H.K. and R. Piermartini. Infrastructure	and	Trade. Working paper, No. ERSD-2004-04, 
+World Trade Organization, Switzerland, 2004.
+
+Park, M.H. and W.W. Koo. Recent	Development	in	Infrastructure	and	Its	Impact	on	Agricultural	
+and	Non-agricultural	Trade. Paper presented at AAEA annual meeting, Providence, RI 19525, 24-
+27 July, 2005.
+
+Pereira, A.M. and J.M. Andraz. “On the Regional Incidence of Highway Investments in the USA.” 
+Annual	of	Regional	Science 48, (2012): 819-838.
+
+Pesaran, H.H. and Y. Shin. “Generalized Impulse Response Analysis in Linear Multivariate Models.” 
+Economics	Letters 58 (1), (1998): 17-29.
+
+Peterson S.K. and E.L. Jessup. “Evaluating the Relationship Between Transportation Infrastructure 
+and  Economic Activity:  Evidence  from Washington  State.”  Journal	 of	 Transportation	 Research	
+Forum 47 (2), (2008): 21-40.
+
+Phillips, P.C.B. and P. Perron. “Testing for a Unit Root in Time Series Regression.” Biometrika 75 
+(2), (1988): 335-346.
+
+Sahoo, P. and R.K. Dash. “Economic Growth in South Asia: Role of Infrastructure.” The	Journal	of	
+International	Trade	&	Economic	Development 21 (2), (2012): 217-252.
+
+Schwarz, G. “Estimating the Dimension of a Model.” The	Annals	of	Statistics 6 (2), (1978): 461-
+464. 
+
+Sims, C.A. “Macroeconomics and Reality.” Econometrica 48 (1), (1980): 1-48.
+
+Sims, C.A., J.H. Stock, and M.W. Watson. “Inference in Linear Time Series Models with Some Unit 
+Roots.” Econometrica 58 (1), (1990): 161–82.
+
+Sturm, J.E. Public	Capital	Expenditure	in	OECD	Countries:	The	Causes	and	Impact	of	the	Decline	
+in	Public	Capital	Spending. Edward Elgar Publishing, Cheltenham, U.K, 1998.
+
+Swanson, N.R. and C.W.J. Granger. “Impulse Response Functions Based on a Causal Approach to 
+Residual Orthogonalization in VAR.” Journal	of	the	American	Statistical	Association 92, (1997): 
+357 – 367.
+
+Talley, W. “Linkage Between Transportation Infrastructure Investment and Economic Production.” 
+Logistics	and	Transportation	Review 32 (1), (1996): 145-154.
+
+Tatom,  J.A.  “The  Spurious  Effect  of  Public  Capital  Formation  on  Private  Sector  Productivity.” 
+Policy	Studies	Journal 21 (2), (1993): 391-395.
+
+Toda,  H.Y.  and  T.  Yamamoto.  “Statistical  Inference  in  Vector  Autoregressions  with  Possibly 
+Integrated Processes.” Journal	of	Econometrics 66 (1-2), (1995): 225-250.
+
+80
+
+Transport InfrastructureTong, T., T.E. Yu, S. Cho, K. Jensen, and D. de la Torre Ugarte. “Evaluating the Spatial Spillover 
+Effect of Transportation Infrastructure on Agricultural Output Across the United States.” Journal	of	
+Transport	Geography 30, (2013): 47-55.
+
+U.S. Department of Commerce, Bureau of Economic Analysis. National Economic Accounts. 2011. 
+Available at http://www.bea.gov/national/ (accessed February 18, 2012).
+
+Wang, Z., J. Sage, A. Goodchild, E. Jessup, K. Casavant and R.L. Knutson. “A Framework for 
+Determining Highway Truck-Freight Benefits and Economic Impacts.” Journal	of	Transportation	
+Research	Forum 52 (2), (2013): 27-43.
+
+Wilson, J.S., C.L. Mann, and T. Otsuki. “Assessing the Potential Benefit of Trade Facilitation: A 
+Global Perspective.” The	World	Economy 28 (6), (2005): 841-871.
+
+Zestos,  G.K.  and  X.  Tao.  “Trade  and  GDP  Growth:  Causal  Relations  in  the  United  States  and 
+Canada.” Southern	Economic	Journal 68 (4), (2002): 859-874.
+
+Tong	is	currently	a	Ph.D.	student	in	the	Department	of	Economics	at	Georgia	Institute	of	Technology.	
+She	 obtained	 her	 M.Sc.	 in	 agricultural	 economics	 from	 University	 of	 Tennessee	 in	 2012.	 Her	
+research	interest	is	in	labor	economics	and	transportation	economics.	
+
+Yu	 is	 an	 assistant	 professor	 in	 the	 Department	 of	 Agricultural	 &	 Resource	 Economics	 at	 the	
+University	of	Tennessee.	He	received	an	M.Sc.	from	Iowa	State	University	and	a	Ph.D.	from	Texas	
+A&M	University.	His	research	focuses	on	agricultural	logistics,	bioenergy	markets,	and	the	nexus	
+of	trade,	transportation	and	the	environment.	
+
+Roberts is	a	professor	in	the	Department	of	Agricultural	&	Resource	Economics	at	the	University	
+of	 Tennessee.	 He	 received	 an	 M.Sc.	 from	 Utah	 State	 University	 and	 a	 Ph.D.	 from	 Iowa	 State	
+University.	He	is	teaching	microeconomics	and	research	methodology	and	has	conducted	research	
+on	a	vast	array	of	issues,	including	production	economics,	farm	management,	policy	analysis	and	
+international	development.
+
+81
+
+JTRF Volume 53 No. 1, Spring 201482
+
+

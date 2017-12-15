@@ -1,0 +1,874 @@
+Identifying Traffic Safety Practices and Needs 
+of Local Transportation and Law Enforcement 
+Agencies
+by Kirolos Haleem, Albert Gan, Priyanka Alluri, and Dibakar Saha
+
+As	part	of	the	effort	to	implement	the	Strategic	Highway	Safety	Plan	(SHSP),	state	departments	
+of	 transportation	 are	 looking	 to	 reach	 out	 to	 local	 and	 law	 enforcement	 agencies.	 This	 paper	
+presents	 a	 study	 by	 the	 Florida	 Department	 of	 Transportation	 (FDOT)	 to	 identify	 the	 existing	
+safety	practices	and	needs	of	local	transportation	agencies	and	law	enforcement	offices	in	Florida.	
+Two	comprehensive	online	surveys	targeting	local	transportation	agencies	and	law	enforcement	
+agencies	 are	 developed.	 The	 survey	 for	 local	 transportation	 agencies	 includes	 39	 questions	
+on	 topics	 including	 standardization	 of	 crash	 analysis	 methods,	 training	 needs,	 and	 working	
+with	FDOT.	For	law	enforcement	agencies,	the	survey	includes	25	questions	covering	topics	on	
+enforcement	locations,	traffic	violations	and	safety	campaigns,	use	of	crash	reports,	and	working	
+with	transportation	agencies.	Results	from	both	surveys	and	lessons	learned	are	discussed.	
+
+INTRODUCTION
+
+A Strategic Highway Safety Plan (SHSP 2013) is required under the Safe Accountable Flexible 
+Efficient  Transportation  Equity Act  – A  Legacy  for  Users  (SAFETEA-LU  2005)  as  part  of  the 
+Highway Safety Improvement Program (HSIP 2013). The plan aims to provide a comprehensive 
+framework for reducing highway fatalities and serious injuries on all public roads by integrating the 
+four E’s of highway safety: engineering, education, enforcement, and emergency medical services 
+(EMS). The framework allows highway safety programs and partners in a state to work together in 
+an effort to align goals, leverage resources, and collectively address the state’s safety challenges. 
+The Moving Ahead for Progress in the 21st Century (MAP-21 2013) continues the HSIP role as a 
+core federal-aid program and requires states to develop, implement, evaluate, and update SHSP. As 
+part of the effort to implement SHSP, state departments of transportation (DOTs) are increasingly 
+looking to reach out to local and law enforcement agencies. 
+
+This paper describes an effort by the Florida Department of Transportation (FDOT) to identify 
+the  existing  safety  practices  and  needs  of  local  transportation  agencies  and  law  enforcement 
+offices in Florida. As local roads make up a large percentage of a state road network system, local 
+transportation agencies play an important role in the state’s overall safety performance. Working 
+with these  agencies, knowing  their needs, and helping them meet their needs are critical to the 
+success  of  the  SHSP  implementation.  While  local  transportation  and  law  enforcement  agencies 
+both aim to improve traffic safety, their approaches and needs are different (Gan et al. 2012). For 
+example, a law enforcement officer may be more interested in identifying enforcement locations 
+based on crash frequency over a shorter period (e.g., three months), while a safety engineer uses 
+multiple years of crash data and exposure to prioritize locations for safety improvements.
+
+As part of the study, two online surveys were conducted targeting local transportation agencies 
+and the law enforcement community to identify their practices and needs. While the surveys were 
+rather comprehensive in scope, including 39 questions for local transportation agencies and 25 
+questions for law enforcement agencies, this paper covers only those that are more likely to be 
+of interest to the general readers. The surveys are easily transferable to other state DOTs that are 
+willing to reach out to their local agencies.
+
+83
+
+JTRF Volume 53 No. 1, Spring 2014LITERATURE REVIEW
+
+As part of the survey design effort, a literature search was first conducted to identify relevant studies. 
+It was found that studies that investigated traffic safety procedures and needs from the perspective 
+of local transportation agencies and law enforcement officers were very limited. The majority of 
+studies targeting law enforcement officers were found to focus on addressing data quality issues in 
+crash reporting (Knezek and Hansen 2007, Bailey and Huft 2008, Mickee 2008), a better allocation 
+of  traffic  safety  personnel  (Coffman  and  Monsere  2006),  the  impact  of  law  enforcement  on 
+prohibiting hand-held cell phone use while driving (Nikolaev et al. 2010), and the officers’ attitudes 
+and  problems  encountered  in  enforcement  (Hurst  1980,  Jonah  et  al.  1999,  Schrock  et  al.  2002, 
+Chang and Shih 2012). For example, Knezek and Hansen (2007) designed the “Police Technical 
+Assistance Program” for supporting the New Jersey Department of Transportation safety mission. 
+As part of this program, assessments were conducted and technical assistance provided to reduce 
+the reporting errors on New Jersey’s crash reports. The project succeeded in changing the structure 
+of the crash reporting form that was accepted by municipal law enforcement officers. 
+
+Mickee  (2008)  designed  a  law  enforcement  outreach  survey  to  explore  the  data  quality 
+issues provided by law enforcement officers and to identify possible cost-effective solutions for 
+the  problematic  lack  of  unreliable  crash  data  in  Massachusetts.  Mickee  (2008)  emphasized  two 
+important criteria for a proper design of online surveys: surveys should have easy questions that 
+could be answered in approximately 20 minutes and surveys should avoid open-ended questions as 
+much as possible. Nikolaev et al. (2010) evaluated the impact of law enforcement on prohibiting cell 
+phone use while driving in New York. They observed lower fatality crash rates after enforcement on 
+banning cell phone use compared with crash rates before banning.
+
+Studies  targeting  transportation  agencies  were  limited  compared  with  those  targeting  law 
+enforcement agencies. Studies targeting transportation agencies focused mainly on methods to collect 
+standard roadside information (Lee and Mannering 1999), perspective on various transportation 
+modeling packages (Boile and Ozbay 2005), and opinions on potential benefits from technological 
+innovations, e.g., electronic data entry and geographic information systems (GIS) (Cherry et al. 
+2006). 
+
+Lee and Mannering (1999) developed a standardized method to collect roadside information 
+and estimate accident severity likelihood resulting from roadside attributes. The authors conducted 
+a national survey of DOT agencies in the U.S. to investigate various states’ practices regarding the 
+collection of roadside information. The majority of responses agreed that the removal of unnecessary 
+fixed objects along the roadside was essential, more so than relocation. Boile and Ozbay (2005) 
+conducted a survey to obtain the perspective of different software users regarding the strengths and 
+limitations of the most widely used transportation modeling packages. They illustrated that there 
+was an increasing demand for sound graphical interface, GIS integration, and land use integration 
+packages,  as  found  in  TransCAD  and  CUBE.  Thus,  the  current  study  is  considered  the  first  to 
+identify the existing safety practices and needs of local transportation agencies and law enforcement 
+offices as part of the effort to implement the SHSP. 
+
+SURVEY DESIGN AND ADMINISTRATION 
+
+To  identify  the  existing  safety  practices  and  needs  of  local  transportation  agencies  and  law 
+enforcement offices, two separate online surveys targeting local transportation agencies and law 
+enforcement  offices  were  designed.  Local  transportation  agencies  include  both  county  and  city 
+public  works  departments.  Each  county  public  works  department  constructs  and  maintains  the 
+county’s  roads,  bridges,  canals,  sidewalks,  street  signs,  pavement  markings,  traffic  signals,  and 
+storm-water  drainage  facilities.  The  city  public  works  department  maintains  and  improves  the 
+city’s infrastructure by conducting reviews for plans submitted by the involved county and FDOT. 
+
+84
+
+Traffic Safety PracticesBoth  departments  have  safety-related  responsibilities  as  part  of  their  work.  For  example,  local 
+county agencies rely on police crash reports to identify problematic (i.e., high crash) locations at 
+intersections and corridors based on various crash types. Afterward, they adopt countermeasures as 
+recommended by FDOT and National Cooperative Highway Research Program (NCHRP) reports. 
+Local city departments address traffic safety issues and rely on police reports to identify problematic 
+locations within the borders of the city.
+
+Law enforcement offices have police officers who complete crash reports for every crash. Law 
+enforcement officers deal with traffic safety problems while stressing education and enforcement. 
+For example, they initiate safety programs to alert drivers of potential crash risk, e.g., DON’T TEXT 
+AND DRIVE, and they use speed trailers (i.e., devices that visually display drivers’ real-time speeds 
+compared to the speed limit) to enforce speeding violations. Law enforcement officers could also 
+perform crash analysis to assist in their enforcement campaigns by prioritizing the most hazardous 
+intersections with specific safety issues, e.g., speeding, pedestrian crashes, and bicyclist crashes.
+
+According to previous studies, e.g., Mickee (2008), online surveys are preferred for opinionated 
+questionnaires for their cost-efficiency. A comprehensive list of questions in both surveys has been 
+prepared while taking into consideration the criteria provided by Mickee (2008) for designing online 
+survey questions. The list was further shortened to fit the planned completion time of 30 minutes 
+for the local transportation agencies survey and 20 minutes for the law enforcement offices survey. 
+The research team then went through each question with the FDOT project manager from the State 
+Safety Office. The surveys were distributed in the fall of 2011. 
+
+To  initiate  a  perspective  about  the  adopted  safety  analysis  procedures,  on-site  visits  to  two 
+local transportation agencies in the South Florida region were conducted, which were the Miami-
+Dade and Broward Counties’ Public Works Departments. These two agencies were selected on the 
+basis of: (1) conducting traffic safety analysis as part of their duties and (2) being located in the 
+South Florida region to be close to Florida International University. Face-to-face interaction with 
+the traffic safety engineers in both agencies helped to fine-tune the survey questions. In addition, the 
+two surveys were pretested by sending out the survey links to several graduate students to ensure 
+that the survey instrument worked as intended.
+
+The survey of local transportation agencies was comprehensive, including 39 questions covering 
+
+the following eight areas of interest: 
+
+training
+
+identification of high crash locations
+
+1.  use of crash data 
+2. 
+3.  project selection, implementation, and evaluation
+4.  crash analysis software systems
+5.  crash analysis standardization
+6.  crash analysis documentation 
+7. 
+8.  working with FDOT
+An invitation email along with a link to the survey questions was sent out to a broad list of 
+local county and city transportation agencies in Florida using the Safety Office Emailing System. 
+Reminder emails were sent to non-responding recipients. A total of 37 responses were received and 
+the responding agencies were geographically diverse, covering the entire state, including five from 
+Northern Florida, 12 from Southern Florida, five from Eastern Florida, seven from Western Florida, 
+and eight from Central Florida. In addition, the agencies represented both rural and urban regions, 
+where the northern region is mostly rural.
+
+The survey targeting law enforcement agencies included 25 questions covering the following 
+
+four areas of interest: 
+
+a. 
+b. 
+
+selection of enforcement locations,
+traffic violations and safety campaigns,
+
+85
+
+JTRF Volume 53 No. 1, Spring 2014c.  crash reports, and 
+d.  working with local transportation agencies. 
+The  State  Safety  Office  also  assisted  in  sending  out  the  law  enforcement  agencies  survey 
+through  each  District  Community  Traffic  Safety  Team  (CTST)  coordinator.  Florida  CTSTs  are 
+groups of highway safety advocates who are committed to solving safety problems through a multi-
+disciplinary approach. The CTST individuals represent each of the four E’s and consist of local 
+city, county, state, and private industry representatives, as well as local citizens. Each FDOT district 
+has a CTST coordinator who works closely with the CTSTs in their jurisdiction. The survey was 
+sent out through each district CTST coordinator to a broad list of local law enforcement agencies. 
+Furthermore, to increase the response rate, multiple reminder emails were sent to non-responding 
+recipients.
+
+In total, 46 law enforcement agencies responded to the survey. The responding agencies were 
+classified as 30 county sheriff offices, 14 city and university police departments, and two district 
+offices of the Florida Highway Patrol (FHP). Of the 46 responding agencies, 13 were from Northern 
+Florida, seven were from Southern Florida, 14 were from Eastern Florida, seven were from Western 
+Florida, and five were from Central Florida. Again, the responding agencies were well represented 
+and included different spatially-diverse agencies from across the five geographic regions of Florida. 
+In addition to sending the invitation email, follow-ups were performed to obtain clarifications on 
+some of the responses. 
+
+A  precise  response  rate  for  each  survey  could  not  be  calculated. The  surveys  attempted  to 
+reach out to as many agencies as possible by making use of existing mailing lists (i.e., the Safety 
+Office Emailing System for distributing the local transportation agencies survey and the assistance 
+of each district CTST coordinator for distributing the law enforcement agencies survey). The precise 
+number of subscriptions in these mailing lists could not be determined as the number of emails in 
+these lists was not made known to the research team. In addition, it is expected that these mailing 
+lists, like any others, are likely to contain a number of invalid emails.
+
+LOCAL TRANSPORTATION AGENCY SURVEY RESULTS 
+
+While the number and type of crashes are readily available, the objectives of the study could only 
+be accomplished through the expert opinions of traffic safety professionals. The survey results for 
+four select areas from the 37 local transportation agencies are summarized in the sections below.
+
+Crash Analysis Standardization
+
+Uniformity of Crash Analysis Methods and Procedures. Local transportation agencies have been 
+using several crash analysis software tools. Some tools that were developed in-house include the 
+Accident Reporting System (ARS), a crash mapping system, and other GIS crash analysis systems.
+Identifying the opinions of local transportation agencies about the uniformity of crash analysis 
+methods could help determine the feasibility for statewide standardization of crash analysis methods. 
+As shown in Figure 1(a), over 70% of responding local agencies either agreed or strongly agreed to 
+standardize crash analysis procedures across the state. Close to 25% of the agencies were neutral, 
+while a minority (5%) opposed standardization. It can be inferred that there was a general consensus 
+on standardizing crash analysis methods and procedures across Florida. Important reasons justifying 
+standardization included: 
+
+•	 Standardization would be beneficial when applying for grants.
+•	 Standardization results in consistent, predictable, and repeatable results.
+•	 Standardization provides cost effectiveness.
+•	 Standardization protects analysts from potential liabilities.
+
+86
+
+Traffic Safety Practicesprocess:
+
+On the other hand, the following were some of the opinions that discouraged the standardization 
+
+It is difficult for all agencies to have access to the same data.
+
+•	
+•	 There is too much inconsistency between agencies. 
+•	 The same methods and procedures might be very expensive for rural counties compared 
+
+with urban counties.
+
+•	 A standard method might not work well for all types of safety issues, e.g., fatal crashes.
+
+Adoption of the Highway Safety Manual as Standard for Crash Analysis. The Highway Safety 
+Manual (HSM) (AASHTO 2010a), released in July 2010, provides analytical tools for quantifying 
+effects of potential changes at individual sites. Although the manual is in the initial stages of its 
+adoption, states and local agencies are looking for ways to implement it. The respondents were 
+provided a link in the survey to the HSM homepage to learn more about the manual. As shown in 
+Figure 1(b), about 46% of responding local agencies either agreed or strongly agreed to adopt the 
+HSM as a standard for crash analysis, 43% were neutral, while the rest (11%) opposed adopting the 
+manual. 
+
+Some responding agencies indicated that they support the HSM adoption as it provides the 
+guidelines and specific procedures for conducting crash analysis. Another strong reason to adopt 
+the manual was to maintain consistency in the policies and procedures for evaluations. One of the 
+agencies wished that the HSM adoption would lead to an initiative to set aside local funds to pursue 
+safety projects. On the other hand, the lack of analysis of limited access facilities (i.e., freeways), the 
+lack of state-specific crash reduction factors (CRFs), and the lack of extensive data were the three 
+main reasons for the agencies’ existing reluctance in adopting the manual. Of the 37 responding 
+agencies, 11 were unfamiliar with the manual to provide a response. 
+
+Deployment  of  SafetyAnalyst.  SafetyAnalyst  (AASHTO  2010b)  is  a  state-of-the-art  analytical 
+tool for making system-wide safety decisions that incorporates all the steps in the roadway safety 
+management process. The software incorporates the advanced empirical Bayes (EB) approach and 
+acts as a complete “safety toolbox” for any safety office. Although data requirements are intense, 
+once the data are imported the analyses are easy requiring minimum statistical expertise. Again, the 
+respondents were provided a link in the survey to the SafetyAnalyst homepage to learn about the 
+tool.
+
+From Figure 1(c), 62% of responding local agencies either agreed or strongly agreed to take 
+advantage of SafetyAnalyst; 35% were neutral and a minority (3%) disagreed. The survey responses 
+showed that the local agencies had a motivation to adopt SafetyAnalyst. The agencies hoped that 
+SafetyAnalyst could be provided free of charge, along with low-cost training tools. However, at this 
+time, FDOT cannot provide it for free since the tool is maintained by the American Association of 
+State Highway and Transportation Officials (AASHTO). 
+
+87
+
+JTRF Volume 53 No. 1, Spring 2014Figure 1: Pie Charts of Key Survey Results
+
+88
+
+Traffic Safety PracticesAdoption of Standard Web-Based GIS Application. Since different local agencies adopt multiple 
+GIS systems for crash analysis, it is important to obtain their opinion about standardizing web-based 
+GIS applications. It was found that the majority of responding local agencies (62%) either agreed or 
+strongly agreed on the statewide adoption of a standard web-based GIS system for crash analysis. 
+The  responding  agencies  considered  GIS  applications  to  be  efficient,  accurate,  and  manageable 
+compared  with  the  existing  non-GIS  methods.  Many  agencies  also  indicated  that  a  GIS  system 
+would enable engineers to spatially map crashes, spatially identify crash locations, and produce 
+reports  showing  traffic  crash  statistics.  Moreover,  a  web-based  GIS  system  could  increase  the 
+accuracy of crash data and the speed with which crash data could be obtained and analyzed.
+
+Although most agencies embraced the idea of a standard GIS application, 8% of responding 
+agencies were against it. These agencies were concerned about the costs associated with the tool in 
+addition to the resources to be allocated. One agency felt that a standard GIS system could restrict 
+some of their employees. Further, the non-uniform nature of data being collected and analyzed was 
+considered to be a hurdle to standardize the GIS applications. 
+
+If a standard procedure for crash analysis is to be adopted, the respondents identified the following 
+as key issues that have to be accounted for: differences between the old and new crash report forms, 
+crashes involving vulnerable road users (i.e., elderly people, bicyclists, and pedestrians), differences 
+between urban and rural agricultural communities, and lack of short-form crash reports. Note that 
+Florida used to have a standard crash report that had been adopted until December 31, 2010. As 
+of January 1, 2011, a new crash report has been released and is currently the standard for crash 
+reporting. Compared with the previous crash report, the current one is more detailed and requires 
+more time to complete. 
+
+Training on Crash Analysis
+
+With the release of the recent safety analysis tools, the HSM and SafetyAnalyst, training on their 
+adoption for crash analysis is essential. This section of the survey sought to determine whether 
+FDOT should provide training on crash analysis procedures for local agencies. It was found that 
+more than 90% of responding local agencies either agreed or strongly agreed and the remaining 10% 
+were neutral. The responding agencies were interested in seeking training in the following priority 
+areas:
+•	
+
+thorough analysis of crashes, interpretation of data using statistical methods, and provision 
+of engineering solutions
+use of the HSM and SafetyAnalyst
+use of the data in the crash reports
+application of CRFs
+process of conducting field reviews
+use of GIS applications for crash analysis
+
+•	
+•	
+•	
+•	
+•	
+•	 methods to improve safety of vulnerable road users, e.g., bicyclists and pedestrians
+When  asked  about  the  preferred  mode  of  training,  a  majority  of  responding  agencies  (21 
+agencies) preferred face-to-face meetings, followed by online web-based training and webinars, 
+which received equal preference. 
+
+Working with FDOT District Office 
+
+A good working relationship between local agencies and state district offices is beneficial in improving 
+the state’s traffic safety practice. It was found that 62% of responding local agencies worked with 
+their  district  office  only  when  a  situation  arose,  22%  held  regular  meetings  for  coordination  of 
+efforts, 8% held meetings with CTST, while 3% could not recall their recent encounter with their 
+
+89
+
+JTRF Volume 53 No. 1, Spring 2014district office. This shows that more coordination between both major traffic safety stakeholders is 
+beneficial.
+
+When asked about ways to improve traffic safety in each agency’s area, 24.5% of local agencies 
+wished  to  work  more  closely  with  FDOT  and  13.5%  would  like  to  get  trained  by  FDOT.  The 
+remaining 62% were already working closely with their respective district offices. This shows that 
+FDOT is successful in coordinating crash analysis across the agencies. Based on their responses, the 
+following were the key barriers that have been preventing the agencies from working closely with 
+their district office, in order of priority: 
+
+•	
+•	
+•	
+
+lack of funding
+staff limitations
+geographical location of local offices, e.g., the FDOT Central Office is far away from the 
+local agencies 
+differences in priorities and concerns
+time constraints
+restricted access to statewide tools and training
+
+•	
+•	
+•	
+Local  agencies  were  also  asked  about  the  recommended  assistance  with  FDOT  to  improve 
+
+traffic safety in their jurisdictions. Key suggestions, in order of priority, included:
+
+•	
+
+•	
+•	
+•	
+•	
+•	
+•	
+
+•	
+•	
+
+provide more funding to purchase safety-related equipment and crash analysis software 
+tools
+increase communication, coordination, and information exchange efforts
+provide training courses on safety analysis
+provide more exposure on the Road Safety Audit tools
+implement less restrictive policies
+emphasize safety concerns of vulnerable road users, i.e., pedestrians and bicyclists
+encourage participation in quarterly meetings with the Safety Office and the CTST, and in 
+the Safety Summit meetings (the Safety Summit brings in multi-disciplinary individuals 
+who deal with traffic safety)
+implement a standard crash analysis software that all agencies can use
+prioritize safety-related projects
+
+Safety Concerns, High Crash Locations, and Project Selection and Evaluation
+
+According to the Federal Highway Administration (FHWA) Systemic Safety Project Selection Tool 
+(Preston et al. 2013), the identification of focus crash types and high risk factors is the highest priority 
+in the systemic safety planning process. Furthermore, the prioritization of candidate locations (i.e., 
+identification of high crash locations [HCLs]) and appropriate selection of improvement projects 
+are crucial steps in this process. This is because incorrect identification of HCLs often results in less 
+cost-effective solutions and biased prioritization processes. From the survey responses, the highest 
+safety concerns were speeding-related, distracted driving, intersection-related, and red-light running 
+crashes.  Furthermore,  the  responding  agencies  identified  specific  crash  types,  e.g.,  pedestrian, 
+bicycle, rear-end, angle, and left-turn crashes, as potential safety concerns. Particularly, speeding, 
+pedestrian and bicycle crashes, and rear-end crashes were commonly listed as major safety issues. 
+The survey responses also indicated that the majority of local agencies rank HCLs by crash 
+frequency, crash rate, crash type, safety index, or crash severity. Besides these methods, several 
+local transportation agencies used the following approaches: 
+
+use web-based crash analysis systems
+use GIS analysis and compare locations with those published statewide, as well as with 
+specific district 
+use observations made by law enforcement officers and field investigations
+directly use the list of HCLs provided by FDOT
+
+•	
+•	
+
+•	
+•	
+
+90
+
+Traffic Safety Practicesuse FDOT crash records
+perform crash analysis only when improvement projects are scheduled or upon request
+
+•	
+•	
+While selecting safety improvement projects, the majority of responding local agencies (14 
+agencies)  used  the  benefit-cost  (B/C)  ratio.  Other  methods  included  field  visits,  requests  from 
+citizens and law enforcement officers, CRFs from the HSM, engineering judgment, and Road Safety 
+Audits. Close to 43% of responding agencies evaluated all implemented projects to determine their 
+effectiveness, 30% assumed that treated locations were improved, while 27% evaluated a sample of 
+implemented projects. Local agencies mostly used before-and-after crash data analysis to determine 
+the effectiveness of the implemented countermeasures. Other evaluation procedures included the 
+number  of  complaints  after  the  improvement  projects  were  implemented,  public  opinion,  field 
+observations, continuous monitoring of locations, and observation of traffic operations following 
+the project implementation. 
+
+Summary of Results
+
+Key findings from the survey of the local transportation agencies were:
+
+	 The majority of local agencies were receptive to the idea of standardizing the crash analysis 
+
+method for agencies in the state.
+
+	 Some  agencies  preferred  to  consider  the  HSM  as  a  standard,  mandating  its  adoption, 
+while some others preferred to have the HSM only as a guide, as the HSM analysis was 
+considered to be too cumbersome. Some agencies were also unfamiliar with the HSM to 
+formulate an opinion about its adoption.
+
+•	 Local agencies were generally interested in adopting SafetyAnalyst. For extensive adoption, 
+the responding agencies wished for the software to be provided free of charge along with 
+low-cost training tools.
+
+	 The majority of local agencies agreed that a statewide standard web-based GIS system 
+
+should be adopted for crash analysis.
+
+	 The majority of local agencies agreed that FDOT should provide statewide training on 
+
+crash analysis.
+
+	 Face-to-face meetings were by far the most preferable mode of providing training on crash 
+
+analysis, followed by online training and webinars.
+
+	 Providing  more  funding  to  local  agencies,  increasing  communication  and  coordination 
+efforts (i.e., via Road Safety Audits), providing additional training courses, and launching 
+less restrictive policies were the most important needs of the local agencies.
+
+	 Speeding, pedestrian crashes, bicycle crashes, and rear-end crashes were the highest safety 
+
+concerns to the majority of local agencies.
+
+	 Agencies have been using different methods for evaluating safety improvement projects.
+
+LAW ENFORCEMENT OFFICE SURVEY RESULTS
+
+This section summarizes the survey results from 46 law enforcement offices on questions related to 
+enforcement locations, traffic violations, safety campaigns, use of crash reports, and working with 
+transportation agencies.
+
+Selection of Enforcement Locations
+
+When asked about the specific locations for enforcement of traffic violations, 83% of the responding 
+agencies stated that they regularly focus on specific locations, mostly locations with relatively high 
+prior  citation  records.  However,  two-thirds  of  responding  law  enforcement  agencies  analyzed 
+crash records to identify enforcement locations. One of the approaches was to rank the three most 
+
+91
+
+JTRF Volume 53 No. 1, Spring 2014hazardous  signalized  intersections  with  respect  to  total  crash  count  every  month,  and  conduct 
+traffic enforcement at these intersections. After enforcement, one-month before-and-after crash data 
+were compared. Crash data analysis was also performed by time of the day, day of the week, and 
+contributing factors. 
+
+Other popular methods included identifying the top ten locations based on recent short-term 
+crash history. A few law enforcement agencies plotted crashes on GIS maps, while other agencies 
+reviewed  actual  police  reports  in  addition  to  analyzing  crash  summary  data.  Besides  analyzing 
+crash records, several methods were adopted for identifying enforcement locations, such as: citizen 
+complaints,  surveys  conducted  annually  to  identify  HCLs  for  specific  time  periods,  review  of 
+dispatched calls, and the statewide list of HCLs. 
+
+Among  the  above  identified  methods  to  identify  enforcement  locations,  41%  of  agencies 
+identified  citizen  complaints  as  the  most  common  method,  followed  by  frequently  observed 
+violations by patrolling officers (33%) and analysis of crash records (22%). Requests from local 
+elected officials were among the least common methods. A majority of respondents (87%) noted 
+that they would make use of FDOT’s crash location maps for enforcement, while 7% were neutral. 
+This shows that the majority of the agencies are willing to use the available assistance from FDOT.
+
+Traffic Violations and Safety Campaigns
+
+Frequency and Seriousness of Traffic Violations. This section identifies the frequency (Figure 2) 
+and seriousness (Figure 3) of different types of traffic violations to highlight the necessary safety 
+campaigns to be prioritized by law enforcement officers. Note that these violations were mainly 
+identified from the standard crash report. The results in Figures 2 and 3 were generated from the 
+responses of the law enforcement officers while calculating the percentage of selection of each traffic 
+violation under each category. It should be noted that both figures were based on the impressions of 
+the respondents, and not based on actual data.
+
+Figure 2: Frequency of Occurrence of Different Traffic Violations
+
+92
+
+Traffic Safety PracticesAs shown in Figure 2, the five most common traffic violations were speeding (75%), failing 
+to use safety belts (50%), failing to properly restrain a child (40%), driving under influence (DUI) 
+(40%), and running red lights (15%). On the other hand, the five most uncommon violations included 
+traffic blockage (60%), failing to move over (55%), illegal parking (55%), following too closely 
+(50%), and illegal turning (45%).
+
+Figure 3: Seriousness of Different Traffic Violations
+
+     As  shown  in  Figure  3,  the  extremely  serious  traffic  violations  were  DUI  (95%),  running  red 
+lights (80%), failing to properly restrain a child (70%), and speeding (70%). The most trivial traffic 
+violations  included  illegal  parking  (55%),  traffic  blockage  (35%),  failing  to  move  over  (10%), 
+following  too  closely  (5%),  and  illegal  turning  (5%). The  results  indicated  that  DUI,  speeding, 
+running red lights, and failure to properly restrain a child were seen as the most serious and most 
+common violations, possibly because they could result in severe injury crashes. DUI was also cited 
+as one of the highest risk factors of road safety in the study by Erke et al. (2009). 
+
+Effectiveness of Enforcement of Traffic Violations. This section discusses the opinions of law 
+enforcement  officers  about  the  effectiveness  of  enforcing  different  traffic  violations. As  shown 
+in Figure 4, the enforcement of DUI and speeding (60% each), running red lights and failure to 
+properly restrain a child (50% each), and failure to use safety belts and running stop sign (40% each) 
+were perceived as extremely effective. On the other hand, enforcement of illegal parking (30%), 
+traffic blockage (20%), following too closely (10%), and illegal turning (10%) were considered 
+ineffective. It is observed that those violations to be strictly enforced were also identified as the most 
+serious violations.
+
+93
+
+JTRF Volume 53 No. 1, Spring 2014Figure 4: Effectiveness of Enforcement of Different Traffic Violations
+
+Effectiveness of Safety Campaigns. Law enforcement officers usually conduct safety campaigns 
+to tackle traffic violations. It was found that over two-thirds of the responding agencies follow up 
+with an evaluation to assess the effectiveness of their safety campaigns. Law enforcement officers 
+used several methods for evaluation, which testifies to the diversity of the evaluation procedures 
+implemented. In order of the frequency of adoption, the four common evaluation procedures were: 
+
+•	
+•	
+•	
+•	
+
+comparing reduction in traffic violations pre and post safety campaigns
+conducting pre and post traffic surveys
+comparing before-and-after crash data
+comparing citizen complaints pre and post safety campaigns
+
+Use of Crash Reports
+
+Law enforcement officers are responsible for completing the crash report, the primary source of 
+information for conducting crash data analysis. Therefore, the training they receive is vital. It was 
+found that 57% of responding officers either agreed or strongly agreed that they received adequate 
+training in completing the crash report, 22% were neutral, while 21% either disagreed or strongly 
+disagreed on receiving adequate training. This indicates that most police officers acquire the required 
+knowledge to fill out a crash report.
+
+The main challenge in filling out a crash report was being lengthy and time-consuming. One 
+interesting response was that “the report is considered difficult to understand without instructions 
+manual.” Another major issue was the time the officers took to do the paperwork or fill out the crash 
+report electronically. On the other hand, the law enforcement officers considered crash location as 
+the most useful information in the crash report, possibly since they could use this information for 
+enforcement purposes. Much of the respondents’ interest was geared toward crash type, crash cause, 
+and manner of collision (or the first harmful event). Further, information on speeding, distracted 
+driving, seatbelt usage, and DUI were of interest to the law enforcement officers. 
+
+Working with Local Transportation Agencies 
+
+Working Relationship with Local Transportation Agencies. In identifying the current working 
+relationship with local agencies, it was found that 51% of the respondents held regular meetings 
+with  local  transportation  agencies  for  discussion  and  coordination  of  efforts;  29%  worked  with 
+transportation agencies only when a situation arose; and 20% could not recall their recent encounter 
+
+94
+
+Traffic Safety Practiceswith local transportation agencies. This shows that most law enforcement agencies were proactive 
+in coordinating with local transportation agencies.
+
+It  was  also  observed  that  most  of  the  barriers  hindering  the  relationship  included  limited 
+resources (budget, time, and manpower), minimum communication, lack of organized meetings, and 
+politics; however, very few (five) agencies indicated that there were no barriers. To improve traffic 
+safety, the law enforcement agencies provided the following key suggestions to local transportation 
+agencies:
+
+•	
+•	
+•	
+
+•	
+•	
+
+organize more meetings with transportation agencies, e.g., through Road Safety Audits
+provide more assistance at DUI and safety check points
+provide  more  funding,  e.g.,  to  allow  education  and  enforcement  for  pedestrians  and 
+bicyclists
+report any changes in the roadway cross-section/design
+receive continuous updates about changing traffic laws 
+
+Technical  Assistance  from  FDOT.  From  the  survey  responses,  it  was  noticed  that  the  law 
+enforcement community was interested in getting assistance from FDOT to help improve traffic 
+safety and crash reporting. Specifically, the law enforcement officers were interested in technical 
+assistance from FDOT on: 
+
+up-to-date crash statistics in the jurisdiction’s region
+funding to purchase items for traffic safety
+information on traffic counts and local crash data
+crime and traffic mapping
+
+•	
+•	
+•	
+•	
+As for the software tools, the law enforcement agencies would like to be provided with:
+•	
+•	 maps
+•	
+•	
+•	 major traffic tracking software for smaller agencies
+•	
+
+electronic crash reports
+electronic ticket writer for crash reporting
+
+standard computer program to fill out and retrieve crash reports
+
+online crash database
+
+Summary of Results
+
+The following were the key findings from the survey of the law enforcement community:
+	 Most law enforcement officers monitor locations with high prior citation records.
+	 Citizen  complaints,  observed  frequent  violations  by  patrolling  officers,  and  analysis  of 
+
+crash data were the most common methods of selecting enforcement locations.  
+
+	 The majority of agencies were interested in receiving assistance from FDOT for enforcement 
+
+purposes, e.g., using the HCL maps provided by FDOT.
+
+	 Speeding, failing to use safety belts, failing to properly restrain a child, and DUI were the 
+
+most common violations.
+
+least common violations.
+
+	 Traffic blockage, failing to move over, illegal parking, and following too closely were the 
+
+	 Enforcement of DUI, speeding, running red lights, and failure to properly restrain a child 
+
+were perceived as the most effective measures to improve traffic safety.
+
+	 Enforcement of illegal parking, traffic blockage, following too closely, and illegal turning 
+
+were considered to be least-effective in improving traffic safety. 
+
+	 DUI and running red lights were the most serious traffic violations. 
+	 Most agencies followed up with an evaluation to assess the effectiveness of the implemented 
+
+safety campaigns.
+
+95
+
+JTRF Volume 53 No. 1, Spring 2014	 The most useful information in the crash report for the majority of law enforcement officers 
+
+	 The  majority  of  agencies  held  regular  meetings  with  local  transportation  agencies  for 
+
+was the crash location.
+
+coordination of efforts.
+
+	 The majority of agencies emphasized a need to organize more meetings with transportation 
+agencies and to get more assistance from them, especially at DUI and safety checkpoints.
+	 The police officers desired technical assistance from FDOT, which mainly included up-to-
+
+date crash statistics and funding to purchase items for traffic safety.
+
+CONCLUSIONS
+
+The SHSP aims to integrate the four E’s of highway safety: engineering, education, enforcement, 
+and EMS. To implement SHSP, state DOTs are increasingly looking to reach out to local agencies 
+and  law  enforcement  officials. This  paper  described  an  effort  by  FDOT  to  identify  the  existing 
+safety practices and needs of local transportation agencies and law enforcement offices in Florida. 
+This study attempted to find out current traffic safety practices and needs from the perspective of 
+local transportation and law enforcement agencies. Two online surveys were developed targeting 
+local  transportation  agencies  and  the  law  enforcement  community  in  Florida.  Both  surveys 
+are  easily  transferable  to  a  larger  audience  in  other  state  DOTs  that  are  willing  to  reach  out  to 
+their local agencies. Furthermore, both surveys supplement SHSP’s effort with ways to improve 
+the coordination between various safety agencies (i.e., state DOTs, local transportation, and law 
+enforcement) to enhance traffic safety on all public roads. 
+
+Both the local transportation agencies and the law enforcement agencies emphasized the need 
+to organize more frequent Road Safety Audit meetings to proactively improve traffic safety of public 
+roads. In addition, both agencies agreed that speeding-related crashes were of highest safety concern 
+and their continuous enforcement would be a major benefit. Also, conducting extensive campaigns 
+to reduce DUI, running red lights, failure to properly restrain a child, running stop sign, and failure 
+to use safety belts violations could be beneficial. Although some local agencies were reluctant to 
+adopt the HSM and SafetyAnalyst	due to extensive data requirements, required statistical expertise, 
+and resource constraints, adequate training on these tools is expected to encourage their adoption.
+
+Survey responses from local agencies revealed that over 70% of responding agencies agreed 
+to standardize crash analysis procedures and over 90% agreed that FDOT should provide statewide 
+training  on  crash  analysis,  and  face-to-face  meetings  were  by  far  the  most  preferable  mode  of 
+training.  The  law  enforcement  agencies  survey  responses  showed  that  speeding,  failing  to  use 
+safety belts, failing to properly restrain a child, and DUI were the most common violations. Law 
+enforcement officers use diverse evaluation procedures to assess effectiveness of safety campaigns, 
+such as comparing before-and-after crash data and comparing reduction in traffic violations pre and 
+post safety campaigns. Two-thirds of responding law enforcement agencies analyzed crash records 
+to  identify  enforcement  locations.  Besides  analyzing  crash  records,  citizen  complaints,  surveys, 
+review of dispatched calls, and the FDOT list of HCLs were the other methods used to identify 
+locations for enforcement.
+
+The  study  identified  several  important  lessons  for  other  state  DOTs  to  consider  in  order  to 
+improve traffic safety analysis procedures and practices. For example, one of the lessons learned 
+from both survey responses is to improve coordination between various districts and related local 
+transportation  agencies,  as  well  as  between  transportation  agencies  and  the  law  enforcement 
+community. This coordination could be organized via face-to-face meetings or webinars to discuss 
+commonly identified safety issues and possible solutions, changes in the roadway cross-section, 
+and changes in traffic laws. The study also highlighted suggestions from local agencies for better 
+assistance with state DOTs, e.g., provision of training courses on safety analysis, greater exposure 
+to the Road Safety Audit tools, more flexible information exchange, and provision of police reports 
+
+96
+
+Traffic Safety Practicesin a timely manner. In addition, addressing law enforcement officers’ concerns about police reports 
+and training police officers to correctly code the crash report are essential to improve the accuracy 
+in crash reporting. More funding for local transportation and law enforcement agencies to conduct 
+safety studies is also essential. 
+
+Results from the two surveys could be directed toward crash standardization, e.g., for inter-
+agency collaboration and data sharing. Based on the survey results, state DOTs could compare and 
+identify the common practices and needs of the local transportation agencies and law enforcement 
+agencies to assist in standardizing crash analysis procedures. Further research efforts could compare 
+the results from this study with those from other states to determine how the crash analysis practices 
+and needs vary and concur across states.
+
+Acknowledgments 
+
+This  research  was  funded  by  the  Research  Center  of  the  Florida  Department  of  Transportation 
+(FDOT). The authors thank the project manager, Mr. Joseph Santos, of the FDOT Safety Office 
+for his guidance and support throughout the project. The authors are grateful to the many local 
+transportation professionals and law enforcement officers who took time to complete the online 
+surveys.
+
+References
+
+American Association of State Highways and Transportation Officials (AASHTO). Highway	Safety	
+Manual.  First  Edition,  Transportation  Research  Board  of  the  National Academies,  Washington, 
+D.C., 2010a.
+
+American Association of State Highways and Transportation Officials (AASHTO). Safety	Analyst	
+2010b. http://www.SafetyAnalyst.org. Accessed April 2011.
+
+Bailey, L. and D. Huft. “Improving Crash Reporting: Study of Crash Reporting Practice on Nine 
+Indian Reservations.” Transportation	Research	Record 2078, (2008): 72–79.
+
+Boile, M. and K. Ozbay. The	Future	of	Transportation	Modeling. Final Report FHWA-NJ-2005-016, 
+New Jersey Department of Transportation, Trenton, NJ, 2005.
+
+Chang, H. and C. Shih. “Using a Multidimensional Rasch Model Approach to Measure the Police’s 
+Perceived  Ability  to  Detect,  Detain  and  Intercept  DWI  Vehicles  When  Conducting  Sobriety 
+Checkpoints.” Accident	Analysis	&	Prevention 48, (2012): 505–517.
+
+Cherry, E., R. Floyd, T. Graves, S. Martin, and D. Ward. Crash	Data	Collection	and	Analysis	System. 
+Final Report FHWA-AZ-06-537, Arizona Department of Transportation, Phoenix, AZ, 2006.
+
+Coffman, M. and C. Monsere. Enhancing	Targeted	Traffic	Enforcement	Efforts	in	Portland,	Oregon. 
+Presentation for the ITE District 6 Annual Meeting, Honolulu, HI, 2006.
+
+Erke, A., C. Goldenbeld, and T. Vaa. “The Effects of Drunk-Driving Checkpoints on Crashes–A 
+Meta-Analysis.” Accident	Analysis	&	Prevention 41, (2009): 914–923.
+
+Gan, A., K. Haleem, P. Alluri, and D. Saha. Standardization	of	Crash	Analysis	in	Florida. Final 
+Report BDK80 977-10, Florida Department of Transportation, Tallahassee, FL, 2012.
+
+Highway  Safety  Improvement  Program  (HSIP).  http://safety.fhwa.dot.gov/hsip/.  Accessed  July 
+2013.
+
+97
+
+JTRF Volume 53 No. 1, Spring 2014Hurst, P. “Traffic Officers’ Attitudes Toward Blood Alcohol Law Enforcement.” Accident	Analysis	
+&	Prevention 12 (4), (1980): 259–266.
+
+Jonah, B., L. Yuen, E. Au-Yeung, D. Paterson, N. Dawson, R. Thiessen, and H. Arora. “Front-Line 
+Police Officers’ Practices, Perceptions and Attitudes About the Enforcement of Impaired Driving 
+Laws in Canada.” Accident	Analysis	&	Prevention 31, (1999): 421–443.
+
+Knezek,  C.  and  J.  Hansen.  The	 New	 Jersey	 Police	 Technical	Assistance	 Program.  Final  Report 
+FHWA-NJ-2007-005, New Jersey Department of Transportation, Trenton, NJ, 2007.
+
+Lee, J. and F. Mannering. Analysis	of	Roadside	Accident	Frequency	and	Severity	and	Roadside	
+Safety	Management. Final Report WA-RD 475.1, Washington State Department of Transportation, 
+Olympia, WA, 1999.
+
+Mickee, A.  “A  Comparative  Evaluation  of  Crash  Data  Quality  Identification  Methods.”  Thesis 
+(M.S.). University of Massachusetts Amherst, Amherst, MA, 2008.
+
+Moving  Ahead  for  Progress  in  the  21st  Century  (MAP-21).  http://www.fhwa.dot.gov/map21/. 
+Accessed July 2013.
+
+Nikolaev, A.,  M.  Robbins,  and  S.  Jacobson.  “Evaluating  the  Impact  of  Legislation  Prohibiting 
+Hand-Held Cell Phone Use While Driving.” Transportation	Research	Part	A 44, (2010): 182–193.
+
+Preston, H., R. Storm, J. Bennett, and B. Wemple. Systemic	Safety	Project	Selection	Tool. Final 
+Report FHWA-SA-13-019, Federal Highway Administration, Office of Safety, Washington, D.C., 
+2013.
+
+Safe Accountable Flexible Efficient Transportation Equity Act – A Legacy for Users (SAFETEA-
+LU). The Library of Congress, 109th Congress, House of Representatives, Report 109-203, 2005. 
+http://www.fhwa.dot.gov/safetealu/. Accessed June 2012.
+
+Schrock, S., G. Ullman, and N. Trout. “Survey of State Law Enforcement Personnel on Work Zone 
+Enforcement Practices.” Transportation	Research	Record 1818, (2002): 7–11.
+
+Strategic Highway Safety Plan (SHSP). http://safety.fhwa.dot.gov/hsip/shsp/. Accessed July 2013.
+
+Kirolos Haleem is	a	research	associate	in	the	Department	of	Civil	and	Environmental	Engineering	
+at	Florida	International	University	(FIU),	Miami.	Haleem	received	his	master’s	and	Ph.D.	degrees	
+in	civil	engineering	from	the	University	of	Central	Florida	(UCF)	in	2007	and	2009,	respectively.	
+His	areas	of	expertise	are	traffic	safety	analysis,	application	of	statistical	models	and	data	mining	
+techniques	in	transportation	engineering,	traffic	operations,	traffic	simulation,	and	ITS.	At	FIU,	he	
+conducts	traffic	safety	research	and	supervises	Ph.D.	and	master’s	students.
+
+Albert Gan is	a	professor	of	transportation	engineering	in	the	Department	of	Civil	and	Environmental	
+Engineering	at	Florida	International	University	(FIU)	and	is	also	the	deputy	director	of	the	Lehman	
+Center	for	Transportation	Research	at	FIU.	Gan’s	areas	of	research	include	highway	safety,	traffic	
+simulation,	ITS,	GIS,	transit	planning,	and	demand	modeling.	He	has	authored	or	co-authored	more	
+than	150	refereed	papers,	technical	reports,	and	articles.	
+
+98
+
+Traffic Safety PracticesPriyanka Alluri is	a	research	associate	in	the	Department	of	Civil	and	Environmental	Engineering	
+at	 Florida	 International	 University,	 Miami.	 Alluri	 graduated	 with	 a	 Ph.D.	 in	 civil	 engineering	
+focusing	on	transportation	safety	from	Clemson	University,	South	Carolina.	Her	research	interests	
+include	safety	data	analysis,	development	of	SPFs	and	CMFs,	applications	of	the	Highway	Safety	
+Manual	and	SafetyAnalyst,	trends	in	highway	safety,	GIS	in	transportation	safety,	and	human	factors	
+and	driving	behavior.	
+
+Dibakar Saha is	a	senior	Ph.D.	student	at	Florida	International	University,	Miami,	with	emphasis	
+in	transportation	engineering.	His	research	interests	mainly	focus	on	highway	traffic	safety	analysis	
+and	ITS.	
+
+99
+
+JTRF Volume 53 No. 1, Spring 2014100
+
+

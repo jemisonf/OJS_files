@@ -1,22 +1,42 @@
 import sys
 import re
-import xml.etree.cElementTree as ET
+# import xml.etree.cElementTree as etree
+from lxml import etree
 
-author_line_regex = re.compile("by (((\s?(\w+\s)((\w+\W\s)?)(\w+),($)?)+ and (\w+\s)((\w+\W\s)?)(\w+)$)|(\s?(\w+\s)((\w+\W\s)?)(\w+)$)|(\s?(\w+\s)((\w+\W\s)?)(\w+) and ((\w+\s)((\w+\W\s)?)(\w+))))")
+author_line_regex = re.compile(r"by ((\s?.+) ((.+ )?(.+),($)?)+ and ((.+) (.+ )?(.+$))|(\s?((\w|-)+\s)(((\w|-)+\W\s)?)(((\w|-)+|-))$)|(\s?((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+) and (((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+))))")
 multi_lines_author_regex = re.compile("by (\s?(\w+\s)((\w+\W\s)?)(\w+),($)?)")
+introduction_regex = re.compile("introduction", re.IGNORECASE)
 
+# input: 
+#   line: a string containing text that describes the authors of an article
+# output:
+#   authors: an array of hashes, each corresponding to one author of the piece. 
+#   formatted as: {
+#                   "firstname": ...
+#                   "middlename": ...
+#                   "lastname": ...
+#                 }
+# preconditions: line should match one of the following formats:
+#   (1). by Firstname Lastname
+#   (2). by Firstname Lastname and Other Person
+#   (3). by Firstname Lastname, Person Two, and Person Three
+#       - names can also be written as Firstname H. Lastname (middle initial followed by a period)
+# postconditions: returns an array of authors. This function is fairly robust and generally won't crash if it's given invalid data, but it will return invalid information.
+#   If the function returns invalid information, the resulting xml will generate incorrectly, but it isn't very hard to fix.
+#   Always read over the final xml file to make sure your data has been parsed correctly.
 def parse_authors(line):
+    line = line.strip()
     arr = re.split(r" |\n", line)
     authors = []
     arr.pop(0)
     newAuth = {}
-    while (len(arr) != 1):
+    while (len(arr) > 1):
         tempVal = arr.pop(0)
         while (len(tempVal) == 0 or tempVal == 'and'):
             tempVal = arr.pop(0)
         newAuth["firstname"] = tempVal
         tempVal = arr.pop(0)
-        if (tempVal[-1] == '.'):
+        if (tempVal[-1] == '.' or tempVal[-1] == ')'):
             newAuth["middlename"] = tempVal
             tempVal = arr.pop(0)
         else:
@@ -26,51 +46,128 @@ def parse_authors(line):
         newAuth = {}
     return authors
 
+# input:
+#   raw_title: a string of title data pulled directly from the pdf text
+# output:
+#   title: raw_title with extraneous characters removed
+# preconditions: title should be a string
+# postconditions: title will have new lines and leading/trailing white space removed
 def getFormattedTitle(raw_title):
     title = raw_title.replace('\n', '').strip()
     return title
 
-def read_file(filename):
-    file = open(filename, 'r')
-    lines = file.readlines()
+# input:
+#   raw_abstract: a string of title data pulled directly from the pdf text
+# output:
+#   title: raw_abstract with extraneous characters removed
+# preconditions: abstract should be a string
+# postconditions: abstract will have new lines, tab characters and leading/trailing white space removed. Double spaces will be replaced with single spaces.
+def getFormattedAbstract(raw_abstract):
+    abstract = raw_abstract.replace('\n', '').replace('\t', ' ').replace('  ', ' ').strip()
+    return abstract
+
+# input: 
+#   string: the raw text of the pdf to be parsed
+# output:
+#   data: a hash map containing "title", the title of the article, "names", the names of the writers (see parse_authors for more info) and "abstract", the formatted abstract
+# preconditions: string must be the raw text of a pdf. Should follow this general format:
+#       [title -- can be multiple lines]
+#       [authors -- see parse_authors for format info. Should be 1-2 lines]
+#       [abstract -- can be multiple lines]
+#       Introduction [this is ignored but is used as a stopping place when parsing the abstract]
+#       ...
+def parseString(string):
+    lines = string.splitlines()
     counter = 0
     title = ""
+    abstract = ""
     names = []
     while True:
         if (multi_lines_author_regex.match(lines[counter])):
             authors = lines[counter]
             authors += lines[counter + 1]
             names = parse_authors(authors)
+            counter += 2
             break
         if (author_line_regex.match(lines[counter])):
             names = parse_authors(lines[counter])
+            counter += 1
             break
         else:
             title += lines[counter]
         counter += 1
+    while (not introduction_regex.match(lines[counter]) and counter < 30):
+        abstract += lines[counter]
+        counter += 1
     title = getFormattedTitle(title)
-    return ({ "title": title, "names": names })
+    abstract = getFormattedAbstract(abstract)
+    return ({ "title": title, "names": names, "abstract": abstract })
 
-def getXml(data):
-    rootSection = ET.Element('section')
+# input:
+#   data: the values returned from parseString
+#   binary: a pdf document encoded in base64
+#   filename: the name of the pdf file being parsed
+# output:
+#   an xml <article> element with children set up according to the template.xml file from Confluence
+#       Ex:
+#           <article>
+#               <title locale="en_US">data["title"]</title>
+#               <abstract locale="en_US">data["abstract"]</abstract>
+#               <author primary_contact="true">data["authors"][0]</author>
+#                   <firstname>Firstname</firstname>
+#                   <middlename>></middlename>
+#                   <lastname>Lastname</lastname>
+#                   <affiliation>[USER INPUT]</affiliation>
+#                   <email>no@email.com</email>
+#               </author>
+#               <date_published></date_published>
+#               <galley locale="en_US">
+#                   <label>PDF</label>
+#                   <file>
+#                       <embed filename=filename encoding="base64">
+#                           ...
+#                       </embed>
+#                   </file>
+#               </galley>
+#           </article>
+# preconditions: all values should be valid and correspond to the same file.
+# postconditions: probably will not fail unless a value isn't entered. 
+#   However, if invalid data is submitted for binary or filename, it's possible the upload won't work.
+def getXml(data, binary, filename, date):
+    print "Parsing " + data["title"]
+    rootSection = etree.Element('article')
     articles = []
-    ET.SubElement(rootSection, 'title', locale="en_US").text = data["title"]
-    ET.SubElement(rootSection, 'abstract', locale="en_US").text = ''
+    etree.SubElement(rootSection, 'title', locale="en_US").text = data["title"]
+    etree.SubElement(rootSection, 'abstract', locale="en_US").text = data["abstract"]
     for author in data['names']:
-        authorEl = ET.SubElement(rootSection, 'author')
-        ET.SubElement(authorEl, 'firstname').text = author['firstname']
-        ET.SubElement(authorEl, 'lastname').text = author['lastname']
-        ET.SubElement(authorEl, 'middlename').text = author['middlename']
-        ET.SubElement(authorEl, 'email').text = ''
-    ET.SubElement(rootSection, 'date_published').text = ''
-    ET.SubElement(rootSection, 'galley', locale='en_US')
+        affiliation = raw_input ("What is the affiliation of " + author["firstname"] + ' ' + author["lastname"] + '?')
+        if (author == data['names'][0]):
+            authorEl = etree.SubElement(rootSection, 'author', primary_contact="true")
+        else:
+            authorEl = etree.SubElement(rootSection, 'author')
+        etree.SubElement(authorEl, 'firstname').text = author['firstname']
+        etree.SubElement(authorEl, 'middlename').text = author['middlename']
+        etree.SubElement(authorEl, 'lastname').text = author['lastname']
+        etree.SubElement(authorEl, 'affiliation').text = affiliation
+        etree.SubElement(authorEl, 'email').text = 'no@email.com'
+    etree.SubElement(rootSection, 'date_published').text = date
+    galley = etree.SubElement(rootSection, 'galley', locale='en_US')
+    etree.SubElement(galley, 'label').text = 'PDF'
+    file = etree.SubElement(galley, 'file')
+    etree.SubElement(file, 'embed', filename=filename, encoding="base64", mime_type="application/pdf").text = binary
     return rootSection
 
-def fileToXml(filename):
-    readFileOutput = read_file(filename)
-    xml = getXml(readFileOutput)
-    tree = ET.ElementTree(xml)
-    tree.write('output.xml')
+# input: 
+#   fileText: the raw text of a pdf file
+#   filename: the name of pdf file being processed
+#   fileBinary: the base64 encoded data for the file being uploaded (is this actually binary? I'm not sure)
+#   date: the publish date of the article
+# output: 
+#   xml: the xml file outputted from getXml based on data from parseString and params
+# preconditions: all params should refer to the same file. fileText should follow format specifications from parseString
+# postconditions: will return synactically valid xml. Errors are not handled if invalid data is submitted. If author names deviate from specifications in parse_authors, you will need to correct the output xml
+def textToXml(fileText, filename, fileBinary, date):
+    stringOutput = parseString(fileText)
+    xml = getXml(stringOutput, fileBinary, filename, date)
     return xml
 
-fileToXml(sys.argv[1])

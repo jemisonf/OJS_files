@@ -1,0 +1,939 @@
+An Optimization Approach Applied to Fair Division 
+Transportation Funding Allocation Models   
+by Carlos M. Chang and Edith Montes
+
+The	problem	of	multiple	necessities	and	limited	funds	is	common	in	the	transportation	field.	
+Funding	allocation	for	a	transportation	agency	often	involves	prioritizing	the	allocation	of	funds	
+across	a	number	of	participants	who	have	their	own	needs	and	preferences.	If	a	participant	believes	
+that	the	final	allocation	is	unfair,	then	this	perception	could	result	in	the	generation	of	envy.	In	
+this	paper,	a	genetic	optimization	technique	is	applied	to	a	Fair	Division	Transportation	Funding	
+Allocation	Model	(FDTFAM)	to	minimize	the	total	envy	based	on	the	participant’s	own	priorities	
+and	the	budget	constraints.
+
+INTRODUCTION
+
+The problem of distributing limited funds across a number of participants with their own priorities is 
+a common management problem. This dilemma has always been an issue for decision makers when 
+allocating funds. The funding allocation problem is usually addressed by decision makers using 
+expert judgment, which involves either subjective criteria, weighted formulas with pre-established 
+priorities, or a combination of both. To obtain consensus on the funding allocation criteria is very 
+difficult due to multiple interests and different perspectives from each participant requesting the 
+funds.
+
+Traditional  transportation  funding  allocation  methods  generally  use  formulas  based  on 
+population  and  number  of  highway  miles  managed  by  the  participant.  However,  these  methods 
+may result in more funding to larger cities or districts. This outcome may be perceived as unfair by 
+smaller cities or districts. This perception regarding the final allocation of funds could result in the 
+generation of envy. Envy is felt by a participant if he or she perceives that less funding is received 
+when compared with other participants. In terms of financial allocation, envy is the expression of 
+an unbalanced distribution of funds affecting the overall economic growth in the region with the 
+addition of social discomfort.  This paper provides an innovative funding allocation approach based 
+on fair division methods. The approach considers individual preferences from the participants to 
+prioritize the projects requested for funding. The objective is to minimize the envy received by 
+each participant under budget constraints. The mathematical formulation of envy and the funding 
+allocation model used to minimize the total envy, and the application of an optimization genetic 
+technique to solve the model are major contributions of this research.
+
+Envy Definition
+
+Envy is expressed in terms of the differences among allocated to requested ratios of each participant. 
+The  higher  the  envy,  the  higher  the  difference  between  each  participant’s  ratios  of  allocated  to 
+requested funds. These ratios represent the percentage that each participant received with respect 
+to total requested funds; i.e., a 1.0 ratio means that the participant received 100% of the requested 
+funds and there is no envy felt by this participant. 
+
+FDTFAM uses Equation 1 to calculate the envy felt by the ith participant with respect to the jth 
+participant. For instance, if the ith participant received less than the jth participant, then participant i	
+
+101
+
+JTRF Volume 53 No. 1, Spring 2014will feel envy of participant	j. However, if participant i received more than participant j, no envy is 
+felt from i to j. 
+
+(1)  εij = {|ρi	–	ρj	|
+
+where:
+ρi  = Allocated to requested funding ratio of ith participant
+ρj  = Allocated to requested funding ratio of jth participant
+εij  = envy perceived by the ith with respect to the jth participant only if (ρi	–	ρj	) < 0, 0 otherwise
+
+FUNDING ALLOCATION METHODS IN TRANSPORTATION PROJECTS
+
+There are different methods to approach funding allocation. Traditional methods include formulas 
+set by a given agency to prioritize projects requested for funding. These formulas assign weights to 
+performance measures or indicators to determine the level of priority for each individual project. 
+However, these methods may lead to the public’s disagreement if decisions are perceived as unfair 
+or not equitable. On the other hand, optimization methods are meant to maximize or minimize a 
+given objective. Generally, these methods are used to maximize benefits with budget constraints 
+or to minimize costs subjected to certain constraints. Optimization methods aim to provide optimal 
+solutions to a given problem. 
+
+Chan et al. (2003) suggests a genetic-algorithm (GA) optimization solving technique to allocate 
+the total funds available to the district agencies in order to achieve target performance. The funding 
+allocation problem considers the overall objective of the agency as well as the district target objectives 
+by using a two-stage algorithm. The first stage uses the regional or district objectives and constraints 
+to generate possible solutions to the problem. Then, the second stage analyzes the solutions obtained 
+in the first stage using the objectives and constraints of the individual agencies. The results of the 
+proposed  technique  is  shown  in  terms  of  the  network  pavement  condition  and  compared  to  the 
+results  of  typical  funding  allocation  methods. This  paper  shows  an  innovative  solution  method; 
+however, the two-stage algorithm cannot be used to solve multi-objective problems while solving all 
+objectives simultaneously. Tsunokawa and Van Hiep (2008) presented an optimization approach for 
+the allocation of a system-wide budget among road assets. This method uses the net present value 
+(NPV) as the common denominator for prioritizing the funding allocation in all asset subsystems. 
+Using an asset subsystem optimizer (ASSO), the NPVs are used to generate the NPV functions to 
+find the optimal allocation among all subsystems. Once the optimal budget allocation is obtained, 
+the ASSO is used to find the optimal management strategy using the optimally allocated budget.
+
+Most recently, innovative funding allocation methods have been used to maximize the benefits 
+of funds invested in projects. Despite the method used for maximizing funding allocation, there 
+is a pre-established criteria that applies to all the participants when setting priorities for project 
+selection. Individual preferences of participants may be based on a different criteria based on their 
+own perspective and local needs. This paper presents a fair division funding allocation transportation 
+model (FDTFAM) to incorporate individual preferences in the decision-making process. The model 
+is based on fair division concepts of proportionality, envy-freeness, equitability, and efficiency. 
+
+LITERATURE REVIEW ON ENVY AND FAIR ALLOCATION METHODS
+
+The problem of dividing resources fairly can be generalized by defining the allocation of a resource 
+over n number of participants expecting to receive a portion of the resource. In order to achieve 
+fair  division,  it  is  desired  that  the  procedure  implemented  satisfies  four  requirements.  First,  the 
+procedure must lead to a proportional distribution, i.e., each participant expects to receive at least 
+1/n of the resource. Second, the procedure must be envy-free, i.e., each participant believes that the 
+
+102
+
+Fair Division Transportation Fundingreceived amount is fair and there is no reason to exchange their share. Third, the procedure must 
+be equitable; i.e., individual valuation of the portion received by one participant is equal to the 
+valuation of the other participants. Fourth, the procedure must be efficient or Pareto optimal, i.e., no 
+other allocation would benefit one participant without affecting another (Nuchia and Sen 2001). The 
+achievement of these four fair division characteristics simultaneously could be guaranteed only for 
+two participants (Dupuis-Roy and Gosselin 2009). In most real problems, there are more than two 
+participants, and it is very unlikely in practice to fully achieve proportional, envy-free, equitable, 
+and efficient solutions (Brams and Taylor 1996).
+
+There are several fair division theoretical methods that attempt to solve the problem of dividing 
+any type of resource among several participants while trying to achieve a proportional, equitable, 
+fair, and envy-free allocation for all. These methods have been used to achieve a fair allocation of 
+divisible and indivisible goods, such as the Divide and Choose Procedure (Barbanel and Brams 
+2004), the Moving Knife (Barbanel and Brams 2004), the Last-Diminisher “Trimming Algorithm” 
+(Austin  1982),  the  Successive  Pairs Algorithm  (Austin  1982),  the  Knaster’s  Procedure  (Brams 
+and Taylor 1996), the Adjusted Winner (AW) Procedure (Brams and Taylor 1993), and the Point 
+Allocation (Saunders 2011).
+
+All fair division methodologies strive to make allocations based on two main characteristics: 
+proportionality  or  envy-freeness.  Therefore,  fair  allocation  methods  can  be  classified  into  two 
+groups: proportional and envy-free methods. A proportional allocation method attempts to assign 
+the funds in a manner that all the participants receive the same amount. An envy-free allocation 
+method strives to distribute the items based on the participants’ preferences; funds are assigned to 
+the participant who shows more desire for it.  Figure 1 shows an overview diagram of current fair 
+division methods (Chang et al. 2011).
+
+Figure 1: Overview of Fair Division Allocation Methods
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+s
+d
+o
+h
+t
+e
+
+ 
+M
+ 
+n
+o
+i
+s
+ 
+i
+v
+i
+D
+ 
+ 
+r
+i
+a
+F
+ 
+
+ 
+
+ 
+l
+a
+n
+o
+i
+t
+r
+o
+p
+o
+r
+P
+
+ 
+e
+e
+r
+F
+-
+y
+v
+n
+E
+
+Moving Knife 
+
+AutIn’s 
+
+Dubins-Spanier 
+
+Last Diminisher 
+
+Banach-Knaster 
+
+Successive Pairs 
+
+Fink 
+
+Knaster Procedure 
+
+n=2 
+
+Adjusted Winner 
+
+S.J. Brams 
+
+n>2 
+
+Divide and Choose 
+
+Point Allocation 
+
+Selfridge-Conway 
+ 
+
+Levmore-Cook 
+ 
+Webb Moving 
+
+ 
+
+Optimal Solution 
+
+Algorithms 
+
+Operations Research 
+
+and Management 
+Science Techniques 
+
+Klijn Algorithm 
+
+Nuchia & Sen 
+Algorithm 
+
+Linear 
+
+Programming 
+
+Dynamic 
+
+Programming  
+
+103
+
+JTRF Volume 53 No. 1, Spring 2014Proportional Methods
+
+The Moving Knife. The moving knife procedure is inspired and illustrated by the process of how 
+to fairly divide a cake among several participants and to satisfy preferences with the fewer amounts 
+of cuts (Barbanel and Brams 2004). To illustrate this procedure, consider that a resource A is a 
+rectangular cake of length X with constant width. It is to be divided into xn pieces; where n represents 
+the number of participants. In order to divide the cake, one of the participants places a knife on 
+the left side of the cake and perpendicular to the length X. Then, the participant moves the knife 
+continuously to the right of the cake and makes a cut when one of the other players calls for it. It is 
+perceived that the knife has moved a distance x1 that yields at least 1/n of the cake (Barbanel and 
+Brams 2004). After the cut is made, the piece is given to whoever placed the call and then leaves. 
+If two or more persons call for a cut, the piece will be given randomly to one of them. This process 
+continues for n-1 remaining participants until one participant is left.  
+
+Last-Diminisher  “Trimming Algorithm.”  The  Last-Diminisher  trimming  algorithm  method  is 
+not continuous.  In this procedure, participant 1 cuts a piece of size 1/n and participant 2 takes the 
+piece and trims it if he believes that its size is greater than 1/n. The piece is passed successively and 
+trimmed until it reaches Participant n–1. The participant n can take the piece to conclude, otherwise 
+it is allocated to the last person who trimmed it.  This process is repeated with the remaining pieces 
+until only one participant is left (Austin 1982).
+
+Successive Pairs Algorithm. In this method, the problem considers that a resource has already 
+been divided among n participants and each participant owns at least 1/n. Let’s assume that a new 
+participant is included in the division of the resource. Now, the resource has to be distributed for n+1 
+participants. Consequently the original participants share has been converted to 1/(n-1). Participants 
+1 through n–1 are now required to divide their pieces into n+1 equal parts. After this division has 
+been performed, the new participant is allowed to choose one part from participants 1 through 1–n. 
+This will guarantee that each of the participants receives at least (n)/(n+1) from 1/(n) (Austin 1982).
+Proportional methods assume that the goods are divisible; but in the real world, a combination 
+of divisible and non-divisible goods is very common, e.g., machinery, equipment, and buildings. 
+Proportional  methods  are  useful  when  the  item  to  be  distributed  is  continuous. The  other  main 
+limitation of proportional methods is that they only guarantee envy-free allocations in distributions 
+between two participants (Brams and Taylor 1996).
+
+Envy-free Methods
+
+Knaster’s Procedure. In Knaster’s procedure, there is a set of assets A that have to be distributed 
+among P participants. The Knaster’s procedure resembles an auction because each good is assigned 
+to the highest bidder.  The total funds to be allocated is divided among the participants and requires 
+that each individual owns some initial amount of money placed as a deposit. This deposit is used 
+to  pay  those  individuals  who  receive  less  or  nothing  at  the  end  of  the  bidding  as  compared  to 
+everybody else (Chang et al. 2011). 
+
+Adjusted Winner (AW)Procedure. The AW algorithm was proposed by Brams and Taylor	(1994)	
+to provide an envy-free, equitable, and efficient solution. The goods are divided as in the Knaster’s 
+procedure without the need of a deposit, and then adjusted to make the number of points of each 
+participant equal to each other (i.e., the goods are redistributed to achieve equitability).	
+
+Divide and Choose Protocols. The Divide and Choose method where “one divides and the other 
+chooses” is one of the oldest methods.  In this method, each participant receives at least 1/n of the 
+
+104
+
+Fair Division Transportation Fundinggood in question, where n is the number of participants. The proportion is defined by the participants’ 
+own evaluation. Let’s consider the problem where two individuals resolve to share a divisible good. 
+This problem can easily be solved in two steps: first, one participant divides the good, and then the 
+second participant chooses the share portion (Barbanel and Brams 2004).
+
+Point Allocation. In point allocation, a hypothetical number of points, e.g., 3, 5, or 10 are used 
+to formulate a preference list by each participant. This allocation is based strictly upon decision 
+makers’ judgments. In this procedure, each participant assigns a value to any good in consideration; 
+then, the participant with the highest scores per good obtain the corresponding item. An envy ratio 
+(assigned score to actual score) is calculated to assess the envy-freeness of the allocation (Saunders 
+2011). 
+
+Envy-Free and Optimal Solution Algorithms. Fair division methods aim to achieve envy-freeness 
+in the allocation of goods; however, it does not provide optimal solutions.  The development of 
+algorithms  that  improves  envy-free  and  efficient  allocations  at  the  same  time  has  gained  more 
+interest. Procedures which contain similar notions to Knaster’s have been developed to find envy-
+free and efficient solutions to the fair division problem. Aragones (1995) proposed an algorithm 
+that finds envy-free solutions where the number of participants is equal to the number of items. The 
+items are a set of indivisible objects and a fix monetary amount. The benefit that the participants 
+receive from the allocation is approximated by a quasi-linear utility function. To be initialized, the 
+algorithm requires a Pareto efficient allocation of the resources. Another algorithm developed to 
+determine envy-free and efficient allocations was proposed by Klijn (2000). This algorithm was 
+developed for resource allocation in the public sector (Foley 1967) to achieve equity, envy, and 
+efficiency, and was based in a derivation of the money Rawlsian solution (Varian 1974).  Klijn’s 
+algorithm is similar to Aragones’s but it does require an initial Pareto allocation of the objects. It is 
+set with a random allocation followed by a directed graph with nodes that correspond to the objects. 
+The vertices of this graph represent the indifference or envy among the participants. The algorithm 
+eliminates the envy vertices in order to provide an envy-free and efficient allocation solution.
+
+Another approach to improve envy-free procedures was proposed by Nuchia and Sen (2001). 
+In their approach, the participants are referred to as agents. A two-stage protocol is used to identify 
+all possible exchanges between the agents in order to improve the efficiency in envy-free allocation 
+procedures. A graph G	= (V, E) is defined where the vertices represent the agents. Each vertex 
+is  assigned  a  weight  representing  the  net  gain  in  utilities  from  a  possible  envy-free  exchange. 
+The exchange is possible only if both agents have a gain in utilities. The iteration of the protocol 
+continues until no additional improvement can be achieved. 
+
+Application of Optimization Solving Techniques to Fair Division Methods. Fair division methods 
+are  difficult  to  solve  when  trying  to  achieve  a  perfect  envy-free  result.  Different  optimization 
+techniques could be applied as a solving technique to fair division problems. For example, a linear 
+programming  approach  using  the  concepts  of  side  payments  was  developed  by  Kuhn  (1967). 
+In  2007,  the  problem  of  allocating  indivisible  objects  between  two  participants  was  formulated 
+as an Integer Linear Programming problem in Dall’Aglio and Mosca (2007).  In this technique, 
+dynamic programming is used in combination with a branch and bound technique (Adjusted Winner 
+procedure) to find an optimal solution using the backtracking procedure of the knapsack algorithm. 
+The common fair division problem tends to be NP-complete (Nondeterministic Polynomial) and desires 
+to minimize envy (Vetschera 2010).  There are no fast solutions known for NP-complete problems. However, 
+there  are  several  approaches  to  achieve  a  fair  division  of  goods  minimizing  envy  among  participants.  For 
+example, Lipton et al. (2004) focus on setting an upper bound to minimize envy in which the bound 
+is determined by a utility function.  Nevertheless, this algorithm is only useful when the participants’ 
+utility functions are the same. Rudolph Vetschera (2010) considered the fair division problem with 
+
+105
+
+JTRF Volume 53 No. 1, Spring 2014two participants for a set of indivisible items and applied a branch and bound technique to solve 
+the problem. In this approach, the bounds ignore the indivisibility of the items and the different 
+participants’ valuations.
+
+As we have described, the literature review on fair division methods is very broad but focused 
+mainly  on  theory  and  abstract  examples.  In  a  real  situation,  there  are  usually  more  than  two 
+participants requesting funds and competing for indivisible projects. Therefore, it is very unlikely 
+to  fully  achieve  simultaneously  the  four  fair  division  characteristics  of  proportional,  envy-free, 
+equitable, and efficient solutions when there are several participants requesting funds. In spite of 
+this limitation, the application of fair division methods strive to make allocations among several 
+participants focusing mainly on proportionality and envy-freeness.
+
+THE FAIR DIVISION TRANSPORTATION FUNDING ALLOCATION MODEL 
+
+Fair division models aim to provide a fair share of the resource based on the own participant’s 
+valuation of the resource; therefore, they will not envy the others. Envy occurs when a participant 
+feels that the share received is unfair when compared with the others. Börgers (2010) and Brams 
+& Taylor (1996) describe that a fair share of a particular participant could be represented as his/her 
+own valuation of the resource divided by the total number of participants. 
+
+The Fair Division Transportation Funding Allocation Model (FDTFAM) combines concepts of 
+the Point Allocation and Adjusted Winner (AW) methods. FDTFAM applies the Point Allocation 
+concepts to define the preferences of the participants.  Preference or desirability of a project represents 
+how desirable a certain project is to the participant based on his/her own criteria, and it is expressed 
+by distributing a total of 100 points among the projects in the participant’s wish list (Chang et al. 
+2011). The concepts of the AW method are used to minimize the envy. The optimum solution of 
+the FDTFAM looks for envy-free, equitable, and efficient allocations taking into consideration the 
+participant’s preference or desirability.
+
+FDTFAM Mathematical Formulation
+
+FDTFAM aims to minimize total envy and to maximize the participants’ desirability subjected to 
+budget constraints. Desirability represents how desirable a certain project is to the participant. The 
+mathematical model of the FDTFAM is shown in Equations 2 through 6. These equations were 
+inspired by the envy definitions (Brams and Taylor 1996) and the point allocation method (Saunders 
+2011).
+
+ 
+
+N
+
+ 
+(2)  Maximize D :  Σ Pik Xik                                                                              
+ 
+
+i =1
+
+ 
+
+ 
+
+N 
+
+ 
+(3)  Minimize E :   Σ εi X ik                                                                                                                     
+ 
+Subject to:
+
+i = 1
+
+ 
+
+N
+
+ 
+(4)  Σ Cik X ik   ≤  b         k = 1, 2, 3, .. m                                                                                 
+       i =1
+
+106
+
+Fair Division Transportation Fundingk = 1                                                                                                           
+
+  m  
+(5)  Σ  X ik    ≥ 1        i	=	1,2,...,n
+ 
+
+(6)  X ik   {0,1}                          
+ Where: 
+
+E =  objective function for minimizing total envy
+D =  objective function for maximizing total desirability of projects selected for funding
+εi =  envy perceived  by the ith participant
+Pik  = desirability assigned by participant i to project k
+Xik = 1 if  participant i requested project k and funds are allocated; 0 otherwise
+Cik = cost assigned by participant i to project k 
+b = total budget available 
+i = represents each participant 
+N = total number of participants
+k = represents each project requested by the participant
+m = total number of projects requested by a participant
+
+FDTFAM will result in a low overall envy by selecting projects with high desirability based on 
+the participant’s individual preferences. Participants are given 100 points to distribute among their 
+wish lists of projects to express their desirability or preferences. The points assigned to a project 
+measure the desirability or preference that a participant has for that project. Higher desirability is 
+expressed by a higher assignation of points. In this method, each participant follows his/her own 
+criteria to prioritize the projects requested for funding. 
+
+Funding Allocation and Total Envy 
+
+Envy ratios are calculated in the process and added together to calculate the total envy produced 
+by the final allocation of funds. Also, the total desirability is calculated by adding the preference 
+points that each participant obtained at the end of the funding allocation process. If the total envy 
+due to  the allocation is equal to zero, or the participants are satisfied with the allocated funds,  then 
+the process stops; if not, another wish list of ranked projects with assigned points is requested of 
+the participants. In practice, it is very unlikely to achieve a total envy equal to zero when allocation 
+involves more than two participants. Therefore, the process is repeated until all the participants are 
+satisfied, or envy is minimized, with the final allocation. Figure 2 shows a flow chart summarizing 
+the steps of the funding allocation process.
+
+107
+
+JTRF Volume 53 No. 1, Spring 2014Figure 2: Step by Step Fair Division Transportation Funding Allocation Process 
+ 
+
+  (Source: Chang et al. 2011)
+
+START 
+
+Step 1 
+
+Identify Desired 
+
+Projects and Allocate 
+
+Points 
+
+Step 2  
+
+Distribute Funds using 
+the Non-dominated 
+
+Sorting Genetic Algorithm 
+
+Step 3 
+
+Calculate Total 
+Envy and Total 
+
+Desirability 
+
+Are the participants 
+
+ 
+
+satisfied? 
+
+Step 4 
+
+Generate New 
+Preferences and 
+
+Reevaluate 
+
+No 
+
+Yes 
+
+END 
+
+Genetic Solving Technique for the FDTFAM
+
+The  mathematical  formulation  of  FDTFAM  is  solved  using  a  Non-dominated  Sorting  Genetic 
+Algorithm  (NSGA-II).  Genetic  algorithms  provide  solutions  to  multi-objective  problems,  and 
+are  able  to  search  for  multiple  solutions,  thus  preventing  a  local  optimum. This  algorithm  uses 
+an evolutionary process (natural selection) with substitutes for evolutionary operators, including 
+selection, genetic crossover, and genetic mutation. In the selection process, only the best adapted 
+survive; in this case, the answers that best accomplish the goals are recorded and used as possible 
+solutions. The genetic crossover resembles the chromosome interchange taking place in evolution, 
+possible individual solutions are interchanged in random sets of alternative solutions. The genetic 
+mutation resembles a random mutation in an individual; in this case, it leads to a different solution 
+from a random set of solutions. The population is sorted into a hierarchy of sub-populations based 
+on the ordering of Pareto dominance. A solution is Pareto dominated if the solution increases the 
+allocations of one participant while making the other participants’ allocations decrease. Once the 
+population is sorted, the members of each sub-group is evaluated, and the resulting groups and 
+similarities are  used  to  promote  a  diverse  set  of  non-dominated  solutions.  NSGA  varies  from  a 
+
+108
+
+Fair Division Transportation Fundingsimple genetic algorithm only in the manner that the selection operator works. The crossover and 
+mutation operators remain as usual. Before the selection is performed, the population is ranked 
+on  the  basis  of  an  individual’s  non-domination. A  solution  is  non-dominated  if  it  improves  one 
+objective without affecting the other objectives (Srinivas and Kalyanmoy 1994).  
+
+The NSGA-II was used to solve the FDTFAM because it is part of the genetic algorithms. As 
+previously mentioned, this algorithm is recommended for the funding allocation problem because 
+it searches for multiple combinations of solutions by using crossovers and mutations among sets of 
+solutions or populations to guarantee that the solution is not just a local optimum. 
+
+CASE STUDY 
+
+A case study is presented in this paper to show the application of FDTFAM to allocate funds among 
+competing projects. FDTFAM can be used by departments of transportation (DOTs), metropolitan 
+planning organizations (MPOs), or any other agency. The methodology was tested by the Texas 
+Department of Transportation (TxDOT) using real data and a number of case scenarios (Chang et 
+al. 2013). 
+
+In the case study, 10 participants are competing for funding. It is assumed that the participants 
+are MPOs with different population sizes under their jurisdictions. An MPO is a policy-making 
+organization  made  up  of  local  government  representatives  and  governmental  transportation 
+authorities  for  urbanized  areas  with  populations  greater  than  50,000.    Small  MPOs  will  have  a 
+population of 50,000 to 200,000; medium MPOs a population of 200,001 to 1,000,000; and large 
+MPOs a population greater than 1,000,000. Table 1 shows the population and size of each participant 
+in the case study. 
+
+Table 1: Population and Size Assignation of Participants
+
+Participant Population
+
+Size
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+86,793
+120,877
+194,851
+405,027
+405,300
+800,647
+1,714,773
+1,716,289
+6,087,133
+6,539,950
+
+S
+S
+S
+M
+M
+M
+L
+L
+L
+L
+
+Since  FDTFAM  considers  each  participant’s  project  preference  without  requesting  their 
+individual criterion to define the priorities, the model is not directly affected by the project location. 
+The number of requested projects, the desirability assigned to each project, and budget constraints 
+are factors that will influence the funding allocation results.
+
+Table  2  describes  the  five  different  scenarios  used  to  allocate  funds  among  the  projects 
+requested by the 10 participants. The manner that points were assigned to the desired projects by the 
+participants varies in each scenario.
+
+109
+
+JTRF Volume 53 No. 1, Spring 2014Table 2: Project Funding Allocation Scenarios 
+
+Scenario
+
+Description
+
+1
+2
+
+3
+4
+
+5
+
+All participants assigned preference points to all projects in a range of: 1-15
+Participant 8 (large region) gave 86 points to the highest cost project, and 
+assigned 1 point to each of the remaining projects. The rest of the participants 
+have same points per projects per category as in scenario 1(point’s range: 1-15)
+Points based on percentage of project cost with respect to total requested
+Each participant has a different total number of points based on population. The 
+total number of points for each participant was calculated based on the population 
+served. Participant 1 has the smallest population served (86,793) and participant 
+10 has the largest (6,539,950).  So, while participant 1 gets the baseline 100 
+points, participant 10 gets 7,535 population-based points because it is 75.35 times 
+more populous than participant 1
+Participant 8 (large region) asks for 15 projects while the rest of the participants 
+only ask for 10 projects. Participant 8 tries to get more funding by increasing the 
+total expected funds
+
+The  scenarios  were  developed  to  reproduce  current  practices  observed  in  the  recent  past. 
+In Scenario 1 the participants show their true preferences. In Scenario 2, one participant tries to 
+manipulate the outcomes to obtain one project funded by assigning almost all of its points to that 
+project. In Scenario 3, participants prioritize their project preferences based on the project costs. In 
+Scenario 4, participants distribute their points among projects based on population. In Scenario 5, 
+a participant tries to manipulate the outcome by requesting more projects than really needed in an 
+attempt to obtain more funds.
+
+To solve this multi-objective optimization problem, SolveXL software was selected due to its 
+technical capabilities, ease of use, and ability to work with Excel spreadsheets. SolveXL is an add-in 
+for Microsoft Excel, which uses evolutionary (genetic) algorithms to solve complex optimization 
+problems. The application is written in C++ and opens an interface to interact with Microsoft Excel. 
+It has a user friendly Wizard with built-in help that allows the user to configure the tool easily and to 
+perform optimization using regular Excel formulas. The model can be set up in the same way as the 
+Excel Solver. SolveXL is able to solve many types of single- and multiple-objective problems using 
+genetic algorithms (SolveXL 2013).
+
+To compare the results obtained by the optimization method, the case study was also solved 
+with a ranking method developed for the Texas Department of Transportation (TxDOT) (Chang et 
+al. 2013). In the ranking method, the projects are ranked from the highest to the lowest desirability 
+based  on  the  distribution  of  points  provided  by  each  participant.  The  project  with  the  highest 
+desirability is selected for funding first.  The second project in the ranked list is “bubble up” to the 
+top of list and selected for funding if money is available. Projects in the wish list continue to “bubble 
+up” for funding until the budget is exhausted, or the ranked list of projects ends. This method is 
+called the Dynamic Bubble Up technique (DBU) because it “bubbles up” projects from the bottom 
+to the top for funding (Chang 2007). 
+
+All five scenarios were solved with FDTFAM using the ranking (bubble up technique) and the 
+optimization solving technique for the purpose of comparison.  The results obtained in each scenario 
+are summarized as follows.
+
+110
+
+Fair Division Transportation FundingScenario 1
+
+In scenario 1, all participants assigned preference points to all projects in a range of 1-15. The 
+results show that the optimization method resulted in a lower total envy of 6.643 as compared with 
+the ranking method, which obtained a total envy of 14.336. Participants that received almost all the 
+requested funds in the ranking method received less funds in the optimization method as shown in 
+Figure 3. It is observed that the small participants received higher allocated amounts of funding, 
+which were very close to the requested funds. This indicates that this group of participants will 
+have the smallest envy. On the other hand, the medium sized participants observed the highest envy. 
+This group had the highest envy because participant 5 requested very high cost projects. The total 
+allocated funds to medium sized participants were even higher than two of the large participants. 
+
+Figure 3: Comparison of Funding Allocation Results in Scenario 1
+
+Scenario 2
+
+In scenario 2, participant 8 (large) assigned its 86 points to the highest cost project, and 1 point to 
+each of the remaining 14 projects. The rest of the participants have the same points per projects as 
+in scenario 1 (points range: 1-15). This scenario simulates a situation in which a participant tries 
+to manipulate the allocation in his/her own favor by assigning very high preference to one project. 
+In  this  scenario,  the  optimization  method  resulted  in  a  lower  total  envy  of  5.398  as  compared 
+with the ranking method, which obtained a total envy of 8.175.  Participant 8 obtained lower total 
+funds because it assigned very high preference points (86 pts.) to one project. Using the ranking 
+method,  participant  8  obtained  $143,800,494  in  scenario  2  and  $220,437,683  in  scenario  1.  In 
+the optimization method, it received $136,741,309 in scenario 2 and $137,772,553 in scenario 1. 
+These results are shown in Figures 3 and 4. Participant 8 did receive funding for the project with 
+the highest preference points because the desirability of this project was significantly higher than 
+the other projects but the total funds were lower. In this scenario, the medium-sized participants 
+obtained the highest envy ratios. 
+
+111
+
+JTRF Volume 53 No. 1, Spring 2014Figure 4: Comparison of Funding Allocation Results in Scenario 2
+
+Scenario 3
+
+In scenario 3, preference points were based on the percentage of the project cost with respect to 
+total funds requested by the participant. The results show that the optimization method resulted in 
+a lower total envy of 4.471 as compared with the ranking method with a total envy of 6.613. This 
+scenario shows the lowest total envy as compared with all the other scenarios. In this scenario, 
+the participant’s preference points are based on the project cost. Projects with higher costs were 
+assigned  a  higher  desirability,  resulting  in  higher  allocated/requested  ratios.  Funding  allocation 
+results of scenario 3 are shown in Figure 4. The participants with the highest envy were the large- 
+sized participants. 
+
+Figure 5: Comparison of Funding Allocation Results in Scenario 3
+
+112
+
+Fair Division Transportation FundingScenario 4
+
+In  scenario  4,  each  participant  had  a  different  total  number  of  points  based  on  population. The 
+total  number  of  points  for  each  participant  was  calculated  based  on  the  population  under  their 
+jurisdiction. Participant 1 had the smallest population (86,793) and participant 10 had the largest 
+population (6,539,950).  For instance, while participant 1 gets the baseline 100 points, participant 
+10 gets 7,535 population-based points. The optimization method resulted in a total envy of 9.461 
+and 23.712 with the ranking method. The distribution of points based on the population resulted in a 
+higher total envy because smaller participants received fewer preference points to distribute among 
+projects. Figure 6 shows that large participants obtained almost all their requested funds and the 
+small participants received almost none of the requested funding. This resulted in the highest total 
+envy when compared with other scenarios.
+
+Figure 6: Comparison of Funding Allocation Results in Scenario 4
+
+Scenario 5
+
+In  scenario  5,  participant  8  (large)  requested  15  projects  while  the  rest  of  the  participants  only 
+asked for 10 projects. Participant 8 increased the number of projects in an attempt to obtain more 
+funding by increasing the total amount of requested funds. Figure 7 shows that the optimization 
+method resulted in a total envy of 7.856 and the ranking method had 11.173 of total envy.  Using the 
+ranking method, participant 8 obtained $152,087,683 of $221,587,683 as shown in Figure 6. This 
+represents a lower allocation when compared with scenario 1 where the same participant obtained 
+$220,437,683 of $221,587,683. Participant 8 did not obtain extra funding due to the lower points 
+assigned to the projects requested for funding. The largest difference between allocated to requested 
+amounts  occurred  for  large  participants  (Figure  7). The  low  allocated/requested  ratios  for  large 
+participants demonstrate that the model cannot be manipulated by increasing the number of projects 
+to obtain more funds. In this scenario, participant 8 requested more projects than the others but had 
+to distribute its 100 points over a larger number of projects than the other participants. This low 
+allocation of points is interpreted by the model as low preference; therefore, no extra funding was 
+allocated for those projects.
+
+113
+
+JTRF Volume 53 No. 1, Spring 2014Figure 7: Comparison of Funding Allocation Results in Scenario 5
+
+Ranking Versus Optimization as a Solving Technique
+
+Figures 3 through 7 showed the total funds allocated per participant. The results from the ranking and 
+from the optimization methods were compared for each scenario. It was observed that the optimization 
+method did minimize the envy and maximized the project’s desirability. The optimization method 
+provided better results from a fair perspective approach than the ranking method. 
+
+Figures 8 and 9 show the results obtained in the ranking and optimization methods per group of 
+participants (small, medium, large). It is observed that total envy is increased in the groups with the 
+largest disadvantage in terms of size, either population or highway miles; for example, participants 
+with a small population or low highway miles. Figure 8 shows that Scenario 4 results in the highest 
+total envy (23.712) since large participants received more funding than small participants. On the 
+other hand, the scenario with the lowest total envy was scenario 3 (6.613) in which desirability was 
+assigned based on the cost of the projects as compared with the total funds requested per participant. 
+
+Figure 8: Total Envy per Scenario Using the Ranking Method
+
+114
+
+Fair Division Transportation FundingFigure 9 also shows that scenario 4 resulted in the highest total envy (9.461) while  scenario 3 in 
+the lowest total envy (4.471). It is worth mentioning that even though the ranking and optimization 
+methods found the same scenarios for the highest and the lowest envy, the selected projects were 
+different. These differences in project selection are caused by the approach used to solve the funding 
+allocation  problem.  The  ranking  method  maximizes  desirability  while  the  optimization  method 
+maximizes desirability and minimizes envy at the same time.  The projects selected for funding 
+using the optimization method correspond to the optimal solution to the funding allocation problem.
+
+Figure 9: Total Envy per Scenario Using the Optimization Method
+
+CONCLUDING REMARKS
+
+The  FDTFAM  uses  fair  division  concepts  to  minimize  envy  and  to  maximize  the  participant’s 
+desirability of projects requested for funding.  Due to its flexibility, FDTFAM can be applied by 
+agencies in a project-to-project based selection resulting in the highest desirable allocation of funds, 
+and the lowest total envy as perceived by the participants.  
+
+FDTFAM can be solved using a Dynamic Bubble-Up Technique, which is based on the ranking 
+method, or an optimization genetic algorithm method. The ranking method strives to maximize 
+desirability  per  scenario  while  the  optimization  method  aims  to  minimize  envy  and  maximize 
+desirability simultaneously. It was observed from the results of the case study that the optimization 
+method provides more even allocated/requested ratios in the final project selection. The smaller 
+differences  for  allocated/requested  ratios  among  participants  result  in  a  lower  total  envy  when 
+compared with the ranking method.
+
+It is also noted that one participant cannot manipulate the fairness of the allocation process.  
+In the absence of knowing the other participant’s preferences, attempts at manipulation can result 
+in lower funds allocated to this participant. If a participant tries to trick the allocation process by 
+assigning very high points to only one project or by requesting more funds than really needed, 
+it results in lower total funds allocated to this participant and consequently a higher envy when 
+compared with the other participants. 
+
+FDTFAM can be applied at different management levels and in any area of interest in a DOT. 
+The major advantage of FDTFAM is that the individual preferences of each participant are taken 
+into  consideration  in  the  funding  allocation  process.  Therefore,  the  application  of  FDTFAM  to 
+allocate funds among competing projects will result in more proportional, equitable, efficient, and 
+envy-free allocations as perceived by the participants requesting funds. In this sense, FDTFAM is 
+
+115
+
+JTRF Volume 53 No. 1, Spring 2014an alternative approach to traditional methods based on pre-established formulas for prioritizing 
+funding allocations. The implementation of FDTFAM in the funding allocation process will provide 
+decision makers with first-hand information about the participants’ project priorities and budget 
+needs. This will result in more defensible project funding allocations when justifying formulated 
+budgets. 
+
+Acknowledgments
+
+The authors would like to express their sincere appreciation to the Texas Department of Transportation 
+(TxDOT) for providing funding to conduct research project 0-6727 “Using Fair Division Methods 
+for Allocating Transportation Funds.”  We want to acknowledge the Project Manager Cary Choate, 
+and  the  Project  Monitoring  Committee  members,  including  John  Ibarra,  John  Sabala,  Michelle 
+Veale, Sara Bagwell, Robert Ramirez, and Teresa Lemons for their support. Special thanks to Ron 
+Hagquist, who introduced this research topic to TxDOT. We also acknowledge the contributions of 
+Dr. Heidi Taboada and Dr. Jose Espiritu at UTEP during the development of FDTFAM.
+
+References
+
+Aragones,  E.  “A  Derivation  of  the  Money  Rawlsian  Solution.”  Social	 Choice	 and	 Welfare	 12, 
+(1995): 267-276 .
+
+Austin, A. K. “Sharing a Cake.” Mathematical	Gazette 66 (437), (1982): 212-15.
+
+Barbanel, J. B. and S. J. Brams. “Cake Division with Minimal Cuts: Envy-free Procedures for 3 
+Persons, 4 Persons and Beyond.” Mathematical	Social	Sciences 48, (2004): 251-269.
+
+Brams, S. J. and A.D. Taylor. “Fair Division by Point Allocation.” C.V. Starr Center for Applied 
+Economics, New York University, (1993), RR#92-43.
+
+Brams, S. J. and A.D. Taylor. Fair	Division:	from	Cake-Cutting	to	Dispute	Resolution. Cambridge 
+University Press, New York, 1996.
+
+Börgers,  C.  “Mathematics  of  Social  Choice,  Voting,  Compensation  and  Division.”  Society  for 
+Industrial and Applied Mathematics, 2010.
+
+Chan, W.T., T.F. Fwa, and J.Y. Tan. “Optimal Fund-Allocation Analysis for Multidistrict Highway 
+Agencies.” Journal	of	Infrastructure	Systems 9 (4), (2003): 167–175.
+
+Chang-Albitres,  C.  “Development  of  a  Multi-Objective  Strategic  Management  Approach  to 
+Improve Decisions for Pavement Management Practices in Local Agencies.” Ph.D. Dissertation, 
+Texas A&M, College Station, Texas, 2007.
+
+Chang-Albitres, C., H.Taboada, J. Espiritu, and T. Fullerton. “Research Project 0-6727: Using Fair 
+Division Methods for Allocating Transportation Funds.” University of Texas at El Paso (UTEP), El 
+Paso, Texas, 2011.
+
+Chang-Albitres, C., H. Taboada, J. Espiritu, T. Fullerton, E. Montes, and A. Walke. “Using Fair 
+Division  Methods  for Allocating  Transportation  Funds.”  University  of  Texas  at  El  Paso,  Final 
+Report Research Project 0-6727, El Paso, Texas, 2013.
+
+Dall’Aglio M. and R. Mosca. “How to Allocate Hard Candies Fairly.” Mathematical	Social	Sciences 
+54, (2007): 218-237.
+
+116
+
+Fair Division Transportation FundingDupuis-Roy,  N.  and  F.  Gosselin.  “An  Empirical  Evaluation  of  Fair-Division  Algorithms.” 
+Proceedings of the 31st Annual Conference of the Cognitive	Science	Journal, (2009): 2681-2686.
+
+Foley D. K. “Resource Allocation and the Public Sector.” YALE	Economic	Essays 7 (1), (1967): 
+45-98.
+
+Klijn, F.  “An Algorithm for  Envy-free Allocations in  an  Economy  with  Indivisible Objects and 
+Money.” Social	Choice	and	Welfare	17, (2000): 201-216.
+
+Kuhn, H. W. “On Games of Fair Division.” Essays	in	Mathematical	Economics	in	Honor	of	Oskar	
+Morgenstern. Princeton University Press, 1967.
+
+Lipton R., E. Markakis, E. Mossel, and A. Saberi. “On Approximately Fair Allocations of Indivisible 
+Goods.” ACM Conference on Electronic Commerce, (2004): 125-131.
+
+Nuchia, S. W. and S. Sen.. “Improving Optimality of N Agent Envy-free Divisions.” Proceedings 
+of the 8th International Workshop on Agent Theories, Architecture, and Languages, 2001. 208-217.
+
+Saunders, John H. “A Comparison of Decision Accuracy in the Analytical Hierarchy Process and 
+Point Allocation.” www.johnsaunders.com/papers/ahpvpa/ahpvpa.htm. Accessed October 13, 2011.
+
+Srinivas,  N.  and  D.  Kalyanmoy.  Multiobjective	 Optimization	 Using	 Nondominated	 Sorting	 in	
+Genetic	Algorithms. The Massachusetts Institute of Technology. Evolutionary	Computation 2 (3), 
+(1994): 221-248.
+
+SolveXL. SolveXl-	Genetic	Algorithm	Optimization	Add-in	for	Microsoft	Excel. http://www.solvexl.
+com/. Accessed on July 16, 2013.
+
+Varian, H. “Equity, Envy, and Efficiency.” Journal	of	Economic	Theory 9, (1974): 63-91.
+
+Vetschera, R. “A General Branch-and-Bound Algorithm for Fair Division Problems.” Computers	&	
+Operations	Research 37 (12), (2010): 2121-2130.
+
+Tsunokawa, K. and D. Van Hiep. “A Unified Optimization Procedure for Road Asset Management.” 
+6th	ICPT (2008): 1-8.
+
+Carlos M. Chang, Ph.D., P.E. 	Dr.	Chang	is	an	assistant	professor	in	the	Department	of	Civil	
+Engineering	at	the	University	of	Texas	at	El	Paso	(UTEP).	Dr.	Chang’s	major	areas	of	interest	
+are	pavement	evaluation	and	design,	pavement	management,	construction	management,	knowledge	
+management,	 infrastructure	 management,	 and	 asset	 management.	 He	 conducts	 research	 and	
+teaches	courses	in	his	areas	of	expertise.	Among	his	research	sponsors	are	the	National	Highway	
+Cooperative	Research	Program,	Metropolitan	Transportation	Commission	in	California,	the	Texas	
+Department	of	Transportation,	and	the	City	of	El	Paso.	Dr.	Chang	is	the	academic	advisor	of	the Chi	
+Epsilon Chapter	at	UTEP	and	member	of	the American	Society	of	Civil	Engineering.		He	is	recognized	
+as	an	international	consultant	and	has	participated	as	an	expert	in	major	highway	projects.	He	is	
+registered	as	an	international	consultant	at	the Inter-American	Development	Bank. Dr.	Chang	is	the	
+former	chair	of	the International	Road	Federation	Asset	Management	Task	Force. In	2011,	2012,	
+and	2013,	Dr.	Chang	received	the	“Engineering	Award	for	Connecting	Professional	Practice	and	
+Education”	from	the	National	Council	of	Examiners	for	Engineering	and	Surveying.
+
+117
+
+JTRF Volume 53 No. 1, Spring 2014Edith  Montes	 received	 a	 bachelor	 of	 science	 degree	 in	 civil	 engineering	 from	 the	 University	
+of	Texas	at	El	Paso	(UTEP)	in	May	2011.	She	is	currently	working	on	her	master	of	science	in	
+civil	engineering	at	UTEP.		Montes	is	a	graduate	research	assistant	in	the	Department	of	Civil	
+Engineering	of	UTEP.	Her	thesis	topic	is	“Fair	Division	Methods	for	Funding	Allocation.”
+
+118
+
+Fair Division Transportation Funding
