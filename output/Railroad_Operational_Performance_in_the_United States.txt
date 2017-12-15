@@ -1,0 +1,1226 @@
+Railroad Operational Performance 
+in the United States
+
+by Denver Tolliver, John Bitzan, and Doug Benson
+
+This	 paper	 examines	 the	 effects	 of	 increased	 car	 weights,	 train	 size,	 and	 distance	 on	 railroad	
+operational	performance,	which	is	measured	in	revenue	ton-miles	per	train	hour.	A	statistical	model	
+is	estimated	from	Class	I	data	that	explains	most	of	the	variation	in	this	index,	while	controlling	for	
+commodity	and	fixed	network	effects.	The	results	suggest	that	length	of	haul,	net	load,	and	train	size	
+contributed	significantly	to	performance	gains	from	1987	to	2006.	However,	train	miles	per	track	
+mile	increased	by	89%	during	the	same	period,	resulting	in	line	and	yard	congestion.
+
+Introduction
+
+In 2006, Class I railroads moved 32 million carloads of freight (including 12.3 million trailers and 
+containers) and provided 1.77 trillion ton-miles of service (AAR 2007).  Transportation agencies in 
+the United States are hoping to limit the growth of highway congestion in key intercity corridors by 
+keeping freight on rail lines instead of highways (AASHTO 2003). From a multimodal perspective, 
+it is important to understand the factors that have contributed to railroad performance. 
+
+Railroad performance could be defined in many ways. In this paper, we have selected a measure 
+that has historically been used by the American Association of Railroads (AAR): net or revenue 
+ton-miles per train-hour. This measure reflects train speed and revenue tonnage and is a composite 
+measure of the capability to efficiently move freight in intercity corridors. Other potential indicators 
+(such as speed, tonnage, or congestion) measure only one aspect of railroad performance.
+
+Many studies have addressed railroad productivity and costs, including Lee and Baumel (1987); 
+Berndt, Friedlaender, Chiang, and Vellturo (1993); Wilson (1997); Martland (1999); Oum, Waters, 
+and Yu (1993); and Bitzan and Keeler (2003). While this paper benefits from this research, it does 
+not attempt to measure railroad multi-factor productivity or cost. Instead, the primary objective 
+is to show the effects of increased car weights, train lengths, and shipment distances on line-haul 
+performance. A better understanding of these factors is important in assessing the performance of 
+surface transportation modes within multimodal corridors.
+
+Performance Index 
+
+The Association of American Railroads publishes an index: net	ton-miles	per	train	hour. This index 
+“reflects both the number of tons hauled and the miles traveled during an average hour of a freight 
+train’s operation” (AAR 2007). The numerator of this index (net or revenue ton-miles) is a measure 
+of railroad output. A performance objective is to move a given number of revenue ton-miles with 
+the fewest possible train hours. In doing so, both road and yard hours are important. Most cars 
+require switching and blocking services at origin and destination, as well as at intermediate locations 
+(Figure 1). For this reason, the denominator of our index is total road and yard hours (TH), which is 
+different from the AAR’s index, which reflects road train hours only.
+
+The trend in revenue ton-miles per train hour (RTM/TH) from 1987 through 2006 is shown in 
+Figure 2. The index increased from 33,108 in 1987 to 40,258 in 1992. The remainder of the period 
+is characterized by ups and downs, with the high value for the period (44,128) being recorded in 
+2002. The index subsequently declined to 42,618 in 2006. Nevertheless, it increased by 29% from 
+1987 through 2006.
+
+87
+
+Railroad Operational Performance
+Figure 1: Abstract Representation of Revenue Ton-Miles/Train Hour
+
+s
+r
+u
+o
+H
+d
+r
+a
+Y
+
+ 
+
+s
+r
+u
+o
+H
+d
+r
+a
+Y
+
+ 
+
+Road Hours 
+
+Road Hours 
+
+s
+r
+u
+o
+H
+d
+r
+a
+Y
+
+ 
+
+Revenue Ton-Miles
+
+Figure 2:  Trend in Operation Performance of Class I Railroads in the United States   
+ 
+
+(Computed from R-1 Reports to the Surface Transportation Board)
+
+ 
+
+ 
+
+)
+0
+0
+0
+(
+ 
+
+/
+
+H
+T
+M
+T
+R
+
+50
+
+45
+
+40
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+1987
+
+1989
+
+1991
+
+1993
+
+1995
+
+1997
+
+1999
+
+2001
+
+2003
+
+2005
+
+ 
+Other performance indicators could have been selected for this study, including train speed, 
+tonnage, or yard dwell time. However, none of these factors are stand-alone or composite indicators. 
+The operational factors (or independent variables) which affect revenue ton-miles per train hour are 
+discussed next.
+
+Density
+
+Density is a measure of utilization of railroad infrastructure. It can be computed by dividing annual 
+train miles by running track miles. Running track miles include first main tracks; second, third, 
+and fourth main tracks; and passing and side tracks. Collectively, these tracks (along with signal 
+aspects1, block lengths2, and other traffic control factors) govern the capacities of rail lines. 
+
+As shown in Figure 3, train density has risen over time. Train miles per running track mile 
+increased from 1,939 in 1987 to 3,665 in 2006. As traffic increased, railroads added main, passing, 
+and side tracks in high-density corridors. For example, the ratio of second and other main track 
+88
+
+JTRF Volume 49 No. 3, Fall 2010
+to first main track increased from 14.7% in 1987 to 19% in 2006 (computed from R-1 reports).3 
+However, as the chart shows, train miles have been increasing at a faster pace than track miles.
+
+Figure 3:  Trend in Train Density in the United States 
+ 
+
+(Computed from R-1 Reports to the Surface Transportation Board)
+
+)
+0
+0
+0
+(
+ 
+s
+e
+l
+i
+
+M
+-
+k
+c
+a
+r
+T
+/
+s
+e
+l
+I
+
+M
+-
+n
+i
+a
+r
+T
+
+4
+
+3.5
+
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+1987
+
+1990
+
+1993
+
+1996
+
+1999
+
+2002
+
+2005
+
+While density is beneficial, additional capacity may be needed as traffic grows. A study by Cambridge 
+Systematics, Inc. (2007) indicates that 12% to 13% of U.S. rail lines are at or near capacity. Another 
+39% have volume/capacity ratios of 0.4 to 0.7. With continued traffic growth, 45% of U.S. rail lines 
+are projected to be near, at, or beyond capacity in 2035 without expansions (Cambridge Systematics, 
+Inc. 2007).
+
+Data Sources
+
+This paper utilizes 20 years of Class I railroad data from R-1 reports, which are submitted annually 
+to the Surface Transportation Board (STB). This database includes 193 observations from 1987 
+through  2006.  Information  for  the  following  railroads  are  used: Atchison,  Topeka,  &  Sante  Fe 
+(ATSF), Burlington Northern (BN), BNSF, Chicago & Northwestern (CNW), Conrail (CR), CSX, 
+Grand Trunk Western (GTW), Illinois Central (IC), Kansas City Southern (KCS), Norfolk Southern 
+(NS), Soo Line (SOO), Southern Pacific (SP), and Union Pacific (UP). Some of these railroads were 
+merged during the period and their names are no longer used.
+
+The  primary  sources  of  information  are  Schedules  700  and  755  of  the  R1  Report  and  the 
+Quarterly Commodity Statistics (QCS) report. It is a report of the number of carloads and revenue 
+tons handled by each railroad. Operational statistics such as train miles, car miles, and train hours 
+are reported in Schedule 755. Miles of road and running track miles are reported in Schedule 700.4
+
+89
+
+Railroad Operational Performance
+
+OPERATIONAL PERFORMANCE MODEL
+
+In this section of the paper, a performance model is presented to explain variations in revenue ton-
+miles per train hour. The model (shown in Equation 1) includes key operational factors such as train 
+size, length of haul, net load, and road and yard congestion.
+
+(1)			RTM/TH = f (ALH, AVCARS, NET, WTR, TD, YD, MR, COMM, RR, T)  
+
+Where:
+
+ 
+
+RTM/TH =   Revenue ton-miles per train hour
+ALH =  
+Average length of haul (miles)
+AVCARS =  Average cars per freight train 
+Net load per freight car (tons)
+NET =  
+Average way train trips per carload 
+WTR =  
+Train density (train miles per running track mile)
+TD   =  
+YD =  
+Yard density (locomotive miles per yard track mile)
+MR = 
+Miles of road
+COMM =  A vector of commodity variables
+RR = 
+T =   
+
+A vector of railroad indicator variables 
+Time (years since 1987)
+
+The  first  six  variables  are  of  primary  importance. The  last  four  are  control  variables. They  are 
+necessary to account for the effects of mergers, rationalization, network effects, and variations in 
+commodity mix (among railroads and across time). The operational effects of the primary variables, 
+and their expected relationships to revenue ton-miles per train hour, are previewed in the following 
+paragraphs.
+
+Average Length of Haul
+
+ALH is the average distance that a shipment travels on an individual railroad’s network. Because 
+most shipments are interlined, the average distance of a movement on a single railroad is often less 
+than the total shipment distance. As used in this study, ALH is intended to measure the effect of 
+longer hauls on the efficiency of an individual railroad. The sign of ALH is expected to be positive 
+for several reasons: (1) Interchange frequency decreases with mergers that increase ALH. (2) The 
+yard hours required to originate and terminate a shipment are spread over more line-haul miles, 
+resulting in economies of distance. As shown in Figure 4, average length of haul has increased since 
+1987 as a result of mergers, growth in export/import traffic, and other market factors. The effects of 
+mergers between 1995 and 1999 are apparent in Figure 4.  
+
+Average Cars per Train
+
+Maximum train length (i.e., the longest feasible train) is constrained primarily by safety and physical 
+constraints, such as the lengths of side tracks. Maximum train length is the upper bound of average 
+train length. However, average train length (which is measured in cars per train) is influenced by 
+many factors other than maximum length, including network and route densities and commodity 
+mix. Because longer trains utilize time more effectively, AVCARS is expected to have a positive 
+sign.
+
+An analysis of R-1 report data reveals that substantial variations in cars per train were observed 
+during the period—both within and across railroads. Average cars per train ranged from 47.2 to 86.7. 
+The overall mean (for all railroads) was 68.4 cars. The standard deviation was 9.4.
+90
+
+Figure 4:  Trend in Average Length of Haul on Individual Railroads in the United States  
+ 
+ 
+
+(Source: Computed from R-1 Reports to the Surface Transportation Board)
+
+JTRF Volume 49 No. 3, Fall 2010
+ 
+
+800
+
+700
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+)
+s
+e
+l
+i
+
+M
+
+(
+ 
+
+d
+a
+o
+r
+l
+i
+a
+R
+
+ 
+l
+a
+u
+d
+i
+v
+i
+d
+n
+I
+ 
+n
+o
+ 
+e
+c
+n
+a
+t
+s
+i
+D
+
+ 
+.
+g
+v
+A
+
+0
+
+1987
+
+Net Load 
+
+1990
+
+1993
+
+1996
+
+1999
+
+2002
+
+2005
+
+ 
+
+The net load per car (NET) is computed by dividing the revenue tons of freight handled on an 
+individual railroad by the carloads. Logically, this variable is expected to have a positive sign in the 
+model. 
+
+An analysis of R-1 report data reveals that substantial variations in tons per car were observed 
+during the 1987-2006 period—both within and across railroads. Average tons ranged from 44.9 to 
+101.6. The overall weighted mean was 65.1 tons. The standard deviation was 8.0.
+
+Train Service 
+
+Generally, railroads operate three types of trains: way, through, and unit. Single cars usually travel 
+in way trains at origin and/or destination. Way trains are small trains that operate primarily between 
+remote stations located on branch lines and railroad yards. They stop frequently at stations to drop 
+off and pick up cars. In contrast, through trains move from yard to yard and perform little or no 
+switching en route. Unit train service is “a specialized shuttle-type service in equipment (railroad or 
+privately owned), dedicated to such service, moving between origin and destination.”5
+
+Way  and  through  train  services  are  not  independent.  In  most  cases,  a  way  train  movement 
+precedes or follows a through train movement. However, unit and way train services are mutually 
+exclusive for a given shipment or class of traffic. These relationships are considered in the definition 
+of the variable WTR, which is defined as the ratio of carloads handled in way trains to total carloads 
+originated and terminated. WTR increases with the proportion of carloads handled in non-unit train 
+service. Conversely, WTR decreases as the proportion of carloads moved in unit trains increases. 
+WTR is expected to have a negative sign.
+
+91
+
+Railroad Operational Performance
+Density
+
+The density variable used in the study (train miles per running track mile) was described earlier. 
+Because  increasing  densities  may  reflect  line  congestion  and  more  train-hours  per  revenue  ton-
+mile,  this  variable  is  expected  to  have  a  negative  sign.  In  addition  to  line  congestion,  railways 
+may experience yard congestion as facilities are consolidated and traffic grows. In this study, yard 
+density is measured in locomotive-miles per yard track mile (YD). The variable YD is expected to 
+have a negative sign in the model, indicating some yard congestion during the period.
+
+Miles of Road
+
+According to R-1 data, miles of road (or route miles) is the length of all rail lines regardless of the 
+number of tracks. Miles of second, third, and fourth main tracks; crossovers and passing tracks; and 
+side tracks are excluded from this measure. Miles of road can be increased through mergers and 
+decreased through abandonment, consolidation, or sales. Miles of running track can be increased on 
+parts of a carrier’s system, while miles of road are decreased on others. 
+
+Miles of road and track reflect the miles operated by a given railroad. Because some segments 
+are operated by more than one company, the sum of the miles operated for the industry as a whole 
+may be greater than the sum of the miles owned. However, all activity measures (such as train miles 
+and car miles) reflect train movements over operated segments. Therefore, the track and operational 
+data used in this study are consistent. 
+
+According to R-1 data, miles of road decreased from 144,230 in 1987 to 119,684 in 2006 as a 
+result of abandonment, the consolidation of lines after mergers, and the sale of branch lines to local 
+and regional railroads. Over time, traffic has been concentrated on fewer lines. As a result, Class 
+I carriers have been relieved of the time-intensive tasks of picking up and delivering freight on 
+low-density lines. For the most part, these tasks are now performed by local operators with lower 
+overhead costs and more flexible scheduling. 
+
+Miles of road should have a negative sign in the model, indicating that the elimination of less 
+productive route miles has improved the efficiency of train operations. However, miles of road may 
+capture several effects. The route miles of some railroads jumped dramatically after mergers. In this 
+respect, MR is an important control variable.
+
+Commodities
+
+The commodity variables are control variables. They do not directly explain operational efficiency. 
+However, they may account for unique industry shipping patterns. Although railroads haul many 
+commodities, 14 Standard Transportation Commodity Code (STCC) groups comprise 99% of the 
+freight tonnage originated by U.S. Class I railroads. A commodity variable is defined for each of 
+the 14 STCC groups shown in Table 1. Each variable represents the commodity’s share of total 
+tons handled by a railroad. In addition, a variable is created for STCC group 42: empty trailers and 
+containers. Although these movements are classified as revenue tons, the only revenue cargo is the 
+tare weight of the trailer or container. The 16th variable encompasses all other commodities. To avoid 
+singularity, only 15 of the variables are included in the model.6 
+
+Accounting for Mergers, Acquisitions, and Other Changes Over Time
+
+Average length of  haul (described earlier) accounts for  increased efficiencies from longer hauls 
+and reductions in interchange switching—both of which result from end-to-end mergers. However, 
+other effects of mergers (such as network efficiencies) are accounted for through railroad indicator 
+variables.
+
+92
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Percent of Tons Originated 
+
+Table 1: Primary Commodities Transported by U.S. Class I Railroads
+Commodity 
+Coal 
+Chemicals & allied products 
+Farm products 
+Non-metallic minerals 
+Misc. mixed shipments 
+Food & kindred products 
+Metals & products 
+Metallic ores 
+Petroleum & coke 
+Stone, clay & glass products 
+Waste & scrap materials 
+Lumber & wood products 
+Pulp, paper & allied products 
+Motor vehicles & equipment 
+Source: AAR. Railroad	Facts, 2007 Edition.
+
+43.5
+8.6
+7.6
+7.2
+6.4
+5.4
+3.2
+3.1
+2.8
+2.7
+2.5
+2.2
+1.9
+1.7
+
+Each Class I railroad that existed during the 1987-2006 period is represented by an indicator 
+variable – e.g., KCS. When the observation is for the Kansas City Southern Railway, KCS equals one. 
+Otherwise, KCS equals zero. Additional indicator variables are defined for mergers. For example, 
+the UP system includes three railroads that appear in the database: UP, SP, and CNW. CNW was 
+acquired by UP in 1995. Union Pacific merged with Southern Pacific in 1997. In the analysis, UP-
+CNW assumes a value of one in 1995, and each year thereafter – but is zero otherwise. Similarly, 
+the variable UP-SP assumes a value of one in 1997, and each year thereafter – but is zero otherwise. 
+Analogous variables are defined for other mergers or acquisitions. For example, Burlington 
+Northern merged with ATSF in 1996 to form BNSF. CSX and NS acquired parts of Conrail in 1999. 
+In 2002, the Canadian National Railway consolidated ICG, GTW, and other rail lines into the Grand 
+Trunk Corporation (GTC). In the Grand Trunk system, GTC is one if the year is 2002 or later; 
+however, GTC is zero otherwise. The ICG indicator variable assumes a value of one when GTC is 
+one, or when the observation is for the old ICG prior to 2002. The GTW variable works in a similar 
+manner. 
+
+Collectively,  the  railroad  indicator  variables  account  for  the  unique  characteristics  of  each 
+railroad’s  system  and  changes  in  network  characteristics  resulting  from  mergers.  However,  all 
+changes from 1987 to 2006 cannot be captured with aggregate data. Many innovations occurred in 
+train location technology, centralized traffic control, computerization of locomotives, and systems 
+modeling. These “other influences” are captured in the time variable (T), which is an integer that 
+represents the elapsed time in years since 1987. T is expected to have a positive sign, indicating that 
+railroad operational efficiency has been increasing over time.
+
+STATISTICAL MODEL AND RESULTS
+
+The model includes variables of different denominations, and data ranges. A logarithmic form of 
+the regression model is useful for this type of analysis because it allows for easy comparison of 
+effects. The dependent variable is the natural log of revenue ton-miles per train hour. The activity 
+variables, the commodity variables, and time are entered as natural logs—therefore, their estimates 
+are elasticities. The indicator variables (which take values of zero or one) do not affect the slope 
+of the regression surface. Instead, they shift the intercept, and in doing so represent each railroad’s 
+unique system factors.
+
+93
+
+Railroad Operational Performance
+Main Effects
+
+The parameter estimates and standard errors of the operational variables are shown in Table 2, along 
+with the t-values and p-values associated with these estimates. A p-value represents the probability 
+of observing a greater absolute value of t if the null hypothesis is true – i.e., the parameter estimate 
+(the partial slope) is not significantly different from zero. 
+
+As expected, the signs of ALH, AVCARS, and NET are positive. Moreover, all three variables 
+are highly significant with p-values of less than 0.01. ALH has the strongest positive influence. The 
+effects are as follows: A 1.0% increase in length of haul increases operational efficiency by 0.40%. 
+A 1.0% increase in average cars per train increases operational efficiency by 0.35%. A 1.0% increase 
+in net load increases operational efficiency by 0.37%. 
+
+Table 2: Parameter Estimates and P-Values of Operational Variables
+Standard 
+
+Parameter
+Intercept
+Log of Average Length of Haul (ALH)
+Log of Average Cars per Train (AVCARS)
+Log of Net Tons per Car (NET)
+Log of Way Train Trips per Car O/T (WTR)
+Log of Roadway Congestion Index (TD)
+Log of Yard Congestion Index (YD)
+
+Parameter 
+Estimate
+11.31208
+0.40040
+0.35368
+0.36688
+-0.06662
+-0.32073
+-0.15172
+
+Error
+1.61563
+0.10949
+0.12048
+0.11470
+0.02321
+0.08894
+0.03319
+
+t Value
+7.00
+3.66
+2.94
+3.20
+-2.87
+-3.61
+-4.57
+
+Pr > |t|
+<.0001
+0.0004
+0.0038
+0.0017
+0.0047
+0.0004
+<.0001
+
+As expected, TD and YD have negative signs and are highly significant. A 1.0% increase in 
+train density results in a 0.32% decrease in revenue ton-miles/train hour. A 1.0% increase in yard 
+density results in a 0.15% decrease in RTM/TH. In addition, a 1.0% increase in WTR results in a 
+0.07% decrease in operational efficiency. 
+
+Commodity Effects
+
+As shown in Table 3, most of the commodity share variables (including coal) are not statistically 
+significant. The unexpected negative sign of the coal variable may be the result of strong correlations 
+with NET, AVCARS, and ALH. Coal unit trains have some of the highest net load factors and the 
+most cars per train. 
+
+Three of the commodity share variables are statistically significant with positive signs: lumber 
+products, miscellaneous mixed freight (which is shipped in containers), and pulp & paper products. 
+Some lumber products are shipped on bulkhead or spine flatcars with achievable net loads of 100 
+tons.  Pulp/paper  products  include  woodchips  (which  can  be  loaded  to  100  tons  in  large  hopper 
+cars), and newsprint and other paper products that use boxcars. Because boxcars can be reloaded 
+by shippers, they incur relatively few empty miles. Therefore, fewer train hours are required to 
+reposition these cars. 
+
+Several  trends  and  efficiencies  explain  the  positive  sign  of  miscellaneous  mixed  freight: 
+(1)  increased  use  of  double-stack  flatcars;  (2)  increased  use  of  40-foot  (versus  20-foot)  marine 
+containers; (3) increased use of larger domestic containers; (4) increased use of intermodal express 
+trains;  and  (5)  high  utilization  of  flatcars.  The  first  three  trends  increase  the  revenue  tons  per 
+intermodal flatcar, while the fourth trend reduces the number of train hours required for land- and 
+mini-bridge movements. In addition, intermodal flatcars can be reloaded with containers by the 
+same shippers at origin and destination. Consequently, railroads incur fewer empty line haul or 
+switching miles.
+
+94
+
+Table 3: Parameter Estimates and P-Values of Commodity Variables
+Standard 
+
+Parameter
+Log of Coal Share
+Log of Chemicals Share
+Log of Farm Products Share
+Log of Nonmetallic Minerals Share
+Log of Food Products Share
+Log of Misc. Mixed Freight Share
+Log of Metal Products Share
+Log of Stone/Clay/Glass Products Share
+Log of Lumber Products Share
+Log of Petrol./Coke Products Share
+Log of Waste Materials Share
+Log of Motor Vehicles Share
+Log of Pulp & Paper Products Share
+Log of Metallic Ores Share
+Log of Empty Containers Share
+
+Parameter 
+Estimate
+-0.04514
+-0.07420
+0.00623
+-0.09931
+-0.11716
+0.07834
+0.06417
+-0.17032
+0.13213
+-0.04918
+-0.06077
+-0.01584
+0.15435
+0.00051707
+-0.01667
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Error
+0.08877
+0.05837
+0.04322
+0.03933
+0.08314
+0.02563
+0.04146
+0.05364
+0.03463
+0.03556
+0.04550
+0.01875
+0.06387
+0.01316
+0.00617
+
+t Value
+-0.51
+-1.27
+0.14
+-2.53
+-1.41
+3.06
+1.55
+-3.18
+3.81
+-1.38
+-1.34
+-0.84
+2.42
+0.04
+-2.70
+
+Pr > |t|
+0.6118
+0.2057
+0.8856
+0.0126
+0.1608
+0.0026
+0.1238
+0.0018
+0.0002
+0.1686
+0.1836
+0.3996
+0.0168
+0.9687
+0.0077
+
+Three of the commodity share variables are statistically significant with negative signs: empty 
+containers;  stone,  clay,  and  glass  products;  and  nonmetallic  minerals.  The  first  effect  (empty 
+containers) is easy to explain. Although the tare weights of containers are classified as revenue 
+freight, their weights are small in comparison with the train hours required to reposition them. The 
+effects of stone, clay, and glass products cannot be easily explained. This STCC group includes a 
+variety of dimensional building materials which are relatively light-loading and move as individual 
+carloads (rather than as unit trains or multi-car shipments). Their dispersed origins and destinations 
+(and  small  shipment  quantities)  may  result  in  less  efficient  train  and  yard  operations—which 
+could partially explain the significant negative sign. Nonmetallic minerals account for most of the 
+railroads’ non-revenue ton-miles, including the movement and distribution of crushed stone, riprap, 
+and gravel used in track construction and maintenance. These movements result in train hours but 
+no revenue ton-miles.
+
+Fixed Network and Time-Related Effects
+
+As shown in Table 4, T is highly significant with a positive sign, indicating that operational efficiency 
+has been increasing over time as a result of technological or managerial innovations not reflected 
+in the activity, commodity, or indicator variables. The effects of mergers are primarily reflected 
+in average length of haul and the indicator variables. ALH accounts for the efficiencies of longer 
+hauls and less-frequent interchange, whereas the indicator variables account for network effects 
+such as combining lines, yards, and traffic control systems; eliminating redundancies and circuitous 
+movements  to  avoid  interchange;  and  broadening  the  pool  of  labor  and  specialized  equipment 
+available to the merged railroad. After controlling for ALH, the signs and parameter estimates of the 
+railroad variables suggest that additional benefits have resulted from mergers. 
+
+The sign and estimate of each railroad indicator variable is relative to the variable left out of 
+the equation, which is the unmerged UP railroad. As shown in Table 4, the signs of the two UP 
+merger variables (UP-SP and UP-CNW) are positive and their estimates are greater than those of 
+the individual railroads (SP and CNW). Similarly, the parameter estimate for the merged BNSF 
+railroad is greater than the estimates for the BN or ATSF. Likewise, the estimates for the merged 
+CSX and NS systems (CSX-CR and NS-CR) are greater than the estimates for NS, CSX, or Conrail. 
+
+95
+
+Railroad Operational Performance
+Moreover, the estimate for the merged GTC system is greater than the estimates for the ICG and 
+GTW railroads. Collectively, these indicator variables suggest that—after controlling for changes in 
+lengths of haul—mergers have resulted in operational efficiency gains. 
+
+Table 4: Parameter Estimates and P-Values for Railroad Operational Model
+
+Parameter
+Intercept
+Log of Miles of Road (MR)
+Log of Time (T)
+ATSF
+BNSF
+BN
+UP-SP
+UP-CNW
+SP
+CNW
+SOO
+ICG
+GTW
+GTC
+KCS
+CR
+CSX
+CSX-CR
+NS-CR
+NS
+
+Parameter Estimate
+
+11.31208
+-0.30520
+0.11898
+-0.29006
+0.33333
+-0.30684
+0.70667
+0.97562
+-0.70992
+-0.97671
+-1.23953
+-1.45662
+-2.12493
+2.43181
+-1.40813
+-0.87898
+-0.55094
+0.98397
+0.91573
+-0.66424
+
+Standard 
+
+Error
+1.61563
+0.08238
+0.01453
+0.08981
+0.13874
+0.08173
+0.15428
+0.20757
+0.12679
+0.19178
+0.19985
+0.22820
+0.33796
+0.38182
+0.25154
+0.14582
+0.11366
+0.16235
+0.16292
+0.10828
+
+t Value
+7.00
+-3.70
+8.19
+-3.23
+2.40
+-3.75
+4.58
+4.70
+-5.60
+-5.09
+-6.20
+-6.38
+-6.29
+6.37
+-5.60
+-6.03
+-4.85
+6.06
+5.62
+-6.13
+
+Pr > |t|
+<.0001
+0.0003
+<.0001
+0.0015
+0.0175
+0.0002
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+<.0001
+
+Another network variable (miles of road) is also statistically significant with a negative sign. 
+There may be several reasons for this result. (1) Miles of road decreased throughout the period, 
+while operational efficiency increased. This suggests that the concentration of traffic on higher-
+density lines resulted in more efficient train operations. (2) Many of the miles that disappeared 
+were sold to local or regional railroads that consolidate and distribute traffic on low-density lines. 
+Many of these operations are time-intensive, requiring lengthy switching operations at branch-line 
+stations. In effect, the transfer of lines to local operators relieved Class I railroads of some intensive 
+switching operations. The parameter estimate of −0.30 suggests that (when controlling for changes 
+in length of haul and other network efficiencies gained from mergers) a 1.0% reduction in miles of 
+road has improved operational performance by 0.30%. 
+
+Model Fit and Properties
+
+This  model  explains  more  than  97%  of  the  variation  in  operational  efficiency  (Table  5).  The 
+R-Square adjusted for number of independent variables is 0.963. The F-test for goodness of fit is 
+highly significant. Moreover, the coefficient of variation is less than 1%, indicating a very high level 
+of precision. 
+
+Two  statistical  problems  often  occur  in  panel  datasets:  (1)  nonconstant  variance  and 
+(2)  autocorrelation.  Nonconstant  variance  occurs  when  variability  increases  with  firm  size  or 
+output. For example, the variance in revenue ton-miles among railroads may increase with output. 
+
+96
+
+JTRF Volume 49 No. 3, Fall 2010
+However, the model is essentially one of indexes (e.g., train-miles/running track mile), in which 
+size and activity are scaled. Thus, the null hypothesis is constant variance. The p-value of the chi-
+square statistic used to test for constant variance is 0.70. A high p-value indicates there is little 
+evidence to reject the assumption of constant variance. The Durbin-Watson statistic (which tests for 
+autocorrelation) is 2.143. The probability of a greater value is 0.194. The probability of a lesser value 
+is 0.806. These results suggest that serial correlation is not an issue. This conclusion is bolstered by 
+an autoregression analysis in which none of the terms introduced to capture serial correlation were 
+statistically significant.
+
+Table 5: Model and Error Sum of Squares and Goodness of Fit Measures
+
+Source of Variation
+
+Degrees of Freedom
+
+( a )
+
+Model 
+Error 
+Corrected Total 
+
+Mean Square Errors
+
+( b ) 
+40
+152
+192
+
+Source
+
+Line
+
+1
+2
+3
+
+4
+5
+6
+
+Model
+Error
+Total
+
+Sum of Squares
+
+( c )
+
+20.0285
+0.5938
+20.6223
+Value
+0.5007
+0.0039
+0.1074
+Value
+0.971
+0.963
+0.0625
+10.419
+0.60%
+128.17
+<.0001
+
+Goodness of Fit
+
+R-Square
+Adjusted R-Square
+Root Mean Square Error
+
+  7
+  8
+  9
+10 Mean Value of ln(RTM/TH)
+11
+12
+13
+
+Coefficient of Variation 
+F-Value
+Prob. of > F-Value
+
+Line 1(c) / Line 1 (b)
+Line 2(c) / Line 2 (b)
+Line 3(c) / Line 3 (b)
+
+Source
+
+Line 1 (c) / Line 3 (c)
+
+1 – [Line 5 (c) / Line 6 (c)]
+
+SQRT(Line 2 (c))
+
+Line 9 (c) / Line 10 (c) * 100
+
+Line 4 (c) / Line 5 (c)
+
+Qualitative Factors Not Considered
+
+Although the statistical results are good, it must be recognized that many qualitative factors which 
+influence railroad performance are not reflected in the model. To some extent, management and 
+market influences may show up in the indicator and time variables. Technological factors that cannot 
+be directly quantified may be reflected in the time trend variable—which is highly significant. While 
+commodity/industry effects are represented in the model, institutional and labor factors (such as 
+regulations and work rules) are not; nor are the dual freight and passenger train operations which 
+occur on some lines. All of these factors may affect the revenue ton-miles per train hour that are 
+attainable  on  certain  parts  of  the  railroad  system.  Nevertheless,  the  model  explains  97%  of  the 
+variation in operational performance among railroads over time. 
+
+CONCLUSION
+
+This  paper  has  analyzed  the  effects  of  key  operational  factors  on  railroad  performance,  while 
+controlling for commodity and network effects. The results suggest that much of the improvement in 
+performance between 1987 and 2006 was attributable to higher net loads, longer trains, and longer 
+hauls. Other gains may have resulted from mergers and the transfer of branch lines to local and 
+regional operators. The extent to which these trends will continue in the future is unclear. Increases 
+in average lengths of haul are likely if land bridge and unit-train shipments grow proportionally. 
+However, large increases in ALH may not be possible without mergers or consolidations, which are 
+
+97
+
+Railroad Operational Performance
+unlikely at present. On the other hand, performance may be improved through increases in train size 
+and net load. 
+
+According to R-1 data, in 2006 the average train included less than 70 cars. Much longer trains 
+are operationally feasible. To some extent, average cars per train can be increased through greater 
+utilization of unit trains. As more commodities move in unit trains, a corresponding reduction occurs 
+in way train activity. At the same time, net loads can be increased by substituting 286,000-pound 
+and 315,000-pound cars for smaller ones. However, larger cars come with a price. System-wide use 
+of heavier cars may require additional track investments and higher track maintenance costs. For 
+example, Kalay and Guins (1998) estimated that track and bridge costs could increase by more than 
+20% on some routes if 315,000-pound cars are used instead of 263,000-pound cars. However, some 
+of the infrastructure investments needed to support heavier railcars may have been made in recent 
+years. 
+
+With growth in traffic, train densities have increased over time. The concentration of railroad 
+traffic has undoubtedly had many benefits. However, the results of this study suggest that road and 
+yard traffic may be at levels which are impacting system performance. This does not mean that all 
+segments of the railroad system are congested. Since traffic is concentrated in certain corridors, it is 
+likely that congestion is primarily a problem on some high-density lines. However, an assessment of 
+the levels of congestion on particular lines cannot be made from this study.  
+
+In conclusion, some of the variables responsible for the impressive performance of Class I 
+railroads during the last 20 years have been identified in this paper. However, if the volume/capacity 
+ratios projected by Cambridge Systematics, Inc. (2007) occur, future railroad performance may be 
+threatened by line and yard congestion. Railroads are adding capacity by constructing additional 
+main tracks in high-density corridors. Whether these investments are adequate to meet the needs of 
+future traffic is a question that is beyond the scope of this paper. 
+
+As noted in the introduction, railroad performance is important from a multi-modal perspective. 
+Highway agencies are hoping to reduce the growth of highway congestion by keeping long-haul 
+freight on rail lines instead of highways. If railroad performance deteriorates as a result of congestion, 
+the performance of the surface transportation system (as a whole) will be affected.  
+
+Endnotes
+
+1.	 A signal aspect is a visual arrangement of signal lamps and/or positions that conveys informa-
+tion about the status of upcoming blocks when viewed from the direction of an approaching 
+train. The  indication  of  a  signal  is  the  information  conveyed  by  its  aspect.  For  example,  a 
+red-colored light in a certain position (the aspect) means “stop” or “stop and proceed” (the 
+indication). The simplest traffic control system has only two aspects. The signals display only 
+red (stop) or green (proceed). However, a two-aspect system does not provide the capacity 
+necessary for busy rail lines. In North America, three-aspect signaling is the most common 
+type. However, four- and five-aspect systems are sometimes used. As the number of aspects 
+increases, so does the information conveyed by the signal.
+
+2.	 Block signal systems are widely used in the United States. In such a system, the network is 
+partitioned into segments (or blocks) of uniform lengths based on train stopping distances. The 
+train separation distance is prescribed in number of blocks (e.g., 1, 2, or 3), depending upon 
+the number of signal aspects and other traffic control factors. The number of signal aspects and 
+block lengths are key factors in line capacity and network performance.
+
+3.	 The R-1 report is the annual report of a Class I railroad to the Surface Transportation Board. In 
+the United States, each Class I railroad is required to report information to the Surface Trans-
+portation Board for regulation. The R-1 report includes information on the miles of road and 
+
+98
+
+JTRF Volume 49 No. 3, Fall 2010
+track owned or operated by a Class I railroad as well as operational statistics such as annual 
+train-miles, car-miles, and ton-miles.
+
+4.	
+
+In  some  cases,  it  is  possible  to  identify  suspect  R-1  data  by  using  other  variables  as  cross 
+references. For example, the total tons and carloads handled in a year can be calculated from 
+individual commodity subtotals in the QCS report and compared to the reported totals. Yard lo-
+comotive miles can be cross-checked using yard switching hours. Yard locomotive miles should 
+be approximately equal to yard locomotive hours multiplied by typical switching speeds (e.g., 6 
+to 8 mph). Similarly, unit train car miles should be approximately equal to the carloads handled 
+in unit trains times unit train miles.  Several outliers that affected the analysis were discovered 
+using these methods and by analyzing data series. The most reasonable carload and tonnage 
+data were used. In some cases, the calculated totals were used instead of the reported totals. For 
+one railroad, yard locomotive miles were zero or a very low number for several years. For this 
+railroad, yard locomotive miles were computed by multiplying the yard locomotive hours by 6 
+mph. In total, these data substitutions were minimal.
+
+5.	 This definition is included in the STB’s instructions to Schedule 755, on Page 92 of the R-1 
+
+Annual Report form.
+
+6.	 Singularity is a condition that occurs when one of a set of variables can be predicted from the 
+
+values of the other variables in the equation.
+
+References
+
+American Association  of  State  Highway  and  Transportation  Officials  (AASHTO).  Freight	 Rail	
+Bottom	Line	Report. Washington D.C., 2003.
+
+Association of American Railroads (AAR). Railroad	Facts	–	2006	Edition, October, 2007.
+
+Berndt, E.R., A.F. Friedlaender, J.S. Wang Chiang, and C.A. Vellturo. “Cost Effects of Mergers and 
+Deregulation in the U.S. Rail Industry.” Journal	of	Productivity	Analysis 4, (1993): 127-44.
+
+Bitzan, J. and T.E. Keeler. “Productivity Growth and Some of its Determinants in the Deregulated 
+U.S. Railroad Industry.” Southern	Economic	Journal 70, (2003): 232-253.
+
+Cambridge Systematics, Inc. (CSI). National	Rail	Freight	Infrastructure	Capacity	and	Investment	
+Study. Cambridge, Massachusetts, September 2007.
+
+Kalay, S. and T. Guins. “Heavy Axle Loads: The Dollars and Sense Case.”  Railway	Age, March, 
+1998.
+
+Lee, T. and C.P. Baumel. “The Cost Structure of the U.S. Railroad Industry Under Deregulation.” 
+Journal	of	the	Transportation	Research	Forum 28 (1), (1987): 245-53.
+
+Martland, Carl. D. “Productivity and Prices in the U.S. Rail Industry: Experience from 1965 to 1995 
+and Prospects for the Future.” Journal	of	the	Transportation	Research	Forum 38 (1), (1999): 12-25.
+
+Oum, T.H., W.G. Waters II, amd C. Yu. “A Survey of Productivity and Efficiency Measurement in 
+Rail Transport.” Journal	of	Transport	Economics	and	Policy 33(1), (1999): 9-42.
+
+U.S. Surface Transportation Board. R-1	Class	I	Railroad	Annual	Reports	to	the	Surface	Transportation	
+Board	(R-1), 1987-2006.
+
+99
+
+Railroad Operational Performance
+Wilson, Wesley W., “Cost Savings and Productivity Gains in the Railroad Industry.” Journal	of	
+Regulatory	Economics 11 (1), (1997): 21-41.
+
+Denver Tolliver	is	director	of	the	Transportation	&	Logistics	graduate	program	at	North	Dakota	
+State	 University	 and	 senior	 research	 fellow	 at	 the	 Upper	 Great	 Plains	 Transportation	 Institute.	
+Tolliver	earned	a	baccalaureate	degree	in	geography	from	Morehead	State	and	the	Master	of	Urban	
+&	Regional	Planning	and	Ph.D.	from	Virginia	Tech.	He	is	a	long	time	member	of	TRF	and	past	
+president	of	the	Agricultural	Transportation	Chapter.	
+
+John Bitzan	is	an	associate	professor	in	the	College	of	Business	at	North	Dakota	State	University.		
+His	research	interests	include	market	structure	and	performance,	the	impacts	of	regulatory	change,	
+and	the	determinants	of	wages.	He	has	a	Ph.D.	in	economics	from	the	University	of	Wisconsin-
+Milwaukee.
+
+Doug Benson	has	over	20	years	experience	in	transportation	research	specializing	in	the	analysis	
+of	 railroad	 operations	 and	 in	 the	 development	 of	 computerized	 systems	 used	 for	 transportation	
+analysis.	Current	research	interests	include	railroad	and	multi-modal	analyses,	the	development	
+of	 a	 multi-modal	 research	 program	 incorporating	 detailed	 waterborne	 commerce	 data	 and	 the	
+utilization	of	the	Indian	Reservation	Roads	database.		He	has	supported	the	development	of	several	
+computer	programming	systems	and	has	published	papers	on	personal	computer	and	mainframe	
+software	systems,	railroad	database	systems,	and	freight	systems.
+
+100
+
+

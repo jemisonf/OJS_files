@@ -1,0 +1,1529 @@
+Transatlantic Port Issues
+
+by Mary R. Brooks and Larissa M. van der Lugt
+
+This	 paper	 examines	 differences	 between	 Northwest	 Europe	 and	 Eastern	 North	 America	 with	
+respect	to	port	commercial	activities,	port	policy,	port	hinterland	access	and	competition,	port	
+governance,	and	port	security.	While	the	volume	of	traffic	on	the	transatlantic	trade	route	has	
+grown,	its	share	of	world	trade	with	Europe	has	declined	slightly.	The	authors	explore	the	relevant	
+contextual	issues	the	ports	on	the	trade	route	have	experienced	in	the	last	decade,	and	using	the	
+Baltazar	and	Brooks	(2001)	Environment-Strategy-Structure	framework,	examine	the	structure	and	
+strategies	followed	by	ports	as	they	seek	to	deal	with	the	changing	environment	(context)	on	all	
+routes,	not	just	the	transatlantic.
+
+INTRODUCTION
+
+The port industry has undergone significant change in the last 25 years in large measure due to 
+two significant revolutionary changes in global trade and transportation. The first of these was the 
+widespread  implementation of  containerization. The  year  2006  marked  50  years  since  Malcolm 
+McLean first shipped “boxes” (really truck chassis) on the Ideal-X from New Jersey to Houston 
+and  irrevocably  changed  the  way  most  manufactured  goods  are  transported  (Levinson  2006). 
+Containerization was a key enabler of the wave of globalization that has occurred over the last 
+quarter century. The need for terminal investment to support this wave meant many ports, desirous 
+of participating in the burgeoning traffic growth that containerization promised, searched for ways 
+to finance and build such investment. The second revolution was in the governance and management 
+of  ports.  In  the  1980s  and  1990s,  governments,  around  the  world  faced  with  increasingly 
+unmanageable budgetary deficits, were seeking ways to reduce deficits and provide port services 
+more  efficiently  while,  concurrently,  encouraging  ports  to  be  self-sufficient  if  not  generators  of 
+revenue for government. The era of new public management and port reform began (discussed in 
+Brooks and Cullinane 2007). The restructuring of port activities often included a move towards 
+privatization or corporatization of ports, but most frequently led to a growth in the use of concessions 
+to achieve these objectives. The most common concessions were for container terminal activities. 
+The confluence of these two profoundly changed the cargo movement business and the role that 
+ports play in this business, with traditional servicing of tanker and dry bulk activities remaining a 
+core business activity.
+
+This paper is about the port industry servicing the North Atlantic trade route. We use the generic 
+Environment-Strategy-Structure configuration, as expanded by Baltazar and Brooks (2007), as a 
+framework for its descriptive analysis of the port industry on both sides of the North Atlantic trade 
+route. Core to this concept is that the performance of ports is related to the fit between environment 
+(context) and, the structure and strategy of the port. While this paper will not focus on the output 
+measure of performance, relating the context to the structure and strategy of ports provides the 
+ability to explore the differences between ports on the U.S. East Coast of North America and those 
+in Northwest Europe. 
+
+Using Eurostat data, the paper begins by examining the trade that underpins port demand on 
+the transatlantic and how that trade is evolving; where possible, given data limitations, it examines 
+the ports that service that trade. The focus then turns to the specific sector of port activity most 
+influenced by the globalization activities of the last 25 years—containerization. Here, it is clear that 
+the transatlantic trade is not the key trade route in global trade development, but that other factors 
+influence the prospects for key Atlantic ports, and these will be discussed. As is the case for ports 
+133
+
+Transatlantic Port Issues
+globally, port hinterland accessibility influenced by port congestion and security have become the 
+critical context issues for ports in the region, so the next section will examine these issues more 
+closely and what the Atlantic ports are doing to address them. As the ability of port authorities to 
+respond to globalization, competitive pressures, and congestion is a product of the governance of 
+the port, the following section focuses on the changing role of the state in port governance first in 
+Europe and then in North America, leading to a discussion of current port governance, a structural 
+issue. Finally, the paper will close with an examination of port management strategies in response 
+to these structure and context changes. Throughout the paper, the authors explore the developments 
+in the specific regional contextual issues the ports on the trade route have experienced in the last 
+decade  and  examine  the  differences  in  management  structures  and  resultant  port  management 
+strategies between both sides of the Transatlantic maritime trade.
+
+THE EVOLUTION OF TRANSATLANTIC TRADE 
+
+The transatlantic trade (defined as Eureopean Union–United States and Canada)1 is the smallest of 
+the major global container trades in manufactured goods. While initially much more dominant, as one 
+of three global trade lanes in the early 1990s, it has lost its position as the Asian trades have grown 
+to dominate. In the early 1990s, trade on three routes—the transatlantic, the transpacific, and the 
+Asia–Europe—accounted for 50% of global container trade. With the rise of Asia, the transatlantic 
+share of global container traffic fell to less than 5% by 2007 (Drewry Shipping Consultants 2008).
+Europe–North America has long been one of the major trade lanes in the world’s movement 
+of goods. Total seaborne external trade of the 27 members of the European Union (EU-27) with 
+North America accounts for about 6% of the total seaborne external trade of the EU (Table 1). 
+While the absolute volume of traffic has grown over the period from 1999 to 2008 by 15.0%, North 
+America’s share of EU-27 trade with the world has declined as the EU-27’s trade with Asia has 
+grown, particularly in the 2000-2006 period.
+
+Table 1: Europe – Canada/U.S. Trade Development 1999-2008 (Seaborne Trade in 000 Tons)
+
+EU-27 with  
+
+U.S. and Canada
+
+EU-27 with the World
+
+U.S. Canada 
+
+Share 
+
+Import
+86,670
+90,918
+85,636
+77,507
+79,539
+81,500
+79,234
+81,346
+89,512
+107,654
+
+Year 
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+Source: Eurostat (2009) 
+
+Export
+77,464
+90,954
+86,546
+91,847
+90,508
+96,405
+98,382
+91,581
+85,632
+81,093
+
+Total
+164,135
+181,872
+172,182
+169,354
+170,046
+177,905
+177,616
+172,927
+175,144
+188,747
+
+Import
+1,865,300
+2,001,493
+2,061,248
+2,062,969
+2,174,356
+2,340,770
+2,407,780
+2,468,422
+2,551,411
+2,529,735
+
+Export
+572,069
+613,417
+569,370
+610,481
+642,697
+670,171
+718,723
+728,593
+746,568
+789,239
+
+Total
+
+2,437,368
+2,614,910
+2,630,618
+2,673,450
+2,817,053
+3,010,941
+3,126,503
+3,197,015
+3,297,979
+3,318,974
+
+%
+
+6.73%
+6.96%
+6.55%
+6.33%
+6.04%
+5.91%
+5.68%
+5.41%
+5.31%
+5.69%
+
+The  figures  in  Table  1  do  not  show  the  decline  in  port  traffic  due  to  the  global  economic 
+crises. Before September 2008, port volumes were softening and after that date, a significant and 
+substantial decline in port traffic occurred; in 2009, most major ports in the region reported double-
+digit declines in traffic. As of January 2010, port volume levels have not recovered to their 2007 
+highs, although some recovery has occurred in some ports. The full impact of the global economic 
+crisis on future port traffic is not yet clear.
+134
+
+JTRF Volume 49 No. 3, Fall 2010
+Including Mexico and decomposing Europe’s trade with Canada, Mexico, and the United States 
+(Figure 1), the most stable have been the smaller volume of European exports to Canada and the 
+trade with Mexico, while European exports to the United States have declined significantly. Since 
+the recession of 2001-02, European imports from North America have risen, and most notably from 
+the United States. Mexico’s participation in trade with the E.U. has been smaller than Canada’s 
+but EU exports to Mexico have been rising in recent years and were similar to Canada’s in 2008. 
+Mexico’s participation in transatlantic trade has been mostly through transshipment on the U.S. east 
+coast or in the Caribbean.
+
+In  terms  of  trade  in  manufactured  goods  and  component  parts,  the  Europe–North America 
+maritime container trade is still substantial in Europe’s total maritime trade. However, the share has 
+declined over the last two decades as the rise of China has altered global trading patterns, especially 
+in the container trades. In the container trades, the transatlantic trade is the smallest of the four 
+main trades, with a diminishing share over time as it is the slowest growing of the four; the fastest 
+growing  is Asia–Europe  (13.0%  2006  over  2005)  followed  by  transpacific  (10.5%),  intra-Asian 
+trade (9.7%), and then transatlantic at 4.1% (Watson 2007). Comparing 2007 traffic over 2006, there 
+was a retrenchment in both transpacific and intra-Asia trades, perhaps reflecting the softening of 
+market conditions over 2007, while the Asia–Europe and transatlantic continued to grow, albeit at 
+less than 5% (Drewry Shipping Consultants 2008). The transatlantic container trade, slow-growing 
+and stable, reflects a mature trade route between developed countries. 
+
+For both the European and the North-American seaports, the transatlantic trade is a substantial 
+one, although not dominating their traffic. Based on the individual statistics as published by the 
+ports  through  their  Web  sites,  it  can  be  concluded  that,  for  the  Northwest  European  ports,  the 
+intra-European trades have the largest share. In most cases, the Asian trades follow. Antwerp and 
+Bremerhaven are ports where the transatlantic trade dominates with about a 15% share, according to 
+data available from individual ports’ Web sites. On the North American side of the Atlantic Ocean, 
+the  traffic  pattern  is  less  clear. While  consolidated  calendar  year  2007  data  is  available  by  port 
+Figure 1: North America’s Trade with the EU by Sea in Tons 2000-2008
+
+100,000,000
+
+90,000,000
+
+80,000,000
+
+70,000,000
+
+60,000,000
+
+50,000,000
+
+40,000,000
+
+30,000,000
+
+20,000,000
+
+10,000,000
+
+0
+
+EU-27 Imports from U.S.
+
+EU-27 Exports to U.S.
+
+EU-27 Imports from Canada
+
+EU-27 Exports to Canada
+
+EU-27 Imports from Mexico
+
+EU-27 Exports to Mexico
+
+2000
+
+2001
+
+2002
+
+2003
+
+2004
+
+2005
+
+2006
+
+2007
+
+2008
+
+Source: Eurostat (2009)
+
+135
+
+Transatlantic Port Issues
+(foreign and domestic) from the Data Navigation Center of the U.S. Army Corps of Engineers, the 
+2006 data are more detailed. However, that detail is by commodity (U.S. Army Corps of Engineers 
+2008), and does not distinguish whether the foreign origin or destination is Europe, Canada, or 
+Asia. Therefore, the role of transatlantic trade for U.S. East Coast ports cannot be determined from 
+existing public data sources. Likewise, the Canadian statistics available do not afford the opportunity 
+to examine waterborne trade (as has been done using Eurostat statistics).
+
+Trade Developments Within Europe
+
+Western European markets continue to mature. The total market volume in Europe’s most important 
+countries and in traditional market sectors, such as consumer goods and automotive products, are 
+showing moderate growth rates, contrasting with the booming growth in these markets in the 1970s 
+and 1980s. The largest segment in Europe’s maritime trade is liquid bulk. In the European Union, 
+there are around 116 refineries, many of them located in seaports (Notteboom 2009). The Port of 
+Rotterdam has the largest share in the transshipment of liquid bulk with a throughput of 194 million 
+tons in 2007 (Port of Rotterdam Web site). Other large liquid bulk ports are Marseille (France), 
+Bergen Ports (Norway), Le Havre (France), and Wilhelmshafen (Germany), followed by ports in 
+Italy (Trieste, Augusta) and UK (Tees & Hartlepool, Milford Haven and Southampton) (ITMMA 
+2009). The liquid bulk trades are highly imbalanced with large import flows and relatively small 
+export flows. The second largest segment is dry bulk, mainly consisting of iron ore and coal. These 
+products  are  inputs  for  steel  plants  and  electricity  generating  stations  and  are  therefore  highly 
+captive to particular ports. The five most important ports are Rotterdam (Netherlands), Hamburg 
+(Germany), Dunkerque (France), Amsterdam (Netherlands), and Antwerp (Belgium), followed by 
+ports in the UK (Immingham), Spain (Gijon), and Italy (Taranto) (ITMMA 2009). Just like liquid 
+bulk, dry bulk shows a significant imbalance with large import volumes and smaller export ones. 
+Although containerized trades have a minor share in terms of volume, their impact on port systems 
+is substantial in terms of growth rates and infrastructure demands. While demand in Western Europe 
+might have matured, changing production and supply chain patterns have induced strong growth in 
+container flows in and out of Europe. Globalization, outsourcing of production to low cost countries, 
+and postponement in manufacturing and assembly have led to increasing containerized flows both 
+intra-Europe and between Europe and other continents. In some ports, this meant that growth rates 
+above 10% were achieved between 2004 and 2008.
+
+The  developing  countries  in  Central  and  Eastern  Europe  have  shown  substantial  economic 
+growth over the last decade. The center of gravity for economic trade, therefore, is shifting from 
+west to east, and likely to result in different trade patterns in the future. It is already clear that the 
+northern German and Baltic ports already have benefitted from this shift. 
+
+Trade Developments in North America
+
+The shipment of energy is the largest single trade handled at U.S. ports, with Philadelphia, New 
+York, Portland, Baltimore, and Boston hosting 92.3% of tanker calls in the North Atlantic region 
+of the United States in 2007, and the first two of these hosting 76.5% of the tanker calls. In the 
+South Atlantic port range, five ports handled 72.4% of the tanker calls in 2007, but the business was 
+more evenly spread (U.S. Maritime Administration 2009b). For Atlantic Canada, energy (including 
+coking coal) was the largest single import and export, accounting for 92.0% of imports and 65.2% 
+of exports for the four Atlantic Canadian provinces in 2005 (Brooks et al. 2009). In 2006, Port 
+Hawkesbury in the Strait of Canso, Saint John, and Quebec City were the primary export ports for 
+energy on the Canadian East Coast, while energy imports were serviced at a slightly wider range of 
+ports, including Come-By-Chance and Sydney (Statistics Canada 2009).
+
+136
+
+JTRF Volume 49 No. 3, Fall 2010
+The recent downturn in trade in dry bulk has affected ports on the North Atlantic. It is too 
+soon to know the impact in terms of port statistics, but a significant volume of traffic at Canadian 
+ports remains commodities. The largest destination (49.1%) for the Canadian overseas outbound 
+volume in 2006 was Asia followed by Europe (28.5%). Total inbound shipments from overseas 
+ports declined 5.2% in 2006, with energy shipments (of crude petroleum) from ports in both Europe 
+and Africa, accounting for the majority of the decline. Of the tonnage arriving at Canadian ports 
+from overseas, the largest share originated in Europe (30.7%) (Statistics Canada 2009: 15). Using 
+another data source, it is perhaps interesting to note that for the 9.5% of 2007 Canadian traffic by 
+value bound for West Europe and East Europe, air provides significant competition to the marine 
+mode (Table 2) at the top end of the product value range. However, marine is the primary mode from 
+a volume perspective.
+
+Table 2: Canada’s Exports by Origin, Destination and Mode, 2007 (C$000)
+Total Exports 
+Country of Destination
+United States
+Other Countries
+  West Europe
+  Asia
+  Latin America
+  Middle East
+  East Europe
+  Oceania
+  Africa
+  Other
+Total
+Source: Transport Canada (2009), Table EC-12.
+
+Total        
+2007
+354,210
+94,355
+39,050
+31,245
+11,587
+4,800
+2,851
+2,208
+2,578
+36
+438,931
+
+Main Modes Used 
+(% of total value)
+Road (49), Rail (20)
+Marine (64), Air (27)
+Marine (58), Air (38)
+Marine (83), Air (15)
+Marine (44), Road (23)
+Marine (63), Air (27)
+Marine (51), Air (34)
+Marine (50), Air (36)
+Marine (59), Air (23)
+Marine (66), Air (32)
+
+Eastern 
+Provinces
+244,748
+56,521
+30,536
+10,569
+7,466
+3,023
+2,004
+1,437
+1,457
+30
+293,263
+
+Western 
+Provinces
+109,461
+37,834
+8,514
+20,676
+4,121
+1,778
+847
+771
+1,120
+6
+145,667
+
+Development of Container Port Systems
+
+The rising tide of container shipments over the past 25 years has been one of the most dominant 
+trends noted at both European and North American ports. By 2007, three North European ports 
+were in the top 15 of global container ports while no East Coast U.S. or Canadian ports could make 
+that claim. The top 50 container ports included six North European ports—Rotterdam (ranked 6), 
+Hamburg (9), Antwerp (14), Bremen-Bremerhaven (22), Felixstowe (30), and Le Havre (39)—but 
+only two U.S. East Coast ports—New York New Jersey (19) and the consolidated ports of Georgia 
+(41). Virginia had been ranked 48th in 2004 but disappeared from the 2007 rankings (Journal of 
+Commerce 2008).
+
+137
+
+Transatlantic Port Issues
+Table 3: Top 20 Container Lines and Service Patterns (2009 rank)
+Rank (1) Company
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Notes:  1.   Rank is based on TEUs of deployed shipboard capacity at the end of June 2009 as cited 
+
+A P Moller-Maersk
+Mediterranean Shipping Co. (MSC)
+CMA-CGM Group
+Evergreen Group
+APL
+Cosco Container Lines
+Hapag-Lloyd Containerline
+China Shipping Container Lines
+NYK
+Hanjin
+OOCL
+MOL 
+Hamburg Sud Group
+K Line
+Yang Ming
+CSAV Group
+Hyundai Merchant Marine (HMM)
+Zim 
+Pacific International Lines (PIL)
+United Arab Shipping
+
+Major Ports Called (2)
+A, B, F, G, LH, M, NY, R, V
+A, F, G, LH, M, NY, R, V
+A, B, F, G, LH, M, NY, R, V
+A, B, F, G, LH, NY, R, V
+A, B, F, G, LH, M, NY, R, V
+A, B, F, G, LH, NY, R, V
+A, G, H, LH, M, NY, R, V
+A, F, G, H, LH, NY, R, V
+A, B, G, H, LH, M, NY, R, V
+A, F, G, LH, NY, R, V
+A, B, G, H, LH, M, NY, R, V
+A, F, G, NY, R, V
+A, B, F, G, LH, NY, R, V
+A, B, F, G, H, LH, NY, R, V
+A, B, F, G, NY, R, V
+A, F, G, NY, R, V
+A, B, F, G, LH, NY, R, V
+A, F, G, H, LH, NY, R, V
+A, R
+A, B, F, G, LH, NY, R, V
+
+by AXS-Alphaliner. (http://www.axs-alphaliner.com/top100/index.php). 
+
+ 
+
+2.   Port  key:  A=Antwerp,  B=Bremen  Ports,  F=Felixstowe,  G=Georgia  Ports,  H=Port 
+of  Halifax,  LH=  Le  Havre,  M=Port  of  Montreal,  NY=NewYork  New  Jersey, 
+R=Rotterdam, V=Virginia Ports. It was difficult to confirm Hamburg information and 
+so Hamburg has not been included.
+
+Source:  Created  by  the  authors  based  on  information  supplied  by  the  port  Web  sites  or  port 
+directories and any not listed on port Web sites were cross-referenced to the shipping 
+line Web sites.
+
+Most of the major global liner shipping companies (in the top 20) provide marine container 
+services to the United States and to Europe, but not all provide services to Canada directly (Table 3). 
+That said, most are concerned with servicing the Asian trade to the key ports and have Europe–Asia 
+and transpacific services. The transatlantic service may be an extension of Asia–Europe services or 
+part of a Suez service that calls only Mediterranean ports. As not all lines or ports provide detailed 
+routing information, a more definitive conclusion is not possible.
+
+Northwest European Container Port System
+
+About  130  seaports  in  Europe  handle  containers;  of  these,  40  accommodate  intercontinental 
+container services (Notteboom 2009). The Northwest European container port range consists of both 
+relatively large load center ports and a substantial number of regional ports. In the Mediterranean, 
+a few purely transshipment ports exist, whereas pure transshipment ports are absent in Northwest 
+
+138
+
+JTRF Volume 49 No. 3, Fall 2010
+Europe. The emergence of the transshipment ports in the Mediterranean began in the latter half of 
+the 1990s with Gioia Tauro, Malta, Algeciras, and Port Said growing strongly as the hub and spoke 
+philosophy was adopted following the Asian ports’ lead. Such growth was also certainly related to 
+the rapidly increasing container flows between Asia and Europe. The already existing deepwater 
+load center ports in Belgium, the Netherlands, and Germany, fulfilling the transshipment function, 
+can explain the absence of new transshipment ports in Northwest Europe. Table 4 lists the 15 major 
+ports in Europe with their throughput volumes and growth. Growth has been phenomenal at all 
+Northwest European ports except Felixstowe, which struggled with its infrastructure investment 
+plans during the period.
+
+One of the characteristics of the ports in Northwest Europe is that they are located in relative 
+proximity and, therefore, Europeans think of continental access in terms of gateway regions rather 
+then  individual  ports  (Notteboom  2009).  Figure  2  shows  Europe’s  multi-port  gateway  regions 
+and  how  they  are  connected  to  their  hinterlands.  The  contestable  hinterlands  of  the  Northwest 
+European  ports  are  substantial.  Rotterdam, Antwerp,  Hamburg,  and,  to  a  lesser  extent,  Bremen 
+all have overlapping hinterlands in the central part of Europe, particularly Germany, Austria, and 
+Switzerland. In Northeast Europe, ports like Hamburg and Bremen have benefitted from economic 
+growth in central and eastern Europe, and become bigger ports as a result. Ports in the Baltic, like 
+Saint Petersburg, Tallin, and Klaipeda, have shown steady growth figures over the last decade. 
+
+2008 
+
+Growth  
+1995 - 2008
+125.3%
+236.9%
+272.0%
+258.9%
+435.3%
+200.3%
+242.7%
+66.3%
+276.1%
+262.8%
+342.6%
+329.1%
+83.1%
+185.0%
+-29.9%
+196.3%
+172.6%
+-14.3%
+6.7%
+9.5%
+
+139
+
+Table 4: Top 15 European Container Ports in 2008 and Growth Since 1995
+Rank 
+2008
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+(000 TEU)
+10,784
+9,737
+8,664
+5,448
+3,597
+3,468
+3,324
+3,200
+2,569
+2,500
+2,337
+2,210
+1,767
+1,710
+431
+61,746
+90,710
+12%
+32%
+69%
+Note:   The bolded and italicized ports are those located in Northwest Europe.
+Source:  Notteboom (2009).
+
+European ports
+Rotterdam
+Hamburg
+Antwerp
+Bremen
+Valencia
+Gioia Tauro (transshipment port)
+Algeciras (transshipment port)
+Felixstowe
+Barcelona
+Le	Havre
+Marsaxlokk (transshipment port)
+Zeebrugge
+Genoa
+Southampton
+Piraeus
+Total top 15
+Total Europe
+Share Rotterdam
+Share top 3
+Share top 15
+
+1995 
+
+(000 TEU)
+4,787
+2,890
+2,329
+1,518
+672
+1,155
+970
+1,924
+683
+689
+528
+515
+965
+600
+615
+20,840
+33,280
+14%
+30%
+63%
+
+Transatlantic Port Issues
+The U.S. East Coast Port System
+
+With the development of containerization by Malcolm McLean out of New Jersey, the Port of New 
+York New Jersey had an early start in the race to dominate container port development in North 
+America.  Other  ports  on  the  eastern  seaboard  of  North America  were  not  far  behind  with  new 
+facilities being developed along the seaboard in the 1960s. With the development of stack train 
+technology by American President Lines for rail service out of Los Angeles and Long Beach in 
+1984, the trade patterns shifted with a large volume of U.S. consumer demand being serviced via 
+land bridge, that is goods transported out of Asia and over the U.S. West Coast ports and onward by 
+rail to U.S. Midwest and East Coast markets. 
+
+Figure 2: Europe’s Multi-port Gateway Regions 
+
+Source:  Notteboom (2009)
+
+In more recent years, the Panama Canal has become a means of accessing the eastern markets 
+with all-water routes from Asia through the Panama Canal to Gulf and East Coast ports to more 
+local truck-accessible destinations. By 1997, 20 U.S. container ports handled almost all of the U.S. 
+container traffic (more than 95%), with 10 container ports on the U.S. East Coast handling about 
+two-fifths of the total (Table 5). Growth over the last 12 years has been particularly strong, driven by 
+consumer demand fueled by relatively easy credit, but there has been little change to the east–west 
+coast split in terms of share of traffic, and four ports—New York New Jersey, Savannah, Norfolk, 
+and Philadelphia—all acquired more than a doubling of volumes. The pattern of growth in container 
+terminal throughput in the United States is on a scale similar to that of Europe.
+
+140
+
+JTRF Volume 49 No. 3, Fall 2010
+
+U.S. Custom Ports on the East Coast
+
+1997 TEUs
+
+2008 TEUs
+
+Table 5: Top U.S. East Coast Container Ports in 2008 and Growth Since 1997 
+Rank 
+2008
+3
+4
+5
+8
+11
+12
+13
+16
+18
+20
+
+ New York, NY 
+ Savannah, GA 
+ Norfolk, VA 
+ Charleston, SC 
+ Port Everglades, FL 
+ Miami, FL 
+ Baltimore, MD 
+ Philadelphia, PA 
+ Wilmington, DE 
+ Jacksonville, FL 
+Total TEUs All Container Traffic
+Total TEUs Top 20 Container Ports 
+Top 20 Share of Total Traffic
+Total Top 20 EC Container Ports
+East Coast Share of Top 20
+
+1,738,613
+530,261
+770,790
+955,620
+454,504
+623,492
+260,553
+90,517
+104,200
+199,438
+14,860,367
+14,208,159
+95.6%
+5,727,987
+40.3%
+
+3,955,689
+2,106,437
+1,584,632
+1,325,628
+680,841
+669,493
+430,331
+218,055
+186,918
+158,452
+28,308,784
+27,254,527
+96.3%
+11,316,478
+41.5%
+
+12-Year 
+Growth
+127.5%
+297.2%
+105.6%
+38.7%
+49.8%
+7.4%
+65.2%
+140.9%
+79.4%
+-20.6%
+90.5%
+91.8%
+ 
+97.6%
+ 
+
+Source: Maritime Administration (2009a).
+
+Approximately 75% of the U.S. population resides in the eastern part of the United States, and 
+its needs have been filled with a three-coast supply chain strategy: land bridge from the U.S. (and 
+Canadian) West Coast, Panama to Gulf and Southeast Coast ports, and transatlantic (including Suez) 
+from Europe (and Asia). The advent of cross-docking and transload operations for containers have 
+altered the trade flows, and thus the importance and development of land-side networks. Corridor 
+development has been a dynamic process as the private sector railroads have competed fiercely 
+with long-haul trucking to grow business and the largest global corporations engage in streamlining 
+their global supply chain networks. The mature and stable transatlantic route has steadily grown 
+throughout the period.
+
+HINTERLAND CONGESTION AND ACCESSIBILITY
+
+In North-America
+
+This has been a critical issue for U.S. East Coast ports like New York New Jersey and Virginia 
+ports but has been less of an issue for the Canadian ports of Halifax and Montreal, where inland 
+connections have been well-developed from the very beginning and on-dock rail access was designed 
+into the initial construction of the container terminals in the 1960s. Port access, however, has been 
+such a problem for many U.S. ports that a major study of landside access was completed in the early 
+1990s (Transportation Research Board 1993). Examining the nature of the port access problems 
+faced by U.S. ports (including appropriate strategies for dealing with it), the report identified four 
+main areas to be addressed—physical impediments, land use policies, regulatory constraints, and 
+institutional issues. In the intervening years, U.S. ports have looked to their local state and local 
+governments for assistance in dealing with growing congestion in the immediate vicinity of ports 
+and on the corridors connecting ports to the major hinterlands, in part because port policy in the 
+
+141
+
+Transatlantic Port Issues
+United Statesis decentralized (this will be discussed later) and in part because there is a history of 
+local financial support for port activities. 
+
+Hinterland congestion has been a factor on the East Coast as truck has competed with car for 
+scarce road capacity in the I-95 corridor. Distribution centers in the mid-Atlantic states (Figure 3) 
+have been developed by major cargo interests to support efficient global networks as the volume of 
+traffic has grown. 
+
+More recently, investments intended to streamline access have occurred in the Port of New York 
+New Jersey and in the Heartland Corridor in an effort to address hinterland congestion issues. The 
+Heartland Corridor rail line expansion (completion due in 2010) is the most visionary of the East 
+Coast projects, and investments of US$309 million will improve the rail corridor from Virginia to 
+Ohio in support the Port of Norfolk’s hinterland development to the U.S. Midwest (Federal Highway 
+Administration 2007). 
+
+In Canada, the Canadian government introduced a Gateways and Corridors Strategy in 2006 
+to fund infrastructure improvements, recognizing the critical nature of this infrastructure deficit. 
+While the funding strategy began with investments on the West Coast, each region of the country 
+was allocated a share of funds in the 2007 budget, which committed C$2.1 billion to gateways 
+and corridors and provided a national gateway and trade corridor policy framework to guide the 
+investment decisions (Government of Canada 2006). The exact allocation of these funds in support 
+of the Atlantic Gateway but has not yet been determined.
+
+Figure 3: Distribution Center Development in the I-95 Corridor
+
+Source:  Brooks, Hodgson and Frost (2006), Figure 2.4 p. 14.
+
+Canada and the United States have not been alone in their efforts to address hinterland congestion 
+arising from the burgeoning growth in container trade and the growing population that competes for 
+the use of trade corridors. A recent study by the Joint Transport Research Centre (2008) examined 
+the issue across Europe and North America, as part of a larger study, concluding it to be one of the 
+most significant issues facing ports today and one that lacks consensus on the appropriate role for 
+ports in addressing the challenge.
+
+142
+
+Congestion Issues in Europe
+
+JTRF Volume 49 No. 3, Fall 2010
+
+In Europe, hinterland congestion is a huge problem for almost all large load center ports and also for 
+some of the regional ports located adjacent to large cities or within larger, densely populated areas. 
+One of the factors behind this is that the evolution of both ports and cities in Europe has a very long 
+history, but that an integrated approach on this only has emerged over the last few decades. Cities 
+have expanded, putting much more pressure on space and infrastructure, and, on the other hand, 
+ports have expanded, resulting in much more traffic to and from the port.  
+
+In a response to increased focus on hinterland accessibility and increasing port and hinterland 
+congestion,  we  see  new  logistics  concepts  arising  in  Europe.  Port  and  terminal  operators,  also 
+large container carriers, develop terminal networks in the hinterland through which they transport 
+their cargoes to final destinations. ECT in Rotterdam is developing an extended gate concept, with 
+terminals in Venlo and Amsterdam (Netherlands), Duisburg (Germany), and Willebroek (Belgium) 
+that serve as the gate of the deep-sea terminal. ECT, therefore, controls the transshipment including 
+the inland transport up to the inland terminal. Rotterdam is also developing container transit points, 
+purely for the purpose of avoiding congestion on the port’s internal and access roads. Containers 
+will be transported by barge from the deep-sea terminal to the transit point and from there by road or 
+barge. The transit points will be developed in joint effort with port service providers and port users 
+and aimed at cargo for the region. 
+
+Since January 2009, Eurogate in Hamburg also offers their customers transshipment service; 
+they are developing an inland terminal network, comprised of a substantial number of mainly rail 
+but also barge terminals, at which they offer a complete spectrum of container services, including 
+warehousing of full containers, empty depot storage, container repair and maintenance, and sale and 
+hire of containers.  
+
+As an issue, hinterland accessibility and congestion have reached top policy levels in Europe, 
+and  even  the  wider  base  of  the  Organisation  for  Economic  Cooperation  and  Development  and 
+the UN Economic Commission for Europe. Whereas, in the beginning, the focus was rather on 
+the hardware side, current interest in the issue has moved past infrastructure towards information 
+systems, and institutional and organizational changes to enhance hinterland accessibility of ports. 
+This is a common contextual factor that ports, not just in Northwest Europe and the U.S. East Coast, 
+now face.
+
+PORT SECURITY
+
+North American Perspective
+
+Prior to the terrorist attacks of 2001, the security efforts of port authorities in North America were 
+mainly targeted towards preventing criminal activities like theft within the jurisdiction of the port. 
+After the attacks, U.S. port authorities and their Canadian counterparts refocused their safety and 
+security agendas towards prevention of incidents and emergency response. 
+
+In 2002, the United States passed the Maritime Transportation Security Act of 2002 (MTSA), 
+with effect on July 1, 2004, the same day chosen by the International Maritime Organisation to 
+effect  the  International  Ship  and  Port  Facility  Security  Code  or  ISPS  Code.  However,  as  many 
+ports operate as landlords, leasing terminals and facilities to private companies, the MTSA limits 
+the security oversight that U.S. port authorities may impose on their tenants. Security compliance, 
+therefore, is primarily a matter between the U.S. government and the private terminal operating 
+companies that lease port premises.
+
+The  United  States  has  developed  a  significant  security  regime  that  has  had  extra-territorial 
+impact.  For  example,  the  MTSA  instituted  rules,  such  as  96-  and  24-hour  rules,  to  reduce  the 
+vulnerability of the American container supply chain (GAO 2005). The 96-hour rule requires that 
+all vessels that will call at U.S. ports provide the U.S. government with advance notice of arrival 
+
+143
+
+Transatlantic Port Issues
+96 hours before that arrival is expected, thereby allowing the U.S. government to assess the threat 
+posed by the vessel. The 24-hour rule requires that non-vessel operating common carriers and liner 
+shipping companies provide the U.S. government with 24-hour notice of a container being loaded 
+onto a vessel in a foreign port, thereby allowing the U.S. government to assess the threat posed 
+by the container, its contents, or the individuals who packed it. Both of these rules maximize the 
+advantages of the Automated Targeting System used by U.S. Customs and Border Protection, a 
+part of the Department of Homeland Security. The third plank in the prevention platform is the 
+Transport Workers Identity Credential (TWIC) as required by the Security	and	Accountability	For	
+Every	(SAFE)	Port	Act	of	2006. Now more than one million workers have been credentialed.
+
+These  security  requirements  have  been  mirrored  in  Canada  where  possible  so  that  goods 
+traveling to the United States through Canadian ports are not disadvantaged. The Government of 
+Canada has placed a high priority on ensuring that port competitiveness is maintained; in December 
+2001, the first U.S. customs officers were placed in the ports of Halifax, Montreal, and Vancouver 
+as part of this effort. Security is an area where the United States has led in concept if not always in 
+execution.
+
+European Perspective
+
+Following the security initiatives undertaken by the United States, the European Union fully agreed 
+with the content of the ISPS code and transposed the associated rules into Community Law, with 
+effect July 1, 2004 (Council Regulation (EC) No. 725/2004). Key to Regulation 725/2004 is that 
+all operational ships and port facilities should have international security certificates issued by the 
+Government as a proof of sufficient compliance with the ISPS Code (Dekker and Stevens 2007). 
+In  practice,  this  means  that  port  facilities  and  shipping  companies  have  to  implement  technical 
+as well as organizational measures, such as access and entrance protocols, with their supporting 
+electronic systems, container scan facilities, and additional specialized security personnel. Ports 
+have to identify restricted areas and monitor them carefully to prevent unauthorized access, and 
+implement measures to prevent weapons, dangerous substances, and devices being taken onto ships 
+or into port facilities. Dekker and Stevens (2007) show that, by the beginning of 2004, already 
+22% of European ports fully complied with the ISPS Code and that the average compliance of all 
+European ports was about 70%. Thus, only a relatively small effort was needed to fully implement 
+the ISPS code-based Regulation 725/2004, as of July 1, 2004. More important, Regulation 725/2004 
+extends Code provisions to intra-European and domestic maritime trades. 
+
+The two major U.S. maritime cargo security initiatives, the Container Security Initiative (CSI) 
+and the 24-hour Advance Notification Rule (24-hour rule), also have had their impacts on European 
+port strategies, the latter being implemented as a compulsory rule. In the CSI program, foreign 
+ports are asked to pre-screen the containers that are loaded onto vessels that will call at U.S. ports. 
+In execution, the CSI program is dependent on the support of the European port authority. In 2007, 
+there  were  23  European  CSI  ports  (including  Rotterdam, Antwerp,  and  Hamburg  in  Northwest 
+Europe)  and  the  United  States  and  Europe  agreed  to  jointly  work  on  the  establishment  of  fast 
+customs clearance processes at both sides of the maritime leg, meeting joint security requirements. 
+Following Council Regulation 725/2004 that focused on ships and port facilities, the European 
+Commission  developed  a  policy  framework  that  minimizes  security  risks  throughout  the  entire 
+transport chain. A first step in this direction has been the endorsement of a revised Community 
+Customs Code, which was set to be fully in force in 2009. Regulation 648/2005, which is similar 
+to the U.S. C-TPAT program and the 24-hour rule, sets up a common EU secure custom system 
+based on the electronic exchange of advance information between traders and customs authorities 
+on all goods entering or leaving the European Union. Within this regulation, the possibility for 
+transport operators to obtain a so-called Authorized Economic Operator (AEO) status is introduced. 
+The criteria for obtaining this AEO status are: 1) compliance record with custom requirements, 
+
+144
+
+JTRF Volume 49 No. 3, Fall 2010
+2) satisfactory system of managing commercial records, 3) financial solvency, and 4) appropriate 
+safety and security standards. 
+
+Since September 2001, Europe has mainly followed the U.S. security lead and complied with its 
+intents by developing similar regulations, some divergence has occurred lately. The SAFE Port Act, 
+endorsed in 2007 to be fully implemented in 2012, has led to some negative reactions by non-U.S. 
+port stakeholders. Apart from the reciprocity issue, the SAFE Port Act requires every foreign port 
+with U.S.-bound containers to do 100% container scanning with the appropriate scanning systems. 
+The main criticisms are: a) the unavoidable separation of U.S.-destined containers requires more 
+space, personnel, and operations; b) it is not a risk management approach; 3) it is not clear who 
+will pay for the costs; and 4) it is not clear who will control the commercially sensitive data that 
+are involved with the operations (Pallis and Vaggelas 2007). Ports, responsive to their stakeholders’ 
+concerns, have been less enthusiastic about blindly following the U.S. lead.
+
+PORT POLICY, THE ROLE OF THE STATE IN PORT DEVELOPMENT 
+
+European Perspective
+
+Specific to the European situation is that transport and port policy is not only a national issue but 
+also an issue that is increasingly dealt with at a pan-European level. Over the last two decades, there 
+has been a shift in the European Commission’s role from advisor to interventionist in port policy 
+development. 
+
+European Transport  Policy.  European  transport  policy  started  with  reforms  intended  to  phase 
+in  liberalization  of  the  transport  market  in  order  to  complete  its  internal  market.2    In  the  2001 
+transport  White  Paper  (Commission  of  The  European  Communities  2001a),  the  Commission’s 
+focus shifted from opening up the transport sector to making the transport system sustainable by 
+decoupling economic growth from transport growth, and by working towards a more integrated 
+European  transport  network.  The  primary  mechanism  for  creating  an  integrated  multimodal 
+European transport network is the TEN-T project, which consists of a multitude of discrete projects 
+to build an EU-wide transport network. In 2006, a mid-term review of the progress of the transport 
+policy’s implementation took place (Commission of the European Communities 2006). The main 
+conclusions were that, in the first place, the policy recommendations of the 2001 White Paper were 
+still valid, but that a broader more flexible approach is needed. The strict starting point of decoupling 
+economic  growth  from  transport  growth  was  slightly  relaxed,  and  the  focus  on  modal  shift  has 
+been replaced by a policy aimed at strengthening all modes and integrated transport systems; “co-
+modality” has become the new language. The midterm review furthermore concluded that a new 
+European port policy was needed, further striving for a “level playing field” for ports and providing 
+for the possibility of investments in ports that strengthen the ports and further integrate them into the 
+European transport corridors and network. 
+
+The notion that continental maritime transport or short sea shipping can play a role in shifting 
+cargo  from  road  to  more  sustainable  transport  modes  has  resulted  in  the  development  of  the 
+“Motorways of the Sea” program. This has put the European ports more clearly on the agenda of 
+the European Transport Policy. One of the concrete objectives, as mentioned in Commission of the 
+European Communities (2007), is the integration of the European seaports into the TEN-T program. 
+Ports are now recognized as key components of freight logistics networks. The key obstacle 
+to the integration of ports into the freight logistics networks is inadequate inland connections, in 
+particular for rail. The 2009 Green Paper underlines that the future TEN-T infrastructure development 
+policy should give particular attention to the appropriate development of a port’s infrastructure and 
+more efficient hinterland connections and to the removal of bottlenecks on major transport corridors 
+(Commission of the European Communities 2009).
+
+145
+
+Transatlantic Port Issues
+European  Port  Policy.  Current  European  port  policy  traces  back  to  the  1997  Green  Paper 
+(Commission  of  the  European  Communities  1997),  the  first  significant  policy  document  for 
+European ports. It initiated a substantial discussion of a key element in European port policy—
+integration of the European ports in the European transport networks, market access to ports, and 
+financing of and charging for port assets and services. Before 1997, attempts had been made by the 
+European Commission to analyze these issues, but substantial progress had not been forthcoming. 
+Based on the Green Paper and subsequent discussions, a first port package on market access to 
+port services was proposed in 2001 (Commission of the European Communities 2001b). It resulted 
+in a Europe-wide strike among port workers and was finally rejected by the European parliament. 
+In October 2004, the Commission launched a second proposal that again addressed market access 
+as well as the issue of inter-port competition (Commission of the European Communities 2004). 
+Transparency and state aid guidelines for the financing of port-related investments were expected 
+to result in a level playing field for port services. Although there is common understanding that 
+more transparency in port financing is needed, and that state aid to ports should be restricted, it has 
+been very difficult to translate this into agreed regulation and guidelines. Studies into the financing 
+structures of ports with the aim of identifying state aid that harms the level playing field of ports 
+document that there exists a huge diversity in financing and charging systems of European seaports 
+(Institute of Shipping Economics and Logistics 2006).
+
+In Europe, port reforms started with a gradual increase in the role of the private sector in port 
+services, with ownership and control of the assets remaining with the public sector. The public sector 
+continued to subsidize port-related investments, resulting in a diverse system of public subsidies 
+for  port-related  investments.  Moreover,  institutionally  European  ports  differ  enormously;  even 
+within countries, ports in close proximity can have different governance and ownership structures 
+with port authorities. Therefore, a one-size-fits-all model cannot and will not work. Therefore, it 
+was not surprising that the second port package was also rejected by the European Parliament and 
+withdrawn by the Commission in 2006. The lesson learned was that a more flexible approach to port 
+governance is needed, based on adequate consultation of all stakeholders involved. In October 2007, 
+the European Commission presented its latest communication on ports policy, announcing a number 
+of measures and soft law instruments but with few legislative changes proposed. The principles of 
+the communication are 1) hinterland connections are a highly determining factor in port performance 
+and deserve more attention; 2) expanding capacity is needed but should be done while respecting 
+the environment mostly; 3) ports need a level playing field with clarity for investors, operators and 
+users; 4) to integrate ports well in its civil environment structural dialogues are needed between 
+ports and their adjacent cities; 5) work in ports should comply with societal needs in terms of labor 
+safety and health (Commission of the European Communities 2007).
+
+The  real  change  in  the  European  port  policy  has  been  the  recent  greater  involvement  of 
+stakeholders  in  the  dialogue,  resulting  in  an  understanding  that  hard  legislation  will  not  work 
+due to the diversity in governance and financing and charging systems in ports, and that a soft 
+law  approach  will  better  match  the  specific  situation  of  ports.  Common  understanding  is  that  a 
+successful ports policy supports competition both within and between ports. This comprises clear 
+rules for public contributions to port related investments, transparent access to port services and 
+creating development potential for competitive services based on high quality labor. Furthermore, 
+the ports policy should, on a structural basis, safeguard the balance between development needs and 
+environmental constraints. 
+
+An interesting and yet not answered question is to what extent EU port policy really can influence 
+processes  in  the  Member  States  and  whether  it  enhances  the  harmonization  of  port  governance 
+structures throughout Europe (Verhoeven 2009).  
+
+146
+
+JTRF Volume 49 No. 3, Fall 2010
+
+North American Perspective 
+
+Unlike Europe, there is no effort to have a supranational or continental port policy in North America. 
+Canada and the United States have very divergent approaches to transport policy, and port policy in 
+particular. The closest alignment in policy exists for rail and air modes, but even here coordination 
+of policies is very limited. Nowhere is the divergence in thinking more evident than in the policies 
+that govern maritime transport and ports.
+
+Maritime Transport Policy.  U.S. shipping policy is premised on the concept that shipping is a 
+national strategic priority and that the defense of the United States is paramount. Ships carrying 
+goods between two ports in the United States operate within a closed market; the goods must use 
+a ship flagged in the United States, owned by U.S. citizens, crewed by U.S. nationals, and built in 
+a U.S. shipyard. On the other hand, Canadian coasting trade (e.g., cabotage) rules require that the 
+ship carrying domestic cargo must be crewed by Canadians and registered in Canada, or be a duty-
+paid foreign flag vessel operated under a waiver granted by the Canadian Transportation Agency. 
+Vessels operating under waiver carry only about 4% of Canadian domestic traffic (Brooks 2009). For 
+international traffic, however, both countries have open markets, although international containers, 
+once landed in a U.S. port, are deemed to be domestic containers for purposes of considering the 
+application of cabotage rules.
+
+Port  Policy. Again,  port  policy  differs  widely  between  the  two  countries.  Ports  in  Canada  are 
+federally regulated and port policy for the largest ports—those seen to be of national economic 
+importance (known as Canada Port Authorities or CPAs)—is prescribed in the Canada Marine Act. 
+CPAs are required to be financially self-sufficient and are commercialized, non-recourse government 
+agencies. This port policy was reviewed in 2004, and some changes were subsequently made to the 
+regulations  governing  port  access  to  financing  for  capital  projects  (Brooks  2007).  On  the  other 
+hand, there is no national port policy in the United States (Fawcett 2007). Ports are predominantly 
+publicly owned, managed locally or regionally, are highly competitive, and subject to considerable 
+local political influence.
+
+State Aid.  As already noted, Canadian ports must be financially self-sufficient; however, they are 
+now able to access Gateway and Corridor funds (previously discussed) if they can present a business 
+case as to why these investments will support Canada’s international trade objectives. In the United 
+States, there are limited national resources available for addressing port infrastructure investments, 
+except for that available under such programs as the American Recovery and Reinvestment Act 
+of 2009 (the economic stimulus package) or because inland connections can be improved through 
+the use of funds from the Highway Trust Fund (raised by a gasoline tax). State aid is just that—
+supporting funds made available by the state or municipality in which the port resides. State aid for 
+U.S. ports, therefore, may take the form of direct local government support, cross-subsidies from 
+other local revenue-generating infrastructure (e.g., toll bridges, tunnels, or airports) or indirectly 
+via federal subsidies for harbor dredging or federal subsidies in the form of tax-exempt bonds. Port 
+state aid has long been a contentious point for Canadian ports that the playing field for inter-port 
+competition is not level.
+
+DIFFERENCES IN PORT GOVERNANCE 
+
+European Perspective
+
+Port Governance.  Over the last two decades, port governance has changed tremendously in Europe. 
+Not only has the division of ownership and functions between public and private changed but also 
+the legal and institutional position of the port authority organizations, leading to new and different 
+
+147
+
+Transatlantic Port Issues
+management forms. Although the common objective of the reform programs has been to introduce 
+more private sector involvement in ports in order to diminish the lack of financial transparency and 
+involvement of national governments, and to give port authorities more autonomy, the resulting 
+processes and outcomes have been very different. 
+
+During the 1990s, port reform in the United Kingdom often involved outright sale, even of 
+regulatory functions (Baird 2000). This resulted in a number of private ports, whereby a private 
+company has become both owner and operator of the port. On the European continent, port reform 
+programs  have  resulted  in  so-called  landlord  ports,  whereby  a  public  or  semi-public  body  is 
+responsible for the development and management of the port area and nautical access, and private 
+companies  are  responsible  for  port  operations  and  services. Although  we  can  say  that,  on  the 
+continent,  port  management  is  still  dominated  by  public  entities  (Verhoeven  2009),  the  form  in 
+which  this  happens  differs  significantly  by  country.  In  the  northern  countries  (Baltic,  Germany, 
+Benelux), we see municipal port authorities, which in some cases have been corporatized (Rotterdam, 
+Bremerhaven, Gothenburg). In the more southern countries like France, port authorities remain tied 
+to the national government. Although a lot of changes have been made, the reform process in many 
+countries is still not complete. 
+
+The  changing  institutional  and  market  environment  has  impacted  the  responsibilities  and 
+activities  of  port  authorities  (PAs).  Competitive  factors,  such  as  port  facilities,  adequate  draft 
+and  available  land,  are  not  sufficient  for  satisfying  the  requirements  of  port  users.  Additional 
+competitive factors, such as a high-quality labor market, good hinterland access, and information 
+and communications infrastructure, are in the collective interest of all firms in the port cluster, but 
+are generally not provided without an active role for the PA (De Langen and Van der Lugt 2007). 
+Thus, PAs are increasingly under pressure to invest in such competitive factors. This requires an 
+institutional structure that ensures they can do so. For Rotterdam, this has resulted in corporatization 
+of the port authority. The Port of Rotterdam acts as a corporate entity, but its shares are held by both 
+municipal and national governments. This gives the Port of Rotterdam the freedom to develop new 
+capabilities and acquire the financial means needed for making investments and developing new 
+activities. In Amsterdam, discussions are also ongoing about whether or not to corporatize. Whether 
+such governance reform will result in the desired outcomes remains to be seen. 
+
+North American Perspective
+
+The framework of port governance in the United States is complex and very fragmented with a web 
+of public and private organizations involved in management at national, regional, and local levels, 
+each with differing priorities, requirements, and procedures (Newman and Walder 2003; Fawcett 
+2007). The multitude of jurisdictional forms has led to intense competition among ports and within 
+ports in the United States. Furthermore, U.S. ports are heavily dependent on government (loans, 
+grants and taxes) and tax-exempt revenue bonds for their revenue, and have been argued to be highly 
+inefficient (Helling and Poister 2000). Unlike many other countries, there has not been a reform of 
+port policy in the United States.
+
+In Canada, on the other hand, there was significant and substantial reform of the port system 
+in the 1990s, and the plan for reform was laid out in the National Marine Policy (Transport Canada 
+1995). The Government of Canada established three models of governance for ports in the country 
+(Brooks 2007). The most important ports (19 in total), in terms of being vital to Canada’s international 
+trading role, were deemed to be Canadian Port Authorities, and mandated to be financially self-
+sufficient in their activities. Remote ports (27 as of May 31, 2009), where the federal government 
+believed it had a public service obligation, were retained as federally owned and controlled. All 
+other ports were de-proclaimed (seen as surplus to national needs) or divested to local or regional 
+interests or to other departments or governments (such as the Department of Fisheries where the 
+primary purpose was to serve the fishery not commercial trading interests) (Transport Canada 2009). 
+
+148
+
+PORT STRATEGIES AND MANAGEMENT
+
+European Perspective
+
+JTRF Volume 49 No. 3, Fall 2010
+
+In Europe, the changing market environments not only impacted the institutional structures of ports 
+and port authorities but it has also led to reconsideration by port authorities of their role and strategies. 
+A first strategic question many port authorities in northwest Europe have to deal with is: how do we 
+manage new port expansions? Up to 2008, many of the leading ports in Northwest Europe faced 
+scarcity in capacity. Development plans for up to 30 million TEU in capacity expansion existed in 
+the Le Havre–Hamburg port range, but implementation horizons are very long and even enlarged by 
+discussions on the societal impact of the expansion plans. Getting these plans through the approval 
+process is a matter of smart port authority negotiation with national governments, strong stakeholder 
+interactions,  continuous  support  for  the  “license  to  operate”  and,  in  many  cases,  implementing 
+concrete environmental plans in combination with the physical expansion plans. One example is 
+the Maasvlakte 2 project in Rotterdam; it was only approved to start building after dedicating a 
+substantial part of the reclamation for “nature” and taking specific environment protection measures. 
+The whole decision making process around Maasvlakte 2 was done with intensive involvement of 
+all kinds of stakeholders. Port authorities are also developing specific concession strategies to better 
+manage and control their port land area. They are considering putting in performance requirements 
+and also sustainability requirements. 
+
+Another strategic issue port authorities are facing is how to ensure hinterland accessibility (De 
+Langen 2008). As mentioned earlier, hinterland access has become a major issue in port performance 
+and thus of interest to the port authority. In ensuring hinterland accessibility, port authorities are 
+limited in what they can do as operations are done by private companies. Some consider investing 
+in inland terminals (e.g., Port of Barcelona) and hinterland connections (see the previous discussion 
+on Rotterdam), while others establish port community systems to support seamless supply chains 
+or to set access rules on the ports’ infrastructure. We conclude that Northwest European ports are 
+very focused on developing hinterland strategies, carefully looking at the position they can take to 
+enhance the performance of the ports’ hinterland network. 
+
+In  their  strategy  development,  Northwest  European  port  authorities  increasingly  consider 
+whether to act on their own or to develop cooperation with other ports in proximity. Among various 
+Northwest  European  ports,  there  are  different  cooperation  initiatives.  For  example,  cooperation 
+was initiated on port expansion between the Port of Rotterdam and Zeeland seaports. Rotterdam 
+and Amsterdam  jointly  developed  a  port  community  system  called  PortBase.  Twice  a  year  the 
+management  of  the  ports  of  Hamburg, Amsterdam,  Rotterdam, Antwerp  and  Le  Havre  meet  to 
+discuss ongoing issues of mutual concern. The most far-reaching cooperative initiative has been 
+between Copenhagen (Denmark) and Malmo (Sweden) that eventually resulted in a full merger 
+between the two ports. The changed commercial and institutional environment certainly had its 
+influence on these developments: port authorities are facing ever larger customers limiting their 
+own power, and, from the societal side, more and more pressure is put on the performance of ports 
+in terms of sustainability. On the other hand, institutionally, port authorities increasingly have more 
+possibilities to widen their scope of operations. 
+
+FINANCING AND CHARGING REGIMES
+
+There  is  considerable  variety  in  financing  and  charging  regimes  in  Europe,  often  related  to  the 
+governance model that is in place. A study from ESPO into the various port financing and charging 
+regimes in Europe (ESPO 2004) already illustrated this wide variety. At the moment this still holds. 
+Although there have been many attempts at the European level to avoid state aids to ports and to 
+achieve a level playing field in this issue, financial flows from the various governments to ports still 
+
+149
+
+Transatlantic Port Issues
+occur and there are substantial differences in the financing systems by each country. Some ports are 
+completely self-sustaining, including their sea channels and passage ways; examples are ports in 
+Ireland and the Baltic. Some ports have a division between inside and outside the legally-defined 
+port area, where the state is responsible for the investments in port-related infrastructure outside the 
+port area, and the port authority has this responsibility inside the port perimeter. Examples can be 
+found in Germany, Belgium, and the Netherlands. In some ports there is more structural financial 
+support from the state into ports (e.g., France, Italy). 
+
+Following  the  landlord  model,  concessions  are  often  awarded  by  port  authorities  with 
+considerable variety in concession terms (Notteboom and Verhoeven 2009). There are a wide variety 
+of factors contributing to the structure of concession agreements in Europe, and North America is 
+no different.
+
+Also charging regimes for port services differ widely. Port dues in European ports, in general, 
+are tariff-based, with some involvement of the local or national government. However, depending 
+on the port, there may be room for customer-negotiated rates. In some ports, the government sets 
+charges while, in others, the port authority management controls the charges. 
+
+In North America, the situation is similar. The commercialization of Canadian ports through 
+the Canada Marine Act, 1998, gave ports the responsibility to set their own charging regimes and 
+the obligation to live with the financial impact. While many ports initially kept the structure and 
+complexity of port tariffs, there is now a move to make these more commercially-oriented, both in 
+“look and feel” and with favorable line reductions for business activities the port desires to promote, 
+such as feeder traffic or traffic of a particular type. Market-driven tariffs are gradually becoming the 
+norm.
+
+In the United States, the public ownership of ports puts charging mechanisms in local hands. 
+There is no national governance mechanism for ports and no standard approach to port charging. 
+Like Europe, in some ports, government sets charges while, in others, the port authority management 
+controls the charges. Some ports are more market-oriented and others less so.
+
+In summary, there is no standard model for either financing or charging but, as with the world-
+wide trend towards concessions, it is always location-specific and dependent on the governance 
+regime in place.
+
+CONCLUSIONS
+
+Although the northern transatlantic trade does not dominate the global maritime trade network, it is 
+a substantial trade for both North American and Northwest European ports and shows a relatively 
+low but stable share of global traffic. The port systems on both sides of the Atlantic differ mainly in 
+terms of the number of ports that service each geographic region and how they are governed. They 
+also differ in terms of port management strategies for dealing with the key environment (context) 
+issues they face and the structures imposed by governance regulation, to use the eEnvironment–
+Structure–Strategy approach by Baltazar and Brooks (2007). 
+
+First, the U.S. and Canadian east coasts have a relatively small number of ports in comparison 
+with Europe, where ports are larger and closer together. While this implies that the contestability of 
+their hinterlands is more critical in the European context than in the North American context, this is 
+not necessarily true. Both sets of ports compete as parts of supply chains and these may be continental 
+or intercontinental in both cases. In the environment faced by ports, hinterland boundaries are set by 
+economics rather than by politics and regulation, but the future success of port authority strategies 
+may be dampened by lack of progress on harmonizing port governance in Europe (structure) and by 
+border irritants in the case of North America (environment).
+
+Second, there is the issue of how ports respond to the environment issue of security. Ports in 
+North America and Europe began by adopting the U.S. and IMO security standards. However, as 
+U.S. requirements continue to grow ever more stringent, the SAFEPort Act’s requirement for 100% 
+scanning has, for many European ports, become an unacceptable addition to the security regime. 
+
+150
+
+JTRF Volume 49 No. 3, Fall 2010
+Whether this strategy of acceptance will become one of resistance is unclear, but there is some 
+pushback already in evidence.
+
+In Europe, the ports have found that their environment is best managed through the development 
+of a strategy that goes beyond the provision of a safe and sustainable port area and nautical access. 
+The growing importance of uncongested and efficient hinterland accessibility has resulted in the 
+development of coordination and cooperation strategies within the hinterland networks and between 
+ports in proximity.
+
+In the North American case, the reach of the freight railroads has meant most container ports have 
+and serve a continental hinterland, and compete fiercely for it. There is little strategic cooperation 
+among ports, as the issue of being in proximity is less the case in North America. Also, they are 
+much less likely to be active participants or leaders in coordination strategies as their governance, in 
+the case of Canada, limits their strategic product scope; in the case of the United States, their local 
+political masters have not demonstrated an interest in expanding public service obligations. 
+
+Finally,  the  finance  and  charging  strategies  are  location,  and  hence  context-specific  and 
+
+structure-specific.
+
+In  conclusion,  the  two  main  issues  that  are  increasingly  relevant  in  the  external  context 
+(environment)  affecting  the  structure/strategy  relationship  of  the  transatlantic  ports  are  port 
+congestion in relation to hinterland accessibility and port security. Port congestion appears to be a 
+bigger issue in Northwest Europe than in North America, perhaps as a function of the population 
+density. Neither region has a streamlined approach to port governance, and this could well limit 
+the development of appropriate strategies by port authorities, particularly in the North American 
+context. 
+
+Endnotes  
+
+1.  While geographically North America is considered to include Mexico, and this was further 
+supported by the negotiation of the North American Free Trade Agreement, the transatlantic trade 
+has always been defined to not include Gulf of Mexico or Caribbean traffic, and so Mexico is by  
+usage excluded. Unless specifically included, assume it is excluded from this paper.
+
+2.  Sea transport was mentioned in the Treaty	of	Rome in the late 1950s, but was not part of Europe’s 
+
+Common Transport Policy, mainly because EC’s focus was more on continental transport.
+
+References
+
+Baird,  Alfred  J.  “Port  Privatisation:  Objectives,  Extent,  Process  and  the  U.K.  Experience.” 
+International Journal of Maritime Economics 2 (3), (2000): 177-194.
+
+Baltazar, R. and M. R. Brooks. “Port Governance, Devolution and the Matching Framework: A 
+Configuration  Theory  Approach.”  Mary  R.  Brooks  and  Kevin  Cullinane  eds.  Devolution,  Port 
+Performance and Port Governance, Research	in	Transport	Economics 17, (2007): 379-404.
+
+Brooks,  M.  R.,  R.  McCalla, A. A.  Pallis,  and  L. Vanderlugt.  “Coordination  and  Cooperation  in 
+Strategic Port Management: The Case of Atlantic Canada’s Ports.” Presentation to the 2009 Annual 
+Meeting of the International Association of Maritime Economists, Copenhagen, June 2009.
+
+Brooks,  M.  R.  and  K.  Cullinane.  “Introduction.”  Mary  R.  Brooks  and  Kevin  Cullinane  eds. 
+Devolution, Port Performance and Port Governance, Research	in	Transport	Economics 17, (2007): 
+3-28.
+
+151
+
+Transatlantic Port Issues
+Brooks, M. R. “Port Devolution and Governance in Canada.” Mary R. Brooks and Kevin Cullinane 
+eds.  Devolution,  Port  Performance  and  Port  Governance,  Research	 in	 Transport	 Economics  17, 
+(2007): 237-258.
+
+Brooks, Mary R., J.R.F. Hodgson and J. D. Frost. Short Sea Shipping on the East Coast of North 
+America: An Analysis of Opportunities and Issues. Halifax: Dalhousie University. Project ACG-
+TPMI-AH08, Transport	Canada, 2006. Http://management.dal.ca/Research/ShortSea.php 
+
+Brooks,  Mary  R.  “Liberalization  in  Maritime  Transport,”  Paper  for  the  International  Transport 
+Forum 2009 on Transport for a Global Economy: Challenges and Opportunities in a Downturn. 
+Joint Transport Research Centre of the Organisation for Economic Cooperation and Development, 
+Leipzig, May 26-29, 2009. Http://www.internationaltransportforum.org/2009/workshops/pdf/ws1-
+Brooks.pdf
+
+Commission  of  the  European  Communities.  “Communication  on  a  European  Ports  Policy.” 
+COM616 final, 2007.
+
+Commission of The European Communities. “Green Paper – TEN-T: A Policy Review – Towards 
+a Better Integrated Trans-European Transport Network at the Service of the Common Transport 
+Policy.” Com 44, February 2009.
+
+Commission of the European Communities. “Proposal for a Directive of the European Parliament 
+and of the Council on Market Access to Port Services.” COM 654 final, 2004.
+
+Commission of the European Communities. Reinforcing Quality Service in Sea Ports: A Key for 
+European Transport. COM 0035 final, 2001b.
+
+Commission of the European Communities. “Communication from the Commission to the Council 
+and  the  European  Parliament.  Keep  Europe  Moving  –Sustainable  Mobility  for  Our  Continent.” 
+Mid-term Review of the European Commission’s 2001 Transport White Paper [COM(2006)314]. 
+Office for Official Publications of the European Communities, Luxembourg, 2006.
+
+Commission of the European Communities. “Green Paper on Sea Ports and Maritime Infrastructure.” 
+COM (97) 678 final, 1997.
+
+Commission of the European Communities.  “White Paper. European Transport Policy for 2010: 
+Time to Decide” [COM(2001)370]. Luxembourg: Office for Official Publications of the European 
+Communities. 2001a.
+
+De Langen, P.W. “Ensuring Hinterland Access: The Role of Port Authorities.” OECD/ITF Discussion 
+Paper, No 2008-11. Http://www.internationaltransportforum.org/jtrc/DiscussionPapers/DP200811.
+pdf (2008)
+
+De Langen, P.W. and L.M. Van der Lugt. “Governance Structure of Ports in The Netherlands.” Mary 
+R. Brooks and Kevin Cullinane eds. Devolution, Port Performance and Port Governance, Research	
+in	Transport	Economics	17, (2007): 207-236.
+
+Dekker,  S.  and  H.  Stevens.  “Maritime  Security  in  the  European  Union-Empirical  Findings  on 
+Financial Implications for Port Facilities.” Maritime	Policy	and	Management	34(5), (2007): 485-
+499.
+
+Drewry  Shipping  Consultants.  “Annual  Container  Market  Review  and  Forecast  2008/09.”  
+Http://www.drewry.co.uk/publications/view_publication.php?id=333 (2008).
+
+152
+
+JTRF Volume 49 No. 3, Fall 2010
+
+ESPO. “Factual Report on the European Port Sector (2004-2005).” 2004. Http://www.espo.be
+
+Eurostat.  Comext  External  Trade  Database.  2009.  Http://epp.eurostat.ec.europa.eu/newxtweb/
+defaultquery.do
+
+Fawcett, James A. “Port Governance and Privatization in the United States: Public Ownership and 
+Private Operation.” Mary R. Brooks and Kevin Cullinane eds. Devolution, Port Performance and 
+Port Governance, Research	in	Transport	Economics	17, (2007): 207-236.
+
+Federal Highway Administration. PPP	Case	Studies:	Heartland	Corridor. Http://www.fhwa.dot.
+gov/PPP/heartland.htm (2007).
+
+Government Accountability Office. Homeland	Security:	Summary	of	Challenges	Faced	in	Targeting	
+Oceangoing	 Cargo	 Containers	 for	 Inspection,  GAO-04-557T.  Washington,  D.C.:  Government 
+Accountability Office. 2005.
+
+Government of Canada. Budget	2007:	Chapter	5. Ottawa: Government of Canada, October. Http://
+www.budget.gc.ca/2007/bp/bpc5be.html (2006). 
+
+Helling, A.  and  T.H.  Poister.  “U.S.  Maritime  Ports:  Trends,  Policy  Implications,  and  Research 
+Needs.” Economic	Development	Quarterly	14, (2000): 300-317.
+
+Institute  of  Shipping  Economics  and  Logistics.  “Public  Financing  and  Charging  Practices  of 
+Seaports  in  the  EU.”  Http://ec.europa.eu/transport/maritime/studies/doc/2006_06_eu_seaports_
+study.pdf (2006). 
+
+Joint Transport Research Centre of the Organisation for Economic Cooperation and Development 
+and the European Council of Ministers of Transport. “Port Competition and Hinterland Connections: 
+Summary  and  Conclusions”  (Discussion  Paper  2008-19).  Paris, April  10-11,  2008.  Http://www.
+internationaltransportforum.org/jtrc/DiscussionPapers/DP200819.pdf (2008)
+
+Journal	of	Commerce. “The JoC’s Top 50 World Container Ports.” 31 July (2008): 28-36.
+
+Levinson,  M.  The	 Box:	 How	 The	 Shipping	 Container	 Made	 The	 World	 Smaller	 and	 The	 World	
+Economy	Bigger. Princeton University Press, Princeton, NJ, 2006.
+
+Maritime Administration. “U.S. Vessel Calls by Type of Vessel.” Http://www.marad.dot.gov/ports_
+landing_page/ports_landing_page.htm (2009b).
+
+Maritime Administration. “U.S. Waterborne Foreign Container Trade by U.S. Custom Ports.” Http://
+www.marad.dot.gov/ports_landing_page/ports_landing_page.htm, (2009a).
+
+Newman, D. and J.H. Walder. “Federal Ports Policy.” Maritime	Policy	and	Management	30 (2), 
+(2003): 151-163.
+
+Notteboom, T. “Economic Analysis of the European Seaport System.” Report for the European Sea 
+Ports Organisation, Antwerp: ITMMA, University of Antwerp (2009). 
+
+Notteboom, Theo and Patrick Verhoeven. “The Awarding of Seaport Terminals to Private Operators: 
+Current Practices and Viewpoints in European Ports.” (Paper 2-68). E-Proceedings of the Annual 
+Meeting of the International Association of Maritime Economists, Copenhagen, June 26 (2009).
+
+Pallis, A.A. and G. K. Vaggelas. “Port and Maritime Security: A Critical Analysis of Contemporary 
+EU  Policies.”  Proceedings  of  the  International  Symposium  on  Maritime  Safety,  Security  and 
+Environmental Protection, Athens, Greece (2007).
+
+153
+
+Transatlantic Port Issues
+Statistics  Canada.  “Shipping  in  Canada,  2006.”  Ottawa:  Statistics  Canada.  Cat.  No.54-205-X. 
+Http://dsp-psd.pwgsc.gc.ca/collection_2009/statcan/54-205-X/54-205-x2006000-eng.pdf (2009).
+
+Transport Canada. “National Marine Policy 1995.” December (1995). 
+
+Transport Canada. “Port Programs Transfer Inventory (as of May 31, 2009).” Http://www.tc.gc.ca/
+programs/ports/transferinventory.htm, (2009).
+
+Transportation  Research  Board.  “TRB  Special  Report  238:  Landside  Access  to  U.S.  Ports.” 
+Washington, D.C.: National Academy Press (1993).
+
+U.S. Army Corps of Engineers, “Waterborne Commerce of the United States 2006.” Http://www.
+ndc.iwr.usace.army.mil/wcsc/pdf/wcusatl06.pdf  (2008).
+
+Verhoeven, P. “European Ports Policy.” Maritime	Policy	and	Management	36 (1), (2009):  79-101.
+
+Watson, David. “The Atlantic Gateway and the Suez Opportunity.” Halifax: Speech to the Atlantic 
+Provinces Transportation Forum, 12 October 2007. 
+
+Mary  R.  Brooks	 is	 the	 William	A.	 Black	 Chair	 of	 Commerce	 at	 Dalhousie	 University,	 Halifax,	
+Canada.	She	is	the	founder	and	chair	of	the	Port	Performance	Research	Network,	a	network	of	more	
+than	50	scholars	interested	in	port	governance	and	port	performance	issues.	Her	research	interests	
+include	transportation	and	global	supply	chain	management,	and	she	is	particularly	focused	on	
+relationships	between	the	buyers	and	sellers	of	transportation	services.	Dr.	Brooks	received	her	
+undergraduate	degree	from	McGill	University,	her	MBA	from	Dalhousie	University,	and	her	Ph.D.	
+in	Maritime	Studies	from	the	University	of	Wales	in	1983.	
+
+Larissa van der Lugt	has	14	years’	research	and	project	management	experience	in	ports,	transport	
+and	logistics.	At	the	Department	of	Port	Economics	at	Erasmus	she	is	a	senior	researcher	in	the	
+fields	of	port	and	maritime	economics,	port	management	and	port-related	logistics	development,	
+while	working	on	her	Ph.D.	Before	joining	the	economics	faculty	in	2003,	she	worked	as	a	trans-
+port	economist	in	a	commercial	BV	of	Erasmus,	with	the	Dutch	Ministry	of	Transport,	and	with	a	
+consulting	and	engineering	company.	In	all	these	functions	she	worked,	mainly	as	project	leader,	on	
+research	projects	in	port	development	analyses,	logistics	chain	analyses,	economic	impact	studies,	
+and	implementation	projects	for	intermodal	transport	concepts.
+
+154
+
+

@@ -1,0 +1,1012 @@
+Aircraft Leasing and Its Effect on 
+Air Carriers Debt Burdens: A Comparison 
+Over the Past Several Decades
+
+by Richard Gritta and Ellen Lippman
+
+Leasing	has	always	been	an	important	source	of	finance	to	carriers	in	the	U.S.	airline	industry.		In	
+the	1960-1970s,	many	carriers	employed	a	type	of	lease	called	a	financial	lease	as	an	alternative	
+source	of	funds	to	acquire	aircraft.	It	had	a	major	advantage	over	purchasing	the	aircraft.		It	was	
+“off-the-balance	sheet	financing,”	as	the	obligations	under	this	type	of	lease	appeared	only	in	the	
+footnotes	to	carrier	balance	sheets.		Little	use	was	made	of	short-term	lease	agreements	during	this	
+period.		The	situation	has	changed	radically	over	the	past	three	decades.		In	1976,	the	Financial	
+Accounting	Standards	Board	issued	SFAS	No.	13	defining	specific	criteria	for	capital	leases	that	
+required	the	reporting	of	these	“off-the-balance	sheet	financing”	as	both	a	leasehold	asset	and	a	
+long-term	liability	recorded	under	the	long-term	debt	section	of	the	balance	sheet.		In	response,	
+the	air	carriers	substantially	altered	the	way	they	finance	airplanes.		Carriers	began	to	lease	more	
+and	more	of	their	aircraft,	but	they	did	so	by	structuring	leases	as	shorter-term	operating	leases,	
+which	are	not	reported	on	companies’	balance	sheets.	By	strategically	violating	the	criteria	for	
+capital	leases,	the	air	carriers	once	again	pushed	the	leases	off	the	balance	sheet.	The	purpose	of	
+this	research	is	to	demonstrate	the	switch	in	the	characteristics	of	aircraft	leasing	and	to	quantify	
+the	effects	of	such	leases	on	air	carrier	debt	burdens.		In	the	process	it	will	be	argued	that	“debt	is	
+debt”	no	matter	how	it	is	structured.	The	paper	updates	two	research	studies	by	the	authors	to	2008.
+
+INTRODUCTION
+
+Increasingly,  airlines  are  experiencing  financial  difficulties.  Prior  to  1978,  few  airlines  declared 
+bankruptcy due to the regulated nature of the airline industry; however, since then, over 155 air 
+carriers have declared bankruptcy and reorganized or ceased operations, and this rate has increased 
+in recent years. Just since the year 2000, more than 50 airlines have declared bankruptcy.1  The 
+airlines include both small air carriers and some of the larger airlines including United, Delta, and, 
+recently,  Japan Airlines.    Some  airlines  have  responded  to  their  financial  troubles  by  merging; 
+for instance, Delta and Northwest Airlines merged as did America West and USAir. Air carriers 
+also have responded by attempting to strengthen their operations and financial statements.  One 
+mechanism to strengthen a financial statement is through the increased usage of operating leases 
+for aircraft purchases.  Prior studies (Gritta 1974; Gritta, Lippman, and Chow 1994) have discussed 
+the increased usage of leases over purchases of aircraft. This study updates that data, specifically 
+identifying changes in leasing activity from the 1990s to 2008, to determine how leasing behavior has 
+changed over time and the effect of such changes on the financial statement. Additionally, proposed 
+changes  in  the  reporting  of  lease  accounting,  as  offered  jointly  by  the  International Accounting 
+Standards Board (IASB) and the Financial Accounting Standards Board (FASB), are discussed and 
+the potential effect of these proposals on the airline industry is considered.
+
+PRIOR RESEARCH
+
+Gritta (1974) reviewed aircraft lease accounting by US domestic airlines. The carriers he studied 
+included  American,  Eastern,  TWA,  United,  Braniff,  Continental,  Delta,  National,  Northeast, 
+Northwest, and Western Air Lines. He found that these airlines leased 317 aircraft, representing 
+
+101
+
+Aircraft Leasing
+19.2%  of  their  entire  fleet.  The  actual  incidence  of  leases  ranged  from  zero  planes  leased  for 
+Northwest, Delta, and Continental, to 83% leased by Northeast.  Accounting standards in effect then 
+did not require capitalization of lease payments. Thus, airlines could structure purchases of aircraft 
+as leases to avoid recording the asset and related liability associated with the purchase. To determine 
+the effect of structuring purchases as leases, Gritta (1974) capitalized the lease payments using a 
+present  value  of  future  cash  flows  methodology.  Gritta  (1974)  capitalized  only  those  long-term 
+leases characterized as financial leases per Vancil’s definition of a finance lease.2 These included 
+leases with rentals that exceeded the purchase price of the equivalent asset, or a contract lease term 
+equal to the useful life of the plane. Operating lease payments were not capitalized.  
+
+Table 1 lists two debt ratios from the 1974 study that compared the ratios before and after lease 
+capitalization. The ratios include total debt to equity and long-term debt to total capital (defined as 
+long-term debt and equity). 
+
+Table 1: Ratios Before and After Lease Capitalization
+
+Total Debt/Equity
+
+Before
+2.73
+3.67
+3.07
+2.28
+3.41
+3.06
+1.89
+1.60
+0.80
+3.70
+
+American
+Eastern
+TWA
+United
+Braniff
+Continental
+Delta
+National
+Northwest
+Western
+Source: Gritta (1974)
+
+After
+3.31
+4.45
+3.53
+2.71
+3.86
+3.06
+1.89
+1.66
+0.80
+3.99
+
+% Change
+
+21.2
+21.3
+15.0
+18.9
+13.2
+
+Unchanged
+Unchanged
+
+3.8
+
+Unchanged
+
+7.8
+
+11.9
+5.5
+6.0
+10.1
+3.5
+
+Long-Term Debt/Total Capital (%)
+Before
+% Change
+53.9
+73.2
+63.0
+52.7
+65.8
+62.0
+38.7
+25.7
+17.2
+63.2
+
+After
+60.3
+77.2
+66.8
+58.0
+68.1
+62.0
+38.7
+27.4
+17.2
+65.5
+
+6.6
+
+3.6
+
+Unchanged
+Unchanged
+
+Unchanged
+
+As is evident from Table 1, the ratios for many of the airlines were significantly, and negatively, 
+
+affected by the capitalization of finance leases.  
+
+Subsequent to the Gritta (1974) study, the FASB issued Statement of Financial Accounting 
+Standard  (SFAS)  No.  13  (1976)  that  established  criteria  to  classify  leases  as  either  capital  or 
+operating. For lessees, SFAS No. 13 defines leases as capital leases if they meet one of these four 
+criteria: lease term at least 75% of the useful life of the asset, present value of the lease payments at 
+least 90% of the fair value of the asset at the date of lease inception, a bargain purchase, or a transfer 
+of ownership at the end of the lease. Capital leases are, in substance, a purchase of an asset, and 
+SFAS No. 13 mandates that the asset and related lease obligation be recorded on the balance sheet 
+of the lessee at an amount equal to the present value of the minimum lease payments.3  Payments 
+for leases classified as operating leases continue to be expensed annually. Thus, as Gritta (1974) 
+advocated, finance leases are now capitalized on the financial statements. However, operating leases 
+are not capitalized, so opportunities for manipulation of the financials continue to exist if firms 
+manage lease terms to characterize leases as operating.  
+
+102
+
+JTRF Volume 49 No. 3, Fall 2010
+Gritta capitalized lease payments only for those leases he characterized as finance leases.  Had 
+current accounting rules been used in the original study, Gritta (1974) would have classified more 
+leases as capital leases than those capitalized in the 1974 study.  However, the percentage of non-
+finance leases in the original study was not significant.  Leased aircraft amounted to only 19.2% of 
+the total fleet of 1,651 (317 leased/1,651 total aircraft). Of those 317 leased aircraft, only 41 (13%) 
+were not classified as finance leases, just 2.5% of the total fleet (Gritta 1974, p. 48).
+
+Gritta, Lippman, and Chow (1994) conducted a follow-up study on airline leasing by the major 
+airlines to determine whether the usage of leases had changed post SFAS No. 13 and to calculate 
+the impact, if any, on the financials from airlines’ usage of operating leases. Since the 1974 study, 
+several  airlines  included  in  the  original  study  had  ceased  operations  (Eastern  and  Braniff)  and 
+several others (National, Western, and Northwest) had merged with other airlines. The follow-up 
+study included the remaining airlines from the 1974 study (American, TWA, United, Continental, 
+and Delta) as well as new major airlines (Alaska Airlines, Southwest, USAir, and America West).  
+Gritta et. al. (1994) found two important results.  One, air carriers had increased their usage of 
+leasing to 56.5% of all aircraft, and the carriers now structured a significant number of their leases 
+as operating leases, something new from the 1974 study. These results are detailed in Table 2.
+
+Table 2: Leases of Planes
+
+Carrier
+
+Percentage of 
+Planes Leased
+
+Percent of Leases 
+
+Operating
+
+American
+TWA
+UAL
+Southwest
+Continental
+Delta
+Alaska
+USAir
+America West
+Source: Gritta et al. (1994)
+
+61.4
+65.2
+45.5
+N/A
+68.6
+44.2
+79.0
+47.3
+81.2
+
+79.1
+60.9
+85.1
+N/A
+84.3
+90.1
+N/A
+80.1
+100.0
+
+Additionally, when operating leases were capitalized, the effects on computed financial ratios 
+were dramatic.  As evident in Table 3, typical financing ratios worsened with capitalization.  And 
+the decline was more pronounced than in the 1974 study. For instance, in the 1974 study UAL’s total 
+debt to equity changed 18.9% with lease capitalization; in the Gritta et al. (1994) study, UAL’s ratio 
+changed 103.3%.
+
+103
+
+Aircraft Leasing
+Table 3: Ratios Before and After Lease Capitalization
+
+Total Debt/Equity
+
+After % Change
+5.66
+NMF
+10.55
+2.96
+-4.31
+5.12
+5.03
+8.39
+-13.59
+
+73.1
+NMF
+103.3
+54.2
+68.4
+116.9
+54.3
+115.1
+77.2
+
+Before
+3.27
+American
+NMF
+TWA
+5.19
+UAL
+1.92
+Southwest
+-2.56
+Continental
+2.36
+Delta
+3.26
+Alaska
+3.90
+USAir
+America West
+-7.67
+Source: Gritta et al. (1994)
+NMF – not meaningful figure
+
+CURRENT DATA
+
+Long-Term Debt/Total Capital (%)
+Before
+% Change
+
+22.4
+NMF
+42.6
+18.3
+NMF
+35.0
+15.7
+22.5
+-9.2
+
+After
+82
+NMF
+87
+71
+NMF
+81
+81
+87
+1.09
+
+67
+NMF
+61
+60
+NMF
+60
+70
+71
+1.2
+
+The  present  study  identified  the  major  U.S.  carriers  and  reviewed  their  lease  usage  in  2008  to 
+determine changes since the prior studies in 1974 and 1995. The mix of airlines used in this study 
+differs from past studies due to bankruptcies and mergers, suggesting continual upheaval in the 
+airline industry. Table 4 documents the changes in air carriers in the current and previous studies. 
+
+For the 1974 study, data on leasing were available from Schedule B14 previously filed with 
+the Civil Aeronautics Board (CAB). In 1980, this information was no longer collected by the CAB. 
+Now, some leasing information is available in the 10-K where the airlines identify aircraft as owned 
+or leased, and then classify the leases as either capital or operating. Table 5 provides a summary of 
+leasing information and compares it with the information disclosed in the Gritta et al. study (1994). 
+
+104
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Table 4: Airlines in Studies
+
+Gritta
+1974
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+American
+Eastern
+TWA
+United
+Braniff
+Continental
+Delta
+National
+Northeast
+Northwest
+Western
+Alsaka
+Southwest
+USAir
+America West
+AirTran
+JetBlue
+c/o - ceased operations
+
+Gritta et al.
+
+1994
+X
+c/o
+X
+X
+c/o
+X
+X
+
+merged
+merged
+merged
+merged
+
+X
+X
+X
+X
+X
+X
+
+Present
+Study
+
+X
+
+merged
+
+X
+
+X
+X
+
+X
+X
+X
+
+merged
+
+X
+X
+
+Table 5: Owned and Leased Aircraft
+
+Total
+Fleet
+136
+110
+665
+632
+142
+1,023
+537
+689
+413
+
+Operating
+Leases
+N/A
+35
+220
+466
+55
+258
+82
+411
+343
+
+Carrier
+AirTran
+Alaska
+American
+Continental
+Jet Blue
+Delta
+Southwest
+UAL 
+US Airways*
+*Prior study data adjusted to reflect merger with America West
+N/A: not available
+Source:  Data from carrier annual reports on www.sec.gov Website
+
+Capital
+Leases
+N/A
+0
+76
+0
+4
+81
+9
+69
+0
+
+Planes
+Leased
+
+100
+35
+296
+466
+59
+339
+91
+480
+343
+
+Leased
+Current
+Study
+73.5%
+31.8%
+44.5%
+73.7%
+41.5%
+33.1%
+16.9%
+69.7%
+83.1%
+
+Leased
+1994
+Study
+n/a
+
+79.0%
+61.6%
+68.6%
+
+n/a
+
+44.2%
+
+n/a
+
+45.5%
+52.5%
+
+105
+
+Aircraft Leasing
+
+Overall, the usage of leasing has declined since the 1994 study from 55.2% in 1994 to 50.8%.  
+But this decline is somewhat misleading.  First, for the three air carriers not included in the 1994 
+study, two of the three air carriers (Southwest and Jet Blue) had lower lease rates. Historically, 
+Southwest conservatively finances its business, using less traditional debt and fewer leases, while 
+Jet Blue has carried high traditional debt burdens since it was founded and relies more on traditional 
+sources  apart  from  leasing.  Second,  some  airlines  from  the  1994  study  (Continental,  UAL,  US 
+Airways) increased the percentage of planes leased, while other airlines (Alaska, American, Delta) 
+significantly decreased the percentage of leased aircraft. In the case of American and Delta, some 
+leases were cancelled and aircraft returned to the lessors during the reorganizations of these airlines 
+as the airlines sought to cut capacity.
+
+While Table 5 focuses on all leasing activities, Table 6 focuses specifically on operating leasing.  
+The incidence of operating leases is a better indicator of structuring leases to avoid capitalization 
+than is the incidence of all lease activities.  
+
+Table 6: Operating Lease Usage
+
+Percentage of Leases Operating
+1994 Study
+Current Study
+N/A
+78.8
+N/A
+84.3
+90.0
+N/A
+N/A
+85.1
+84.8
+
+Carrier
+Alaska
+American
+AirTran
+Continental
+Delta
+JetBlue
+Southwest
+UAL 
+USAir
+Source: Gritta et al. (1994) and computed from data on www.sec.gov Website
+
+100.0
+74.3
+N/A
+100.0
+76.1
+93.2
+90.1
+85.6
+100.0
+
+Percentage of Fleet Operating
+1994 Study
+Current Study
+
+31.8
+33.1
+N/A
+73.7
+25.2
+38.7
+15.3
+59.7
+83.1
+
+N/A
+48.5
+N/A
+57.8
+39.8
+N/A
+N/A
+38.7
+44.5
+
+The  percentage  of  leases  identified  as  operating  is  significant.    Alaska,  Continental,  and 
+USAir structure all of their leases as operating leases. This is an increase from the 1994 study. Two 
+other air carriers, Jet Blue and Southwest, structure over 90% of their leases as operating leases. 
+While neither firm was in the 1994 study, such a high percentage of operating leases is significant. 
+However, consistent with what was described in Table 5, Delta and American show a reduction in 
+operating leases as a percentage of total leases, although the decline is not significant for American.  
+For air carriers in the 1994 study, all but Delta and American increased usage of operating leases 
+as a percentage of the total fleet.  Continental, UAL, and USAir have significantly increased their 
+usage of operating leases for their fleet.  USAir’s percentage of fleet structured as operating leases 
+is a high 100.0%.  
+
+To determine the effect of lease capitalization upon the financials, 2008 financial data on the air 
+carriers were accumulated. Table 7 details the financial data on the airlines. The liabilities and equity 
+amounts are those recorded on the company’s balance sheet, while the capitalized lease amount was 
+computed as a present value of operating lease payments as reported in the company’s 10-K. To 
+be consistent with the two prior studies, a simple present value calculation was performed, using 
+the discount rate of 10% to be consistent with the rate used in both the 1974 and 1994 studies. (In 
+actuality, a lower discount rate may be appropriate currently. This would increase the capitalized 
+lease amount, thereby showing a greater decline in financial health.)
+
+106
+
+Table 7: Total Capital, Including Aircraft Leases (in thousands)
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Current
+Liabilities
+
+Carrier
+AirTran
+Alaska
+American
+Continental
+Delta
+JetBlue
+Southwest
+UAL 
+USAir
+Source: Carrier 10Ks
+
+    712
+ 1,392
+11,071
+  4,474
+11,022
+1,081
+   2,806
+   7,281
+3,966
+
+Long         
+Term
+
+Liabilities
+ 1,105
+ 2,441
+16,352
+ 8,107
+33,118
+3,681
+ 6,549
+14,645
+3,209
+
+Capitalized 
+
+Leases
+
+Equity
+
+1,797
+  577
+5,318
+8,756
+7,883
+1,167
+1,375
+3,708
+4,849
+
+  246
+  595
+(4,905)
+  105
+  874
+1,261
+4,953
+(2,465)
+(221)
+
+The figures for current and long term liabilities were taken directly from carrier 10K balance 
+
+sheets.  The capital leases equivalents were calculated  in the same manner as the 1994 study.4  
+
+It is apparent that the airlines are in trouble.  American, UAL, and US Airways have negative 
+equity positions as of December 31, 2008.  Delta’s positive equity is due to the adoption of fresh-
+start  accounting  when  prior  accumulated  losses  were  removed  after  emerging  from  bankruptcy 
+protection in 2007.  Southwest, a low cost provider, is the financially healthiest air carrier.
+
+Using the financial information from Table 7, financial ratios were calculated to determine the 
+impact of lease capitalization on debt ratios in Table 8. Total Capital is defined as the sum of long 
+term debt, capitalized leases (where appropriate), and equity (the company’s stockholders equity). 
+Stockholder’s equity was not adjusted for changes in classification from operating to capital leases.  
+While operating lease expense will disappear with lease capitalization, depreciation and interest 
+expense would increase. Over the life of the lease, these amounts will approximate one another.
+
+Table 8: Change in Ratios with Lease Capitalization
+
+Long-Term Debt/Total Capital (%)
+Before
+% Change
+81.8
+80.4
+142.8
+98.7
+97.4
+74.5
+56.9
+120.2
+107.4
+
+After
+92.2
+AirTran
+83.5
+Alaska
+129.3
+American
+99.4
+Continental
+97.9
+Delta
+79.4
+JetBlue
+61.5
+Southwest
+115.5
+UAL
+US Airways
+102.8
+Source:   Computed  from Table 7 
+nm =  no meaningful figure
+
+12.7
+3.9
+-8.06
+0.7
+0.5
+6.6
+8.1
+-3.9
+4.3
+
+Total Debt/Net Worth
+
+Before
+7.39
+6.44
+
+-5.59nm
+119.82
+50.50
+3.78
+1.89
+
+After
+14.69
+7.41
+
+-6.67nm
+203.21
+59.52
+4.7
+2.17
+
+-10.40nm
+-8.89nm
+-32.47nm -54.41nm
+
+% Change
+
+98.8
+15.1
+19.3
+69.6
+17.9
+24.3
+14.8
+17.0
+67.6
+
+107
+
+Aircraft Leasing
+
+For nearly all of the ratios, the airlines appear more risky when operating leases are capitalized.  
+Yet,  do  these  changes  necessarily  affect  the  evaluation  of  the  riskiness  of  the  airlines? Table  9 
+displays the ranking of the airlines’ debt ratios before and after lease capitalization. The riskiest ratio 
+is labeled one, second riskiest two, and so on. 
+
+Table 9:  Ranking of Risk Associated with Air Carriers Before and 
+ 
+
+After Lease Capitalization
+
+Carrier
+Air Tran
+Alaska
+American
+Continental
+Delta
+Jet Blue
+Southwest
+UAL
+US Airways
+nm = not meaningful
+
+       LTD/Total   
+After
+Before
+
+       Debt/Equity
+After
+Before
+
+6
+7
+1
+4
+5
+8
+9
+2
+3
+
+6
+7
+1
+4
+5
+8
+9
+2
+3
+
+3
+4
+nm
+1
+2
+5
+6
+nm
+nm
+
+3
+4
+nm
+1
+2
+5
+6
+nm
+nm
+
+While the ratios changed, the riskiness of the firms relative to one another remained unchanged 
+with or without the capitalization of the operating leases.  Thus, the capitalization of operating leases 
+may not provide significantly useful information, at least when comparing one airline with another.  
+While firms seem to have gone to great lengths to structure more aircraft purchases as leases, and 
+more of these as operating, when comparing one air carrier with another, the capitalization of leases 
+does not affect their relative riskiness as seen through the rankings.  
+
+PROPOSAL FOR CHANGES TO LEASES AND THE EFFECTS 
+ON THE AIRLINE INDUSTRY
+
+In the United States, SFAS No. 13, and now ASC 840, has been vilified as one of the worst accounting 
+pronouncements in part due to the “bright lines,” the set percentages that must be met in order to 
+warrant capitalized lease recognition.  Likewise, the international leasing standard IAS 17 does not 
+have strong support.  In response, in March 2009 the International Accounting Standards Board and 
+the FASB issued a discussion paper on leases, “Leases: Preliminary Views” (FASB 2009).  In this 
+paper, the boards jointly recommended new lease accounting standards and requested comments 
+about the proposal.  The boards continue to work together to craft a new lease accounting standard 
+acceptable to both groups. 
+
+The boards believe that a lease represents a right by the lessee to use an asset. “A lease is a 
+contract in which a right to use a specific asset is conveyed for a period of time, in exchange for 
+consideration” (FASB 2010).  The boards also believe that a lease includes an obligation to pay for 
+the right to use the asset. The discussion memorandum proposes that all leases, capital or otherwise, 
+should be recorded as assets and liabilities on the lessee’s balance sheet. While there exist some 
+differences between the suggested lease accounting by the IASB and the FASB, the IASB and FASB 
+agree on the necessity to record all leases on the lessee’s balance sheet.  In effect, it has been argued 
+
+108
+
+JTRF Volume 49 No. 3, Fall 2010
+
+that “debt is debt” no matter how it is structured.
+
+Previously, some leases were in fact purchases of assets and thus were classified as finance 
+leases,  where  the  lease  and  the  related  obligation  were  recorded  as  an  asset  and  corresponding 
+liability. Other leases were executory contracts, and these were classified as operating leases, with 
+the  lease  payments  recorded  as  lease  expenses.  If  the  proposal  is  accepted,  capitalization  of  all 
+lease  payments  for  property,  plant,  and  equipment,  regardless  of  prior  classification,  will  occur 
+such that the present value of all lease payments will increase assets and liabilities. Thus, the lease 
+capitalization suggested in this paper will no longer be necessary. Yet, while lease capitalization does 
+impact the reported assets and liabilities, and computed ratios thereof, interestingly, the rankings of 
+these ratios among the airlines were unaffected, suggesting that the public, with or without the aid of 
+lease capitalization, has other financial markers to determine the riskiness of air carriers.  
+
+Endnotes
+
+1.  Prior to deregulation, the CAB did allow the merger of a weak carrier into a stronger one. The 
+merger of Northeast Airlines, then classified as a major, into Delta in the early 1970s is an 
+example. This was a way around a bankruptcy filing and thus explains the low rate prior to the 
+1980s. There is also no question that the financial upheaval caused by the events of 9/11 helps 
+to explain the sudden spike in filings under the bankruptcy code since 2001.
+
+2.  Vancil defined a financial lease as a contract with non-cancelable payments that, in total, are 
+
+greater than the cost of the item leased (Vancil and Anthony 1963).
+
+3. 
+
+In July 2009, all SFAS were combined into the Accounting Standards Codification that became 
+the single source of authoritative accounting principles. Lease accounting is now referenced in 
+ASC 840, but the leasing requirements remain the same as SFAS 13.  
+
+4.  As noted, operating leases are not directly reflected on the balance sheets of the airlines, but the 
+yearly future obligations of these leases are disclosed in the footnotes to the financial statements.  
+The operating lease disclosures reported in the footnotes include the yearly obligation for each 
+of the next five years (LPt), and then a total of the remaining obligations (TLP) under those 
+leases beyond the five years.  Just as in the 1994 (Gritta et al.) study, the fifth year lease payment 
+(per the carriers’ footnotes) was estimated to continue, such that the remaining life of the leases 
+per air carrier differed dependent upon the remaining balance of lease payments and year five’s 
+lease payment. It should be noted that prior to the sunset of the CAB, lease forms called B-14s 
+required the exact lease payments for each year of the lease, and there was no aggregating 
+the payments in the future.  This makes the current analysis a little less precise than was the 
+case in the 1974 study. The impact of the obligations on the balance sheet was estimated by 
+determining the present value of these non-cancellable operating lease payments in a manner 
+consistent with the 1994 study.  The discount rate used (10%) was the same used in both the 
+1974 and 1994 studies for comparative purposes.  The following formula shows the approach 
+used to estimate Lo, the net present value of the operating leases for each carrier:
+
++
+
+LPt are the payments for each of the first five years presented in the carriers’ reports, k is the 
+discount rate of 10%, and RLP represents an estimate of the yearly remaining lease payment 
+assumed to be the same as in year five, except for the last year when it is adjusted so that total 
+lease  payments  since  year  five  equal  the  total  remaining  lease  payments  as  reported  in  the 
+
+109
+
+Aircraft Leasing
+
+footnote. The remaining years of the lease, a, is computed by dividing the total lease payment 
+after year five (TLP) by year five’s lease payments. The present values of the lease obligations 
+were then included with the recorded long-term debt to compute the adjusted long term debt 
+obligations for each airline. 
+
+References
+
+Financial  Accounting  Standards  Board.  “Accounting  for  Leases.”	 Statement	 of	 the	 Financial	
+Accounting	Standards	Board	(SFAs)	#13, 1976.
+
+Financial Accounting  Standards  Board.    Discussion  Paper.    “Leases:  Preliminary  Views,”	 2009. 
+Http://www.fasb.org/draft/DP_Leases.pdf.
+
+Financial Accounting Standards Board.  Summary	of	Tentative	Decisions	Reached	to	Date  (as of 
+February 18, 2010).  Http://www.fasb.org/cs/ContentServer?c=FASBContent_C&pagename=FAS
+B%2FFASBContent_C%2FProjectUpdatePage&cid=900000011123.
+
+Gritta, R. “The Impact of the Capitalization of Leases on Financial Analysis.”  Financial	Analysts’	
+Journal	 30 (2), (1974): 47 - 52. 
+
+Gritta, R., G. Chow, and E. Lippman.  “The Impact of the Capitalization of Leases on Financial 
+Analysis: An Issue Revisited.”  Logistics	and	Transportation	Review 30 (2), (1994): 189-202. 
+
+Vancil, R. and R. Anthony. Leasing	of	Industrial	Equipment. McGraw-Hill Book Co., (1963).
+ 
+
+Dr. Richard D.	Gritta	is	professor	of	finance	and	transportation	at	the	Robert	B.	Pamplin	Jr.,	School	
+of	Business	Administration,	University	of	Portland,	Portland,	Oregon.		He	earned	his	BBA	from	the	
+University	of	Notre	Dame,	his	MBA	from	Indiana	University,	and	his	Ph.D.	from	the	University	of	
+Maryland.		He	has	published	numerous	articles	in	such	journals	as	the	Journal	of	the	Transportation	
+Research	 Forum,	 Transportation	 Journal,	 Logistics	 and	 Transportation	 Review,	 Credit	 and	
+Financial	Management	Review,	Financial	Management,	Handbook	of	Transport	Strategy,	Policy	
+and	Institution,	Journal	of	Transportation	Law,	Logistics	and	Policy,	and	many	others.		He	was	a	
+Senior	Fulbright	Fellow	to	the	Transportu	Katendra	at	the	Warsaw	School	of	Economics,	Poland,	
+from	February	to	June	of	1996	and	a	Senior	Fulbright	Specialist	to	the	Groupe	ESC	(Toulouse	
+School	of	Business,	France)	from	August	to	November	of	2007.	He	is	currently	associate	editor-air	
+transportation	for	the	Journal	of	the	Transportation	Research	Forum	and	is	the	immediate	past	
+president	of	the	Transportation	Research	Forum.		
+
+Dr. Ellen J. Lippman	is	an	associate	professor	of	accounting	in	the	Pamplin	School	of	Business	
+Administration	at	the	University	of	Portland.		She	earned	her	B.A.	from	Colorado	College,	her	M.S.	
+in	accounting	from	the	University	of	Wisconsin	(Madison),	and	her	Ph.D.	in	accounting	from	the	
+University	of	Oregon.	She	is	also	a	Certified	Public	Accountant,	specializing	in	financial	accounting	
+and	auditing.	Dr.	Lippman	has	published	in	the	Journal	of	Business	Ethics,	Accounting	History,	
+AICPA	 Professor/Practitioner	 Cases,	 Strategic	 Finance,	 Journal	 of	 Accounting	 and	 Business	
+Research,	 Transportation	 Law	 Journal,	 and	 Logistics	 and	 Transportation	 Review.	 Her	 interests	
+include	lease	accounting	in	the	airline	industry,	ethical	credit	lending,	and	accounting.
+
+110
+
+

@@ -1,0 +1,1291 @@
+Creating  a  Financially  Feasible  High-Performance 
+Metropolitan Transportation System
+
+by Patrick DeCorla-Souza
+
+This	paper	assesses	a	strategy	to	alleviate	recurring	congestion	on	metropolitan	highway	systems	
+by	adding	“dynamic”	capacity	during	peak	periods,	using	shoulders	as	travel	lanes,	along	with	
+variable	peak-period	user	charges	levied	on	all	lanes,	to	manage	demand	and	pay	for	the	capacity	
+improvements	and	complementary	multimodal	investments.	It	presents	an	analysis	of	the	traffic,	
+delay,	fuel	consumption,	CO2	emissions,	and	cost	and	revenue	impacts.	The	paper	then	discusses	
+various	technical	and	public	acceptance	issues	with	regard	to	the	concept,	and	how	these	issues	
+might	be	addressed.		
+
+INTRODUCTION
+
+Background
+
+Major metropolitan areas in the U.S. are facing increasing levels of highway congestion, but it is 
+extremely expensive to widen highways in urban areas, and environmental and social constraints 
+limit the ability to expand the highway footprint. The normal cost of construction to add a lane 
+on an urban freeway is estimated at about $13.4 million per lane mile by the Federal Highway 
+Administration  (2007).  Weekday  peak  period  use  of  a  lane  addition  amounts  to  about  10,000 
+vehicles per weekday. As shown in Table 1, the cost per lane mile translates to a cost of about $7.00 
+for a 20-mile trip made on an added urban freeway lane during peak periods.  
+
+On the other hand, fuel taxes generated from a 20-mile trip amount to a total of only about 
+40 cents, calculated based on fuel taxes averaging 40 cents per gallon and an average vehicle fuel 
+efficiency rating of 20 mpg. The gap between user-based taxes and cost for a new lane is even 
+higher for high cost urban freeways (see Table 1). Moreover, if new highway capacity is provided 
+for use free of charge, it will continue to encourage low-density land use patterns and increased auto 
+dependence, leading to a return to congestion.    
+
+This  paper  assesses  a  new  financially  feasible  approach  to  address  metropolitan  mobility 
+and  access  issues  that  involves  congestion  pricing  with  complementary  multimodal  strategies. 
+Congestion pricing involves the imposition of variable tolls to manage demand during peak periods. 
+By increasing the cost of travel perceived by commuters, it can reduce congestion and provide the 
+revenue needed to make multimodal transportation infrastructure improvements.
+
+  
+
+Review of the Literature and State of the Practice
+
+Congestion pricing has been discussed in the economics literature for over 150 years, beginning 
+with the work of Dupuit (1844), Pigou (1920), and Knight (1924). During the 1960s, there was a 
+revitalization of interest with the work of Walters (1961), the Smeed Report (Ministry of Transport 
+1964), and Vickrey (1968). 
+
+This early work led to the earliest implementation of congestion pricing in the form of an Area 
+Licensing Scheme in the Singapore Central Business District (CBD) in 1975. This was followed by 
+implementation of cordon-based pricing or “toll rings” in several Norwegian cities in the late 1980s 
+and 1990s. In the 2000s electronic toll collection (ETC) facilitated the implementation of congestion 
+pricing in the form of a charge to drive within Central London. Stockholm has implemented cordon-
+based charges to drive into and out of the central city. Over the past 15 years, congestion pricing 
+
+21
+
+Metropolitan Transportation System
+
+Normal Cost
+$13,400,000
+10,000
+$1,340
+$26,800
+$1,742
+$6.97
+$0.40
+
+Table 1: Costs for Highway Construction in Major Urban Areas
+ 
+Construction cost per lane mile*
+Daily traffic volume in peak periods
+Construction cost per vehicle per mile
+Construction cost for 20-mile round trip
+Annualized construction cost for 20-mile round trip**
+Cost for 20-mile round trip per working day
+Gas tax paid for a 20-mile round trip
+* Source: FHWA 2007 (2006 dollars)
+** Annualization factor 0.065 assuming a 5.25% discount rate and 30 years
+has also been implemented on some existing toll facilities in France and the United States, and on 
+a few existing or new lanes on freeways in the United States, known as express toll lanes or High-
+Occupancy Toll (HOT) lanes. HOT lanes are High-Occupancy Vehicle (HOV) lanes which may be 
+used by non-HOVs with payment of a toll.  With such priced lanes a two-class service is offered, for 
+which users have a choice: a standard or “free” untolled service that may incur delay, and a premium 
+or “express” service that offers higher speed for the price of a toll.
+
+High Cost
+$55,900,000
+10,000
+$5,590
+$111,800
+$7,267
+$29.07
+$0.40
+
+As Lee (2009) has demonstrated, however, in many situations single-class unpriced	service 
+may be better than two-class service with one class priced. Lee points out that splitting a facility 
+into two classes reduces the effective capacity and total vehicle throughput of a facility.  He finds 
+that the justification for more than one class of service requires that the preferences (value of time) 
+among users be very heterogeneous, but peak period travelers are probably more homogeneous 
+than  average  because  they  are  employed  and  have  higher  incomes.  He  concludes  that  the  only 
+way a priced lane can be superior to a fully-priced single-class facility is if prices are charged on 
+both classes of lane, standard and premium. Nevertheless, HOT and express toll lane projects with 
+adjacent unpriced lanes continue to be implemented in the United States, and 62 more are in various 
+stages of planning, development, and implementation (FHWA 2009).  They are publicly acceptable 
+because generally no one is made worse off, since no existing general purpose lanes are priced.
+
+Although  a  fully-priced  single-class  facility  might  be  economically  superior,  as  Lee  (2009) 
+suggests, it has encountered obstacles to implementation due to public acceptance issues. This is 
+understandable, because both the tolled and the tolled off (i.e., those who avoid using the road during 
+the priced periods due to the new charges) are shown to be worse off under a constant value of time 
+assumption (Hau 2005). Those who are tolled off are “forced” into less desirable modes, routes, or 
+times of day. Those who are tolled are worse off on average because, in order to reduce demand, the 
+toll must exceed the average value of time saved by the tolled as a result of the smoother flow of 
+traffic.  If differences in time valuation for tolled motorists are taken into account, only those with 
+the highest values of time are made better off.  Even those who had not been using the priced road 
+before implementation of pricing (i.e., the “untolled,” such as those using public transit or those 
+driving on alternative routes) may be made worse off as a result of more crowded buses or roads 
+made more congested by diverted traffic.  The main beneficiary is the government, which benefits 
+from the toll revenue.
+
+Improving the Public Acceptance of Fully-Priced Facilities
+
+The key to gaining public acceptability of any type of congestion pricing that involves tolling of 
+existing free roads is the use of revenues.  Small (1992) suggests that two-thirds of the revenue be 
+given back to the motorist via commuter allowances, reduced road user taxes, and a reduction in 
+general taxes.  The other third would be used to pay for new road infrastructure, improvements in 
+22
+
+JTRF Volume 49 No. 3, Fall 2010
+public transit, and in public services to business.  Goodwin (1989) suggests that the revenue be 
+arbitrarily divided such that a third would be used for new roadway infrastructure, a third would be 
+allocated to improve public transport, and a third would be used to reduce the general tax burden or 
+increase social spending.
+
+This paper presents a direct approach for use of the revenues. It attempts to more directly “make 
+whole” each of the three categories of travelers who are made worse off, i.e., the tolled, the tolled 
+off, and the untolled. To benefit the tolled, it attempts to provide benefits commensurate with the 
+value of tolls paid by providing significant travel time savings for them. This is accomplished by 
+providing new highway capacity and advanced technologies that maintain the free flow of traffic and 
+reduce the impact of incidents and accidents. To benefit the tolled off and the untolled, it enhances 
+travel options, deploys new technologies for multimodal traveler information, and provides more 
+effective traffic incident management and arterial traffic management.
+
+The concept builds on emerging strategies implemented in Europe and now being explored by 
+the transportation community in the United States as possible options for providing new highway 
+capacity without the need for new rights-of-way or major reconstruction. However, the safety of 
+these approaches has not yet been fully assessed in the U.S. context. Therefore, the concept proposed 
+in this paper is not ready for immediate application. Rather, the intent is to engender discussion and 
+further exploration through collaboration among the transportation planning, finance, safety, and 
+operations communities to find workable strategies to advance the concept in the United States.  
+
+FLEXIBLE AND EFFICIENT EXPRESS (FEE) HIGHWAYS
+
+Providing Benefits for the Tolled
+
+In congested metropolitan areas, a new “dynamic” travel lane could be created on limited access 
+highways by narrowing existing lanes and using shoulder space. The shoulder travel lane would be 
+open for use by authorized vehicles with trained drivers in conjunction with active management of 
+all lanes on the highway, using overhead lane controls and dynamic message signs to harmonize 
+speeds and keep traffic flowing freely and safely (Figure 1). During peak periods, variable user 
+fees would be used in conjunction with ramp metering to keep demand for use within the capacity 
+of the reconfigured highway. Should an incident occur in any lane, surveillance cameras would 
+automatically communicate with overhead lane controls, which would shut down the appropriate 
+lane(s) in advance of the incident location.
+
+User fee rates would be pre-scheduled according to time of day and location in order to manage 
+demand based on observed traffic patterns. Dynamic pricing, which involves changing toll rates as 
+often as every few minutes in response to real time traffic conditions, would not be used. This is 
+because when an entire highway facility is priced, it is necessary to pre-schedule toll rates so that 
+travelers can make rational travel choices before they begin their trips. To accomplish the same effect 
+on flow as dynamic pricing, ramp metering would be used to fine tune traffic volume on the priced 
+facilities by controlling access to the highway when demand is too close to capacity. This will ensure 
+that traffic flow does not break down. Fees would be collected electronically at free-flow highway 
+speeds using in-vehicle electronic tags. Vehicles without valid electronic tags would be identified 
+and charged using license plate recognition technology. Buses and pre-registered vanpools would be 
+issued special transponders that would exempt them from the fees. 
+
+Highway performance could be guaranteed to users. When an incident shuts down a lane or 
+two, leading to congestion delays, all fees could be suspended since users would not get the level 
+of service promised. The potential loss of revenue would provide an additional incentive to the 
+highway operator to clear incidents quickly, and would reinforce the “fee for service” nature of the 
+new charges in the minds of motorists.
+
+This concept is termed “Flexible and Efficient Express” or FEE highways by the author, in 
+order to reflect the “fee for service” aspect of this concept. It would require little or no new rights-
+
+23
+
+Metropolitan Transportation System
+Figure 1:  Shoulder Travel Lane with Overhead Lane Controls in the Netherlands
+
+of-way, could be financed by leveraging the user fee revenue stream, and could be implemented in 
+a relatively short period of time due to limited or no expansion of the highway footprint.  Revenues 
+from user fees could be used to pay for operations and maintenance, and for capital costs for shoulder 
+improvements,  new  emergency  pull-off  areas,  tolling  infrastructure,  active  traffic  management 
+systems, enhanced transit and ridesharing services to provide viable alternatives to driving alone, 
+and traffic flow improvements on alternative free routes.
+
+In addition to alleviating recurring congestion, FEE highways could increase person throughput 
+as well as vehicle throughput. Vehicle throughput would increase because an extra lane (i.e., the 
+dynamic shoulder travel lane) would be available for use when needed. Also, demand management 
+with pricing and ramp metering would prevent traffic flow breakdowns and thus eliminate the loss 
+of vehicle throughput that currently occurs on unmanaged highways due to breakdown of traffic 
+flow at bottlenecks (DeCorla-Souza 2010). Person throughput would increase due to increased use 
+of transit and ridesharing.
+
+Limited access highways with standard lanes and shoulders could be re-striped as follows to 
+
+create FEE highways:  
+
+•	 Left shoulder with reduced width, if feasible;
+•	
+
+11-foot-wide  lanes,  i.e.,  the  lanes  would  be  reduced  from  the  standard  12-foot  width, 
+similar to narrowing of lanes in construction zones and on other urban facilities which 
+accommodate heavy vehicles, albeit at lower speeds;
+
+•	 A 13-foot-wide dynamic shoulder lane on the extreme right. (The wider lane is needed to 
+allow for adequate lateral clearance between vehicles in the lane and any structures on the 
+highway’s edge.)
+
+Providing Benefits for the Tolled Off and the Untolled
+
+Since costs for highway expansion would be significantly reduced by the FEE highway concept and 
+users of all lanes would be charged tolls, a significant surplus of revenues is anticipated. (An analysis 
+to confirm this is presented later in the paper). The FEE concept would use surplus revenues for the 
+benefit  of  the  tolled  off  and  the  untolled by  investing  in  complementary strategies as  discussed 
+below.
+
+24
+
+JTRF Volume 49 No. 3, Fall 2010
+Enhancement  of  travel  choices.  Bus  Rapid  Transit  (BRT),  express  bus  and  bus  priority 
+systems (e.g., signal preemption) would create a “backbone” of fast and frequent transit service, 
+supplemented with vanpooling, regular carpooling, and flexible carpooling. Flexible carpooling is 
+similar to “slugging” as practiced in Northern Virginia, Houston, and the San Francisco Bay area, 
+but with pre-certification of drivers and riders (Minett 2010a and 2010b).  With flexible carpooling, 
+potential carpoolers gather at designated locations and are picked up by a solo driver who seeks to 
+qualify for use of HOV lanes or to avail himself or herself of HOV toll discounts or exemptions on 
+priced facilities. This type of carpooling would supplement transit services and help reduce costs for 
+operating peak period transit services while offering commuters an additional travel choice.
+
+Flexible  telecommuting.  Incentives  would  be  provided  to  employers  to  allow  some  of  their 
+employees to telecommute each morning until peak period tolls are no longer in effect and then 
+drive in to work, or to leave work before peak tolls are in effect and then work from home.
+
+Off-peak transit use incentives. If transit vehicles are too crowded in peak hours, some pressure 
+could be relieved by off-peak or peak shoulder discounts or other incentives, such as the chance to 
+win a lottery (Merugu, Prabhakar, and Rama 2009).
+
+Technology. Pre-trip decisions on mode and time of travel could be made easier for the traveler 
+by  incorporating  technologies  for  timely  and  reliable  multimodal  traveler  information.  Those 
+who  continue  to  drive  could  benefit  from  investment  in  technologies  that  provide  traffic  flow 
+improvements, more effective traffic incident management, arterial and corridor management, and 
+safety and mobility management in work zones.
+
+Implementation
+
+With  so  many  different  components  and  innovations,  it  will  be  difficult  to  implement  the  FEE 
+highway concept all at once.  Moreover, it is important to ensure that all strategies that are designed 
+to provide better travel options are in place before actual congestion charging begins so that the 
+public has time to become fully aware of the new options, and to ensure that they are all working 
+effectively.  Implementation of FEE highways might be pursued by corridor.  The first step could be 
+creation of shoulder travel lanes and use by transit and vanpool vehicles with trained drivers.  This 
+could be followed by opening up the lanes for use by carpools with three or more persons (with 
+trained drivers) to provide a carpooling incentive.  With these multimodal alternatives in place, 
+the final step would be implementation of full pricing on all lanes along with multimodal traveler 
+information systems and active traffic management.
+
+Public-private partnerships (PPPs) could be used to increase the potential for innovation and 
+on-time delivery. One type of PPP arrangement attempts to address the conflict between the private 
+sector goal to maximize revenue and the public goal to maximize vehicle throughput. Under this 
+method, termed “Concurrent Real and Shadow Tolling” (DeCorla-Souza 2006), the concessionaire 
+would  have  freedom  to  set  the  toll  rates  needed  to  ensure  free-flowing  traffic  during  congested 
+periods, but all “excess” charges above a benchmark flat toll rate (called a shadow toll) specified in 
+the concession agreement would go the public authority.  To maximize its shadow toll revenue, the 
+private operator would need to maximize vehicle throughput, thus maximizing public goals.  
+ 
+IMPACTS
+
+Traffic Volumes, Speeds and Travel Times
+
+Table 2 presents results from a traffic impact analysis of the FEE highway concept for a 10-mile 
+highway segment with six existing lanes (i.e., three per direction) reconfigured to four lanes per 
+
+25
+
+Metropolitan Transportation System
+direction  (i.e.,  total  of  eight  lanes).  For  comparison,  a  “No  Pricing”  alternative  with  the  same 
+configuration was also analyzed, and the results are presented in Table 3.  
+
+The analysis was performed for a prototypical urban freeway that is severely congested, using 
+procedures from the Highway	Capacity	Manual	(Transportation Research Board 2000), i.e., the 
+HCM, and the following inputs and analytical procedures:
+
+•	 The existing urban freeway is assumed to have standard 12-foot-wide lanes and a standard 
+
+10-foot-wide right shoulder.
+
+•	 Existing traffic demand is assumed to be at the maximum level that can be accommodated 
+without breakdown of traffic flow (but at slow speeds), known as Level of Service E (LOS 
+E).  In reality, many segments of urban highways operate under breakdown flow conditions 
+involving queuing.  This is known as Level of Service F (LOS F).  The LOS E traffic 
+demand assumption provides a conservative estimate of benefits from pricing. For long-
+term analysis, a 5% (total) secular growth is assumed in order to account for population and 
+economic growth.  This throws the facility into breakdown flow conditions, i.e., LOS F.
+
+•	 To be conservative in estimating benefits, it is assumed that there will be no change in 
+travel mode. An increase in transit and carpool use would increase person throughput on 
+the FEE highway, and consequently the benefits. 
+
+•	 For the No Pricing alternative, induced and diverted traffic resulting from the increased 
+capacity is estimated using elasticity of travel demand relative to travel time, rather than 
+elasticity  relative  to  total  generalized  cost  of  travel,  because  the  other  components  of 
+generalized  cost  perceived  by  motorists  (i.e.,  vehicle  operating  cost  and  accident  risk) 
+will not change significantly as a result of capacity expansion. A short-term elasticity of 
+demand relative to travel time of -0.28 and a long-term elasticity of -0.57 is used based on 
+prior studies (DeCorla-Souza and Cohen 1997).  Induced traffic is estimated in the column 
+titled “GP Lanes (Initial)” in Table 3. A total of 984 vehicles per hour (vph) is induced, 
+amounting to a 14% increase above the base case traffic volume of 6,930 vph.
+It is assumed that a minimum speed of 55 mph is to be maintained on the FEE highway, 
+and traffic volume on the highway is estimated on that basis. As indicated earlier, dynamic 
+“real time” pricing is not needed because ramp metering would be used to hold at the 
+entrance ramps any excess demand that threatens to reduce speeds below that threshold.  
+Note that the FEE highway can accommodate more vehicles than in the base (six-lane) 
+configuration due to the additional travel lane in each direction (see Table 2).  However, the 
+pricing mechanism curbs the higher level of induced travel seen in Table 3 when all lanes 
+are unpriced. A small amount of induced traffic raises traffic volume to 7,069 vph, a 2% 
+increase above the base case traffic volume of 6,930 vph.
+
+•	 Free flow speeds for 12-foot lanes are estimated at 65 mph based on Exhibit 13-6 of the 
+
+•	
+
+HCM.
+
+•	 Free flow speeds for 11-foot lanes are based on Exhibit 23-4 of the HCM; these speeds are 
+further reduced due to reduced right shoulder lateral clearance, based on Exhibit 23-5 of 
+the HCM. The resulting free flow speed is estimated at 60.7 mph.
+
+•	 Actual operating speeds are estimated based on the Bureau of Public Roads (BPR) formula, 
+with parameters from Nakamura and Kockelman (2002). The BPR formula and parameters 
+used are explained in the footnotes of Table 2. Actual travel speeds are estimated at 46 mph 
+for No Pricing and 55 mph for FEE highways. 
+
+Highway lane capacity is estimated as follows:
+•	 For existing 12-foot-wide general purpose lanes, capacity is estimated at 2,350 vph, based 
+
+•	 Base lane capacity for 11-foot-wide general purpose lanes is estimated as follows, based 
+
+on Exhibit 13-6 in the HCM. 
+
+on Exhibit 23-3 of the HCM: 
+
+o	 Capacity of 11-foot-wide lane = 1,700 + (10 x Free flow speed) = 1,700 + (10 x 
+
+60.7) = 2,307 vph.
+
+26
+
+Table 2: Traffic Impacts on a 10-mile long 6-Lane Freeway Reconfigured into Four FEE 
+ 
+
+Lanes per Direction
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Existing 
+
+Configuration  
+6,930
+3
+2,310
+2,350
+0.65
+1,528
+1.51
+0.02
+10
+65.00
+0.92
+2.08
+
+Four FEE 
+Lanes
+ 
+Traffic volume (demand)
+7,069
+4
+Number of lanes per direction
+1,767
+Traffic volume per lane
+2,307
+Capacity per lane 
+0.65
+Ratio of service flow volume at LOS C* to capacity
+1,500
+Service flow volume per lane at LOS C 
+1.18
+Ratio of traffic volume to service flow volume at LOS C
+0.02
+BPR alpha (α) coefficient**
+10
+BPR beta (β) coefficient**
+60.70
+Free flow speed (mph)
+0.99
+Travel time per mile with free flow speed (min.)
+1.09
+Actual travel time per mile (min.)
+Time saved per mi. relative to Existing Configuration 
+0.99
+(minutes)
+55.01
+Speed (mph)
+*LOS C = Level of Service C.  Engineers grade quality of service on roadway facilities at six levels, A through 
+F,  with  LOS A  representing  the  best  operating  conditions  and  LOS  F  the  worst.  LOS  C  is  considered  an 
+operating service level “acceptable” to users.  LOS F represents conditions where traffic flow has broken down 
+on a freeway.
+** The Bureau of Public Roads (BPR) formula estimates travel time on a facility based on free-flow speed and 
+the ratio of traffic volume to service flow volume at LOS C.  Based on the BPR formula, actual travel time = 
+free-flow travel time x (1+ α (ratio of traffic volume to service flow volume at LOS C)β).
+
+28.87
+
+Other Impacts
+
+Tables  4  and  5  present  other  impacts  of  the  FEE  highway  and  the  No  Pricing  alternatives, 
+respectively.  Safety impacts have not been estimated.  Since this is a prototypical analysis, user 
+benefits (other than safety) are estimated using national average coefficients. For any specific urban 
+area, coefficients and results would be different.  The analytic procedures were as follows:
+
+•	 Time  savings. Time  saved  by  induced  and  diverted  travelers  on  free  lanes  for  the  No 
+Pricing alternative is estimated at half the time saved by prior travelers on the free lanes, 
+consistent with consumer surplus theory. Value of time saved is calculated based on the 
+nationwide average value of time per vehicle hour from the Urban	Mobility	Report	(Texas 
+Transportation Institute 2007).
+
+•	 Fuel cost savings. Fuel consumption savings due to reduced delays is estimated at 0.69 
+gallons per hour of delay saved based on the relationship between congestion delay and 
+fuel consumption in Exhibit 1 of the 2007 Urban	Mobility	Report	(Texas Transportation 
+Institute 2007). Fuel cost is estimated at $2.50 per gallon.
+
+•	 Annualization  of  benefits.  Congestion  levels  are  assumed  to  prevail  only  during  four 
+hours per direction on each weekday, on 250 working weekdays per year.  For example, 
+the inbound	direction of an urban radial freeway may be congested for three hours in the 
+morning, but for only one hour in the afternoon, for a total of four hours each day.
+
+•	 Toll Rates.  Recall that FEE highways seek to ensure that the benefits (primarily travel 
+time savings) to tolled vehicles are at least equal to the value of the toll paid, to ensure that 
+
+27
+
+Metropolitan Transportation System
+Table 3: Traffic Impacts on a 10-mile 6-Lane Freeway Reconfigured to Four Free Lanes per 
+ 
+
+Direction with No Pricing
+
+ 
+
+Four Free Lanes with No Pricing
+
+Existing 
+
+Configuration
+
+Free Lanes 
+
+(Initial)
+
+Free Lanes 
+incl. Induced 
+
+traffic
+
+Total
+
+6,930
+
+3
+
+2,310
+
+2,350
+
+0.65
+
+1,528
+
+1.51
+
+0.02
+
+10
+
+65.00
+
+0.92
+
+2.08
+
+6,930
+
+7,914
+
+7,914
+
+4
+
+4
+
+1,733
+
+2,307
+
+0.65
+
+1,500
+
+1.16
+
+0.02
+
+10
+
+4
+
+1,978
+
+2,307
+
+0.65
+
+1,500
+
+1.32
+
+0.02
+
+10
+
+60.70
+
+60.70
+
+0.99
+
+1.07
+
+1.01
+
+0.99
+
+1.30
+
+0.77
+
+28.87
+
+55.96
+
+46.00
+
+ 
+Traffic Impacts
+
+Traffic volume (demand)
+
+Number of lanes per direction
+
+Traffic volume per lane
+
+Capacity per lane 
+Ratio of service flow volume at LOS C 
+to capacity
+Service flow volume per lane at LOS C 
+Ratio of traffic volume to service flow 
+volume at LOS C
+BPR alpha coefficient
+
+BPR beta coefficient
+
+Free flow speed (mph)
+Travel time per mile with free flow 
+speed (minutes)
+Actual travel time per mile (minutes)
+Time saved per mi. relative to Existing 
+Configuration  (minutes)
+Speed (mph)
+
+Induced Travel Estimation
+Elasticity of demand relative to travel 
+time
+Initial VHT* at before expansion speeds
+
+Initial VHT after facility expansion
+
+Initial VHT savings
+
+Delay VHT per additional VMT**
+
+-0.28
+
+240.02
+
+123.84
+
+116.17
+
+0.05
+
+984
+
+Induced travel 
+*VHT = Vehicle hours of travel, i.e., travel time x traffic volume
+** VMT = Vehicle miles of travel, i.e., traffic volume x distance
+
+28
+
+JTRF Volume 49 No. 3, Fall 2010
+they are not made worse off with pricing.  This means that the toll rate will be governed 
+by the value of time of the tolled vehicle with the lowest value of time.  This is used to 
+estimate toll rates.   Toll rates are estimated based on travel time saved by tolled vehicles 
+(relative to the base case six-lane highway configuration), average value of time from the 
+Urban	Mobility	Report	(Texas Transportation Institute 2007), the distribution of the value 
+of time of all freeway motorists under No Pricing (HDR Inc. 2009), and the percentage 
+of vehicles that would be tolled off with pricing based on the difference between the total 
+traffic on the highway with No Pricing from Table 3 (i.e., 7,914 vph) and the number of 
+vehicles that can be accommodated on the FEE highway while meeting the 55 mph speed 
+target (i.e., 7,069 vph).   
+
+•	 Annual revenue.  For annual revenue estimation, it is assumed that toll-exempt vehicles 
+average  200  passenger  car  equivalents  per  hour  per  lane.  Congestion  levels  (and  the 
+estimated fees) are assumed to apply only during four hours per direction on each weekday, 
+on 250 working weekdays per year.  However, revenue estimates based on these four hours 
+are increased by 25% to account for revenues during shoulder hours. Tolling will be needed 
+during shoulder hours to manage traffic that shifts from the peak hours to avoid the higher 
+tolls during those hours. 
+
+•	 Greenhouse  gas  emissions.  To  estimate  greenhouse  gas  emissions,  it  is  assumed  that 
+10% of total fuel consumed during peak periods is diesel fuel, and 90% is gasoline. The 
+following relationships (HDR Inc. 2009) are used: 
+
+8.8 + 0.25* speed.
+
+and 10,084 grams per gallon of diesel.
+
+o	 Fuel efficiency (miles per gallon) is estimated based on speed, using the relationship: 
+o	 CO2 emissions per gallon are estimated based on 8,788 grams per gallon of gasoline 
+The  results  of  the  analyses  for  the  two  alternatives,  for  the  first  year  after  implementation,  are 
+presented in Tables 4 and 5 and summarized in Table 6. The results suggest that in the first year the 
+FEE highway alternative will provide much higher user benefits, i.e., almost $38 million annually, 
+vs.  $31.25  million  for  No  Pricing.  It  will  also  result  in  more  greenhouse  gas  reductions,  i.e.,  a 
+28% reduction in peak period emissions, vs. a 10% reduction for No Pricing. Long-term analysis 
+results, also presented in Table 6, show more striking differences.  They show that as traffic demand 
+increases and throws the facility into breakdown flow conditions, user benefits from FEE highways 
+would be about twice the user benefits from No Pricing, i.e., $66 million vs. $33 million annually.  
+In the long term, the No Pricing alternative will increase peak period greenhouse gas emissions by 
+7%, vs. a 39% reduction for FEE highways. 
+
+29
+
+Metropolitan Transportation System
+Table 4: Other Impacts on a 10-mile 6-Lane Freeway Reconfigured to Four FEE Lanes 
+ 
+
+per Direction
+
+ 
+User Benefits on 10-mile Facility
+Facility length (mile)
+Total travel time on facility per mile (min)
+Total delay reduced per mile (minutes)
+Average value of time ($/hour)
+Value of delay savings/mile/peak hour/direction
+Number of directions
+Peak hours per weekday for both directions
+Number of weekdays per year
+Value of delay savings per mile annually
+Value of annual delay savings for full facility
+Annual delay savings for 10-mile facility (hours)
+Annual delay savings per 10-mile trip on the facility (hours)
+Fuel cost per gallon
+Gallons of fuel saved annually
+Value of fuel saved
+Total delay and fuel cost saved annually
+Toll Revenue on 10-mile Facility
+Travel time saved in priced lanes (min/mi)
+Percent of traffic volume reduction relative to No Pricing
+Percentile in WTP distribution
+Average toll rate per mile
+Average toll for 10-mile trip
+No. of exempt vehicles/hour (passenger car equivalents)
+Factor to account for revenue during shoulder hours
+Annual toll revenue
+Greenhouse gas emissions on 10-mile Facility
+Fuel consumption rate (mpg)
+Annual fuel consumption (gallons)
+CO2 emissions per gallon
+CO2 emissions annually (metric tons)
+Percent change with 4 FEE lanes
+
+Existing 
+
+Configuration  
+
+Four FEE 
+
+Lanes
+
+10.00
+14,401
+
+2
+4
+250
+
+16
+8,652,619
+8,918
+77,161
+
+10.00
+7,711
+6,980
+$14.60
+$1,698.47
+2
+4
+250
+$3,396,934
+$33,969,345
+2,326,667
+41
+$2.50
+1,605,401
+$4,013,501
+$37,982,846
+
+0.99
+-12%
+12%
+$0.10
+$0.97
+200
+1.25
+$16,593,749
+
+23
+6,269,372
+8,918
+55,908
+-28%
+
+30
+
+Table 5: Other Impacts on a 10-mile 6-Lane Freeway Reconfigured into Four Free Lanes 
+ 
+
+ with No Pricing
+
+JTRF Volume 49 No. 3, Fall 2010
+
+ 
+User Benefits on 10-mile Facility
+Facility length (mile)
+Total travel time on facility per mile (min)
+Total delay reduced per mile (minutes)
+Average value of time ($/hour)
+Value of delay savings/mile/peak hour/direction
+Number of directions
+Peak hours per weekday for both directions
+Number of weekdays per year
+Value of delay savings per mile annually
+Value of annual delay savings for full facility
+Annual delay savings for 10-mile facility (hours)
+Annual delay savings per 10-mile trip on the facility hours)
+Fuel cost per gallon
+Gallons of fuel saved annually
+Value of fuel saved
+Total delay and fuel cost saved annually
+Greenhouse gas emissions on 10-mile Facility
+Fuel consumption rate (mpg)
+Annual fuel consumption (gallons)
+CO2 emissions per gallon
+CO2 emissions annually (metric tons)
+Percent change with four Free Lanes
+
+Existing 
+
+Configuration
+
+ 
+
+10.00
+14,401
+
+2
+4
+250
+
+16
+8,652,619
+8,918
+77,161
+
+Four Free 
+Lanes with 
+No Pricing
+
+10.00
+10,323
+5,742
+$14.60
+$1,397.18
+2
+4
+250
+$2,794,363
+$27,943,633
+1,913,947
+30
+$2.50
+1,320,624
+$3,301,559
+$31,245,192
+
+20
+7,797,092
+8,918
+69,531
+-10%
+
+31
+
+Metropolitan Transportation System
+Table 6: Summary of Short-Term and Long-Term Impacts of Alternative Reconfigurations 
+ 
+
+of a 10-Mile Six-Lane Freeway
+
+Short-Term
+User Benefits
+   Annual delay reduced per 10-mile trip (hrs.)
+   Annual value of user benefits ($millions)
+Revenues
+   Charge for 10-mile trip ($)
+   Annual revenues ($millions)
+Sustainability
+   Change in peak period CO2 emissions (%)
+Long-Term
+User Benefits
+   Annual delay reduced per 10-mile trip (hrs.)
+   Annual value of user benefits ($millions)
+Revenues
+   Charge for 10-mile trip ($)
+   Annual revenues ($millions)
+Sustainability
+   Change in peak period CO2 emissions (%)
+
+Four FEE 
+Lanes
+
+No Pricing
+
+41
+$37.98
+
+$0.97
+$16.59
+
+-28%
+
+71
+$65.93
+
+$1.97
+$33.78
+
+-39%
+
+30
+$31.25
+
+$0.00
+$0.00
+
+-10%
+
+29
+$33.65
+
+$0.00
+$0.00
+
+7%
+
+REGIONWIDE APPLICATION OF THE FEE HIGHWAY CONCEPT
+
+A typical large metropolitan area such as Seattle, WA, or Washington, DC, has a freeway network 
+of about 300 miles or 1,800 lane miles. Table 7 shows results from an extrapolation of the impacts 
+estimated for a 10-mile highway to a 300-mile highway network.  Preliminary cost estimates for 
+conversion of standard highways to FEE highways, including tolling and active traffic management, 
+have  been  prepared  for  a  study  in  progress  by  Booz Allen  Hamilton  for  the  Federal  Highway 
+Administration.  Based on this study, annualized capital and operating costs (in real dollars) are 
+estimated at about $500 million for the No Pricing alternative and $610 million for the FEE highway 
+alternative.  
+
+Estimated user benefits, shown in Table 7, for both alternatives exceed these costs by 87% in the 
+first year (short term), but benefits increase by significant amounts in the long term with growth in 
+demand.  User benefits in the long term are almost $2 billion annually for FEE highways, resulting 
+in a benefit-cost ratio of 3.24. For No Pricing, the comparable user benefits are over $1 billion, 
+resulting in a benefit-cost ratio exceeding 2.02.  
+
+Table  7  suggests  that,  for  a  300-mile  congested  network,  the  FEE  highway  concept  could 
+generate almost $0.5 billion in toll revenue in the first year after implementation. In the longer 
+term, annual revenues could be as much as $1 billion annually. All revenue estimates are in real 
+dollars, and the long-term revenue estimates are conservative because the value of time parameter 
+was not adjusted to account for the increases in real wage rates that can be expected over time. The 
+No Pricing alternative generates no toll revenue. Revenues for the 300-mile FEE highway network 
+concept fall short of costs in the first year by about $110 million (i.e., $610 million in costs vs. about 
+$0.5 billion in toll revenue), but estimated long-term revenues are more than adequate to cover the 
+annualized costs, generating over $400 million in toll revenue surpluses annually (i.e., $610 million 
+
+32
+
+JTRF Volume 49 No. 3, Fall 2010
+in costs vs. about $1.01 billion in revenue).  The stream of surpluses could be leveraged to fund 
+multimodal transportation investments and other strategies to benefit the tolled off and the untolled.  
+
+Table 7: Summary of Short-Term and Long-Term Impacts of Alternative Reconfigurations 
+ 
+
+of a Regional Network of Freeways
+
+ Short-Term
+Number of miles of freeway (avg. 6 lanes)
+Annual value of user benefits ($millions)
+Annual revenues ($millions)
+Annual costs ($millions)
+Benefit/cost ratio
+Annual surplus (+) or deficit (-)
+
+ Long-Term
+Number of miles of freeway (avg. 6 lanes)
+Annual value of user benefits ($millions)
+Annual revenues ($millions)
+Annual costs ($millions)
+Benefit/cost ratio
+Annual surplus (+) or deficit (-)
+
+ADDRESSING THE ISSUES
+
+Safety 
+
+Four FEE 
+Lanes
+300
+$1,139
+$498
+$610 
+1.87 
+($112.19)
+
+300
+$1,978
+$1,013
+$610 
+3.24 
+$403.39 
+
+No Pricing
+300
+$937
+$0
+$500 
+1.87 
+($500.00)
+
+300
+$1,010
+$0
+$500 
+2.02 
+($500.00)
+
+A summary of research on the safety impacts of narrower lanes is provided by Ng and Small (2009).  
+The authors find that both theoretical and empirical evidence linking narrow lane design to safety 
+are ambiguous. According to the authors, it is an open question whether narrow lanes would in fact 
+reduce safety. They suggest that it would depend on factors that vary from case to case, especially the 
+speeds chosen by drivers. They cite several innovations in Europe that offer hope that roads designed 
+for lower speeds could be accompanied by measures to ensure that lower speeds in fact prevail. 
+For example, they point out that variable speed limits have been used for many years in Germany 
+and the Netherlands, and recently in Copenhagen, primarily to smooth traffic during the onset of 
+congestion—but also with a strong reduction in injury accidents in one German implementation.
+
+A  study  by  the  Midwest  Research  Institute  (Bauer  et  al.  2004)  suggests  that  the  observed 
+increases in accident frequency when freeways in the United States have been re-striped to narrower 
+lanes cannot necessarily be attributed to the use of narrower lanes or the conversion of a shoulder to 
+a travel lane.  The authors suggest that the use of the added narrow lanes as HOV lanes introduces 
+a difference in speed between adjacent lanes, which may be another explanation for the increase in 
+accidents. The FEE highway concept eliminates these speed differentials, since vehicles in all lanes 
+travel at essentially the same free-flow speed when all lanes are priced. 
+
+Nonetheless, the use of shoulders as travel lanes does present safety challenges, which need 
+to be addressed. For example, protocols will need to be developed for emergency response when 
+the shoulder is being used as a travel lane. The first project in the United States to use a shoulder 
+as travel lane “dynamically” during peak periods was implemented on I-35W in Minneapolis in 
+October 2009, and the United States will learn from that experiment. 
+
+33
+
+Metropolitan Transportation System
+Impacts on Alternative Free Routes
+
+The FEE highway’s capacity will be higher than the existing highway’s capacity, due to the extra 
+FEE lane. If the FEE highway were available for use free	of	charge during peak periods, it could 
+be expected that some drivers who currently drive on parallel facilities to avoid congestion on the 
+highway would shift to the FEE highway, reducing traffic on the parallel facilities. Peak period 
+fees charged on the FEE highway will need to be high enough to keep excessive traffic away and 
+maintain free flow of traffic on the expanded capacity. However, fees must also be low enough to 
+ensure that the FEE highway is fully utilized.  This will ensure that net diversion to alternative free 
+routes does not occur. 
+
+Some drivers who do not value their time very highly (and have low willingness to pay) are 
+likely to shift to free parallel surface facilities. However, this shift in traffic to free facilities is likely 
+to be counterbalanced by shifts in traffic from free facilities to the FEE highway by those who value 
+the time savings more highly than the fees charged on the FEE highway. 
+
+A  redistribution  of  traffic  will  occur  based  on  driver  values  of  time,  but  not  necessarily  a 
+significant increase in traffic either on the FEE highway or on parallel free facilities. Only drivers 
+who have very low values of time will be tolled off.  This does pose an equity issue with regard to 
+low-income drivers, and is discussed later in this paper (see Public Acceptance Issues).
+
+Overall Congestion Reduction Impacts
+
+In a typical large city, VMT on limited access highways tends to exceed VMT on arterials. For 
+example, Seattle’s 2007 daily VMT on limited access highways was 30.6 million, vs. only 27.1 
+million for arterials (Texas Transportation Institute 2009). However, a major portion of the delay 
+faced  by  travelers  tends  to  be  on  limited  access  highways,  so  FEE  highways  could  alleviate  a 
+majority of the recurring congestion delay in metropolitan areas.  
+
+The advantage of limiting pricing to limited access highways is that it can be implemented 
+in the short term using existing proven transponder-based technologies which are already widely 
+deployed in the United States. Recent research under the National Cooperative Highway Research 
+Program (Sorenson et al. 2009) explored other technology that could potentially be used to collect 
+ubiquitous user charges. When they are further developed and deployed in the future, they could 
+potentially be used to complement the FEE highway concept by deploying pricing on roads off the 
+FEE highway system.
+
+Public Concerns About Fairness
+
+Imposing new charges on existing toll-free roads raises fairness concerns. Many people believe 
+they have already paid for existing roads with their taxes, and new charges would amount to double 
+taxation. However, experience shows that if the public understands the high costs for reconstruction, 
+rehabilitation, and expansion of highway facilities, they may accept congestion pricing as one way 
+to help pay for these costs while receiving improved mobility from congestion relief.  The SR 520 
+floating bridge in the Seattle metropolitan area will become the first existing toll-free facility in the 
+United States to charge new tolls that will vary by time of day to achieve performance targets.  The 
+public in Seattle understands the high costs to replace the SR 520 bridge, and that tax dollars will be 
+insufficient to pay for these costs.
+
+Public opinion surveys suggest that the public is more accepting of new charges if they are 
+convinced that revenues from new charges will go directly towards providing improved transportation 
+service on the facilities on which the charges are imposed.  The public accepts toll roads because 
+they can see that the revenues go to support the specific facility on which they pay tolls (Zmud and 
+Arce 2008). 
+
+34
+
+JTRF Volume 49 No. 3, Fall 2010
+The public will need to understand that tolls would only be charged during peak hours with FEE 
+highways – unlike regular toll roads.  If road users understand that FEE highways are not regular 
+toll roads, they could be convinced that the new charges will be a just and fair “fee for service” that 
+goes to provide improved peak period service made possible by the extra physical capacity being 
+provided.  In South Africa’s Johannesburg/Pretoria metropolitan area, 115 route miles of existing 
+freeway are being widened and an additional 236 route miles are being upgraded, all of which will 
+be funded through new electronically charged tolls on the existing free system (Poole 2009).  This 
+demonstrates that concerns about “double taxation” can be alleviated when the new charges are 
+directly related to the extra benefits being provided. 
+
+Concerns About Equity for Low-Income Drivers
+
+Due to the increase in capacity with FEE highways, few motorists (if any) would need to be “tolled 
+off” – so tolls would be relatively low and quite affordable.  Like vehicle property taxes in some 
+states, tolling could be made more progressive by charging toll rates that vary based on value of 
+the vehicle being tolled.  Yet valid concerns may be expressed that the new fees may make it too 
+expensive for low-skilled workers to get to their jobs, because low-skilled jobs are often not well 
+served by public transit.  Also, low-income workers tend to have jobs with fixed schedules, and 
+pricing may be particularly unfair to those with less flexible work schedules since they are unable 
+to shift their time of travel.    
+
+A well-designed FEE highway pricing strategy can be less burdensome to low-income citizens 
+with appropriate use of toll revenue.  With a portion of the toll revenue dedicated to transit, low-
+income transit riders can benefit significantly from toll-financed transit improvements. Policymakers 
+can also include protections for low-income individuals, such as “life-line” credits or toll discounts, 
+or reimbursements for tolls paid. For example, a proposal for congestion pricing in New York City 
+by its mayor in 2008 would have provided reimbursements to low-income individuals qualifying 
+for the federal earned income credit. They would be reimbursed for any charges in excess of the fare 
+for a transit trip.  
+
+Concerns About Administrative Costs 
+
+Concerns are often expressed about the high administrative costs for implementing and operating 
+a  congestion  pricing  scheme  relative  to  other  ways  of  generating  revenue  from  highway  users.  
+Operating costs amount to about 20% of revenue for a normal toll facility, based on a study in 
+progress  for  the  National  Cooperative  Highway  Research  Program  (NCHRP  project  19-08).  By 
+comparison, collection of fuel taxes costs only about 1% of revenue.
+
+Yet congestion pricing may be justified despite the high costs, because costs for implementation 
+and operation are significantly exceeded by the benefits. The purpose of congestion pricing is not 
+simply to collect revenue, but also to achieve other economic, social, and environmental goals. 
+If the same amount of revenue as generated from congestion pricing were instead to be raised by 
+fuel taxes, costs for revenue collection would indeed be lower, but the loss of benefits would be 
+far greater than the cost savings. For decision making, the costs for implementation and operation 
+of FEE highways must be compared with benefits, not with revenues collected. As Table 7 shows, 
+the  value  of  incremental  user  benefits  alone  (i.e.,  time  and  fuel  cost  savings)  would  far  exceed 
+incremental costs for implementation and operation of FEE highways relative to the No Pricing 
+alternative. Long-term incremental user benefits for a 300-mile FEE highway network relative to  
+a No Pricing network with the same configuration are almost $1 billion annually (i.e., $1.9 billion 
+minus $1.0 billion), vs. incremental costs of only $110 million annually (i.e., $610 million minus 
+$500 million).
+
+Synergistic combinations of FEE highways and supporting strategies should be subjected to 
+a comparative benefit-cost or cost-effectiveness evaluation and compared with other traditionally 
+
+35
+
+Metropolitan Transportation System
+funded  alternatives. The  long-range  transportation  planning  process  undertaken  by  metropolitan 
+planning  organizations  (MPOs)  could  be  used  to  inform  the  public  about  costs  and  benefits  of 
+alternative approaches. This would begin a discussion about the tradeoffs between conventional 
+transportation investment approaches and approaches involving congestion pricing.  The MPO in 
+Seattle is showing the way in the United States. Five synergistic pricing alternatives were recently 
+analyzed and presented for consideration by the public for the Year 2040 Regional Transportation 
+Plan for the Seattle area (Puget Sound Regional Council 2009).  This led to adoption by policymakers 
+of a fully-priced highway network as part of the Year 2040 Regional Transportation Plan in May 
+2010.
+
+Concerns About Privacy
+
+Proposals  to  price  the  entire  network  of  highways  and  surface  streets  using  global  positioning 
+systems (GPS) have raised significant privacy concerns.  Even if the detailed information on travel 
+never  leaves  the  vehicle  (as  proposed  with  some  concepts),  there  is  a  concern  that  information 
+stored  electronically  on  in-vehicle  units  is  insecure  and  may  become  available  to  unauthorized 
+persons.  However, privacy does not appear to be a major concern with pricing of only the limited 
+access highway network using transponder-based toll collection technology as envisioned for FEE 
+highways.    In  a  focus  group  study  on  such  a  strategy  (Petrella,  Biernbaum,  and  Lappin  2008), 
+privacy was not an issue that resonated strongly or generated much discussion with most participants, 
+perhaps because vehicle identification technology would be restricted to limited access highways 
+only, and information on trip origins and destinations off the tolled system would not be collected.    
+All operating HOT lane projects in the United States and more than 250 other toll facilities 
+across the country use electronic toll collection (ETC). Yet, some people continue to be concerned 
+about the privacy impacts of ETC. In response, tolling agencies have devised a method to protect 
+the public’s privacy by linking the transponder and the driver’s personal information with a generic, 
+internal account number that does not reveal the driver’s identity and that is not disclosed to other 
+organizations. In many cases, a motorist can open an anonymous pre-paid account if he or she so 
+chooses, although there have been very few who have signed up. Singapore has alleviated privacy 
+concerns by collecting tolls using smart cards with stored value that are inserted into an in-vehicle 
+unit.  These “electronic purses” are replenishable at Automated Teller Machines (ATMs), and may 
+also be used for other purchases unrelated to tolling. However, the in-vehicle units needed for such 
+systems are far more expensive than the typical transponders used in the United States.
+
+SUMMARY AND CONCLUSIONS
+
+A sketch-level analysis of the FEE highway concept presented in this paper suggests that it could 
+prove  to  be  a  financially  feasible  way  to  create  a  high-performance  metropolitan  transportation 
+system.  However, more detailed assessments of the opportunities and options in specific metropolitan 
+areas will be needed, and safety challenges will need to be addressed. The intent of this paper is to 
+stimulate further exploration and discussion of the concept and to generate other ideas.
+
+References
+
+Bauer, Karin M., Douglas W. Harwood, Warren E. Hughes, and Karen R. Richard.  “Safety Effects 
+of Narrow Lanes and Shoulder-Use Lanes to Increase Capacity of Urban Freeways.” 	Transportation	
+Research	Record	1897.  Transportation Research Board, National Research Council, (2004): 71-80.
+
+DeCorla-Souza, Patrick and Harry Cohen.  “Accounting for Induced Travel in Evaluation of Urban 
+Highway  Expansion.”    Transportation  24(2),  (1997):  107-123.  Http://www.fhwa.dot.gov/steam/
+doc.htm.
+
+36
+
+JTRF Volume 49 No. 3, Fall 2010
+DeCorla-Souza, Patrick.  “Implementing Congestion Pricing on Metropolitan Highway Networks 
+with Self-Financing Public-Private Partnerships.” Journal	of	the	Transportation	Research	Forum	
+45(1), (2006): 5-22.  
+
+DeCorla-Souza, Patrick. “A Freeway Congestion Pricing Paradox.” Presented at the Transportation 
+Research Board Annual Meeting, Washington, D.C., 2010.
+
+Dupuit, J. “On the Measurement of the Utility of Public Works.”  Annales	des	Ponts	et	Chaussses, 
+2nd series, 8, 1844, reprinted in Transport, edited by D. Munby, (1968): 19-57.
+
+Federal  Highway Administration.  2006	 Status	 of	 the	 Nation’s	 Highways,	 Bridges,	 and	 Transit:	
+Conditions	 and	 Performance.	 Appendix	 A:	 Highway	 Investment	 Analysis	 Methodology.  HERS 
+Highway Improvement Cost Inputs, 2007. Http://www.fhwa.dot.gov /policy/2006cpr/appa.htm.
+
+Federal Highway Administration. Current	Toll	Road	Activity	in	the	U.S.:	A	Survey	and	Analysis, 
+2009. Http://www.fhwa.dot.gov/ipd/pdfs/2008_toll_activity_white_ paper.pdf.
+
+Goodwin,  P.  “The  Rule  of  Three:  A  Possible  Solution  to  the  Political  Problem  of  Competing 
+Objectives for Road Pricing.” Transport	Engineering	and	Control 30, (1989): 495-497.
+
+Hau,  Timothy.  “Economic  Fundamentals  of  Road  Pricing:  A  Diagrammatic Analysis,  Part  1  – 
+Fundamentals.” Transportmetrica 1(2), (2005): 81-117.  
+
+HDR,  Inc.  TRUCE-ST	 User’s	 Guide.  Prepared  for  the  Federal  Highway Administration,  2009. 
+Http://ops.fhwa.dot.gov/tolling_pricing/value_pricing/tools/index.htm.
+
+Knight, F. H. “Some Fallacies in the Interpretation of Social Cost.”  Quarterly	Journal	of	Economics 
+38, (1924): 582-606.
+
+Lee, Douglass B., Jr.  “Toward the Evaluation of Value Pricing.” Transportation	Research	Record	
+No.	2079, Transportation Research Board, (2008): 71-88. 
+
+Merugu, Deepak, Balaji S. Prabhakar, and N.S. Rama. “An Incentive Mechanism for Decongesting 
+the  Roads:  A  Pilot  Program  in  Bangalore.”  Http://netecon.seas.harvard.edu/NetEcon09/Papers/
+Merugu_09.pdf.
+
+Minett, Paul. “Enabling a Flexible Ridesharing Response to Congestion Pricing.” Presentation at the 
+Innovations in Pricing of Transportation Systems Conference & Workshop, Orlando, Florida, May 
+2010a. Http://www.flexiblecarpooling.org /fcdecongestionpricing.pdf.
+
+Minett,  Paul.  “Not  Only  Seeing,  But Also  Knowing  Who  is  in  the  HOV.”  Presentation  at  the 
+Innovations in Pricing of Transportation Systems Conference & Workshop, Orlando, Florida, May 
+2010b.  Http://www.flexiblecarpooling.org /fcdecongestionpricingtechnology.pdf.
+
+Ministry of Transport. Road	Pricing:	the	Economic	and	Technical	Possibilities	(the	Smeed	Report), 
+1964.
+
+Nakamura, K. and K. Kockelman. “Congestion Pricing and Roadspace Rationing: An Application to 
+the San Francisco Bay Bridge Corridor.” Transportation	Research 36A (5), (2002): 403-417.  
+
+Ng,  Chen  Feng  and  Kenneth  Small.  “Tradeoffs  Among  Free-flow  Speed,  Capacity,  Cost,  and 
+Environmental Footprint in Highway Design, 2009.” Http://www.economics.uci.edu/docs/2008-09/
+small-04.pdf.
+
+37
+
+Metropolitan Transportation System
+Petrella,  Margaret,  Lee  Biernbaum,  and  Jane  Lappin.    “Exploring  a  New  Congestion  Pricing 
+Concept:  Focus  Group  Findings  from  Northern  Virginia  and  Philadelphia.”  Volpe  National 
+Transportation Systems Center, Cambridge, Massachusetts, 2008. Http://ops.fhwa.dot.gov/tolling_
+pricing/resources/report/cpcfocusgrp/congestion_focus_grp.pdf.
+
+Pigou, A.  The	Economics	of	Welfare.  Macmillan, London, 1920. 
+
+Poole,  Robert.  “Surface  Transportation  Innovations.”  Reason	 Foundation.  Issue  No.  74,  Los 
+Angeles, California, 2009.
+
+Puget  Sound  Regional  Council.  “Transportation  2040:  Draft  Environmental  Impact  Statement, 
+2009.” Http://psrc.org/projects/trans2040/deis/index.htm.
+
+Small, K. “Using the Revenues from Congestion Pricing.” Transportation	19, (1992): 359-381. 
+
+Sorensen, Paul, Liisa Ecola, Martin Wachs, Max Donath, Lee Munnich, and Betty Serian. National 
+Cooperative  Highway  Research  Program  (NCHRP)  Web-Only  Document  143:  “Implementable 
+Strategies for Shifting to Direct Usage-Based Charges for Transportation Funding.” Transportation 
+Research Board, Washington, D.C., 2009.
+
+Texas Transportation Institute. 2007	Urban	Mobility	Report:	Appendix	A. Texas A & M University, 
+College Station, Texas, 2007.
+
+Texas  Transportation  Institute.  2009	 Urban	 Mobility	 Report.  Texas A  &  M  University,  College 
+Station, Texas, 2009. Http://mobility.tamu.edu/ums/congestion_data/tables /seattle.pdf.
+
+Transportation Research Board. Highway	Capacity	Manual. National Research Council, Washington, 
+D.C., 2000.
+
+Vickrey, W. S. “Congestion Charges and Welfare: Some Answers to Sharp’s Doubts.”  Journal	of	
+Transport	Economics	and	Policy	95, (1968):107-118.
+
+Walters, A. A. “The Theory and Measurement of Private and Social Cost of Highway Congestion.” 
+Econometrica	29, (1961): 676-699.
+
+Zmud, Johanna and Carlos Arce. “Compilation of Public Opinion Data on Tolls and Road Pricing.” 
+NCHRP Synthesis 377.  Transportation Research Board, 2008. Http://onlinepubs.trb.org/onlinepubs/
+nchrp/nchrp_syn_377.pdf.
+
+Patrick DeCorla-Souza	is	the	Tolling	and	Pricing	Program	manager	at	the	U.S.	Department	of	
+Transportation’s	Federal	Highway	Administration.		In	this	role,	Patrick	coordinates	and	oversees	
+road	pricing	research	and	initiatives	across	the	United	States,	and	works	with	public	and	private	
+sector	partners	nationwide	to	implement	innovative	road	pricing	strategies.	Patrick	has	master‘s	
+degrees	in	transportation	planning	and	civil	engineering,	and	co-chairs	the	Transportation	Research	
+Board’s	Congestion	Pricing	Committee.		
+
+38
+
+

@@ -1,0 +1,909 @@
+Evaluation of Design Standards of Four-Hour-
+Volume Traffic Signal Warrant
+by Xuesong Zhu, Albert Gan, and David Shen
+
+Traffic	signal	warrants	set	the	minimum	conditions	under	which	a	traffic	signal	installation	may	
+be	appropriate.	The	four-hour	volume	signal	warrant	in	the	current	Manual	on	Uniform	Traffic	
+Control	Devices	(MUTCD)	(FHWA	2009)	is	applied	based	on	a	set	of	critical	vehicular	volumes	
+for	different	lane	combinations	of	major	and	minor	streets.		This	paper	describes	an	effort	to	apply	
+microscopic	simulation	to	evaluate	the	critical	volumes	used	in	the	four-hour	warrant.		The	results	
+show	significant	differences	in	average	control	delay	for	minor	street	traffic	under	different	volume	
+combinations,	lane	configurations,	turning	volume	percentages,	heavy	vehicle	percentages,	and	the	
+number	of	major	street	lanes	(four	versus	six	lanes),	most	of	which	are	not	currently	considered	
+in	the	four-hour	warrant.		This	finding	provides	some	evidence	of	the	need	to	possibly	revise	the	
+critical	design	values	of	the	current	four-hour	volume	warrant.
+
+INTRODUCTION
+
+Traffic signal warrants provide the threshold conditions under which a traffic signal installation may 
+be appropriate. The current version of the Manual	on	Uniform	Traffic	Control	Devices (MUTCD) 
+(FHWA 2009), which serves as the national standard for the application of traffic control devices, 
+includes  the  following  eight  warrants:  (1)  eight-hour  vehicular  volume,  (2)  four-hour  vehicular 
+volume, (3) peak-hour volume, (4) pedestrian volume, (5) school crossing, (6) coordinated signal 
+system, (7) crash experience, and (8) roadway network. Collectively, these warrants are designed to 
+consider different conditions under which signal control is found to be a justifiable measure for the 
+safer and more efficient operation of an intersection. 
+
+Figure 1 shows the curves representing the critical vehicular volumes for four different lane 
+combinations  of  major  and  minor  streets  for  low-speed  (i.e.,  less  than  40  mph  for  major  street 
+approach) roadways.  The figure shows one curve fewer than the number of lane configurations, as 
+two of the four configurations share the same curve.  A similar set of standards with lower critical 
+vehicular  volumes  is  used  for  higher-speed  (above  40  mph)  roadways  or  for  communities  with 
+a population below 10,000.  The four-hour warrant is met when, in each of any four hours of an 
+average day, the plotted point representing vehicles per hour on the major street (including the total 
+of both approaches) and the corresponding vehicles per hour on the higher volume minor street 
+approach fall above the critical curve for the corresponding lane configuration at the location under 
+study.
+
+LITERATURE REVIEW
+
+Minimum vehicular volumes were generally used in warranting installation of a traffic signal. The 
+origin of the four-hour warrant is found to be based on a large number of curves developed as a part 
+of the Cooperative Research Panels Highway (NCHRP) project. These curves obtained consensus 
+agreement among practicing traffic engineers before being included into MUTCD. Texas developed 
+a graphic form of the four-hour warrant. This warrant, adopted by MUTCD in 1985 and continuously 
+modified ever since, evolves into the current four-hour warrant. 
+
+Despite the widespread use, there are some concerns regarding this vehicular volume warrant. 
+Sampson (1999) believed that warrants based on fixed vehicular volumes were inflexible and not  
+often  accepted  by  political  decision  makers. TTI  (2001)  recommended  a  reduction  factor  to  be 
+
+7
+
+Traffic Signal Warrant
+Figure 1: Four-Hour Warrant for Normal Conditions 
+
+applied when vehicular volume based warrants are used to warrant the installation of a traffic signal 
+at an intersection with pedestrian trip generators (e.g., activities center, pedestrian transportation 
+facilities).
+
+Researchers have been using simulation of intersection volume to assess the warranting of a 
+traffic signal. Kell (1963) used a computer simulation to compare total delay between a pre-timed 
+signalized  intersection  and  a  two-way  stop  controlled  intersection.  Park  et  al.  (2000)  employed 
+Monte Carlo simulation to generate the probability that a particular traffic signal warrant can be met 
+at an intersection. Recent advances in traffic simulation software offer the opportunity to effectively 
+evaluate the appropriateness of critical volume standards set forth in the four-hour volume warrant 
+more than two decades ago.
+
+An important objective that the standards should strive to achieve is the reasonableness of the 
+traffic conditions experienced by minor street traffic under different combinations of volumes and 
+lane configurations. Critical volumes that result in inconsistent or unreasonable driver experiences 
+for minor street traffic could possibly lead to either unwarranted or overlooked intersections, causing 
+intersections with a lesser need for signalization to be selected for signal installation over intersections 
+that have a greater need for these measures. This paper presents a study to evaluate the performance 
+of the critical curves currently used in the four-hour warrant for low-speed conditions, often referred 
+to as “normal conditions.” Specifically, the study includes the following five evaluations:
+1.  The performance consistency along each critical curve and among the curves. 
+2.  The appropriateness of sharing a critical curve for: (1) two or more lanes major and one-
+
+lane minor; and (2) one-lane major and two or more lanes minor.  
+
+3.  The appropriateness of sharing the same critical curve for two and three lanes.
+4.  The impact of different turning volume percentages on minor street vehicles.
+5.  The impact of different heavy vehicle percentages on minor street vehicles.
+The findings of the paper should provide academic researchers preliminary evidence of the need 
+to revisit the current standards in the four-hour warrant. Practicing traffic engineers may use the 
+findings to further investigate the appropriateness of applying four-hour warrant in their justification 
+of signal installation.    
+
+8
+
+METHODOLOGY OVERVIEW
+
+JTRF Volume 49 No. 3, Fall 2010
+
+The general methodology consists of the following four steps:
+
+1.  Select the appropriate measure of effectiveness (MOE) that can best measure the quality of 
+
+operation for minor street traffic.
+Identify  the  simulation  model  input  data,  which  are  vehicular  volumes  combinations 
+obtained from the critical curves in the four-hour warrant. 
+
+2. 
+
+3.  Develop  the  simulation  models  for  different  volume  combinations,  turning  traffic 
+
+percentages, and heavy vehicle percentages under different lane configurations.
+
+4.  Analyze the simulation results and evaluate the critical volume curves based on the selected 
+
+MOE.
+
+MEASURE OF EFFECTIVENESS
+
+Potential MOEs for measuring the operation of an unsignalized intersection can include delay, stop, 
+fuel consumption, and average speed.  It is reasonable to assume that favorable MOE values will 
+lead to a better safety experience at intersections. In this study, control delay in seconds per vehicle 
+(s/veh) for the minor street approach is selected as the MOE. Control delay is the component of delay 
+that results from the type of control at the intersection. It is the difference between the travel time 
+that would have occurred in the absence of the intersection control and the travel time that results 
+because of the presence of the intersection control. Control delay includes initial deceleration delay, 
+queue move-up time, stopped delay, and final acceleration delay. Control delay is the measure used 
+in the Highway Capacity Manual (TRB 2000) to determine the level of service, and is commonly 
+used as the measure to gauge driver satisfaction at both signalized and unsignalized intersections 
+(Al-Omari and Benekohal 1999, Chandra et al. 2009).
+
+MODEL INPUT DATA
+
+Table 1 provides the critical volume combinations obtained from the three curves in Figure 1. These 
+data are stratified by the proceeding five lane configurations (per direction as shown in Figure 2):
+
+1.  Major street has one lane and minor street has one lane.
+2.  Major street has one lane and minor street has two lanes.
+3.  Major street has two lanes and minor street has one lane.
+4.  Major street has two lanes and minor street has two lanes.
+5.  Major street has three lanes and minor street has one lane.
+
+9
+
+Traffic Signal Warrant
+Figure 2: Five Lane Configurations Represented in Four-hour Warrant Curves
+
+Minor 
+Street
+
+Minor 
+Street
+
+(1) 1-1
+Minor 
+Street
+
+(3) 2-1
+Minor 
+Street
+
+Major 
+Street
+
+Major 
+Street
+
+(2) 1-2
+Minor 
+Street
+
+Major 
+Street
+
+Major 
+Street
+
+(4) 2-2
+
+Major 
+Street
+
+(5) 3-1
+
+10
+
+Table 1: Critical Traffic Volumes (vph) for “Normal Conditions” (from Critical Curves)
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Traffic Volumes on Major and Minor Streets (vph)
+
+1 Lane Major
+and 1 Lane
+Minor (1-1)
+
+ 
+
+1 Lane Major 
+and 2 Lanes 
+Minor (1-2)b
+
+ 
+
+2 Lanes Major
+
+and 1 Lane
+Minor (2-1)b
+
+ 
+
+2 Lanes Major
+and 2 Lanes
+Minor (2-2)
+
+ 
+
+3 Lanes Major
+
+and 1 Lane
+Minor (3-1)b
+
+Point from 
+Critical 
+Curvesa
+
+Major Minor
+260
+  500
+  600
+220
+180
+  700
+150
+  800
+125
+  900
+1000
+  95
+  80
+1100
+  80
+1200
+1300
+  80
+  80
+1400
+
+Major Minor
+340
+  500
+  600
+290
+250
+  700
+210
+  800
+180
+  900
+1000
+150
+130
+1100
+115
+1200
+1300
+115
+115
+1400
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Notes:
+a Points selected from Critical Curves shown in Figure 1.
+b The volume combinations for these lane configurations were obtained from the same curve, thus the volumes are the same   
+  except for (2-1), in which 115 vph on Minor Street is used for points 8, 9 and 10.
+
+Major Minor
+450
+  500
+  600
+390
+330
+  700
+280
+  800
+240
+  900
+1000
+195
+170
+1100
+150
+1200
+1300
+115
+115
+1400
+
+Major Minor
+340
+  500
+  600
+290
+250
+  700
+210
+  800
+180
+  900
+1000
+150
+130
+1100
+100
+1200
+1300
+  90
+  80
+1400
+
+ 
+
+ 
+
+ 
+
+ 
+
+Major
+  500
+  600
+  700
+  800
+  900
+1000
+1100
+1200
+1300
+1400
+
+Minor
+340
+290
+250
+210
+180
+150
+130
+100
+  90
+  80
+
+For ease of reference, these five lane configurations are labeled as 1-1, 1-2, 2-1, 2-2, and 3-1, 
+respectively. For example, 1-1 represents the combination of one-lane major street and one-lane 
+minor street. It is noted here that the current standard has the three-lane configurations, 1-2, 2-1, and 
+3-1, sharing the same curve.
+
+Each point on the curve represents a combination of major street and minor street volumes.  
+The major street volume is the sum of both approaches and the minor street volume represents the 
+higher volume of the two minor street approaches.  In the simulation, the volumes for each of the 
+four approaches must be specified.  For evaluation purposes, the two major approach volumes are 
+assumed to be equal and the lower minor street approach volume is assumed to be equal to 80% 
+of the higher minor street approach volume.  Additionally, to evaluate the influence of the turning 
+traffic percentages, the following three turning percentages, expressed as left-turn %, through %, 
+right-turn %, were used: (10%, 80%, 10%), (20%, 60%, 20%), and (40%, 20%, 40%).
+
+SIMULATION MODELING
+
+Simulation Tool
+
+CORSIM (CORridor SIMulation) was used to simulate the different traffic scenarios and to obtain 
+the corresponding MOE in this study.  CORSIM is a microscopic simulation model and is capable 
+of modeling traffic and traffic control conditions on both surface streets and freeway networks (ITT 
+Systems and Sciences Corporation 1998). A microscopic simulation model is a definition relative 
+to its macroscopic counterpart. A microscopic simulation model details the movement of individual 
+vehicles, and traffic information associated with individual vehicles can be analyzed. First developed 
+by the U.S. Department of Transportation in the 1970s, CORSIM has become a commonly used 
+and accepted simulation model in the United States. CORSIM was designed to represent traffic 
+flow on a roadway system using these commonly accepted driver and vehicle behavior models: 
+(1) NETSIM, a microscopic stochastic simulation model for street networks, and (2) FRESIM, a 
+microscopic stochastic simulation model for freeway networks. Furthermore, an important element 
+
+11
+
+Traffic Signal Warrant
+of TSIS (Traffic Software Integrated System) is the TRAFVU (TRAF Visualization Utility) output 
+processor, which allows the user to graphically view network and traffic operations.  
+
+Network Coding
+
+CORSIM is based on a link-node network model.  In this model, roadway segments are represented 
+by links and intersections are represented by nodes. Figure 3 shows the link-node diagram of the 
+base network used in this study. This base network was modified for different lane configurations, 
+volume combinations, left- and right-turn percentages, and heavy vehicle percentages to simulate 
+different geometric and traffic scenarios.
+Figure 3: Link-Node Diagram of Base Network
+
+Simulation Runs
+
+After the CORSIM input file for the base network was coded, simulation runs for different scenarios 
+were performed by modifying the base input file.  Table 1 shows a total of 50 volume combinations 
+for  the  three  four-hour  warrant  curves.  To  perform  the  necessary  analysis,  three  turning  traffic 
+volume percentages were then taken into account to yield a total of 150 simulation scenarios. In 
+these 150 scenarios, the heavy vehicle percentages are assumed to be 5%.  To evaluate the effect of 
+different heavy vehicle percentages on minor street delay, another 60 scenarios based on the more 
+common 2-1 lane configuration were created. These 60 scenarios are stratified by three different 
+turning percentages and two different heavy vehicle percentages (10% and 20%). Therefore, a total 
+of 210 scenarios were created.
+
+To simulate “normal” conditions (i.e., major street approach speeds of up to 40 mph), the free-
+flow speed on the major street is set at 35 mph.  Due to the stochastic nature of simulation models, 
+simulation runs based on different random numbers may produce significantly different results. Five 
+to 10 simulation replications have been commonly used in traffic simulation studies.  In this study, 
+
+12
+
+JTRF Volume 49 No. 3, Fall 2010
+10 replications were performed for each scenario, which results in a total of 2,100 simulation runs.  
+The traffic delays from the 10 replications were then averaged to obtain the final average for each 
+scenario.
+
+Simulation Outputs
+
+The simulated average control delays for the 150 scenarios (5% heavy vehicle percentage) are given 
+in Table 2. The results are stratified by the five different lane configurations, three turning volume 
+percentages, and 10 volume combinations.  Table 3 gives the simulated average control delays for 
+another 60 scenarios stratified by different left- and right-turning percentages for two additional 
+heavy vehicle percentages (10% and 20%).
+
+Table 2:  Average Minor Street Control Delays (seconds per vehicle, s/veh) for 150 Scenarios 
+ 
+
+at 5% Heavy Vehicles
+
+Average Minor Street Control Delays (s/veh)
+
+Point from
+Critical 
+Curves
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+1 Lane Major 
+
+1 Lane Minor 
+
+ 
+
+and 
+
+(1-1)
+
+b
+
+a
+c  
+  5.0   5.5   6.0
+  5.6   6.0   6.7
+  6.0   6.6   7.6
+  6.5   8.2   9.9
+  7.1   9.3 11.0
+ 8.4 10.0 11.6
+9.8 11.8 15.2
+10.5 12.8 15.7
+11.9 14.4 17.6
+13.0 18.2 22.1  
+
+1 Lane Major 
+
+and 
+
+ 
+2 Lanes Minor 
+
+(1-2)
+
+b
+
+a
+c  
+  4.6   5.2   5.5
+  5.2   6.4   6.9
+  5.4   5.8   7.2
+  6.1   6.9   8.2
+  6.5   7.3   8.8
+  7.0   6.9   9.5
+  7.3   8.7 12.1
+  9.2 11.2 12.9
+  9.9 11.4 14.2
+12.2 13.0 16.8  
+
+2 Lanes Major 
+
+1 Lane Minor 
+
+ 
+
+and 
+
+(2-1)
+
+b
+
+a
+c  
+  8.2   9.2 10.0
+  8.3   9.6 11.5
+  9.0 10.9 13.7
+  9.6 13.4 18.6
+10.6 16.7 22.8
+11.8 18.8 24.6
+14.2 21.3 26.8
+17.5 25.1 31.5
+19.5 26.7 35.1
+22.9 43.5 48.5  
+
+2 Lanes Major 
+
+and 
+
+ 
+2 Lanes Minor 
+
+(2-2)
+
+b
+
+a
+c  
+  5.8   6.5   7.6
+  6.2   6.9   8.2
+  7.1   7.8   8.8
+  7.6   9.2 11.3
+  8.2 10.5 13.2
+10.2 11.5 14.3
+12.3 13.5 17.6
+14.8 16.8 19.0
+16.5 19.2 24.4
+21.5 28.5 31.0  
+
+1 Lane Minor 
+
+and 
+
+(3-1)
+
+3 Lanes Major 
+
+b
+
+a
+c
+  8.5   9.8 10.9
+  9.1 11.9 12.7
+11.2 13.8 16.2
+12.2 17.5 20.2
+12.8 19.1 23.9
+15.6 21.5 26.1
+18.5 25.4 30.5
+21.0 30.9 35.8
+24.8 34.5 42.1
+28.0 55.6 65.1
+
+Note: a, b and c represent scenarios with different turning volume percentage: a - (10%, 80%, 10%), b - 
+(20%, 60%, 20%), c - (40%, 20%, 40%). 
+ 
+
+13
+
+Traffic Signal Warrant
+Table 3: Average Minor Street Control Delays (s/veh) for 60 Scenarios (2-1 Configuration)
+
+Average Minor Street Control Delays (s/veh)
+
+10% Heavy Vehicle
+
+20% Heavy Vehicle
+
+Point from Critical 
+
+Curve (2-1)
+
+ 
+ 
+
+ 
+
+c
+  8.5
+10.1
+11.0
+14.6
+16.8
+18.6
+20.4
+24.7
+25.6
+35.9
+Note: a, b and c represent scenarios with different turning volume percentage: a - (10%, 80%, 
+10%), b - (20%, 60%, 20%), c - (40%, 20%, 40%). 
+
+a
+  7.7
+  7.2
+  7.9
+  9.1
+  9.7
+10.8
+12.6
+15.8
+17.7
+20.7
+
+b
+  8.0
+  9.4
+10.0
+12.7
+15.3
+16.2
+18.3
+21.5
+24.5
+36.3
+
+c
+  8.8
+10.9
+12.6
+16.5
+20.2
+21.5
+23.1
+27.3
+30.3
+42.2
+
+a
+  7.5
+  7.3
+  7.5
+  8.3
+  8.8
+10.0
+11.9
+14.2
+16.0
+19.0
+
+b
+  7.0
+  8.7
+  9.0
+10.6
+14.0
+14.8
+16.1
+18.8
+22.0
+32.0
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+ 
+EVALUATION
+
+Delay Consistency 
+
+Figure 4 plots the average control delay for the 1-1, 2-1, and 2-2 lane configurations for the case 
+of (40%, 20%, 40%) turning percentages.  It can be seen from the figure that minor street traffic in 
+the case of the 2-1 lane configuration experienced a significantly higher delay than those for the 1-1 
+and 2-2 lane configurations, especially at higher major street volumes. When major street traffic is 
+at 1,100 vph or higher, the delay experienced by minor street traffic for the 2-1 lane configuration 
+is about 100% higher than that of the 1-1 lane configuration, and 60% higher than that of the 2-2 
+configuration. For example, when major street volume is at 1400 vph, the average delay for minor 
+street traffic (at 80 vph, see Table 2) under the 2-1 configuration is about 48 s/veh.  However, for the 
+2-2 lane configuration, the average delay for minor street traffic (at 115 vph, see Table 2) drops to 
+31 s/veh.  There is no apparent reason for minor street traffic to experience 60% more delay simply 
+because the minor street approach has one lane rather than two lanes.  This suggests a possible 
+need to adjust the two critical volumes for minor street traffic (e.g., 80 vph for one lane and 115 
+vph for two lanes at major street traffic = 1400 vph) in order to make the two critical volumes more 
+consistent.
+
+Figure 4 also shows that the delay is lengthened by major street traffic volumes at an increasing 
+rate. While it can be argued that when major street volumes are higher, minor street vehicles are 
+expected to tolerate a higher delay, whether the magnitude of the increase is reasonable should be 
+subjected to further scrutiny. For example, based on the current curve in four-hour warrant (Figure 
+1), for the 2-1 lane configuration, an unsignalized intersection with minor street traffic experiencing 
+as low as 10 sec/veh (at 500 vph major street traffic) has the same chance of being signalized as 
+another intersection with minor street traffic experiencing as high as 48 sec/veh (at 1,400 vph major 
+street  traffic). This  large  difference  suggests  that  the  current  standard  is  more  likely  to  warrant 
+an intersection with low major street volume, one that may not require signalization, rather than 
+warrant one under high major street traffic, which evinces a greater need.
+
+14
+
+Figure 4:  Delay Comparisons for Different Volume Combinations and Lane 
+ 
+
+Configurations at (40%, 20%, 40%) Turning Percentages
+
+JTRF Volume 49 No. 3, Fall 2010
+
+Sharing the Same Curve for 2-1 and 1-2 Lane Configurations
+
+Figure 5 plots the control delays for the 2-1 and 1-2 lane configurations with (20%, 60%, 20%) 
+turning percentages. Since these two lane configurations share the same critical curve, the volume 
+combinations used in the simulation are also the same.   
+
+It can be seen from the figure that the delay for the 2-1 lane configuration is significantly higher 
+than the 1-2 counterpart. This suggests that a separate critical curve should perhaps be used for each 
+lane configuration, especially at high major street volume, when the two configurations experienced 
+more than 100% difference in delay.
+
+Figure 5:  Delay Comparisons for 1-2 and 2-1 Lane Configurations 
+ 
+
+at (20%, 60%, 20%) Turning Percentages
+
+15
+
+Traffic Signal Warrant
+Sharing the Same Curve for Two Lanes and Three or More Lanes
+
+The current four-hour warrant uses the same curve for both two lanes and more than two lanes.  For 
+evaluation purposes, a configuration with three major street lanes (i.e., 3-1) was created.  Figure 6 
+shows the delay comparisons for the 3-1 and 2-1 lane configurations based on the (10%, 80%, 10%) 
+turning percentages. As expected, the average control delay for the three-lane case is consistently 
+higher than the two-lane counterpart, as it is obvious that crossing a six-lane arterial is much harder 
+than crossing one with four lanes.  In recent years, mounting traffic congestion has led to a significant 
+increase in the number of these six-lane arterials in urban areas.  It is thus important to consider the 
+impact of two additional lanes on minor street traffic, and possibly create a separate set of critical 
+volumes for each lane configuration.
+
+Figure 6:  Delay Comparisons Between 3-1 and 2-1 Lane Configurations 
+ 
+
+at (10%, 80%, 10%) Turning Percentages
+
+Turning Volume Percentages
+
+Depending on local conditions, an unsignalized intersection can experience a wide range of turning 
+movement  percentages,  which  can  have  a  considerable  impact  on  minor  street  operation.    The 
+current standard does not consider these turning percentages.  Thus, theoretically, an intersection 
+with 100% right turns is treated the same as one with 100% left turns, even though the latter is 
+likely to experience a much higher delay while the former may only need to increase right-turn 
+opportunities, such as by adding a right-turn bay rather than signalization.  
+
+Figures 7 (a) to (d) compares the control delays for three turning percentages ranging from low to 
+high left- and right-turn vehicles for the 1-1, 1-2, 2-1, and 2-2 lane configurations, respectively.  As 
+expected, the higher the left- and right-turn percentages, the higher the average delay experienced 
+by the minor street vehicles.  The difference also becomes increasingly larger with higher major 
+street volumes. These observations are consistent for all four of the lane configurations.  The results 
+suggest a possible need to consider turning percentages in the four-hour warrant.
+
+Heavy Vehicle Percentages
+
+Figures 8 (a) to (c) compare the control delays for three heavy vehicle percentages ranging from 
+low  to  high  for  three  different  left-  and  right-turn  vehicle  percentages,  respectively.   The  same 
+percentages are assumed for both minor and major streets.  The results show that, as expected, the 
+
+16
+
+Figure 7: Delay Comparison - Different Turning Traffic Percentages
+
+(a) 1-1
+
+(b) 1-2
+
+JTRF Volume 49 No. 3, Fall 2010
+
+(c) 2-1
+
+(d) 2-2
+
+Figure 8: Delay Comparison - Different Heavy Vehicle Percentages
+
+(a) 10%, 80%, 10%
+
+(b) 20%, 60%, 20%
+
+(c) 40%, 20%, 40%
+
+17
+
+Traffic Signal Warrant
+average delay for minor street traffic increases with increasing heavy vehicle percentage, especially 
+at higher turning volumes.  It should be recognized that the difference in delay in this case is not 
+as large simply because the percentages evaluated are not significantly different (15% between the 
+lowest and highest percentage) to reflect the more typical range of heavy vehicles on local streets.  
+In other words, it should not be interpreted as heavy vehicles having less of an impact than, for 
+example, turning percentages.
+
+CONCLUSIONS AND RECOMMENDATIONS
+
+Today’s  advances  in  traffic  simulation  software  provide  opportunities  for  the  reevaluation  and 
+revision of the decades old traffic standards currently in effect. This paper has presented results 
+from a simulation evaluation of the critical volume curves of the four-hour signal warrant based 
+on the average control delay experienced by minor street traffic. In this study, CORSIM was used 
+as  the  evaluation  tool  to  simulate  a  two-way  stop-controlled  intersection  for  five  different  lane 
+configurations under various combinations of major and minor street volumes.  The results show 
+that:
+
+1.  The delays are significantly inconsistent along the different volume combinations of major 
+
+and minor streets and among the different lane configurations evaluated.
+
+2.  There is a major difference in the delay experienced by minor street traffic under the two 
+lane configurations (2-1 and 1-2) that currently share the same critical curves, suggesting a 
+possible need to create a separate critical curve for each.
+
+3.  Whether the major street has four or six lanes has a major impact on minor street delay, 
+suggesting  a  possible  need  to  have  separate  critical  curves  for  four-lane  and  six-lane 
+arterials, especially in light of the increasing number of six-lane arterials in urban areas.
+
+4.  The percentages of left- and right-turn vehicles, which are not considered in the current 
+
+four-hour warrant, have a significant impact on minor street delay.
+
+5.  The percentages of heavy vehicles, which are not currently considered in any of the existing 
+
+warrants, have a significant impact on traffic operations at unsignalized intersections.
+
+The above findings are based on the current standards for low-speed major streets (i.e., speeds 
+of up to 40 mph for major street approach, which are normal conditions defined in MUCTD).  The 
+impacts for high-speed major streets (i.e., speeds of above 40 mph for major street approach) can 
+be similarly evaluated.  The findings of this study provide some preliminary evidence of the need 
+to revisit the current standards in the four-hour warrant, and to perform further research to possibly 
+refine them in order to better identify intersections that merit signalization.  It is understood that 
+various factors (e.g., empirical values, judgments) went into the establishment of the MUTCD’S 
+critical vehicular volumes, which were not simply developed based on numerical analysis. It is also 
+recognized that the signal warrants should generally be kept as simple as possible, however, standards 
+that can lead to poor decisions should be reviewed and modified as needed. This is especially true 
+for those factors that can be incorporated without significantly complicating the application, such 
+as adjusting for more appropriate volume combinations and having separate critical curves for the 
+1-2 and 2-1 lane configurations, both of which can potentially achieve a more consistent traffic 
+experience for motorists.
+
+References
+
+Al-Omari,  B.H.  and  R.F.  Benekohal.  “Hybrid  Delay  Models  for  Unsaturated  Two-Way  Stop 
+Controlled Intersections.” Journal	of	Transportation	Engineering ASCE 125(4), (1999): 291–296.
+
+Chandra, S., A. Agrawal, and A. Rajamma. “Microscopic Analysis of Service Delay at Uncontrolled 
+Intersections in Mixed Traffic Conditions.”	Journal	of	Transportation	Engineering ASCE 135(6), 
+(2009): 323–329.
+
+18
+
+JTRF Volume 49 No. 3, Fall 2010
+ITT Systems and Sciences Corporation. CORSIM	User’s	Manual,	Version	1.04. Federal Highway 
+Administration (FHWA), U.S. Department of Transportation, Washington, D.C., 1998.
+
+Federal Highway Administration (FHWA), U.S. Department of Transportation. Manual	on	Uniform	
+Traffic	Control	Devices. Washington, D.C., 2009.
+
+Kell, J.H. “Intersection Delay Obtained by Simulating Traffic on a Computer.”		Highway	Research	
+Record	15, (1963): 73–97.
+
+Park, B., M.N. Rouphail, and E.J. Hummer. “Probabilistic Approach to Implementing Traffic Signal 
+Warrants.” 	Journal	of	Transportation	Engineering ASCE 126(4), (2000): 332–342.
+
+Sampson, J.D. “Queue-based Traffic Signal Warrants.”		Institute	of	Transportation	Engineer	ITE 
+Journal	69(4), (1999): 39.
+
+Texas Transportation Institute (TTI). Revising	the	Traffic	Signal	Warrants	to	Better	Accommodate	
+Pedestrians	and	Cyclists. College Station, Texas, 2001.
+
+Transportation Research Board (TRB). Highway	Capacity	Manual. Washington, D.C., 2000.
+
+Xuesong  Zhu	 obtained	 his	 bachelor’s	 and	 master’s	 degrees	 in	 civil	 engineering	 from	 Tongji	
+University,	China,	and	his	Ph.D.	degree	in	transportation	engineering	from	Florida	International	
+University.	He	is	currently	working	as	a	transportation	engineer	with	AECOM	USA.	
+
+Albert Gan is	an	associate	professor	with	the	department	of	civil	and	environmental	engineering	at	
+Florida	International	University.	His	areas	of	research	have	included	traffic	engineering,	intelligent	
+transportation	systems	(ITS),	transit	planning,	demand	modeling,	and	highway	safety.
+
+David Shen is	a	professor	with	the	department	of	civil	and	environmental	engineering	at	Florida	
+International	University.	Dr.	Shen’s	research	interests	center	on	guideway	transit	and	transportation	
+facility	planning	and	design	with	special	emphasis	on	intermodal	guideway	public	transit	systems.
+
+19
+
+20
+
+
