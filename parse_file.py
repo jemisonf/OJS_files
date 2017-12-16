@@ -3,7 +3,7 @@ import re
 # import xml.etree.cElementTree as etree
 from lxml import etree
 
-author_line_regex = re.compile(r"by ((\s?.+) ((.+ )?(.+),($)?)+ and ((.+) (.+ )?(.+$))|(\s?((\w|-)+\s)(((\w|-)+\W\s)?)(((\w|-)+|-))$)|(\s?((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+) and (((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+))))")
+author_line_regex = re.compile(r"by ((\s?.+) ((.+ )?(.+),($)?)+ and ((.+) (.+ )?(.+$))| ?(.+) ((.+ )?)((.+))$|(\s?((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+) and (((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+))))")
 multi_lines_author_regex = re.compile("by (\s?(\w+\s)((\w+\W\s)?)(\w+),($)?)")
 introduction_regex = re.compile("introduction", re.IGNORECASE)
 
@@ -31,14 +31,14 @@ def parse_authors(line):
     arr.pop(0)
     newAuth = {}
     while (len(arr) > 1):
-        tempVal = arr.pop(0)
+        tempVal = arr.pop(0).encode('utf-8')
         while (len(tempVal) == 0 or tempVal == 'and'):
-            tempVal = arr.pop(0)
+            tempVal = arr.pop(0).encode('utf-8')
         newAuth["firstname"] = tempVal
         tempVal = arr.pop(0)
         if (tempVal[-1] == '.' or tempVal[-1] == ')'):
             newAuth["middlename"] = tempVal
-            tempVal = arr.pop(0)
+            tempVal = arr.pop(0).encode('utf-8')
         else:
             newAuth["middlename"] = ''
         newAuth["lastname"] = tempVal.rstrip(',')
@@ -140,7 +140,10 @@ def getXml(data, binary, filename, date):
     etree.SubElement(rootSection, 'title', locale="en_US").text = data["title"]
     etree.SubElement(rootSection, 'abstract', locale="en_US").text = data["abstract"]
     for author in data['names']:
-        affiliation = raw_input ("What is the affiliation of " + author["firstname"] + ' ' + author["lastname"] + '?')
+        try:
+            affiliation = raw_input (u"What is the affiliation of " + author["firstname"] + u' ' + author["lastname"] + u'? ')
+        except:
+            affiliation = raw_input ("Can't display name of author. What is their affiliation? ")
         if (author == data['names'][0]):
             authorEl = etree.SubElement(rootSection, 'author', primary_contact="true")
         else:
