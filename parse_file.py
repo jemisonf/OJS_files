@@ -32,18 +32,18 @@ def parse_authors(line):
     newAuth = {}
     while (len(arr) > 1):
         tempVal = arr.pop(0).encode('utf-8')
-        while (len(tempVal) == 0 or tempVal == 'and'):
+        while (len(tempVal) == 0 or tempVal == 'and'): # ignore irrelevant words
             tempVal = arr.pop(0).encode('utf-8')
-        newAuth["firstname"] = tempVal
+        newAuth["firstname"] = tempVal # assume current val is the first name
         tempVal = arr.pop(0)
-        if (tempVal[-1] == '.' or tempVal[-1] == ')'):
+        if (tempVal[-1] == '.' or tempVal[-1] == ')'): # assumes only middle names are initials or alternative first names -- needs tweaking
             newAuth["middlename"] = tempVal
             tempVal = arr.pop(0).encode('utf-8')
         else:
             newAuth["middlename"] = ''
-        newAuth["lastname"] = tempVal.rstrip(',')
-        authors.append(newAuth)
-        newAuth = {}
+        newAuth["lastname"] = tempVal.rstrip(',') # last name is the next word, needs to have last comma stripped from end
+        authors.append(newAuth) # add generated author to list of authors
+        newAuth = {} # clear newAuth
     return authors
 
 # input:
@@ -82,21 +82,21 @@ def parseString(string):
     title = ""
     abstract = ""
     names = []
-    while True:
-        if (multi_lines_author_regex.match(lines[counter])):
+    while True: # add each line to title until the line describing the authors is reached
+        if (multi_lines_author_regex.match(lines[counter])): # if author list takes up two lines, parse two lines
             authors = lines[counter]
             authors += lines[counter + 1]
             names = parse_authors(authors)
             counter += 2
             break
-        if (author_line_regex.match(lines[counter])):
+        if (author_line_regex.match(lines[counter])): # otherwise if author list takes on up line, only parse current line
             names = parse_authors(lines[counter])
             counter += 1
             break
         else:
             title += lines[counter]
         counter += 1
-    while (not introduction_regex.match(lines[counter]) and counter < 30):
+    while (not introduction_regex.match(lines[counter]) and counter < 30): # add all subsequent lines to abstract until line reads "Introduction"
         abstract += lines[counter]
         counter += 1
     title = getFormattedTitle(title)
@@ -143,16 +143,16 @@ def getXml(data, binary, filename, date):
         try:
             affiliation = raw_input (u"What is the affiliation of " + author["firstname"] + u' ' + author["lastname"] + u'? ')
         except:
-            affiliation = raw_input ("Can't display name of author. What is their affiliation? ")
+            affiliation = raw_input ("Can't display name of author. What is their affiliation? ") # some names include unicode characters. I didn't want to figure out a solution so I added this try/catch block
         if (author == data['names'][0]):
-            authorEl = etree.SubElement(rootSection, 'author', primary_contact="true")
+            authorEl = etree.SubElement(rootSection, 'author', primary_contact="true") # the first author needs to be designated the primary contact
         else:
             authorEl = etree.SubElement(rootSection, 'author')
         etree.SubElement(authorEl, 'firstname').text = author['firstname']
         etree.SubElement(authorEl, 'middlename').text = author['middlename']
         etree.SubElement(authorEl, 'lastname').text = author['lastname']
         etree.SubElement(authorEl, 'affiliation').text = affiliation
-        etree.SubElement(authorEl, 'email').text = 'no@email.com'
+        etree.SubElement(authorEl, 'email').text = 'no@email.com' # I could never find an email for any author listed in the paper
     etree.SubElement(rootSection, 'date_published').text = date
     galley = etree.SubElement(rootSection, 'galley', locale='en_US')
     etree.SubElement(galley, 'label').text = 'PDF'
