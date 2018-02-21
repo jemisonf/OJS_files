@@ -157,7 +157,12 @@ def getXml(data, binary, filename, date):
     galley = etree.SubElement(rootSection, 'galley', locale='en_US')
     etree.SubElement(galley, 'label').text = 'PDF'
     file = etree.SubElement(galley, 'file')
-    etree.SubElement(file, 'embed', filename=filename, encoding="base64", mime_type="application/pdf").text = binary
+    # sometimes pdfs will contain null bytes or special characteres and fail to upload
+    try:
+        etree.SubElement(file, 'embed', filename=filename, encoding="base64", mime_type="application/pdf").text = binary
+    except:
+        print "Could not parse binary for " + data["title"] + ". You should correct this after uploading."
+        rootSection.remove(galley)
     return rootSection
 
 # input: 
