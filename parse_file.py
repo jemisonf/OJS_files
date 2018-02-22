@@ -28,7 +28,7 @@ def parse_authors(line):
     line = line.strip()
     arr = re.split(r" |\n", line)
     authors = []
-    arr.pop(0)
+    arr.pop(0) # remove "by"
     newAuth = {}
     while (len(arr) > 1):
         tempVal = arr.pop(0).encode('utf-8')
@@ -161,6 +161,8 @@ def getXml(data, binary, filename, date):
     try:
         etree.SubElement(file, 'embed', filename=filename, encoding="base64", mime_type="application/pdf").text = binary
     except:
+        # if this fails, remove the galley section
+        # article will upload and you can add the pdf manually
         print "Could not parse binary for " + data["title"] + ". You should correct this after uploading."
         rootSection.remove(galley)
     return rootSection
