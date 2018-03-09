@@ -5,7 +5,7 @@ from lxml import etree
 
 author_line_regex = re.compile(r"by ((\s?.+) ((.+ )?(.+),($)?)+ and ((.+) (.+ )?(.+$))| ?(.+) ((.+ )?)((.+))$|(\s?((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+) and (((\w|-)+\s)(((\w|-)+\W\s)?)((\w|-)+))))")
 multi_lines_author_regex = re.compile("by (\s?(\w+\s)((\w+\W\s)?)(\w+),($)?)")
-introduction_regex = re.compile("introduction", re.IGNORECASE)
+introduction_regex = re.compile("(introduction)|(background)", re.IGNORECASE)
 
 # input: 
 #   line: a string containing text that describes the authors of an article
@@ -43,6 +43,7 @@ def parse_authors(line):
             newAuth["middlename"] = ''
         newAuth["lastname"] = tempVal.rstrip(',') # last name is the next word, needs to have last comma stripped from end
         authors.append(newAuth) # add generated author to list of authors
+        print ("Added " + newAuth["firstname"] + " " + newAuth["lastname"])
         newAuth = {} # clear newAuth
     return authors
 
@@ -133,12 +134,13 @@ def parseString(string):
 # preconditions: all values should be valid and correspond to the same file.
 # postconditions: probably will not fail unless a value isn't entered. 
 #   However, if invalid data is submitted for binary or filename, it's possible the upload won't work.
-def getXml(data, binary, filename, date):
+def getXml(data, binary, filename, date, sectionName):
     print "Parsing " + data["title"]
-    rootSection = etree.Element('article')
+    rootSection = etree.Element(sectionName)
     articles = []
     etree.SubElement(rootSection, 'title', locale="en_US").text = data["title"]
-    etree.SubElement(rootSection, 'abstract', locale="en_US").text = data["abstract"]
+    if data.has_key("abstract"):
+        etree.SubElement(rootSection, 'abstract', locale="en_US").text = data["abstract"]
     for author in data['names']:
         try:
             affiliation = raw_input (u"What is the affiliation of " + author["firstname"] + u' ' + author["lastname"] + u'? ')
@@ -167,6 +169,28 @@ def getXml(data, binary, filename, date):
         rootSection.remove(galley)
     return rootSection
 
+def bookReviewToXml(fileText, filename, fileBinary, date):
+    num_authors_input = ""
+    authors = []
+    data = {}
+    while (not num_authors_input.isdigit()):
+        newAuth = {}
+        num_authors_input = raw_input("How many authors does this piece have? ")
+    for i in range(int(num_authors_input)):
+        user_input = raw_input("What is the author's name (firstname lastname or firstname middlename lastname)? ") 
+        newAuth["firstname"] = user_input.split(' ')[0]
+        if (len(user_input.split(' ')) == 2):
+            newAuth["lastname"] = user_input.split(' ')[1]
+        else:
+            newAuth["middlename"] = user_input.split(' ')[1]
+            newAuth["lastname"] = user_input.split(' ')[2]
+        authors.append(newAuth)
+    data["names"] = authors
+    data["title"] = raw_input("What is the title of the review? ")
+    xml = getXml(data, fileBinary, filename, date, "article")
+    return xml
+
+    
 # input: 
 #   fileText: the raw text of a pdf file
 #   filename: the name of pdf file being processed
@@ -176,8 +200,8 @@ def getXml(data, binary, filename, date):
 #   xml: the xml file outputted from getXml based on data from parseString and params
 # preconditions: all params should refer to the same file. fileText should follow format specifications from parseString
 # postconditions: will return synactically valid xml. Errors are not handled if invalid data is submitted. If author names deviate from specifications in parse_authors, you will need to correct the output xml
-def textToXml(fileText, filename, fileBinary, date):
+def articleToXml(fileText, filename, fileBinary, date):
     stringOutput = parseString(fileText)
-    xml = getXml(stringOutput, fileBinary, filename, date)
+    xml = getXml(stringOutput, fileBinary, filename, date, "article")
     return xml
 

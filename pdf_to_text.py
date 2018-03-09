@@ -13,8 +13,10 @@ from cStringIO import StringIO
 # preconditions: path should  be a valid path to a valid pdf. Program may fail if the pdf cannot be parsed.
 #   may not handle pdfs where text has been rotated. See the stack overflow link for a potential fix.
 # postconditions: text will be utf-8 encoded. The contents of text will not have been parsed or edited in any way from the raw data.
-def convert_pdf_to_txt(path):
+def convert_pdf_to_txt(path, start_page=None, end_page=None):
     print('parsing filename: ' + path)
+    if (start_page == None):
+        start_page = 1;
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
@@ -23,13 +25,13 @@ def convert_pdf_to_txt(path):
     fp = file(path, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
     password = ""
-    maxpages = 1
+    maxpages = end_page
     caching = True
     pagenos=set()
     pages = PDFPage.get_pages(fp, pagenos, maxpages=maxpages, password=password,caching=caching, check_extractable=True)
-    for page in pages:
-        print('\treading page . . .')
-        interpreter.process_page(page)
+    for i, page in enumerate(pages):
+        if (i >= start_page - 1):
+            interpreter.process_page(page)
     text = retstr.getvalue()
     fp.close()
     device.close()

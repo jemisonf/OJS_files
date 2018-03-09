@@ -1,4 +1,4 @@
-from parse_file import textToXml
+from parse_file import articleToXml
 from pdf_to_text import convert_pdf_to_txt
 from lxml import etree
 import sys
@@ -30,7 +30,7 @@ def main():
         for file in sys.argv[1: ]: # add an article tag for each file
             fileText = convert_pdf_to_txt(file)
             fileBinary = open(file, "rb").read().encode("base64")
-            fileXml = textToXml(fileText, file, fileBinary, issueData["date_published"])
+            fileXml = articleToXml(fileText, file, fileBinary, issueData["date_published"])
             articlesEl.insert(-1, fileXml)
     tree = etree.ElementTree(baseEl)
     tree.write('output.xml', pretty_print=True) # write end result to 'output.xml'
